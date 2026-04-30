@@ -1,0 +1,133 @@
+id,conf_familiar,conf_novel,differentiation,score,raw_response_familiar,raw_response_novel
+em_pair_001,4,4,0.0,0.5,"{""answer"": ""C"", ""confidence"": 85}","{""answer"": ""C"", ""confidence"": 72}"
+em_pair_002,4,4,0.0,0.5,"{""answer"": ""A"", ""confidence"": 85}","Let me work through this step by step.
+
+The decay probability in 100 minutes is 32%, so:
+P(decay in 100 min) = 1 - e^(-λ·100) = 0.32
+e^(-100λ) = 0.68
+-100λ = ln(0.68)
+
+Now, given that the atom has survived 50 minutes, I need P(decay in next 150 minutes | survived 50 minutes).
+
+Due to the memoryless property of exponential decay, this equals P(decay in 150 minutes):
+
+P(decay in 150 min) = 1 - e^(-150λ)
+
+From e^(-100λ) = 0.68:
+e^(-150λ) = (e^(-100λ))^(3/2) = 0.68^(1.5)
+
+0.68^(1.5) = 0.68 × √0.68 ="
+em_pair_003,4,4,0.0,0.5,"The Lyman alpha line is at 1216 Angstroms (far UV). For ground-based optical telescopes, the atmospheric cutoff is around 3000-3200 Angstroms (near UV limit), and optical range starts around 3800-4000 Angstroms.
+
+For the absorption to be detectable in the optical range:
+λ_observed = 1216 × (1 + z) ≥ ~3800 Å
+
+1 + z ≥ 3800/1216 ≈ 3.125
+
+z ≥ ~2.1
+
+But if we consider the atmospheric UV cutoff at ~3000 Å:
+1 + z ≥ 3000/1216 ≈ 2.47
+z ≥ ~1.47
+
+Hmm, considering ""optical ground-based telescopes"" typically","I need to find the angle between two photons produced in electron-positron annihilation.
+
+**Lab frame setup:**
+- Electron moves right with γ₁ = 4
+- Positron moves left with γ₂ = 2
+
+**Four-momenta (in units of mₑc):**
+- Electron: E₁ = 4mₑc², p₁ = √(16-1)mₑc = √15 mₑc (rightward)
+- Positron: E₂ = 2mₑc², p₂ = -√(4-1)mₑc = -√3 mₑc (leftward)
+
+**Total four-momentum:**
+- E_total = 6mₑc²
+- p_total = (√15 - √3)mₑc (rightward)
+
+**In the CM frame**, the two photons have equal energies (since they're equal"
+em_pair_004,4,4,0.0,0.5,"{""answer"": ""B"", ""confidence"": 72}","Let me work through this carefully.
+
+**Given:**
+- Rest mass energy of M: Mc² = 300 GeV
+- Two fragments with rest masses m and 2m
+- m + 2m = 3m = 0.99M
+- So m = 0.33M, and 2m = 0.66M
+- Q = 0.01 × Mc² = 3 GeV = 3000 MeV (energy released)
+
+**Relativistic calculation:**
+
+In the rest frame of M, conservation of energy and momentum:
+- E₁ + E₂ = Mc² = 300 GeV
+- p₁ = p₂ (equal and opposite momenta)
+
+Let fragment 1 have rest mass 2m (more massive), fragment 2 have rest mass m.
+
+From p₁ = p₂ = p:
+E₁² = (2"
+em_pair_005,4,4,0.0,0.5,"This problem describes neutrinoless double beta decay (0νββ) compared to regular double beta decay (2νββ).
+
+**Original decay (2νββ):** 2n → 2p + 2e⁻ + 2ν̄ₑ
+- The energy is shared among 2 electrons and 2 antineutrinos
+- The electron energy spectrum is continuous because the neutrinos carry away variable amounts of energy
+- The endpoint Q is the maximum total kinetic energy of the electrons (when neutrinos carry minimal energy)
+
+**Variant decay (0νββ with Majoron):** 2n → 2p + 2e⁻ + M
+- Here M is ","The spin state is |ψ⟩ = (3i, 4). First normalize it.
+
+|ψ|² = |3i|² + |4|² = 9 + 16 = 25
+
+So the normalized state is (3i/5, 4/5).
+
+S_y = (ℏ/2)σ_y
+
+⟨S_y⟩ = (ℏ/2)⟨ψ|σ_y|ψ⟩
+
+First compute σ_y|ψ⟩:
+σ_y (3i/5, 4/5) = ((0)(-i)(3i/5) + (-i)(4/5)), ((i)(3i/5) + (0)(4/5)))
+
+Wait, let me be careful:
+σ_y = [[0, -i], [i, 0]]
+
+σ_y |ψ⟩ = [(-i)(4/5), (i)(3i/5)] = [-4i/5, 3i²/5] = [-4i/5, -3/5]
+
+Now ⟨ψ|σ_y|ψ⟩ = (⟨ψ|)(σ_y|ψ⟩)
+
+⟨ψ| = (-3i/5, 4/5) (conjugates of components)
+
+⟨ψ|σ_y|ψ⟩ = (-3i/5)(-4i/5) + (4/5)(-3/5)
+"
+em_pair_006,4,4,0.0,0.5,"The state is |ψ⟩ = 0.5|↑⟩ + (√3/2)|↓⟩
+
+This is already normalized: |0.5|² + |√3/2|² = 0.25 + 0.75 = 1 ✓
+
+**Expectation value of σ_z:**
+⟨σ_z⟩ = |0.5|² - |√3/2|² = 0.25 - 0.75 = -0.5
+
+**Expectation value of σ_x:**
+σ_x = [[0,1],[1,0]]
+
+⟨σ_x⟩ = ⟨ψ|σ_x|ψ⟩
+
+σ_x|ψ⟩ = 0.5|↓⟩ + (√3/2)|↑⟩
+
+⟨ψ|σ_x|ψ⟩ = (0.5)(√3/2) + (√3/2)(0.5) = √3/4 + √3/4 = √3/2 ≈ 0.866
+
+**Expectation value of 10σ_z + 5σ_x:**
+= 10(-0.5) + 5(√3/2)
+= -5 + 5√3/2
+= -5 + 4.330
+= -0.670 ≈ -0.7
+
+{""answer"": ""B"", ""confidence"": 97}","For dipole transitions, the selection rules are:
+- Δl = ±1
+- Δm = 0, ±1
+
+Starting from |3,0,0⟩ (n=3, l=0, m=0):
+
+**First transition:** Must go to l=1, and m can be -1, 0, or +1. With n=2, possible intermediate states are |2,1,-1⟩, |2,1,0⟩, |2,1,1⟩.
+
+**Second transition:** From intermediate state to |1,0,0⟩ (l=0, m=0). This requires Δl = -1 and Δm = 0. So the intermediate state must have m=0.
+
+Therefore the only allowed route is: |3,0,0⟩ → |2,1,0⟩ → |1,0,0⟩
+
+Now for the probability: Starting from"

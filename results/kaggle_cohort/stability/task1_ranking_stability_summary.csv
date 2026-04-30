@@ -1,0 +1,2 @@
+n_splits,n_common_questions,n_models,mean_spearman_rho,mean_kendall_tau,mean_pearson_r,std_spearman_rho,std_kendall_tau,spearman_brown_corrected
+1000,80,23,0.8481390057374049,0.7028486203383479,0.8322133181859642,0.07098305529960305,0.07538826860071371,0.9178303180706893

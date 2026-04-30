@@ -1,0 +1,366 @@
+question_id,initial_answer,final_answer,revised,initial_correct,final_correct,score,raw_response_initial,raw_response_revision
+gpqa_000,A,B,True,False,False,0.1,"```json
+{""answer"": ""A"", ""confidence"": 3}
+```","```json
+{""keep_answer"": false, ""revised_answer"": ""B"", ""revised_confidence"": 2}
+```"
+gpqa_002,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_007,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_009,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_010,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_012,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_013,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_018,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_019,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_022,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_023,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_025,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_026,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_028,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_035,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_040,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_042,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_046,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_049,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_052,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_053,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_054,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_055,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_057,D,D,False,False,False,0.0,"```json
+{""answer"": ""D"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_059,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_061,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_064,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_065,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_069,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_073,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_074,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_075,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_076,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_078,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_080,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_082,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_083,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_084,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_087,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_088,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_090,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_094,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_097,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_098,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_099,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_100,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_101,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_102,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_103,B,B,False,False,False,0.0,"```json
+{""answer"": ""B"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_104,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_106,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_110,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_113,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_114,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_116,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_117,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_118,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_119,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_125,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_127,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_129,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_131,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_134,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_135,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_137,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_146,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_148,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_149,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_156,B,B,False,False,False,0.0,"```json
+{""answer"": ""B"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_157,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_164,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_165,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"
+gpqa_168,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": 4}
+```"

@@ -1,0 +1,188 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "t08-msv_behavioral_em",
+    "description": "Behavioral EM: measures confidence differences between familiar and novel domain questions.",
+    "definition": "@kbench.task(name=\"t08-msv_behavioral_em\", description=\"Behavioral EM: measures confidence differences between familiar and novel domain questions.\")\ndef behavioral_em(llm) -> float:\n    \"\"\"Task 08: Behavioral EM (Experiential Matching) measurement.\n\n    Loops through all question pairs, measures confidence differentiation,\n    saves CSV, returns mean score.\n    \"\"\"\n    DATA_DIR = \"/kaggle/input/datasets/professorsethi/msv-benchmark-data\"\n    em_data = []\n    with open(os.path.join(DATA_DIR, \"task08_behavioral_em.jsonl\")) as f:\n        for line in f:\n            em_data.append(json.loads(line))\n    print(f\"Task 8 - Behavioral EM: Loaded {len(em_data)} question pairs\")\n\n    prompt_template = (\n        \"{question}\\n{options}\\n\\n\"\n        \"Answer this question and rate your confidence.\\n\"\n        \"Respond with ONLY JSON, nothing else.\\n\"\n        '{{\"answer\": \"A\", \"confidence\": 3}}\\n'\n        \"YOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT.\"\n    )\n\n    rows = []\n    for qrow in em_data:\n        f_opts = f\"A) {qrow['familiar_a']}\\nB) {qrow['familiar_b']}\\nC) {qrow['familiar_c']}\\nD) {qrow['familiar_d']}\"\n        n_opts = f\"A) {qrow['novel_a']}\\nB) {qrow['novel_b']}\\nC) {qrow['novel_c']}\\nD) {qrow['novel_d']}\"\n\n        r_fam = _safe_prompt(llm, prompt_template.format(\n            question=qrow['familiar_question'], options=f_opts))\n        if r_fam is None:\n            print(f'  Prompt failure (see error above) at pair {len(rows)+1}/{len(em_data)} (familiar prompt) \u2014 returning partial results')\n            break\n\n        r_nov = _safe_prompt(llm, prompt_template.format(\n            question=qrow['novel_question'], options=n_opts))\n        if r_nov is None:\n            print(f'  Prompt failure (see error above) at pair {len(rows)+1}/{len(em_data)} (novel prompt) \u2014 returning partial results')\n            break\n\n        ans_f, conf_f = _parse_answer_conf(r_fam)\n        ans_n, conf_n = _parse_answer_conf(r_nov)\n\n        if ans_f is None or ans_n is None:\n            rows.append({\"id\": qrow.get(\"id\",\"\"), \"score\": 0.5,\n                          \"raw_response_familiar\": (r_fam or \"\")[:500],\n                          \"raw_response_novel\": (r_nov or \"\")[:500]})\n            continue\n\n        diff = (conf_f - conf_n) / 3.0\n        score = round((diff + 1.0) / 2.0, 4)\n        rows.append({\"id\": qrow.get(\"id\",\"\"), \"conf_familiar\": conf_f,\n                      \"conf_novel\": conf_n, \"differentiation\": diff, \"score\": score,\n                      \"raw_response_familiar\": str(r_fam)[:500],\n                      \"raw_response_novel\": str(r_nov)[:500]})\n\n    results_df = pd.DataFrame(rows)\n    results_df.to_csv(\"/kaggle/working/t08_behavioral_em_results.csv\", index=False)\n    print(f\"  Mean differentiation score: {results_df['score'].mean():.4f}\")\n    completion_rate = len(results_df) / len(em_data)\n    raw_score = float(results_df[\"score\"].mean()) if len(results_df) > 0 else 0.0\n    print(f\"  Completion: {len(results_df)}/{len(em_data)} ({completion_rate:.0%})\")\n    return round(raw_score * completion_rate, 4)\n"
+  },
+  "modelVersion": {
+    "slug": "google/gemini-3.1-pro-preview"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-21T00:15:10.492523Z",
+  "endTime": "2026-04-21T00:16:00.850536Z",
+  "conversations": [
+    {
+      "id": "t08-msv_behavioral_em-f2ec6bfe",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Two quantum states with energies E1 and E2 have a lifetime of 10^-9 sec and 10^-8 sec, respectively. We want to clearly distinguish these two energy levels. Which one of the following options could be their energy difference so that they can be clearly resolved?\nA) 10^-9 eV\nB) 10^-8 eV\nC) 10^-4 eV\nD) 10^-11 eV\n\nAnswer this question and rate your confidence.\nRespond with ONLY JSON, nothing else.\n{\"answer\": \"A\", \"confidence\": 3}\nYOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "{\n  \"answer\": \"C\",\n  \"confidence\": 10\n}"
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 139,
+            "outputTokens": 19,
+            "inputTokensCostNanodollars": "278000",
+            "outputTokensCostNanodollars": "9756000",
+            "totalBackendLatencyMs": "7330"
+          },
+          "id": "t08-msv_behavioral_em-f2ec6bfe-req-1"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Astronomers are searching for exoplanets around two stars with exactly the same masses. Using the RV method, they detected one planet around each star, both with masses similar to that of Neptune. The stars themselves have masses similar to that of our Sun. Both planets were found to be in circular orbits.\n\nPlanet #1 was detected from the up to 5 miliangstrom periodic shift of a spectral line at a given wavelength. The periodic wavelength shift of the same spectral line in the spectrum of the host of planet #2 was 7 miliangstrom.\n\nThe question is: How many times is the orbital period of planet #2 longer than that of planet #1?\nA) ~ 0.85\nB) ~ 1.96\nC) ~ 0.36\nD) ~ 1.40\n\nAnswer this question and rate your confidence.\nRespond with ONLY JSON, nothing else.\n{\"answer\": \"A\", \"confidence\": 3}\nYOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "{\n  \"answer\": \"C\",\n  \"confidence\": 10\n}"
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 374,
+            "outputTokens": 19,
+            "inputTokensCostNanodollars": "748000",
+            "outputTokensCostNanodollars": "15660000",
+            "totalBackendLatencyMs": "10570"
+          },
+          "id": "t08-msv_behavioral_em-f2ec6bfe-req-2"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Let us assume stars are uniformly distributed in the sky. In this scenario, how the number of stars per unit range of parallax (plx) changes with plx?\nA) ~ 1/plx^4\nB) ~ 1/plx^3\nC) ~ 1/plx^1\nD) ~ 1/plx^2\n\nAnswer this question and rate your confidence.\nRespond with ONLY JSON, nothing else.\n{\"answer\": \"A\", \"confidence\": 3}\nYOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "{\n  \"answer\": \"A\",\n  \"confidence\": 10\n}"
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 514,
+            "outputTokens": 19,
+            "inputTokensCostNanodollars": "1028000",
+            "outputTokensCostNanodollars": "7824000",
+            "totalBackendLatencyMs": "6436"
+          },
+          "id": "t08-msv_behavioral_em-f2ec6bfe-req-3"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "We want to observe a decay of a single atom (atomic nucleus). It is possible to obtain this atom (e.g., from a beta decay of another atom) and start monitoring right away. We know from previous experiments that the decay probability of this atom is 32% within 100 minutes.\nSo far, 50 minutes have passed and the atom has not decayed. What is the probability it will decay in the next 150 minutes?\nA) 52%\nB) 40%\nC) 44%\nD) 48%\n\nAnswer this question and rate your confidence.\nRespond with ONLY JSON, nothing else.\n{\"answer\": \"A\", \"confidence\": 3}\nYOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "{\n  \"answer\": \"C\",\n  \"confidence\": 10\n}"
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 701,
+            "outputTokens": 19,
+            "inputTokensCostNanodollars": "1402000",
+            "outputTokensCostNanodollars": "8868000",
+            "totalBackendLatencyMs": "6724"
+          },
+          "id": "t08-msv_behavioral_em-f2ec6bfe-req-4"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Large clouds of neutral hydrogen in deep space absorb the light from background quasars at Lyman alpha wavelength ~1216 Angstrom. Estimate the lower limit on the redshift of this objects such that they can be detected with optical ground-based telescopes?\nA) 1.9\nB) 3\nC) 2.4\nD) 1.2\n\nAnswer this question and rate your confidence.\nRespond with ONLY JSON, nothing else.\n{\"answer\": \"A\", \"confidence\": 3}\nYOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "{\n  \"answer\": \"A\",\n  \"confidence\": 9\n}"
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 839,
+            "outputTokens": 18,
+            "inputTokensCostNanodollars": "1678000",
+            "outputTokensCostNanodollars": "27264000",
+            "totalBackendLatencyMs": "17899"
+          },
+          "id": "t08-msv_behavioral_em-f2ec6bfe-req-5"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 2567,
+        "outputTokens": 94,
+        "inputTokensCostNanodollars": "5134000",
+        "outputTokensCostNanodollars": "69372000",
+        "totalBackendLatencyMs": "48959"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {
+        "value": 0.027
+      }
+    }
+  ],
+  "pyRunId": "t08-msv_behavioral_em-Run #1"
+}

@@ -1,0 +1,123 @@
+question_id,initial_answer,final_answer,revised,initial_correct,final_correct,score,raw_response_initial,raw_response_revision
+gpqa_000,C,C,False,True,True,1.0,"{""answer"": ""C"", ""confidence"": 5}","{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}"
+gpqa_002,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}"
+gpqa_007,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_009,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_010,C,C,False,True,True,1.0,"```json
+{""answer"": ""C"", ""confidence"": 5}
+```","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_012,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_013,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_018,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_019,D,D,False,True,True,1.0,"```json
+{""answer"": ""D"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_022,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_023,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_025,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_026,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_028,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_035,C,C,False,True,True,1.0,"```json
+{""answer"": ""C"", ""confidence"": 5}
+```","{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}"
+gpqa_040,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_042,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_046,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_049,C,C,False,True,True,1.0,"```json
+{""answer"": ""C"", ""confidence"": 5}
+```","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_052,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_053,C,C,False,True,True,1.0,"```json
+{""answer"": ""C"", ""confidence"": 5}
+```","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_054,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_055,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_057,C,C,False,True,True,1.0,"```json
+{""answer"": ""C"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_059,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_061,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 5}
+```","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"

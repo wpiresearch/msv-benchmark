@@ -1,0 +1,10 @@
+model,n_total_transcripts,n_expert_extracted,expert_extract_rate,low_extract_flag,top_pattern_hits
+gemma2_2b,80,77,0.9625,0,the answer is X=73; (X) anywhere in first 200 chars=4; unmatched=3
+gemma2_9b,80,77,0.9625,0,Answer: X=68; the answer is X=8; unmatched=3; (X) anywhere in first 200 chars=1
+llama3.1_8b,80,77,0.9625,0,X) at start=39; X alone at start of line=28; the answer is X=9; unmatched=3; Answer: X=1
+llama3.2_1b,80,36,0.45,1,unmatched=44; the answer is X=21; X) at start=9; correct option/choice X=4; (X) anywhere in first 200 chars=1
+llama3.2_3b,80,76,0.95,0,the answer is X=74; unmatched=4; (X) anywhere in first 200 chars=1; X) at start=1
+mistral_7b,80,55,0.6875,1,X) at start=40; unmatched=25; the answer is X=12; (X) anywhere in first 200 chars=3
+phi4-mini_latest,80,67,0.8375,0,X) at start=45; the answer is X=15; unmatched=13; Answer: X=6; (X) anywhere in first 200 chars=1
+qwen2.5_3b,80,49,0.6125,1,unmatched=31; the answer is X=25; X) at start=12; Final answer: X=4; **A/B/C/D**: X=2
+qwen2.5_7b,80,80,1.0,0,Answer: X=53; X alone at start of line=18; the answer is X=5; X) at start=4

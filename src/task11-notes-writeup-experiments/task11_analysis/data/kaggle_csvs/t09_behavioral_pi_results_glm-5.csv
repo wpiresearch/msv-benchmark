@@ -1,0 +1,100 @@
+question_id,choice_trivial,choice_stakes,difficulty,score,raw_response_trivial,raw_response_stakes
+gpqa_000,ANSWER,ANSWER,0.7778,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""C"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""C"",
+  ""confidence"": 5
+}"
+gpqa_002,ANSWER,ANSWER,0.7778,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}"
+gpqa_007,ANSWER,ANSWER,0.7778,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 4
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}"
+gpqa_009,ANSWER,ANSWER,0.8889,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}"
+gpqa_010,ANSWER,ANSWER,0.8571,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""C"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""A"",
+  ""confidence"": 5
+}"
+gpqa_012,ANSWER,ANSWER,0.6667,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""A"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""C"",
+  ""confidence"": 5
+}"
+gpqa_013,ANSWER,ANSWER,0.6667,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""C"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""C"",
+  ""confidence"": 5
+}"
+gpqa_018,ANSWER,ANSWER,0.875,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}"
+gpqa_019,ANSWER,ANSWER,0.7778,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""D"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""D"",
+  ""confidence"": 5
+}"
+gpqa_022,ANSWER,ANSWER,0.8889,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 4
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}"
+gpqa_023,ANSWER,ANSWER,0.8889,0.3,"{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}","{
+  ""choice"": ""ANSWER"",
+  ""answer"": ""B"",
+  ""confidence"": 5
+}"

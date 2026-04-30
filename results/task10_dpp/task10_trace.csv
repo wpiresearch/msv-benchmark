@@ -1,0 +1,10 @@
+model,n_total_transcripts,n_expert_extracted,expert_extract_rate,low_extract,expert_acc,final_acc_on_extracted,rescues,harms,net_correction,stable_correct,stable_wrong,binomial_two_sided_p
+gemma2_2b,80,77,0.9625,0,0.3636,0.3766,1,0,1,28,48,1.0
+gemma2_9b,80,77,0.9625,0,0.4935,0.4545,3,6,-3,32,36,0.5078
+llama3.1_8b,80,77,0.9625,0,0.3636,0.4805,16,7,9,21,33,0.0931
+llama3.2_1b,80,36,0.45,1,0.3056,0.2778,2,3,-1,8,23,1.0
+llama3.2_3b,80,76,0.95,0,0.3289,0.3421,5,4,1,21,46,1.0
+mistral_7b,80,55,0.6875,1,0.2909,0.2909,2,2,0,14,37,1.0
+phi4-mini_latest,80,67,0.8375,0,0.4328,0.4925,6,2,4,27,32,0.2891
+qwen2.5_3b,80,49,0.6125,1,0.4082,0.3469,1,4,-3,16,28,0.375
+qwen2.5_7b,80,80,1.0,0,0.5,0.475,6,8,-2,32,34,0.7905

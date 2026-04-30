@@ -1,0 +1,21 @@
+# MSV Benchmark reproducibility dependencies
+#
+# All versions are pinned to the set tested during paper preparation.
+# Newer compatible versions should also work.
+#
+# Core analysis:
+numpy>=1.26,<3.0
+pandas>=2.1,<3.0
+scipy>=1.11,<2.0          # >=1.7 for scipy.stats.binomtest used in Task 10 DPP analysis
+scikit-learn>=1.3,<2.0
+
+# Figures:
+matplotlib>=3.7,<4.0
+seaborn>=0.12,<1.0        # for cross-task convergence heatmap (Task 11 audit)
+
+# Croissant validation (optional; only needed for `make validate-croissant`):
+# mlcroissant>=1.0
+
+# Turing driver scripts (only needed for run_forced_answer_phase1_turing.py
+# and run_task10_dpp_turing.py; the ollama server must also be running):
+requests>=2.31,<3.0

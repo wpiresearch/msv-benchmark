@@ -1,0 +1,6 @@
+question_id,choice_trivial,choice_stakes,difficulty,score,raw_response_trivial,raw_response_stakes
+gpqa_000,ANSWER,DELEGATE,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 3}
+```","```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"

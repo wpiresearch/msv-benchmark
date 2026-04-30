@@ -1,0 +1,222 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "sc": "https://schema.org/"
+  },
+  "@type": "sc:Dataset",
+  "name": "MSV Benchmark: 23-model Kaggle cohort results",
+  "description": "Per-trial model outputs from the MSV Benchmark evaluation of 23 frontier and mid-tier large language models on 80 curated GPQA Diamond questions, across 11 metacognition tasks (Delegate Game, Declared MSV Probe, Second-Chance, Confidence Entropy, Teammate Delegate, Behavioral ER/CI/EM/PI, DPP Sequence, MC Binary Pairs). Produced via the Kaggle Benchmarks SDK for the paper 'Declarative vs. Behavioral Metacognition in Large Language Models: A Benchmark on Expert Questions' (NeurIPS 2026 Evaluations & Datasets track).",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://anonymous.4open.science/r/msv-benchmark",
+  "version": "1.0.0",
+  "datePublished": "2026-05-06",
+  "keywords": [
+    "metacognition",
+    "large language models",
+    "evaluation benchmark",
+    "confidence calibration",
+    "selective prediction",
+    "GPQA",
+    "behavioral evaluation"
+  ],
+  "rai:dataCollection": "The 23-model Kaggle cohort was evaluated via the Kaggle Benchmarks SDK platform. Each of 11 task notebooks was deployed against each model's platform-hosted endpoint with platform-default decoding settings. No human subjects are involved; the benchmark evaluates existing publicly released or platform-hosted language models on a published graduate-science question dataset. No scraping, crowdsourcing, or new data collection occurs. Completion is subject to platform budget and quota; 133 of 253 runs completed cleanly, 50 hit budget/quota limits, and 70 encountered platform errors. The raw run archive is included verbatim.",
+  "rai:dataAnnotationProtocol": "Per-question difficulty labels are derived empirically from a 10-model open-weight calibration cohort (see Section 3.2 of the paper). Difficulty is defined as the fraction of the 10 calibration models that answered the question incorrectly. No human annotation is used for difficulty labeling.",
+  "rai:personalSensitiveInformation": "None. The dataset contains graduate-level science questions from GPQA Diamond (a published educational assessment) and language model outputs on those questions. No personal data of any kind is included.",
+  "rai:dataUseCases": "Intended for evaluation-methodology research on LLM metacognition: comparing declarative calibration metrics (ECE, Brier) against behavioral routing metrics (Delegation AUC-ROC) on matched item sets; studying cross-task dissociation patterns within a single model; and sensitivity analysis of reward schedules and difficulty thresholds.",
+  "rai:dataLimitations": "The 80-question item count limits statistical power for fine-grained model comparisons. Contamination risk is non-trivial for newer models since GPQA has been public since 2023. Completion-rate variability on the Kaggle platform means some per-model per-task cells are missing (see run_metadata.csv for the full completion picture). Task 10 (DPP Sequence) has near-universal context-length failures (22 of 23 models truncated) and should be treated as preliminary.",
+  "rai:dataSocialImpact": "The benchmark supports evaluation of whether language models can act on their uncertainty rather than merely report it, which is relevant to safer routing, triage, and human-AI collaboration. The evaluation methodology is expected to have neutral-to-positive societal impact by improving the precision of claims about model metacognitive competence.",
+  "rai:dataBiases": "Models evaluated are those available on the Kaggle Benchmarks platform as of early 2026; the cohort is not a representative sample of all LLMs and skews toward larger, API-accessible frontier and mid-tier systems. The question set inherits any biases present in GPQA Diamond (graduate-science bias toward physics, chemistry, and biology).",
+  "citeAs": "Declarative vs. Behavioral Metacognition in Large Language Models: A Benchmark on Expert Questions. NeurIPS 2026 Evaluations & Datasets track (under review).",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "outputs-logs-corrected-zip",
+      "name": "outputs_logs_corrected.zip",
+      "description": "253 raw Kaggle run archives (one .zip + .log per model-task combination, filenames normalized).",
+      "contentUrl": "data/kaggle_raw/outputs_logs_corrected.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "21c67de1872874a6e737d4d92a0c25cca762ffdf29c4bf56644729f9c2477d4f"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "run-metadata-csv",
+      "name": "run_metadata.csv",
+      "description": "One row per (model, task) run with completion status, task version, platform-authoritative score, and parse-failure counts.",
+      "contentUrl": "data/kaggle_extracted/run_metadata.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "1a20a66bfd4ccd6cd6ed39061f0db123c8bf98e8d49164a94716d04d4f1c0b38"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "per-task-csvs",
+      "name": "per_task CSVs",
+      "description": "Long-form per-trial results for each of the 11 tasks, pooled across all 23 models.",
+      "containedIn": {
+        "@id": "data/kaggle_extracted/per_task/"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "t*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "per-model-csvs",
+      "name": "per_model CSVs",
+      "description": "Long-form per-trial results, one directory per model containing 11 task CSVs.",
+      "containedIn": {
+        "@id": "data/kaggle_extracted/per_model/"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "**/t*.csv"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "run-metadata",
+      "name": "run_metadata",
+      "description": "253 task-model run records with completion status and leaderboard score.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "name": "model",
+          "description": "Canonical model identifier (provider-independent).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "run-metadata-csv"
+            },
+            "extract": {
+              "column": "model"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "task_id",
+          "description": "Task identifier t01 through t11.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "run-metadata-csv"
+            },
+            "extract": {
+              "column": "task_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "task_version",
+          "description": "Task notebook version at time of execution.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "run-metadata-csv"
+            },
+            "extract": {
+              "column": "task_version"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "run_result_value",
+          "description": "Platform-authoritative mean score (missing trials counted as 0). Matches Kaggle public leaderboard.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "run-metadata-csv"
+            },
+            "extract": {
+              "column": "run_result_value"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "log_mean_score",
+          "description": "Mean score over completed trials only (differs from run_result_value for partial runs).",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "run-metadata-csv"
+            },
+            "extract": {
+              "column": "log_mean_score"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "budget_failure",
+          "description": "Boolean flag indicating the run hit a quota/budget limit.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "run-metadata-csv"
+            },
+            "extract": {
+              "column": "budget_failure"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "other_failure",
+          "description": "String indicating any non-budget platform failure (empty if clean).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "run-metadata-csv"
+            },
+            "extract": {
+              "column": "other_failure"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

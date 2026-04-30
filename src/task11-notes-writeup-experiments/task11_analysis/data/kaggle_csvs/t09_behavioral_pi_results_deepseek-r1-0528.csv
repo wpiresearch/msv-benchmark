@@ -1,0 +1,161 @@
+question_id,choice_trivial,choice_stakes,difficulty,score,raw_response_trivial,raw_response_stakes
+gpqa_000,ANSWER,ANSWER,0.7778,0.3,"<think>
+First, the question is about distinguishing two quantum states with energies E1 and E2. Their lifetimes are given as 10^-9 seconds and 10^-8 seconds, respectively. I need to find which energy difference allows us to clearly resolve them.
+
+The options are:
+
+A) 10^-9 eV
+
+B) 10^-8 eV
+
+C) 10^-4 eV
+
+D) 10^-11 eV
+
+I recall that in quantum mechanics, the energy uncertainty is related to the lifetime of a state via the Heisenberg uncertainty principle. Specifically, for an energy state with life","<think>
+First, the question is about distinguishing two quantum states with energies E1 and E2. Their lifetimes are given: one is 10^-9 seconds and the other is 10^-8 seconds. I need to find which energy difference allows them to be clearly resolved.
+
+The options are:
+
+A) 10^-9 eV
+
+B) 10^-8 eV
+
+C) 10^-4 eV
+
+D) 10^-11 eV
+
+To resolve energy levels, we often consider the uncertainty principle. The energy-time uncertainty principle states that ΔE * Δt ≈ ħ, where ΔE is the uncertainty in energy and Δ"
+gpqa_002,ANSWER,ANSWER,0.7778,0.3,"<think>
+First, the problem is about a spin-half particle in a superposition state: \( 0.5 |\uparrow\rangle + \frac{\sqrt{3}}{2} |\downarrow\rangle \). The states \( |\uparrow\rangle \) and \( |\downarrow\rangle \) are eigenstates of \( \sigma_z \), so:
+
+- \( \sigma_z |\uparrow\rangle = +1 |\uparrow\rangle \)
+
+- \( \sigma_z |\downarrow\rangle = -1 |\downarrow\rangle \)
+
+I need to find the expectation value of the operator \( 10\sigma_z + 5\sigma_x \). The expectation value for an operator \( A \)","<think>
+First, the particle is in a superposition: \( |\psi\rangle = 0.5 |\uparrow\rangle + \frac{\sqrt{3}}{2} |\downarrow\rangle \). I need to check if this is normalized. The norm should be 1.
+
+Calculate the norm: \( \langle \psi | \psi \rangle = |0.5|^2 + \left|\frac{\sqrt{3}}{2}\right|^2 = 0.25 + \frac{3}{4} = 0.25 + 0.75 = 1 \). Good, it's normalized.
+
+Now, I need the expectation value of \( 10\sigma_z + 5\sigma_x \).
+
+The expectation value is \( \langle \psi | (10\sigma_z + 5\sigma_x) | \p"
+gpqa_007,ANSWER,DELEGATE,0.7778,1.0,"<think>
+First, I need to understand the experiment. We have three genes: G1, G2, G3. We've made single mutants (g1, g2, g3) and double mutants (g1g2, g1g3, g2g3). We're testing resistance to anthracnose, with resistance percentages given.
+
+The resistance levels:
+
+- Wild-type (control): 100% resistance
+
+- g1 mutant: 75% of control resistance
+
+- g2 mutant: 0% of control resistance
+
+- g3 mutant: 50% of control resistance
+
+- g1g3 double mutant: 10% of control resistance
+
+- g2g3 double mutant: 0% of ","<think>
+First, I need to understand the context. This is for designing a targeted therapeutic intervention for a critically ill patient, so accuracy is crucial. I must answer based on the genetic interaction data from the experiment on white lupine genes related to anthracnose resistance.
+
+The genes are G1, G2, G3, with knock-out mutants g1, g2, g3, and double mutants g1g2, g1g3, g2g3. The resistance levels are:
+
+- g1: 75% of control
+
+- g2: 0% from control (meaning no resistance, all infected)
+
+"
+gpqa_009,ANSWER,ANSWER,0.8889,0.3,"<think>
+First, the question is about finding which exoplanet has the highest density. Density is mass divided by volume, ρ = M / V.
+
+Now, let's look at the options:
+
+a) An Earth-mass and Earth-radius planet.
+
+- Earth's mass is about 5.97 × 10^24 kg, radius is about 6,371 km. Density is approximately 5.5 g/cm³ (since Earth's average density is 5.51 g/cm³). So for this planet, ρ_a = 5.5 g/cm³.
+
+b) A planet with 2 Earth masses and a density of approximately 5.5 g/cm^3.
+
+- It says ""a density of appr","<think>
+First, I need to determine which exoplanet has the highest density based on the descriptions. Density is mass divided by volume, so I should calculate or compare the densities for each option.
+
+Recall the options:
+
+a) Earth-mass and Earth-radius. Earth's density is about 5.5 g/cm³. So, this planet has density = 5.5 g/cm³.
+
+b) A planet with 2 Earth masses and density approximately 5.5 g/cm³. It says ""a density of approximately 5.5 g/cm³"", so its density is given as 5.5 g/cm³.
+
+c) A planet"
+gpqa_010,ANSWER,ANSWER,0.8571,0.3,"<think>
+First, I need to understand the question. It's asking which statement about the molecular biology of SARS-CoV-2 is incorrect. There are four options: A, B, C, D. I have to choose the one that is not correct.
+
+I'll evaluate each statement one by one based on my knowledge of SARS-CoV-2 molecular biology.
+
+Starting with option A:
+
+""A) SARS-CoV-2 ORF3a has the ability to trigger caspase-8 activation/cleavage, without affecting the expression levels of Bcl-2. Caspase-8 activation is recognize","<think>
+First, I need to understand the question. It's about identifying which statement is incorrect regarding the molecular biology of SARS-CoV-2. The context is that this is for a critically ill patient, so accuracy is crucial. I should be careful.
+
+Here are the statements:
+
+A) SARS-CoV-2 ORF3a induces apoptosis via the extrinsic pathway by triggering caspase-8 without affecting Bcl-2.
+
+B) Frameshifting rate is linearly correlated with pseudoknot conformations; SARS-CoV and SARS-CoV-2 have tw"
+gpqa_012,ANSWER,ANSWER,0.6667,0.3,"<think>
+First, I need to understand the sequence of reactions starting with (R)-(+)-Limonene. Limonene is a terpene with a structure that includes a cyclohexene ring with an isopropyl group and a methyl group. Specifically, (R)-(+)-Limonene has the double bond in the ring.
+
+The structure of (R)-(+)-Limonene is typically (4R)-1-methyl-4-isopropenylcyclohex-1-ene or something similar. I think it's often represented as having the double bond between carbons 1 and 2, with a methyl group on carbon 1 ","<think>
+First, I need to understand the sequence of reactions starting from (R)-(+)-Limonene.
+
+Limonene is a terpene with the formula C10H16, and it has a chiral center. (R)-(+)-Limonene has the methyl group and the isopropenyl group on the cyclohexene ring in specific orientations.
+
+The first reaction: A methanol solution of (R)-(+)-Limonene is stirred with Pd/C under H2 atmosphere. After 1 equivalent of hydrogen is consumed, product 1 is isolated as the major product.
+
+Limonene has one double "
+gpqa_013,ANSWER,ANSWER,0.6667,0.3,"<think>
+We are given a ChIP-seq experiment on PFA-fixed samples with an antibody to IKAROS in human B cells. The peaks disappear when using PFA+DSG fixation. We need to determine where such disappearing peaks are most likely found.
+
+First, recall that fixation methods can affect which protein-DNA interactions are captured. PFA (paraformaldehyde) is a common fixative that crosslinks proteins to DNA and proteins to proteins. DSG (disuccinimidyl glutarate) is another crosslinker that primarily cros","<think>
+We are given a ChIP-seq experiment where peaks disappear when switching from PFA-only fixation to PFA+DSG fixation. The question is where such disappearing peaks are most likely found.
+
+First, recall that ChIP-seq (Chromatin Immunoprecipitation followed by sequencing) is used to map protein-DNA interactions. Fixation is a step to cross-link proteins to DNA. Commonly, formaldehyde (PFA) is used, which creates reversible cross-links primarily between proteins and DNA, but also protein-prot"
+gpqa_018,ANSWER,ANSWER,0.875,0.3,"<think>
+First, I need to understand the Michael reaction as described. It's a nucleophile adding to an α,β-unsaturated carbonyl compound. The nucleophile attacks the β-carbon of the double bond.
+
+Now, let's look at the first reaction:
+
+methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) → A
+
+Methyl 2-oxocyclohexane-1-carboxylate has a carbonyl group at C2 and a carboxylate at C1. But in Michael addition, we need an enol or enolate to act as the nucleophile","<think>
+First, I need to understand the Michael reaction described. The Michael reaction involves a nucleophile adding to an α,β-unsaturated carbonyl compound. The nucleophile is typically an enolate, and it attacks the β-carbon of the unsaturated system.
+
+Now, looking at the reactions:
+
+1. methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) → A
+
+2. ethyl 2-ethylbutanoate + (NaH, THF, methyl 2-cyclopentylidene-2-phenylacetate) → B
+
+For the first reaction:
+"
+gpqa_019,ANSWER,ANSWER,0.7778,0.3,"<think>
+First, the question is about the impulse approximation in many-body nuclear calculations. The impulse approximation assumes that nucleons in a nucleus behave like free nucleons during an interaction, such as an electroweak interaction.
+
+The options are sets of assumptions that jointly imply this approximation. I need to figure out which combination of the four given assumptions leads to this.
+
+The assumptions are:
+
+1. The interaction current only interacts with individual nucleons.
+
+2. T","<think>
+First, I need to understand the impulse approximation in nuclear physics. It assumes that nucleons in a nucleus behave like free nucleons during an interaction. The question asks which assumptions jointly imply this approximation.
+
+The options are combinations of four assumptions:
+
+1. The interaction current only interacts with individual nucleons.
+
+2. The nucleus is transparent apart from the selected nucleon.
+
+3. The quarks internal to the selected nucleon are non-relativistic.
+
+4. The"

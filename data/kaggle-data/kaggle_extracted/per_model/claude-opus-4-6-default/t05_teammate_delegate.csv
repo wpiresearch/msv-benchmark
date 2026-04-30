@@ -1,0 +1,368 @@
+question_id,choice,answer,score,raw_response
+gpqa_000,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_002,ANSWER,A,0.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_007,ANSWER,A,0.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 3}"
+gpqa_009,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_010,ANSWER,B,0.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 2}"
+gpqa_012,ANSWER,C,0.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"
+gpqa_013,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}"
+gpqa_018,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 3}"
+gpqa_019,ANSWER,D,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}"
+gpqa_022,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}"
+gpqa_023,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_025,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}"
+gpqa_026,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_028,ANSWER,B,0.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}"
+gpqa_035,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"
+gpqa_040,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_042,ANSWER,D,0.0,"Let me work through this carefully.
+
+The benzene ring has:
+- Carboxylic acid (COOH) - this is the principal characteristic group, so it gets position 1
+- Carbaldehyde (CHO) - meta to COOH
+- Cyano (CN) - meta to COOH
+- Hydroxyl (OH) - ortho to COOH
+- Dimethylamino (NMe2) - ortho to COOH
+- Methoxy (OMe) - para to COOH
+
+So COOH is at position 1. The meta positions to 1 are 3 and 5. The ortho positions are 2 and 6. The para position is 4.
+
+Additional constraints:
+- OMe is para to COOH → OMe at posit"
+gpqa_046,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_049,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"
+gpqa_052,ANSWER,D,0.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 3}"
+gpqa_053,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"
+gpqa_054,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_055,ANSWER,A,0.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 3}"
+gpqa_057,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_059,ANSWER,A,1.0,"Let me work through this.
+
+The distance to the Large Magellanic Cloud is approximately 160,000 light-years.
+
+The Lorentz factor γ = 1/√(1 - v²/c²)
+
+v = 0.99999987c
+
+1 - v²/c² = 1 - (0.99999987)² = 1 - 0.99999974 = 0.00000026 = 2.6 × 10⁻⁷
+
+γ = 1/√(2.6 × 10⁻⁷) = 1/(5.099 × 10⁻⁴) ≈ 1961
+
+The time in the rest frame would be approximately 160,000 light-years / (0.99999987c) ≈ 160,000 years.
+
+The proper time experienced by the astronaut = 160,000 / 1961 ≈ 81.6 years.
+
+The astronaut is 22 years old, so"
+gpqa_061,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 3}"
+gpqa_064,ANSWER,C,0.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 2}"
+gpqa_065,ANSWER,B,0.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}"
+gpqa_069,ANSWER,D,1.0,"Let me work through this step by step.
+
+D reacts with B in a 1:1 ratio to form H, a solvent. This suggests something like SO3 + HF → HSO3F, or maybe Cl2 + F2... Let me think differently.
+
+If B is HF (gas) and D is something...
+
+Let me try: A is a solid, reacts with 8 equivalents of gas B to form bright red C.
+
+If A = As2O5 or similar... Let me try A = Cr2O3 or CrO3...
+
+Actually, let me try: A = Sb2O5, B = HF. Sb2O5 + 8HF... hmm, that doesn't give clean stoichiometry.
+
+Let me try A = XeO3 (solid)"
+gpqa_073,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_074,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_075,ANSWER,C,0.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 2}"
+gpqa_076,ANSWER,C,0.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 2}"
+gpqa_078,ANSWER,D,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 3}"
+gpqa_080,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"
+gpqa_082,ANSWER,B,1.0,"Let me work through this carefully.
+
+Initial: 20.00 cm³ of 0.05 M acetic acid = 1.0 mmol acetic acid, diluted with 20.00 cm³ water → 40.00 cm³ of 0.025 M acetic acid.
+
+Titrant: 0.1 M NaOH
+
+Volume of NaOH at equivalence point: 1.0 mmol / 0.1 M = 10.00 cm³
+
+**At 25% titration:**
+NaOH added = 0.25 × 10.00 = 2.50 cm³ → 0.25 mmol NaOH
+- Acetic acid remaining: 1.0 - 0.25 = 0.75 mmol
+- Acetate formed: 0.25 mmol
+- Total volume: 40.00 + 2.50 = 42.50 cm³
+
+Using Henderson-Hasselbalch:
+pH = pKa + log([A⁻]/["
+gpqa_083,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}"
+gpqa_084,ANSWER,A,1.0,"Let me work through this step by step.
+
+The equilibrium temperature ratio depends on the orbital distances: T_eq ∝ (1/√a), so T1/T2 = (a2/a1)^(1/2).
+
+I need to find the orbital distances from the RV data.
+
+The Doppler shift gives the radial velocity: Δλ/λ = v/c
+
+For Planet1: v1 = (0.03/6300) × c = 4.762×10⁻⁶ × 3×10⁸ m/s = 1428.6 m/s
+For Planet2: v2 = (0.04/6300) × c = 6.349×10⁻⁶ × 3×10⁸ m/s = 1904.8 m/s
+
+The RV semi-amplitude: K = (m_p sin i)/(M_star)^(2/3) × (2πG/P)^(1/3) / (1)
+
+For circular or"
+gpqa_087,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_088,ANSWER,C,0.0,"Let me work through this step by step.
+
+1,3-dibromoadamantane heated with excess KOH at 240°C → product 1 (light yellow solid)
+- 1H NMR: 4.79(2H), 2.41-2.23(10H), 1.94(2H) → 14H total
+- IR: 1720 cm⁻¹ (C=O stretch, likely ketone)
+
+Starting from 1,3-dibromoadamantane (C₁₀H₁₄Br₂), double dehydrohalogenation with KOH would form adamantanone... but wait. 1,3-dibromoadamantane with KOH could undergo Favorskii-like rearrangement or elimination. The 1720 cm⁻¹ suggests a ketone. With 14H and considering "
+gpqa_090,ANSWER,A,0.65,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 2}"
+gpqa_094,ANSWER,B,1.0,"Let me work through this carefully.
+
+**Starting material:** 3,3,6-trimethylhepta-1,5-dien-4-one
+
+Structure: CH₂=CH-C(CH₃)₂-C(=O)-CH=C(CH₃)₂
+
+This has two double bonds: a terminal vinyl (C1-C2) and a trisubstituted alkene (C5-C6).
+
+**mCPBA (1 equiv):** Epoxidizes one of the two double bonds. The more electron-rich trisubstituted alkene (C5=C6) would be preferentially epoxidized, but since we get ~1:1, both are epoxidized to some extent. So we get:
+- Product A: epoxide at C1-C2 (vinyl epoxide), ke"
+gpqa_097,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}"
+gpqa_098,ANSWER,D,0.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 3}"
+gpqa_099,ANSWER,C,1.0,"Let me trace through this reaction sequence:
+
+A (C₃H₆) = propene (CH₃CH=CH₂)
+
+A + Br₂/CCl₄ → B = 1,2-dibromopropane (CH₃CHBrCH₂Br)
+
+B + alcoholic KOH → C = propyne (CH₃C≡CH) via double dehydrohalogenation
+
+C through red-hot iron tube → D = 1,3,5-trimethylbenzene (mesitylene) - trimerization of propyne
+
+D + mixture of two strong acids (HNO₃/H₂SO₄) → E = 2,4,6-trimethylnitrobenzene (nitromesitylene)
+
+E + Fe/HCl → F = 2,4,6-trimethylaniline (reduction of nitro to amino)
+
+F + HNO₂ (nitrous acid) → G"
+gpqa_100,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 3}"
+gpqa_101,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"
+gpqa_102,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"
+gpqa_103,ANSWER,C,1.0,"Let me work through this.
+
+The Doppler shift gives us the radial velocity: Δλ/λ = v/c, so v ∝ Δλ.
+
+Planet #1: Δλ₁ = 5 mÅ → v₁ ∝ 5
+Planet #2: Δλ₂ = 7 mÅ → v₂ ∝ 7
+
+For the RV method, the stellar RV semi-amplitude is:
+K = (2πG/P)^(1/3) × (m_p sin i) / (M_star)^(2/3)
+
+Since both planets have the same mass (Neptune-like), same stellar mass (Sun-like), and assuming same inclination:
+
+K ∝ P^(-1/3)
+
+So v ∝ 1/P^(1/3)
+
+v₂/v₁ = (P₁/P₂)^(1/3)
+
+7/5 = (P₁/P₂)^(1/3)
+
+(P₁/P₂) = (7/5)³ = 343/125 = 2.744
+
+P₂/P₁ ="
+gpqa_104,ANSWER,B,1.0,"Let me work through this.
+
+The star has Teff = 6000K, spots are 1000K cooler so Tspot = 5000K.
+
+One hemisphere has 20% filling factor of spots.
+
+**Brightness calculation:**
+
+The total luminosity of the star when the spotted hemisphere faces us vs when the unspotted hemisphere faces us.
+
+When the spotted hemisphere is visible:
+- The visible hemisphere has 80% at 6000K and 20% at 5000K
+- Flux from visible hemisphere: 0.8 × σT₁⁴ + 0.2 × σT₂⁴
+
+When the unspotted hemisphere is visible:
+- 100% at 6000"
+gpqa_106,ANSWER,B,0.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}"
+gpqa_110,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 3}"
+gpqa_113,ANSWER,A,0.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_114,ANSWER,B,1.0,"Let me work through this carefully.
+
+**Setup:** Electron moves right with γ_e = 4, positron moves left with γ_p = 2.
+
+**Four-momenta (in units of m_e c):**
+
+Electron (moving right): γ_e = 4, so β_e = √(1-1/16) = √(15/16) = √15/4
+- E_e = 4m_e c², p_e = 4·(√15/4)·m_e c = √15·m_e c (rightward, positive)
+
+Positron (moving left): γ_p = 2, so β_p = √(1-1/4) = √3/2
+- E_p = 2m_e c², p_p = 2·(√3/2)·m_e c = √3·m_e c (leftward, negative)
+
+**Total system:**
+- E_total = (4+2)m_e c² = 6m_e c²
+- p_total = (√15"
+gpqa_116,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_117,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_118,ANSWER,A,0.65,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 2}"
+gpqa_119,ANSWER,A,1.0,"Stars uniformly distributed in space: n(r)dr ∝ r²dr (since volume element is 4πr²dr).
+
+Parallax plx = 1/r, so r = 1/plx, dr = -1/plx² d(plx).
+
+n(plx)|d(plx)| = r² |dr| ∝ (1/plx²)(1/plx²)|d(plx)| = 1/plx⁴ |d(plx)|
+
+So dN/d(plx) ∝ 1/plx⁴.
+
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_125,ANSWER,B,1.0,"Let me work through this carefully.
+
+**Reaction I:** (S)-5-methoxyhexan-3-one + LAH → reduction of ketone
+
+The substrate is CH₃CH₂C(=O)CH₂CH(OCH₃)CH₃ with S configuration at C5.
+
+LAH reduces the ketone at C3 to give (S)-5-methoxyhexan-3-ol. The new stereocenter at C3 can be R or S (LAH attacks from both faces, though there may be some diastereoselectivity, but both diastereomers form). Since C5 is fixed as S:
+- (3R,5S)-5-methoxyhexan-3-ol
+- (3S,5S)-5-methoxyhexan-3-ol
+
+These are **diastereomers*"
+gpqa_127,ANSWER,D,0.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 3}"
+gpqa_129,ANSWER,C,0.0,"The optical window for ground-based telescopes starts at roughly 3000-3200 Å (atmospheric cutoff in the UV).
+
+The Lyman alpha line is at 1216 Å. For it to be observable from the ground:
+
+1216 × (1 + z) ≥ ~3200 Å
+
+1 + z ≥ 3200/1216 ≈ 2.63
+
+z ≥ 1.63
+
+Looking at the options, if we use a slightly more conservative atmospheric cutoff around ~3600-3800 Å (where typical optical observations begin):
+
+1216 × (1 + z) ≥ 3600
+1 + z ≥ 2.96
+z ≥ 1.96
+
+This is closest to z ≈ 2.4 if using ~4100 Å, or z ≈ 1.9 if "
+gpqa_131,ANSWER,C,1.0,"Let me analyze each compound:
+
+**1,2,4,5-tetramethylbenzene (durene):**
+- Aromatic H: 2 equivalent H → 1 singlet at ~6.7 ppm (2H)
+- Methyl: all 4 CH₃ equivalent → 1 singlet at ~2.2 ppm (12H)
+
+**1,2,3,5-tetramethylbenzene (isodurene):**
+- Aromatic H: 2 non-equivalent H → 2 singlets at ~6.7 ppm (1H each)
+- Methyl: 3 types - one pair equivalent (1,3 positions) + two individual → actually positions 1,2,3,5: the methyls at 1 and 3 are equivalent (mirror symmetry), methyl at 2 is unique, methyl at 5 i"
+gpqa_134,ANSWER,C,1.0,"The boson X has mass 6 GeV. For it to decay into a fermion-antifermion pair, we need 2m_f < 6 GeV, so m_f < 3 GeV.
+
+Fermion masses:
+- top quark: ~173 GeV → NO
+- bottom quark: ~4.18 GeV → 2×4.18 = 8.36 GeV > 6 GeV → NO
+- charm quark: ~1.27 GeV → 2×1.27 = 2.54 GeV < 6 GeV → YES
+- strange quark: ~0.095 GeV → YES
+- up quark: ~0.002 GeV → YES
+- down quark: ~0.005 GeV → YES
+- tau: ~1.777 GeV → 2×1.777 = 3.554 GeV < 6 GeV → YES
+- muon: ~0.106 GeV → YES
+- electron: ~0.000511 GeV → YES
+
+So the allowed de"
+gpqa_135,ANSWER,D,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}"
+gpqa_137,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_146,ANSWER,A,1.0,"The antiproton is slowly moving, so essentially at rest. This means we have a nearly at-rest p-pbar annihilation.
+
+Total energy in the center of mass frame ≈ 2 × m_p c² = 2 × 938.3 MeV = 1876.6 MeV
+
+This energy is shared among 4 particles of mass 300 MeV each.
+
+Energy per particle = 1876.6 / 4 = 469.15 MeV
+
+For each particle A:
+E = γ m_A c² = 469.15 MeV
+m_A c² = 300 MeV
+
+γ = 469.15 / 300 = 1.5638
+
+β = √(1 - 1/γ²) = √(1 - 1/2.4495) = √(1 - 0.4082) = √(0.5918) = 0.7693
+
+So v ≈ 0.77c
+
+{""choice"": ""A"
+gpqa_148,ANSWER,D,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}"
+gpqa_149,ANSWER,D,1.0,"Let me work through this step by step.
+
+**Identifying the starting compound (C₈H₉NO):**
+
+1H NMR:
+- 9.72 (t, 1H) - aldehyde H (triplet suggests CH₂ adjacent)
+- 6.98 (d, 2H) - aromatic H
+- 6.51 (d, 2H) - aromatic H  
+- 6.27 (bs, 2H) - NH₂ (broad singlet)
+- 3.66 (d, 2H) - CH₂ (doublet, couples to aldehyde)
+
+This is a para-substituted aniline with a CH₂CHO group: 4-aminophenylacetaldehyde (2-(4-aminophenyl)acetaldehyde).
+
+C₈H₉NO: H₂N-C₆H₄-CH₂-CHO ✓ (That's C₈H₉NO₁... wait: C₈H₉NO = 8C, 9H, 1N, 1O ✓)"
+gpqa_156,ANSWER,D,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}"
+gpqa_157,ANSWER,D,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 3}"
+gpqa_164,ANSWER,A,0.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 2}"
+gpqa_165,ANSWER,D,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 3}"
+gpqa_168,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"
+gpqa_169,ANSWER,C,1.0,"The spin state is |ψ⟩ = (3i, 4). First normalize: |3i|² + |4|² = 9 + 16 = 25, so normalization factor is 1/5.
+
+S_y = (ℏ/2)σ_y
+
+⟨S_y⟩ = (ℏ/2)⟨ψ|σ_y|ψ⟩
+
+σ_y|ψ⟩ = [[0, -i],[i, 0]] × (3i, 4) = (-i×4, i×3i) = (-4i, -3)
+
+⟨ψ|σ_y|ψ⟩ = (1/25) × [(-3i)(-4i) + (4)(-3)] = (1/25) × [12i² + (-12)] = (1/25) × [-12 - 12] = -24/25
+
+⟨S_y⟩ = (ℏ/2)(-24/25) = -12ℏ/25
+
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_170,ANSWER,D,0.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 2}"
+gpqa_173,ANSWER,A,1.0,"Let me work through this carefully.
+
+**Setup:**
+- M rest-mass energy = 300 GeV
+- Two fragments: m₁ = 2m₂ (more massive), m₁ + m₂ = 0.99M
+- So m₁ = 0.66M, m₂ = 0.33M
+- Q = 0.01M = 3 GeV total kinetic energy released
+- m₁c² = 198 GeV, m₂c² = 99 GeV (wait, let me recalculate)
+
+Actually: m₁ + m₂ = 0.99M, m₁ = 2m₂
+So 3m₂ = 0.99M → m₂ = 0.33M, m₁ = 0.66M
+m₁c² = 0.66 × 300 = 198 GeV
+m₂c² = 0.33 × 300 = 99 GeV
+Q = Mc² - (m₁+m₂)c² = 300 - 297 = 3 GeV
+
+**Conservation of momentum:** p₁ = p₂ = p (in magnitu"
+gpqa_175,ANSWER,B,1.0,"Let me work through this step by step.
+
+**State:** |ψ⟩ = (-1, 2, 1)ᵀ, normalized: ||ψ|| = √(1+4+1) = √6
+
+**Matrix P:**
+```
+P = [0, 1/√2, 0; 1/√2, 0, 1/√2; 0, 1/√2, 0]
+```
+
+**Find eigenvalues of P:**
+det(P - λI) = -λ(λ² - 1/2) - (1/√2)(-λ/√2) = -λ³ + λ/2 + λ/2... let me compute properly.
+
+Characteristic equation: -λ(λ²) + λ(1/2) + (1/√2)(0 - λ/√2) ... 
+
+Actually expanding: det = -λ(0-λ)(0-λ) - ... Let me use cofactor expansion along first row:
+= 0·M₁₁ - (1/√2)·M₁₂ + 0·M₁₃
+where M₁₂ = det[1/√2, 1/"
+gpqa_180,ANSWER,B,0.65,"Let me think through this carefully.
+
+The pp-III branch (also called pp-III or hep sometimes, but more commonly pp-III refers to the branch involving ⁸B):
+
+The pp chain branches:
+- pp-I: ends with ³He+³He
+- pp-II: involves ⁷Be, producing ⁷Be neutrinos (monoenergetic at 862 keV and 384 keV)
+- pp-III: involves ⁸B, producing ⁸B neutrinos (continuous spectrum up to ~15 MeV)
+
+If pp-III stopped, the ⁸B neutrinos would disappear. But ⁸B neutrinos have energies mostly above 1 MeV, so in the 700-900 keV "
+gpqa_184,ANSWER,D,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}"
+gpqa_188,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 3}"

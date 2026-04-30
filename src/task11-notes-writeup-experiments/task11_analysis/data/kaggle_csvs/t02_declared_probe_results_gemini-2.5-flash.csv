@@ -1,0 +1,301 @@
+question_id,category,difficulty,dims_parsed,routing_choice,raw_response,declared_CE,declared_ER,declared_CI,declared_EM,declared_PI,declared_activation,routing_score
+gpqa_000,physics_(general),0.7778,5,ANSWER,"{""CE"": 4, ""ER"": 1, ""CI"": 1, ""EM"": 4, ""PI"": 1, ""routing"": ""ANSWER""}",4.0,1.0,1.0,4.0,1.0,0.0,0.0
+gpqa_002,quantum_mechanics,0.7778,5,ANSWER,"{""CE"": 4, ""ER"": 1, ""CI"": 1, ""EM"": 4, ""PI"": 1, ""routing"": ""ANSWER""}",4.0,1.0,1.0,4.0,1.0,0.0,0.0
+gpqa_007,genetics,0.7778,0,ANSWER,"**1. Analyze the role of G2:**
+*   The `g2` mutant shows 0% resistance, meaning the absence of G2 completely abolishes resistance.
+*   The double mutants `g1g2` and `g2g3` also show 0% resistance. This indicates that even if G1 or G3 are present (or mutated), the absence of G2 makes the plant fully susceptible.
+*   This pattern strongly suggests that G2 is absolutely essential for resistance and likely acts as an upstream regulator, such as a transcription factor, controlling other genes involve",,,,,,,0.0
+gpqa_009,astrophysics,0.8889,5,ANSWER,"{""CE"": 4, ""ER"": 1, ""CI"": 1, ""EM"": 4, ""PI"": 1, ""routing"": ""ANSWER""}",4.0,1.0,1.0,4.0,1.0,0.0,0.0
+gpqa_010,molecular_biology,0.8571,0,ANSWER,"The user is asking to identify the *incorrect* statement among the given options about SARS-CoV-2 molecular biology. I will analyze each option:
+
+**A) SARS-CoV-2 ORF3a has the ability to trigger caspase-8 activation/cleavage, without affecting the expression levels of Bcl-2. Caspase-8 activation is recognized as a characteristic feature of the extrinsic apoptotic pathway via death receptors, while Bcl-2 plays a crucial role in initiating the mitochondrial pathway. This suggests that the mechanis",,,,,,,0.0
+gpqa_012,organic_chemistry,0.6667,0,ANSWER,"Here's a step-by-step breakdown of the reactions and stereochemistry:
+
+**1. Starting Material: (R)-(+)-Limonene**
+The structure of (R)-(+)-Limonene is (4R)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. It has two double bonds: an endocyclic one within the cyclohexene ring (between C1 and C2, with a methyl group at C1) and an exocyclic one in the isopropenyl group (at C4). The chiral center is at C4, with an (R) configuration.
+
+**2. Reaction 1: H2/Pd/C (1 equivalent)**
+Catalytic hydrogenation with o",,,,,,,0.0
+gpqa_013,molecular_biology,0.6667,0,ANSWER,"The key to answering this question lies in understanding the differences between PFA-only fixation and PFA+DSG fixation in ChIP-seq, and how these differences might affect the detection of a transcription factor like IKAROS.
+
+1.  **PFA (Paraformaldehyde) fixation:** Forms relatively short crosslinks (2-3 Å) primarily between proteins and DNA, and to a lesser extent, protein-protein. It's a standard method.
+2.  **PFA+DSG (Paraformaldehyde + Disuccinimidyl Glutarate) fixation:** DSG is a longer (7",,,,,,,0.0
+gpqa_018,organic_chemistry,0.875,0,ANSWER,"**Detailed Analysis of Reaction 1 (Product A):**
+
+1.  **Starting Materials:**
+    *   **Nucleophile Precursor:** `methyl 2-oxocyclohexane-1-carboxylate`
+        This is a β-keto ester. The most acidic proton is located at C1, between the ketone at C2 and the methyl ester at C1.
+        Structure: A cyclohexanone ring with a methyl ester group (-COOCH3) at position 1 and a carbonyl group (C=O) at position 2.
+    *   **Base:** `NaOEt` (sodium ethoxide)
+        NaOEt is a strong base that will depr",,,,,,,0.0
+gpqa_019,quantum_mechanics,0.7778,0,ANSWER,"The ""impulse approximation"" in nuclear physics is a conceptual framework used to simplify the description of interactions between an external probe (e.g., an electron, neutrino, or photon) and a nucleus. It assumes that the interaction occurs so rapidly and locally that:
+
+1.  **The probe interacts with only one nucleon at a time.** The interaction cross-section can then be calculated by summing the contributions from individual nucleons.
+2.  **During the brief interaction, the target nucleon beh",,,,,,,0.0
+gpqa_022,organic_chemistry,0.8889,0,ANSWER,"The problem describes a reaction of ((2,2-dimethylbut-3-en-1-yl)oxy)benzene with HBr, resulting in two new spots on TLC. This suggests the formation of two major products.
+
+Let's first draw the structure of the starting material:
+((2,2-dimethylbut-3-en-1-yl)oxy)benzene can be represented as:
+Phenyl -O- CH2(C1) - C(CH3)2(C2) - CH(C3) = CH2(C4)
+
+The reaction with HBr will proceed via electrophilic addition to the alkene. This involves two main steps:
+1.  **Protonation of the alkene:** The double b",,,,,,,0.0
+gpqa_023,organic_chemistry,0.8889,0,ANSWER,"Let's break down the problem step by step to deduce the structures of the compounds and then answer the question.
+
+1.  **Analyze Hydrocarbon Z:**
+    *   Z is a hydrocarbon that is the only product of hydrogenation of both mixture X and mixture Y under severe conditions.
+    *   It is a constituent of mixture Y.
+    *   It is widely used as a solvent.
+    *   It does not react further with hydrogen, implying it is a saturated hydrocarbon.
+    *   Mass fraction of hydrogen in Z is 14.28%.
+    *  ",,,,,,,0.0
+gpqa_025,organic_chemistry,0.8889,0,ANSWER,"**Part 1: Identify Reactant A**
+
+The product is 8,8-diiodobicyclo[4.2.0]octan-7-one. Let's break down this name and structure.
+*   **Bicyclo[4.2.0]octane:** This indicates a bicyclic system with 8 carbons, where two bridgehead carbons are shared by a 4-carbon bridge, a 2-carbon bridge, and a 0-carbon bridge (meaning the bridgehead carbons are directly connected by a bond, and also part of two larger rings). This structure consists of a cyclohexane ring fused to a cyclobutane ring. The starting m",,,,,,,0.0
+gpqa_026,molecular_biology,0.8889,0,ANSWER,"Let's break down the metaphorical conversation:
+
+*   **""Oh, I know you,"" the ribonucleoprotein particle says to the nascent chain as they meet.**
+    *   ""ribonucleoprotein particle"": This strongly refers to the **Signal Recognition Particle (SRP)**. SRP is a complex of RNA and proteins.
+    *   ""nascent chain"": This is a polypeptide chain that is currently being synthesized by a ribosome.
+    *   ""meet"": This meeting occurs in the **cytosol** as the signal peptide of the nascent chain emerges f",,,,,,,0.0
+gpqa_028,genetics,0.7778,0,ANSWER,"To eliminate the anti-nutritional compound, we need a mutation that leads to a loss of function for the gene responsible for its synthesis. This typically means producing a non-functional or severely truncated protein. We are looking for a mutation that has the most drastic effect on the protein product.
+
+The intact gene sequence starts:
+`5’-ATGTTTCTCGCTGGTACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3’`
+
+Let's establish the reading frame starting from the `ATG` (Methionine start codon):
+`ATG TTT CTC GCT ",,,,,,,0.0
+gpqa_035,astrophysics,0.8889,0,ANSWER,"1.  **Calculate the frequency of the absorption line:**
+    The energy equivalent is given as E = 3.9 micro electron volts = 3.9 × 10^-6 eV.
+    We use the Planck-Einstein relation, E = hν, where h is Planck's constant (approximately 4.135667 × 10^-15 eV·s).
+    ν = E / h = (3.9 × 10^-6 eV) / (4.135667 × 10^-15 eV·s)
+    ν ≈ 9.429 × 10^8 Hz = 942.9 MHz.
+
+2.  **Determine the spectral region:**
+    A frequency of 942.9 MHz falls in the **radio/microwave part of the electromagnetic spectrum**.
+
+3. ",,,,,,,0.0
+gpqa_040,relativistic_mechanics,0.875,0,ANSWER,"Let's denote the following:
+*   `c`: Speed of light in vacuum (given as 1).
+*   `n`: Index of refraction of the glass.
+*   `v`: Velocity of the glass relative to the laboratory frame.
+
+First, let's determine the speed of light *within the glass* in the frame of reference of the glass itself.
+If the glass were stationary, the speed of light in it would be `u_glass = c / n`.
+Since `c = 1`, the speed of light in the glass's rest frame is `u' = 1 / n`.
+
+Now, we need to find the speed of light relati",,,,,,,0.0
+gpqa_042,organic_chemistry,0.8889,0,ANSWER,"Here's a systematic approach to determine the correct IUPAC name:
+
+**1. Identify the Principal Functional Group (PFG) and the parent name:**
+The molecule contains a carboxylic acid (-COOH), a carbaldehyde (-CHO), a cyano group (-CN), a hydroxyl group (-OH), a dimethylamino group (-N(CH3)2), and a methoxy group (-OCH3).
+According to IUPAC seniority rules, the carboxylic acid group has the highest priority. Therefore, the parent name of the compound will be **benzoic acid**, and the carbon atom be",,,,,,,0.0
+gpqa_046,organic_chemistry,0.8889,0,ANSWER,"**1. Calculate the Degree of Unsaturation (DoU):**
+The molecular formula is C9H11NO2.
+DoU = C + 1 - (H/2) - (X/2) + (N/2)
+DoU = 9 + 1 - (11/2) - (0/2) + (1/2) = 10 - 5.5 + 0.5 = 5.
+A DoU of 5 strongly suggests the presence of a benzene ring (4 units of unsaturation) plus one additional double bond (e.g., C=O).
+
+**2. Analyze the IR Spectrum:**
+*   **3420 cm-1, 3325 cm-1 (medium to strong):** These are characteristic stretching vibrations for **N-H bonds**, specifically indicating the presence of ",,,,,,,0.0
+gpqa_049,high-energy_particle_physics,0.875,0,ANSWER,"The number of loops in a Feynman diagram can often be determined from the powers of certain fundamental constants or factors that arise from loop integrals. In dimensional regularization, for a theory in `D` dimensions, each loop integral contributes a factor proportional to `1/(4π)^(D/2)`.
+
+In this problem, the theory is on **four-dimensional spacetime**, so `D = 4`.
+Therefore, each loop integral contributes a factor of `1/(4π)^(4/2) = 1/(4π)^2`.
+
+The given ""size estimate"" contains the factor `",,,,,,,0.0
+gpqa_052,chemistry_(general),0.875,0,ANSWER,"Let's break down the given information step-by-step:
+
+1.  **Degree of Unsaturation (DoU):**
+    We need to check the DoU for each given formula to see which is consistent with an aromatic ring, an ester, and an alkene. The formula for DoU is C + 1 - H/2 + N/2.
+    *   C11H12O2: DoU = 11 + 1 - (12/2) = 12 - 6 = 6
+    *   C11H14O2: DoU = 11 + 1 - (14/2) = 12 - 7 = 5
+    *   C12H12O2: DoU = 12 + 1 - (12/2) = 13 - 6 = 7
+    *   C12H14O2: DoU = 12 + 1 - (14/2) = 13 - 7 = 6
+
+    The compound has:
+    ",,,,,,,0.0
+gpqa_053,organic_chemistry,0.875,0,ANSWER,"The process described is a Ring-Closing Metathesis (RCM) reaction, which forms a cyclic alkene from an acyclic diene. To work backwards, we need to identify the structure of the target product and then determine what diene would cyclize to form it.
+
+**1. Analyze the Product:**
+The target product is **5-isopropyl-3,4-dimethylcyclohex-1-ene**.
+*   **cyclohex-1-ene:** This indicates a 6-membered ring with a double bond between C1 and C2.
+*   **3,4-dimethyl:** Methyl groups are attached to C3 and C4",,,,,,,0.0
+gpqa_054,chemistry_(general),0.7778,0,ANSWER,"Here's a step-by-step analysis of the 1H NMR data to identify the unknown compound:
+
+1.  **Analyze the 1H NMR signals:**
+
+    *   **2.1 ppm (3H, s):** A singlet (s) integrating for 3 protons is characteristic of a methyl group (CH3) that has no adjacent protons to couple with. The chemical shift of 2.1 ppm is typical for a methyl group directly attached to a carbonyl carbon, specifically in an **acetate group (CH3COO-)**. This confirms the presence of the -OCOCH3 moiety.
+
+    *   **1.6 ppm (3H, ",,,,,,,0.0
+gpqa_055,quantum_mechanics,0.8889,0,ANSWER,"To determine the correct transition route and its probability, we must apply the electric dipole selection rules for transitions between atomic states in the non-relativistic theory of the hydrogen atom. The selection rules are:
+1.  Change in angular momentum quantum number: $\Delta l = \pm 1$
+2.  Change in magnetic quantum number: $\Delta m = 0, \pm 1$
+3.  Change in principal quantum number: $\Delta n$ can be any integer.
+
+The initial state is $|n,l,m\rangle = |3,0,0\rangle$.
+The final state is",,,,,,,0.0
+gpqa_057,high-energy_particle_physics,0.8889,0,ANSWER,"The question asks which of the given physical theories ""never requires regularization at high energies."" Regularization is a technique used in quantum field theories (QFTs) to handle mathematical infinities (divergences) that arise from loop integrals, particularly at high energies (ultraviolet, or UV divergences). These divergences must be regularized (e.g., by introducing a cutoff) and then renormalized to obtain finite, physically meaningful predictions.
+
+Let's analyze each option:
+
+*   **A) ",,,,,,,0.0
+gpqa_059,relativistic_mechanics,0.8889,0,ANSWER,"To determine the travel time for the astronaut from their perspective, we need to use the concept of time dilation from special relativity.
+
+1.  **Distance to the Large Magellanic Cloud (LMC):**
+    The average distance to the LMC is approximately 160,000 light-years (ly). This means that light from the LMC takes 160,000 years to reach Earth.
+
+2.  **Velocity of the spacecraft:**
+    $v = 0.99999987c$
+
+3.  **Calculate the Lorentz factor ($\gamma$):**
+    The Lorentz factor is given by the formula",,,,,,,0.0
+gpqa_061,organic_chemistry,0.7778,0,ANSWER,"The problem asks for the correct sequence of reagents to synthesize 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde from ethynylcyclohexane.
+
+First, let's analyze the target molecule: **1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde**.
+The parent structure is ""cyclohexanecarbaldehyde"", which means a cyclohexane ring with a -CHO (aldehyde) group attached. Let's denote the carbon of the cyclohexane ring to which the -CHO group is attached as C1.
+At this same C1 of the cyclohexane ring, ",,,,,,,0.0
+gpqa_064,organic_chemistry,0.75,0,ANSWER,"**Reaction 1: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A**
+
+1.  **Starting Material Analysis:**
+    *   The name ""1-vinylspiro[3.5]non-5-en-1-ol"" indicates a spiro[3.5]nonane skeleton. This means a cyclobutane ring (4 carbons) and a cyclohexane ring (6 carbons) sharing one common carbon (the spiro carbon). Total carbons in the spiro system = 1 + 3 + 5 = 9 carbons.
+    *   The ""1-ol"" and ""1-vinyl"" mean the spiro carbon (which is C1 in this numbering) has both a hydroxyl (-OH) group and",,,,,,,0.0
+gpqa_065,high-energy_particle_physics,0.7778,0,ANSWER,"The Standard Model Effective Field Theory (SMEFT) is built upon fundamental principles of quantum field theory and incorporates the known symmetries of the Standard Model (SM). When constructing the operators in the SMEFT Lagrangian, they must adhere to these fundamental symmetries.
+
+Let's evaluate each symmetry:
+
+1.  **Lorentz Symmetry:** This is a cornerstone of special relativity and, by extension, of all relativistic quantum field theories. It ensures that the laws of physics are the same fo",,,,,,,0.0
+gpqa_069,chemistry_(general),0.8889,0,ANSWER,"Let's decipher the chemical reactions step-by-step:
+
+1.  **""reaction of solid A with 8 equivalents of gas B forms bright red product C.""**
+    *   A common solid element is Sulfur ($\text{S}_8$). A common gas B is Chlorine ($\text{Cl}_2$).
+    *   The reaction $\text{S}_8 + 8\text{Cl}_2 \rightarrow 8\text{SCl}_2$ produces Sulfur Dichloride ($\text{SCl}_2$).
+    *   $\text{SCl}_2$ is a bright red liquid. This fits all descriptions perfectly: $\text{S}_8$ (solid A), $\text{Cl}_2$ (gas B), $\text{S",,,,,,,0.0
+gpqa_073,physics_(general),0.8889,0,ANSWER,"The problem describes the decay of a single atom, which follows the principles of radioactive decay. A key characteristic of radioactive decay is its **memoryless property**: the probability that an atom will decay in a future time interval is independent of how long it has already existed (as long as it hasn't decayed yet).
+
+1.  **Calculate the decay constant ($\lambda$):**
+    We are given that the probability of decay is 32% within 100 minutes.
+    The probability that an atom *survives* for ",,,,,,,0.0
+gpqa_074,molecular_biology,0.4444,0,ANSWER,"The problem states that the researcher is unable to overexpress the target protein (GADD45G N-terminally tagged with an HA epitope). We need to analyze the provided DNA sequence to find a reason for this failure.
+
+The provided DNA sequence is the plus strand:
+`5'ATGTACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATGAGTTGCTGCTGTCGGCGCAGCGTCAGGGCTGCCTCACTGCCGGCGTCTACGAGTCAGCCAAAGTCTTGAACGTGGACCCCGACAATGTGACCTTCTGTGTGCTGGCTGCGGGTGAGGAGGACG",,,,,,,1.0
+gpqa_075,molecular_biology,0.8889,0,ANSWER,"Let's break down the experimental setup and analyze what observations would be made.
+
+1.  **iPSC labeling:**
+    *   The iPSCs are labeled with `mRaspberry` (a red fluorescent protein).
+    *   This mRaspberry is expressed under a `lineage-specific promoter`.
+    *   The iPSCs themselves are `dedifferentiated` (pluripotent).
+    *   This means that initially, when the dedifferentiated iPSCs are injected, the lineage-specific promoters are likely not active. Therefore, the mRaspberry will *not* b",,,,,,,0.0
+gpqa_076,organic_chemistry,0.8889,0,ANSWER,"**Reaction 1: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) ---> A**
+
+1.  **Starting Material:** The starting material is an allyl benzyl ether.
+    The (3-methylbut-2-en-1-yl) group is also known as the prenyl group: `(CH3)2C=CH-CH2-`.
+    So the full structure is: `Ph-CH2-O-CH2-CH=C(CH3)2`.
+
+2.  **Reagents:**
+    *   `1. BuLi` (butyllithium) is a strong base. It will deprotonate the most acidic proton. In this molecule, the benzylic proton (alpha to the phenyl ring and the eth",,,,,,,0.0
+gpqa_078,organic_chemistry,0.8889,0,ANSWER,"Let's break down the problem by first determining the characteristics of the product from its NMR data, and then identifying the starting material (Compound X) that would lead to such a product via rearrangement.
+
+**1. Analyze the Product's NMR Data:**
+
+*   **Molecular Formula of Product:** Since the reaction is a rearrangement (no atoms lost or gained), the product also has the formula **C11H12O**.
+*   **Degree of Unsaturation (DoU):** For C11H12O, DoU = C + 1 - H/2 = 11 + 1 - 12/2 = 12 - 6 = 6",,,,,,,0.0
+gpqa_080,organic_chemistry,0.7778,0,ANSWER,"The target molecule is **[1,1'-bi(cyclopentylidene)]-2-one**. This name, while slightly unconventional, refers to **2-cyclopentylidenecyclopentanone**. This molecule consists of two cyclopentane rings, one of which is a cyclopentanone, and they are linked by an exocyclic double bond, forming a $\alpha,\beta$-unsaturated ketone. This is a classic product of an aldol condensation of cyclopentanone followed by dehydration.
+
+The starting material is **1,5-dichloropentane** (Cl-CH2-CH2-CH2-CH2-CH2-Cl",,,,,,,0.0
+gpqa_082,chemistry_(general),0.875,0,ANSWER,"**Step 1: Determine the initial concentration of acetic acid in the diluted solution.**
+Initial volume of acetic acid ($V_{acid}$) = 20.00 cm³ = 0.020 L
+Initial concentration of acetic acid ($C_{acid}$) = 0.05 M
+Volume of water added = 20.00 cm³ = 0.020 L
+Total volume of diluted acetic acid ($V_{total, initial}$) = $0.020 \text{ L} + 0.020 \text{ L} = 0.040 \text{ L}$
+
+Moles of acetic acid (CH₃COOH) = $C_{acid} \times V_{acid} = 0.05 \text{ M} \times 0.020 \text{ L} = 0.001 \text{ mol}$
+Concentr",,,,,,,0.0
+gpqa_083,physics_(general),0.8571,0,ANSWER,"The question asks about the key factor that enables the conversion of a sequential algorithm into a parallel algorithm when solving higher-dimensional heat equations using finite difference approximations and parallel splitting, particularly when the matrix exponential function is approximated by a fractional approximation.
+
+Let's break down the concepts:
+1.  **Higher-dimensional heat equations:** These are partial differential equations (PDEs) that describe heat transfer over space and time.
+2.",,,,,,,0.0
+gpqa_084,astrophysics,0.8889,0,ANSWER,"The equilibrium temperature ($T_{eq}$) of a planet is given by the formula:
+$T_{eq} = T_{star} \left(\frac{R_{star}}{2a}\right)^{1/2} (1-A)^{1/4}$
+where $T_{star}$ is the star's effective temperature, $R_{star}$ is the star's radius, $a$ is the planet's semi-major axis, and $A$ is the planet's albedo.
+
+We want to find the ratio of the equilibrium temperatures of Planet1 ($T_{eq1}$) and Planet2 ($T_{eq2}$):
+$\frac{T_{eq1}}{T_{eq2}} = \frac{T_{star} \left(\frac{R_{star}}{2a_1}\right)^{1/2} (1-A)^{",,,,,,,0.0
+gpqa_087,molecular_biology,0.625,0,ANSWER,"Let's break down the experiment and the observed findings:
+
+1.  **Antigen Delivery and Location:** Rotavirus capsid proteins are delivered orally, and the immune response is observed in Peyer's patches, which are gut-associated lymphoid tissues. This indicates an adaptive immune response in a secondary lymphoid organ.
+2.  **Cell Population:** ""proliferating cell population"" from the Peyer's patches. This signifies B cells (and T cells) that have been activated by the antigen and are undergoing c",,,,,,,0.0
+gpqa_088,organic_chemistry,0.8889,0,ANSWER,"The problem requires us to determine the coupling pattern of the most deshielded hydrogen atom in Product 3. This involves a multi-step synthesis.
+
+**Step 1: Reaction of 1,3-dibromoadamantane with KOH and heat to form Product 1.**
+*   **Starting Material:** 1,3-dibromoadamantane (C10H14Br2). Adamantane has a rigid tricyclic structure.
+*   **Reagents:** KOH (strong base) and high temperature (240 °C). This suggests elimination reactions and possible rearrangements.
+*   **Product 1 properties:** L",,,,,,,0.0
+gpqa_090,organic_chemistry,0.7778,0,ANSWER,"**Step 1: Aldol Reaction (Cyclohexanone + LDA then Benzaldehyde, then H+)**
+
+1.  **Enolate Formation:** Cyclohexanone is treated with LDA (Lithium Diisopropylamide) at low temperature. LDA is a strong, non-nucleophilic base that will deprotonate an $\alpha$-hydrogen of cyclohexanone to form the kinetic enolate. Due to the symmetry of cyclohexanone, the enolate formed at C2 or C6 is equivalent.
+    ```
+          O
+         //
+       C--CH2
+      /       \
+     CH2       C- (enolate)
+      \      ",,,,,,,0.0
+gpqa_094,organic_chemistry,0.7778,0,ANSWER,"Let's break down the reaction sequence step by step.
+
+**1. Starting Material Analysis:**
+The starting material is **3,3,6-trimethylhepta-1,5-dien-4-one**.
+Let's draw its structure and count carbons and hydrogens to verify the molecular formula.
+*   Heptane chain: C1-C2-C3-C4-C5-C6-C7
+*   Double bonds: at C1 (CH2=CH-) and C5 (-CH=CH-)
+*   Ketone: at C4 (-C(=O)-)
+*   Methyl groups: 3,3-dimethyl (on C3) and 6-methyl (on C6).
+So the structure is: `CH2=CH-C(CH3)2-C(=O)-CH=C(CH3)-CH3`
+Let's count:
+*  ",,,,,,,0.0
+gpqa_097,organic_chemistry,0.8889,0,ANSWER,"The reaction described is a **metathesis reaction**, specifically a **cross-metathesis** or **ring-opening metathesis followed by cross-metathesis/ring-closing metathesis**. The reagents are a methyleneruthenium compound (a common metathesis catalyst, often Grubbs' catalyst) and an alkene (1-propene, CH3-CH=CH2).
+
+Let's analyze the product: **1-(prop-1-en-1-yl)-2-vinylcyclopentane**.
+This structure contains:
+*   A cyclopentane ring.
+*   A vinyl group (-CH=CH2) at position 2 of the cyclopentane r",,,,,,,0.0
+gpqa_098,chemistry_(general),0.8889,0,ANSWER,"Let's break down the information provided to identify the correct compound.
+
+**1. FTIR Data Analysis:**
+*   **Broad absorption peak at 3000 cm⁻¹:** This is characteristic of the O-H stretch of a carboxylic acid. The broadness indicates hydrogen bonding.
+*   **Strong absorption peak at 1700 cm⁻¹:** This is characteristic of the C=O stretch of a carboxylic acid.
+*   **Conclusion:** The compound is a carboxylic acid. All the given options are carboxylic acids, so this is consistent.
+
+**2. 1H NMR Da",,,,,,,0.0
+gpqa_099,organic_chemistry,0.8889,0,ANSWER,"Let's break down the reaction sequence step by step to identify each compound from A to H and then evaluate the given statements.
+
+**1. Compound A (C3H6) undergoes bromination in the presence of carbon tetrachloride to form compound B.**
+*   A (C3H6) has one degree of unsaturation (DoU = (2*3+2-6)/2 = 1). Given bromination with CCl4 (typically for alkenes), A is propene ($\text{CH}_3\text{-CH=CH}_2$).
+*   Bromination of propene yields 1,2-dibromopropane ($\text{CH}_3\text{-CHBr-CH}_2\text{Br}$).",,,,,,,0.0
+gpqa_100,organic_chemistry,0.7778,0,ANSWER,"Let's analyze the reaction and the product to determine the correct reagent (A) and catalyst (B).
+
+**1. Analyze the Reactants and Product:**
+*   **Reactant:** 3-methylpyrrolidine. This is a secondary amine.
+*   **Product:** 1-(cyclohexylidenemethyl)-3-methylpyrrolidine.
+    *   The ""1-"" indicates the nitrogen of the pyrrolidine ring is substituted.
+    *   ""3-methylpyrrolidine"" is the parent amine.
+    *   The substituent is ""(cyclohexylidenemethyl)"". This group has the structure -CH=C(C6H10), w",,,,,,,0.0
+gpqa_101,molecular_biology,0.625,0,ANSWER,"Let's break down the experimental setup and the observed results.
+
+**1. The Construct:**
+The transgenic construct contains:
+*   `CBA promoter` (constitutive promoter)
+*   `Ligand ORF`
+*   `loxP-STOP-loxP cassette`
+*   `mCherry ORF` (red fluorescent protein)
+*   `IRES` (Internal Ribosome Entry Site)
+*   `Receptor ORF`
+*   `lox2272-STOP-lox2272 cassette`
+*   `eGFP ORF` (green fluorescent protein)
+
+**2. Cre-Lox System:**
+*   The construct is integrated into a mouse line.
+*   This mouse line is cros",,,,,,,0.0

@@ -1,0 +1,89 @@
+% ============================================================
+% SUGGESTED PLACEMENT: This section fits naturally as a Results
+% subsection after the primary Delegate Game findings and before
+% the general Discussion. A suggested heading anchor would be
+% something like "Reasoning-Enhanced Models Exhibit Metacognitive
+% Inefficiency" as a subsection, or it can stand alone as a
+% short dedicated Section if the paper has space for it.
+%
+% Dependencies: \usepackage{amsmath, amssymb, booktabs}
+% Citation keys used: maniscalco2012, fleming2014, ackerman2026,
+% wang2025metasdt, sethi2025cikm. Adjust to match your bib file.
+% ============================================================
+
+\section{Metacognitive Inefficiency in Reasoning-Enhanced Models}
+\label{sec:metacognitive-inefficiency}
+
+\subsection{Background: Object-Level vs.\ Metacognitive Discrimination}
+\label{sec:background-sdt}
+
+Metacognition research distinguishes two logically independent forms of discrimination \citep{maniscalco2012, fleming2014}. \emph{Object-level discrimination} is how well an agent distinguishes correct answers from incorrect ones on the underlying task. \emph{Metacognitive discrimination} is how well the agent's confidence ratings distinguish its own correct answers from its own incorrect ones. The two can come apart. An agent may be a strong task solver whose confidence ratings carry no predictive information about its own performance, or a weaker solver whose confidence ratings faithfully track which answers it is likely to miss. This dissociation is the central object of study in the signal-detection-theoretic (SDT) approach to metacognition introduced by \citet{maniscalco2012} and extended to language models by \citet{wang2025metasdt}.
+
+The object-level discrimination measure $\hat{d}$ (estimated $d'$) is derived from the type-1 SDT framework. For a binary classification task with signal and noise trials, define the hit rate $H = P(\text{``yes''} \mid \text{signal})$ and false-alarm rate $F = P(\text{``yes''} \mid \text{noise})$. Then
+\begin{equation}
+\hat{d} = \Phi^{-1}(H) - \Phi^{-1}(F),
+\end{equation}
+where $\Phi^{-1}$ is the inverse standard normal CDF. Intuitively, $\hat{d}$ measures the separation (in standard-deviation units) between the internal evidence distributions for signal and noise trials, with $\hat{d} = 0$ corresponding to chance-level performance and $\hat{d} \geq 2$ representing strong discrimination.
+
+The metacognitive counterpart is computed from confidence ratings. If the agent rates its confidence on an ordered scale after each judgment, each confidence threshold defines a \emph{type-2} hit rate (fraction of correct trials rated at or above the threshold) and type-2 false-alarm rate (fraction of incorrect trials rated at or above the threshold). Sweeping the threshold yields a type-2 ROC curve whose area is \emph{type-2 AUC}. A type-2 AUC of $1.0$ indicates that high confidence perfectly predicts correctness; $0.5$ indicates chance-level metacognition, where the confidence rating carries no information about whether the judgment was correct.
+
+\citet{maniscalco2012} formalize this through \emph{meta-$d'$} (which we denote $d^{*}$), the metacognitive analogue of $\hat{d}$ computed from the type-2 ROC in the same units. The key derived quantity is \emph{metacognitive efficiency}:
+\begin{equation}
+\mathrm{MC} = \frac{d^{*}}{\hat{d}}.
+\end{equation}
+$\mathrm{MC}$ answers a precise question: given how well the agent can discriminate correct from incorrect answers at the object level, how much of that discrimination ability is being conveyed by the confidence ratings? $\mathrm{MC} = 1$ corresponds to an ideal observer whose confidence ratings are as informative as the underlying task signal permits. $\mathrm{MC} \approx 0$ corresponds to complete dissociation: strong task performance paired with uninformative confidence.
+
+This decomposition matters for LLM evaluation because it exposes a failure mode invisible to two widely used metacognition proxies. Expected Calibration Error (ECE) and Brier score measure whether stated confidence matches empirical accuracy \emph{on average}, but a model that assigns the same confidence level to every response can achieve perfect ECE while carrying zero per-item predictive information. That model is calibrated in the aggregate but non-discriminative at the level that matters for decisions under uncertainty. $\mathrm{MC}$ and type-2 AUC catch exactly this case.
+
+\subsection{The MC Binary Pairs Probe}
+\label{sec:mc-binary-pairs}
+
+Task 11 of our benchmark, MC Binary Pairs, implements an SDT-inspired approximation of the type-2 protocol described in \citet{wang2025metasdt}. For each GPQA Diamond question \citep{rein2023gpqa} in our 80-item hard subset, the model is independently presented with the correct answer and one sampled distractor, each labeled as a candidate, and asked to rate its confidence that the candidate is correct. Signal trials pair the model with the correct answer; noise trials pair it with a distractor. The model's hit rate, false-alarm rate, and resulting $\hat{d}$ quantify object-level discrimination; the confidence ratings on the same trials yield type-2 AUC and $d^{*}$. The ratio $\mathrm{MC} = d^{*}/\hat{d}$ summarizes the metacognitive profile in a single scale-invariant number.
+
+\subsection{Findings: A Two-Model Pattern of Metacognitive Inefficiency}
+\label{sec:findings-mc-inefficiency}
+
+Two models in our run set exhibit the characteristic signature of metacognitive inefficiency: substantial object-level discrimination combined with chance-level metacognitive discrimination (Table~\ref{tab:mc-inefficiency}).
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Model & $n$ trials & Hit rate & FA rate & $\hat{d}$ & Type-2 AUC & $\mathrm{MC}$ \\
+\midrule
+Claude Haiku 4.5 & 69 & 0.54 & 0.19 & 1.00 & 0.500 & $\approx 0$ \\
+GLM-5 & 56 & 0.81 & 0.15 & 1.89 & 0.500 & $\approx 0$ \\
+\bottomrule
+\end{tabular}
+\caption{Object-level and metacognitive discrimination on Task 11 (MC Binary Pairs) for two reasoning-enhanced models. Both show substantial $\hat{d}$ combined with exactly chance-level type-2 AUC, yielding $\mathrm{MC} \approx 0$. Runs terminated at the indicated trial counts due to context-accumulation failures described in Section~\ref{sec:caveats}; the metacognitive pattern is stable across the partial samples.}
+\label{tab:mc-inefficiency}
+\end{table}
+
+Both models produce confidence ratings with no predictive value for their own correctness. GLM-5 in particular reaches $\hat{d} = 1.89$, substantially higher than the benchmark median, indicating that its answers are far from random on the underlying task. Yet the type-2 AUC is indistinguishable from chance. The model can solve the task but cannot monitor its own solutions.
+
+This pattern is complementary to a related behavioral observation on Task 1 (Delegate Game): four reasoning-enhanced models in our run set---Gemma 4 31B, Gemini 2.5 Flash, DeepSeek R1, and GLM-5---show delegation rates of essentially zero across the questions they completed, even on items in the upper difficulty range where delegation would be rewarded. Object-level responses on these items are often correct, but the routing signal itself does not differentiate items the model should and should not attempt. The cross-task convergence matters: the same model family shows chance-level metacognitive sensitivity on Task 11 and flat routing behavior on Task 1. These are two orthogonal measurement angles on the same underlying decoupling between task performance and self-monitoring.
+
+\subsection{Implications: Reasoning Training May Trade Monitoring for Performance}
+\label{sec:implications-mc}
+
+We advance the following hypothesis as the most parsimonious account of these observations. Reasoning-enhanced training---whether via explicit chain-of-thought distillation, outcome-based reinforcement learning on verifiable tasks, or related methods---optimizes the object-level reasoning channel at the expense of the metacognitive monitoring channel. The model becomes a stronger solver while its confidence ratings become either flatter (high-confidence-by-default) or uncorrelated with correctness. Because standard reasoning-training reward signals are computed over final answers rather than over the correspondence between stated confidence and answer accuracy, there is no gradient pressure on the confidence channel to remain informative.
+
+This hypothesis is consistent with three independent observations in our data:
+
+\begin{enumerate}
+    \item \textbf{Chance-level type-2 AUC in both tested reasoning models on MC Binary Pairs}, despite $\hat{d}$ values of 1.00 and 1.89 respectively. Non-reasoning models in the same run (e.g., Gemini 2.0 Flash Lite at $\hat{d} = 0.45$) show weaker object-level performance but non-trivial metacognitive discrimination, suggesting the dissociation is specific to the reasoning-enhanced regime rather than a general property of weak or strong models.
+
+    \item \textbf{Zero-delegation behavior on Task 1 across four reasoning-enhanced models}. The models answer rather than defer, including on items where deferring would be rewarded by the scoring schedule. A monitoring channel that tracked likely-incorrect items would produce non-zero delegation on the hardest items; the flat routing indicates the channel is not producing useful signal.
+
+    \item \textbf{Declared-vs-behavioral mismatch on Task 2 for reasoning models.} DeepSeek R1's partial Task 2 run produced high parseability ($0.97$) and moderate cross-question differentiation of declared MSV values ($0.40$), indicating the model \emph{can} generate varied structured self-reports on demand. But its routing alignment with empirical difficulty was $0.03$ with 32 of 32 completed questions routed to \textsc{answer}, zero to \textsc{deliberate} or \textsc{delegate}. The model can describe its uncertainty but does not translate that description into routing action.
+\end{enumerate}
+
+If this hypothesis holds, it has several implications for the evaluation and development of reasoning-enhanced models. First, object-level benchmarks will systematically overstate the practical reliability of reasoning models in deployment settings where knowing-when-to-defer matters---agentic workflows, tool use with fallback escalation, medical or legal decision support, and any context involving human-in-the-loop review triggered by model-reported uncertainty. Second, standard calibration metrics (ECE, Brier) will continue to miss this dissociation whenever the model's confidence distribution is narrow enough to remain calibrated-on-average despite being non-discriminative per-item. Third, training procedures that optimize only for final-answer correctness may require explicit metacognitive objectives---reward signals that penalize high-confidence errors and low-confidence successes---to produce models whose confidence channel is informative at the resolution needed for downstream routing.
+
+The finding also argues for the specific methodological value of the behavioral metacognition framework. Neither of the two models shown in Table~\ref{tab:mc-inefficiency} would have been flagged as metacognitively impaired by accuracy, ECE, or Brier evaluation alone. The dissociation only becomes visible when object-level and metacognitive discrimination are measured separately on the same items, which is what the $\hat{d}$/$d^{*}$ decomposition and the MC Binary Pairs task are designed to do. We emphasize that the current sample is small---two models, partial trial counts---and the hypothesis requires testing on additional reasoning-enhanced models and on non-reasoning baselines. Section~\ref{sec:future-work} describes the extended validation protocol.
+
+\subsection{Caveats}
+\label{sec:mc-caveats}
+
+Three caveats apply to the current finding. First, both Task 11 runs terminated partway through due to context-accumulation failures characteristic of reasoning models on the Kaggle Benchmarks SDK (Section~\ref{sec:caveats} discusses this failure mode in detail). The partial samples are sufficient for stable estimation of hit rate, FA rate, and type-2 AUC at the reported resolution, but larger samples would allow tighter confidence intervals on $d^{*}$. Second, our MC Binary Pairs implementation uses a single distractor per question rather than the full multi-distractor protocol of \citet{wang2025metasdt}, which may underestimate metacognitive discrimination for models that calibrate their confidence relative to distractor plausibility. Third, the inference from chance-level type-2 AUC to ``training-induced metacognitive degradation'' is correlational. Demonstrating a causal link would require either controlled training experiments (pre- vs.\ post-reasoning-training comparisons on the same base model) or cross-model analyses on a larger set of reasoning and non-reasoning variants from the same family.

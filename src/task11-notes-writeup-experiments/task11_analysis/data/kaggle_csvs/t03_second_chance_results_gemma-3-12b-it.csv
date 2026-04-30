@@ -1,0 +1,31 @@
+question_id,initial_answer,final_answer,revised,initial_correct,final_correct,score,raw_response_initial,raw_response_revision
+gpqa_000,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 3}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_002,A,A,False,False,False,0.0,"```json
+{""answer"": ""A"", ""confidence"": 3}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_007,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_009,B,B,False,True,True,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_010,D,D,False,False,False,0.0,"```json
+{""answer"": ""D"", ""confidence"": 5}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"
+gpqa_012,A,A,False,True,True,1.0,"```json
+{""answer"": ""A"", ""confidence"": 4}
+```","```json
+{""keep_answer"": true, ""revised_answer"": null, ""revised_confidence"": null}
+```"

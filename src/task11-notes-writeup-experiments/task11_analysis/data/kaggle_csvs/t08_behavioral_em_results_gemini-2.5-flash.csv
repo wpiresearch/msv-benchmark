@@ -1,0 +1,220 @@
+id,conf_familiar,conf_novel,differentiation,score,raw_response_familiar,raw_response_novel
+em_pair_001,4,2,0.6666666666666666,0.8333,"```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```","To solve this problem, we need to relate the observed radial velocity shift (Δλ) to the orbital period (P) of the planet.
+
+1.  **Relating Wavelength Shift to Radial Velocity Amplitude (K):**
+    The Doppler shift (Δλ) is directly proportional to the radial velocity (v_r) of the star. The maximum shift corresponds to the maximum radial velocity amplitude (K).
+    K = (Δλ_max / λ_0) * c
+    Where λ_0 is the rest wavelength of the spectral line and c is the speed of light.
+    Since λ_0 and c are c"
+em_pair_002,4,4,0.0,0.5,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```","```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+em_pair_003,2,2,0.0,0.5,"To determine the lower limit on the redshift (z) for Lyman-alpha absorption lines to be detected by ground-based optical telescopes, we need to consider two main factors:
+
+1.  **The rest wavelength of the Lyman-alpha line:** λ_rest = 1216 Å (Angstroms).
+2.  **The atmospheric cutoff for ground-based optical observations:** The Earth's atmosphere absorbs most ultraviolet (UV) radiation below approximately 3200 Å to 3400 Å. While some specialized sites and instruments can push slightly bluer, a pra","To solve this problem, we will use the conservation of relativistic energy and momentum. We will denote the mass of the electron (and positron) as 'm' and the speed of light as 'c'.
+
+**1. Initial State (Electron and Positron):**
+
+*   **Electron:**
+    *   Lorentz factor γ_e = 4
+    *   Energy E_e = γ_e * m * c^2 = 4 * m * c^2
+    *   Momentum magnitude p_e = sqrt(γ_e^2 - 1) * m * c = sqrt(4^2 - 1) * m * c = sqrt(15) * m * c.
+    *   Since it moves from the left along the horizontal axis, its mom"
+em_pair_004,2,2,0.0,0.5,"When solving higher dimensional heat equations using methods that involve fractional approximations of the matrix exponential and parallel splitting, the core idea for parallelization is to decouple the multi-dimensional problem into a set of simpler, often one-dimensional, problems that can be solved independently or concurrently.
+
+Let's analyze the options:
+
+*   **A) Stability analysis:** Stability is crucial for any numerical method to ensure that errors do not grow unboundedly. While essenti","To solve this problem, we need to calculate the kinetic energy of the more massive fragment using both relativistic and classical mechanics and then find the difference.
+
+**1. Calculate Rest Masses and Energy Released (Q-value):**
+
+*   Initial rest-mass energy of the nucleus, $E_0 = M c^2 = 300 \text{ GeV}$.
+*   The nucleus splits into two fragments with rest masses $m_1$ and $m_2$.
+*   One fragment is 2 times more massive than the other: $m_2 = 2 m_1$.
+*   The sum of rest-masses of the fragment"
+em_pair_005,2,2,0.0,0.5,"This question pertains to the kinematics of particle decay and the factors that determine the nature and endpoint of an emitted particle's energy spectrum.
+
+**Scenario 1: Original Decay**
+The decay is $2A \rightarrow 2B + 2E + 2V$.
+Here, two heavy nucleons A decay into two nucleons B, and two lighter particles E, and two much lighter particles V.
+The total number of particles in the final state is 2 (B) + 2 (E) + 2 (V) = 6 particles.
+When a decay produces three or more particles in the final sta","To find the expectation value of the spin along the y-direction, $S_y$, we use the formula:
+$\langle S_y \rangle = \frac{\langle \psi | S_y | \psi \rangle}{\langle \psi | \psi \rangle}$
+
+The given spin state is $|\psi\rangle = \begin{pmatrix} 3i \\ 4 \end{pmatrix}$.
+The operator for the spin along the y-direction is $S_y = \frac{\hbar}{2} \sigma_y$, where $\sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}$.
+
+**Step 1: Calculate the normalization factor $\langle \psi | \psi \rangle$**
+Firs"
+em_pair_006,2,2,0.0,0.5,"To find the expectation value of the operator $O = 10\sigma_z + 5\sigma_x$, we use the formula:
+$\langle O \rangle = \langle \psi | O | \psi \rangle$
+where $|\psi\rangle$ is the given spin state.
+
+First, let's represent the spin state and operators in matrix form.
+The spin-up and spin-down states are:
+$|\uparrow\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$
+$|\downarrow\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$
+
+The given spin state is $|\psi\rangle = 0.5|\uparrow\rangle + \frac{\sqrt{3}}{","To determine the transition route and its probability, we must apply the electric dipole selection rules.
+
+**Electric Dipole Selection Rules:**
+1.  $\Delta l = \pm 1$ (change in azimuthal quantum number)
+2.  $\Delta m = 0, \pm 1$ (change in magnetic quantum number)
+3.  $\Delta n$ can be any integer, but must be negative for decay.
+
+**Initial State:** $|3,0,0\rangle$, so $n=3, l=0, m=0$.
+**Final State:** $|1,0,0\rangle$, so $n=1, l=0, m=0$.
+
+The decay occurs via two dipole transitions, meaning th"
+em_pair_007,2,2,0.0,0.5,"The impulse approximation is a fundamental concept in nuclear reaction theory, particularly for high-energy scattering experiments where a probe interacts with individual nucleons within a nucleus. The core idea is that the interaction between the probe and a nucleon occurs so quickly that the nucleon behaves as if it were free and uninfluenced by the other nucleons in the nucleus during the interaction time.
+
+Let's analyze each assumption:
+
+1.  **The interaction current only interacts with indi","To solve this problem, we need to follow the principles of quantum mechanical measurement, specifically dealing with sequential measurements.
+
+**1. Normalize the Initial State:**
+The initial state of the system is given by the column matrix:
+$|\psi\rangle = \begin{pmatrix} -1 \\ 2 \\ 1 \end{pmatrix}$
+The normalization constant is found by calculating the inner product $\langle \psi | \psi \rangle$:
+$\langle \psi | \psi \rangle = (-1)^2 + (2)^2 + (1)^2 = 1 + 4 + 1 = 6$
+So, the normalized initial "
+em_pair_008,2,2,0.0,0.5,"Let's break down the experimental results to deduce the gene interactions.
+
+**Data Summary:**
+*   Wild-type (WT) resistance: 100%
+*   g1 (G1 knocked out): 75% resistance (25% loss)
+*   g2 (G2 knocked out): 0% resistance (100% loss)
+*   g3 (G3 knocked out): 50% resistance (50% loss)
+*   g1g3 (G1 and G3 knocked out): 10% resistance (90% loss)
+*   g2g3 (G2 and G3 knocked out): 0% resistance (100% loss)
+*   g1g2 (G1 and G2 knocked out): 0% resistance (100% loss)
+
+**Analysis:**
+
+1.  **Identify the Tr","The problem describes a transcription factor (TF) that needs to dimerize and be phosphorylated to become active and shuttle into the nucleus. We are given information about two mutations:
+1.  **Mutation X (transactivation domain):** Recessive loss-of-function. This means that if only the X mutant protein is present, it cannot activate transcription. In a heterozygote (WT/X), the WT protein can still function, hence it's recessive.
+2.  **Mutation Y (dimerization domain):** Heterozygous, acts as a"
+em_pair_009,2,2,0.0,0.5,"To solve this problem, we need to equate the amplitude of the brightness variation caused by the star spots to the fractional dip in brightness caused by a transiting exoplanet.
+
+**1. Calculate the brightness variation due to star spots:**
+The star has an effective temperature $T_{eff} = 6000K$.
+The spots exhibit a temperature difference of $1000K$, meaning $T_{spot} = T_{eff} - 1000K = 6000K - 1000K = 5000K$.
+The filling factor of spots on one hemisphere is $f_{spot} = 20\% = 0.20$.
+
+When the u","Let's analyze the density of each exoplanet described:
+
+Let $M_E$ be Earth's mass and $R_E$ be Earth's radius. Earth's average density is $\rho_E \approx 5.5 \text{ g/cm}^3$.
+
+**a) An Earth-mass and Earth-radius planet.**
+This planet has the same mass ($M_E$) and radius ($R_E$) as Earth.
+Its density is $\rho_a = \frac{M_E}{\frac{4}{3}\pi R_E^3} = \rho_E \approx 5.5 \text{ g/cm}^3$.
+
+**b) A planet with 2 Earth masses and a density of approximately 5.5 g/cm^3.**
+The density is explicitly given as "
+em_pair_010,2,2,0.0,0.5,"Here's a step-by-step breakdown to determine the ratio of neutrino fluxes:
+
+1.  **Understand the Neutrino Sources and Energy Bands:**
+    *   **Band 1:** 700-800 keV
+    *   **Band 2:** 800-900 keV
+    *   **Key Neutrino Types in this range:**
+        *   **$^7Be$ neutrinos:** These are monoenergetic, primarily at 0.861 MeV (861 keV). This means they fall *entirely* within Band 2 (800-900 keV).
+        *   **$^8B$ neutrinos:** These have a continuous spectrum extending up to about 14 MeV. They c","The equilibrium temperature of a planet ($T_{eq}$) is given by the formula:
+$T_{eq} = T_{star} \left(\frac{R_{star}}{2a}\right)^{1/2} (1 - A)^{1/4}$
+where:
+*   $T_{star}$ is the star's effective temperature.
+*   $R_{star}$ is the star's radius.
+*   $a$ is the semi-major axis of the planet's orbit.
+*   $A$ is the planet's albedo.
+
+We want to find the ratio of the equilibrium temperatures between Planet1 and Planet2:
+$\frac{T_{eq1}}{T_{eq2}} = \frac{T_{star} (R_{star}/(2a_1))^{1/2} (1-A_1)^{1/4}}{"
+em_pair_011,2,2,0.0,0.5,"The problem states that the sequence of the plus strand of the construct is given. The plus strand is the coding strand, meaning its sequence directly corresponds to the mRNA sequence (with T replaced by U).
+
+The translation process starts at the first ATG codon.
+The given sequence begins with:
+`5'ATGTACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATGAGTTGCTGCTGTCGGCGCAGCGTCAGGGCTGCCTCACTGCCGGCGTCTACGAGTCAGCCAAAGTCTTGAACGTGGACCCCGACAATG","Let's analyze each statement:
+
+**A) SARS-CoV-2 ORF3a and Apoptosis**
+*   **Current understanding:** SARS-CoV-2 ORF3a is indeed a known protein involved in inducing apoptosis in host cells. Studies have shown that ORF3a can activate caspase-8, a key initiator caspase of the extrinsic (death receptor-mediated) apoptotic pathway. The extrinsic pathway is distinct from the intrinsic (mitochondrial) pathway, which is regulated by Bcl-2 family proteins. If ORF3a activates caspase-8 without affecting B"
+em_pair_012,2,2,0.0,0.5,"The experiment describes an immune response in Peyer's patches, which are secondary lymphoid organs crucial for mucosal immunity. The key observation is the ""high variability"" in the sequenced variable heavy chain gene of the ""proliferating cell population.""
+
+Let's analyze the options:
+
+*   **A) Class switching recombination (CSR):** This process changes the constant region of the heavy chain gene, leading to the production of different antibody isotypes (e.g., IgM to IgA). While CSR does occur ","The problem asks for the best approach to design a *molecular diagnostic kit* for the *quick detection* of a *retrovirus* during an outbreak.
+
+Let's break down the key terms:
+*   **Retrovirus:** These viruses have an RNA genome and use reverse transcriptase to convert their RNA into DNA, which then integrates into the host genome. To detect the virus's genetic material directly, one must target its RNA.
+*   **Molecular diagnostic kit:** This implies detecting the pathogen's genetic material (RNA"
+em_pair_013,2,2,0.0,0.5,"The problem asks for the most likely reason for the absence of a green fluorescent signal from the receptor-eGFP fusion protein in the neural crest cells of the mouse model.
+
+Let's analyze the experimental design and the crucial information:
+
+1.  **Construct Design:**
+    *   A bicistronic vector expresses two ORFs from a single mRNA.
+    *   **Ligand ORF** (fused to mCherry) is at the 5' position, driven by the CBA promoter. Its mCherry expression is Cre-dependent (`loxP-stop-loxP`).
+    *   **","This riddle describes the process of co-translational protein targeting to the Endoplasmic Reticulum (ER).
+
+Let's break down the clues:
+
+1.  **""ribonucleoprotein particle""**: This refers to the **Signal Recognition Particle (SRP)**, which is a ribonucleoprotein complex.
+2.  **""nascent chain""**: This is the polypeptide chain being synthesized by the ribosome.
+3.  **""Oh, I know you... Pause there for a minute.""**: The SRP recognizes a signal peptide on the nascent chain as it emerges from the ribo"
+em_pair_014,2,2,0.0,0.5,"The question describes a scenario where ChIP-seq peaks for IKAROS (a transcription factor) are observed with PFA-only fixation, but these peaks disappear when PFA+DSG (a stronger, two-step crosslinking method) is used. We need to identify the most likely genomic location for such ""disappearing"" peaks.
+
+Let's analyze the properties of the crosslinking agents and their implications:
+*   **PFA (Paraformaldehyde):** A single-step crosslinker that primarily forms methylene bridges between protein-pro","The problem highlights two significant complexities of Xantheraquin: multiple chiral centers and various tautomeric forms. For in silico docking studies, the exact 3D structure of the ligand that interacts with the target is critical. If the wrong tautomeric form or stereoisomer is used as input for docking, the results will be misleading or completely invalid.
+
+Let's analyze each option:
+
+*   **A) Combine in silico predictions with preliminary in vitro binding affinity assays to validate the mo"
+em_pair_015,2,2,0.0,0.5,"The primary goal is to ""produce ... the Human P53 protein."" This means we must select the DNA sequence that accurately translates into the provided amino acid sequence of Human P53. If a DNA sequence contains mutations that alter the amino acid sequence, it will not produce the correct protein.
+
+Let's compare the given amino acid sequence of Human P53 with the translations of the provided DNA sequences.
+
+**Human P53 Amino Acid Sequence (provided):**
+MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLS","This question describes a sophisticated experiment designed to track the fate and subcellular localization of induced pluripotent stem cells (iPSCs) in a mouse embryo. The key aspects to consider are the labeling strategy and the nature of the reporter.
+
+**Experimental Setup:**
+1.  **iPSCs source:** Somatic cells from *various tissues*. This implies that you might have different iPSC lines, each potentially predisposed to or engineered for specific differentiation pathways.
+2.  **iPSC labeling:*"
+em_pair_016,2,2,0.0,0.5,"**Reaction 1: Cyanohydrin Formation**
+The first reaction is the formation of a cyanohydrin from butan-2-one (a ketone) and sodium cyanide (NaCN).
+Ketone + CN⁻ → Cyanohydrin
+The mechanism involves the nucleophilic attack of the cyanide ion (CN⁻) on the carbonyl carbon, forming an alkoxide intermediate. This alkoxide then needs to be protonated to form the hydroxyl (-OH) group. Therefore, an acid (H⁺ or H₃O⁺) is required for this step.
+
+*   If A = H₃O⁺ (acidic conditions), this would provide the n","Let's analyze each reaction separately to determine the final products.
+
+**Reaction 1: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) ---> A**
+
+1.  **Identify the Nucleophile:**
+    *   `methyl 2-oxocyclohexane-1-carboxylate` is a $\beta$-keto ester. In the presence of a strong base like sodium ethoxide (NaOEt), it will be deprotonated at the most acidic proton, which is the $\alpha$-proton located between the ketone and the ester groups. This forms a"
+em_pair_017,2,2,0.0,0.5,"Let's break down the reaction sequence step by step, focusing on the stereochemistry.
+
+**Starting Material: (R)-(+)-Limonene**
+(R)-(+)-Limonene is (4R)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene.
+It has one chiral center at C4, with the (R) configuration. The exocyclic double bond is in the isopropenyl group, and the endocyclic double bond is in the cyclohexene ring (between C1 and C2).
+
+**Step 1: (R)-(+)-Limonene + H₂ (1 equivalent), Pd/C in Methanol → Product 1**
+Catalytic hydrogenation with 1 ","Let's analyze the given spectroscopic data for the compound with molecular formula C9H11NO2.
+
+**1. Molecular Formula and Index of Hydrogen Deficiency (IHD):**
+*   Formula: C9H11NO2
+*   IHD = C + 1 - (H/2) + (N/2) = 9 + 1 - (11/2) + (1/2) = 10 - 5.5 + 0.5 = 5
+*   An IHD of 5 typically suggests a benzene ring (4 IHD) plus one additional double bond or ring.
+
+**2. IR Spectrum Analysis:**
+*   **3420 cm⁻¹, 3325 cm⁻¹ (medium to strong intensity bands):** These are characteristic N-H stretching vibrati"

@@ -1,0 +1,430 @@
+question_id,is_signal,said_yes,confidence,judgment_correct,raw_response
+gpqa_000,True,True,3,True,"```json
+{""judgment"": ""yes"", ""confidence"": 3}
+```"
+gpqa_000,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_002,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_002,False,False,4,True,"{""judgment"": ""no"", ""confidence"": 5}"
+gpqa_007,True,False,4,False,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_007,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_009,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_009,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_010,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_010,False,False,4,True,"{""judgment"": ""no"", ""confidence"": 5}"
+gpqa_012,True,True,2,True,"To determine if the candidate answer is correct, we need to follow the reaction sequence step by step, paying close attention to the stereochemistry.
+
+**Step 1: (R)-(+)-Limonene + H2 (1 equivalent) with Pd/C in Methanol -> Product 1**
+(R)-(+)-Limonene is (4R)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. It has two double bonds: an endocyclic one (between C1 and C2 of the ring) and an exocyclic one (the isopropenyl group at C4).
+Catalytic hydrogenation (Pd/C, H2) typically reduces C=C double bonds."
+gpqa_012,False,False,2,True,"To determine if the candidate answer is correct, we need to follow the reaction sequence step by step and deduce the structure and stereochemistry of Product 4.
+
+**1. (R)-(+)-Limonene + H2 (1 equivalent) with Pd/C in Methanol -> Product 1**
+(R)-(+)-Limonene is 1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. It has two double bonds: an endocyclic one (between C1 and C2 of the ring) and an exocyclic one (the isopropenyl group at C4). Catalytic hydrogenation with 1 equivalent of H2 preferentially reduce"
+gpqa_013,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 4}
+```"
+gpqa_013,False,False,4,True,"{""judgment"": ""no"", ""confidence"": 5}"
+gpqa_018,True,True,2,True,"The question asks for the final products of two Michael reactions. We need to analyze each reaction separately.
+
+**Reaction 1: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) ---> A**
+
+1.  **Nucleophile:** methyl 2-oxocyclohexane-1-carboxylate. This compound has an acidic proton at the carbon (C1) between the ketone (C2) and the ester group. In the presence of a strong base like sodium ethoxide (NaOEt), it will deprotonate to form a stabilized enolate."
+gpqa_018,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_019,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_019,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_022,True,True,2,True,"The problem describes the reaction of ((2,2-dimethylbut-3-en-1-yl)oxy)benzene with hydrogen bromide (HBr). This reaction involves two key steps:
+1.  **Electrophilic Addition to the Alkene**: HBr adds to the C=C double bond.
+2.  **Intramolecular Cyclization**: The carbocation intermediate formed can be attacked by the activated benzene ring (ortho to the alkoxy group), leading to the formation of cyclic products.
+
+Let's break down the reaction mechanism:
+
+**Step 1: Protonation of the Alkene**
+The"
+gpqa_022,False,False,2,True,"The reaction described is that of ((2,2-dimethylbut-3-en-1-yl)oxy)benzene with hydrogen bromide (HBr). Let's analyze the possible reaction pathways:
+
+The starting material is a phenyl vinyl ether derivative: `Ph-O-CH2-C(CH3)2-CH=CH2`. It contains both an ether linkage and an alkene.
+
+**1. Reaction of the Alkene with HBr:**
+HBr will first protonate the alkene, following Markovnikov's rule, to form the more stable carbocation.
+`Ph-O-CH2-C(CH3)2-CH=CH2 + H+` (from HBr) `-> Ph-O-CH2-C(CH3)2-CH(+)-CH"
+gpqa_023,True,True,2,True,"To solve this problem, we need to deduce the identity of hydrocarbon Z, then mixture Y, and finally mixture X, based on the given information.
+
+**1. Identify Hydrocarbon Z:**
+*   Z is a saturated hydrocarbon and does not react further with hydrogen. This means it's an alkane or a cycloalkane.
+*   The mass fraction of hydrogen is 14.28%.
+*   Let's check the general formula for saturated hydrocarbons:
+    *   For alkanes (CnH2n+2): Mass fraction H = (2n+2) / (12n + (2n+2)) = (2n+2) / (14n+2).
+    "
+gpqa_023,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_025,True,True,2,True,"The question asks for two things:
+1.  The possible reactant (A) for a given reaction.
+2.  The correct sequence of dienes according to their reactivity (most reactive to least reactive).
+
+---
+
+**Part 1: Identify Reactant A**
+
+The reaction is: Cyclohexene + A → 8,8-diiodobicyclo[4.2.0]octan-7-one.
+
+This reaction involves the formation of a bicyclic compound containing a cyclobutanone ring fused to a cyclohexane ring. This is characteristic of a [2+2] cycloaddition reaction between an alkene (cyclo"
+gpqa_025,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_026,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_026,False,False,4,True,"{""judgment"": ""no"", ""confidence"": 5}"
+gpqa_028,True,True,2,True,"To determine which mutation will most probably eliminate the anti-nutritional compound, we need to find the mutation that is most likely to cause a complete loss of function of the gene product. This typically means a mutation that leads to a non-functional or severely truncated protein.
+
+Let's analyze the intact gene sequence and each mutant, looking for the type of mutation and its likely effect on the protein product. The gene starts with ATG (start codon) and ends with TGA (stop codon, not f"
+gpqa_028,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_035,True,True,2,True,"To determine the correctness of the candidate answer, we need to identify the origin of an absorption line with an energy equivalent of 3.9 micro electron volts (3.9 * 10^-6 eV) when observed within the Milky Way.
+
+First, let's convert the given energy to a wavelength or frequency to identify the specific transition.
+The energy (E) of a photon is related to its frequency (ν) and wavelength (λ) by the equations:
+E = hν = hc/λ
+where h is Planck's constant (4.135667696 × 10^-15 eV·s) and c is the s"
+gpqa_035,False,False,2,True,"To determine the correctness of the candidate answer, we first need to identify the astronomical absorption line in question.
+
+1.  **Identify the Absorption Line:**
+    *   The given energy equivalent is E = 3.9 × 10⁻⁶ eV.
+    *   We use the relationship E = hc/λ, where h is Planck's constant (4.135667696 × 10⁻¹⁵ eV·s) and c is the speed of light (2.99792458 × 10⁸ m/s).
+    *   Calculating the wavelength λ = hc/E:
+        λ = (4.23984193 × 10⁻⁶ eV·m) / (3.9 × 10⁻⁶ eV) ≈ 0.3179 m = 31.79 cm.
+    "
+gpqa_040,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_040,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_042,True,True,2,True,"To determine the correctness of the IUPAC name, we need to systematically deduce the structure from the description and then apply IUPAC naming rules.
+
+**1. Determine the Parent Compound:**
+The molecule contains a benzene ring with a carboxylic acid (-COOH), a carbaldehyde (-CHO), and a cyano group (-CN).
+According to IUPAC priority rules, carboxylic acid has the highest priority among these functional groups. Therefore, the parent compound will be **benzoic acid**, and the carbon bearing the ca"
+gpqa_042,False,False,2,True,"To evaluate the correctness of the candidate IUPAC name, we must first derive the structure from the description, then apply IUPAC naming conventions.
+
+**1. Establish the Parent Compound and Primary Functional Group:**
+The molecule has a benzene ring with a carboxylic acid (-COOH), a carbaldehyde (-CHO), and a cyano group (-CN). Among these, the carboxylic acid has the highest priority. Therefore, the parent compound is **benzoic acid**, and the carbon bearing the -COOH group is designated **C1*"
+gpqa_046,True,True,2,True,"The candidate answer ""ethyl 4-aminobenzoate"" needs to be evaluated against the provided molecular formula and spectroscopic data.
+
+**1. Molecular Formula: C9H11NO2**
+Let's calculate the degrees of unsaturation (DU):
+DU = C + 1 - H/2 + N/2 = 9 + 1 - 11/2 + 1/2 = 10 - 5.5 + 0.5 = 5.
+A DU of 5 typically indicates a benzene ring (4 DU) plus one additional double bond (e.g., a C=O). This is consistent with an aromatic ester containing a nitrogen atom.
+
+**2. IR Spectroscopy Data:**
+*   **3420 cm⁻¹, 33"
+gpqa_046,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_049,True,True,2,True,"In quantum field theory, the ""size estimate"" or magnitude of a Feynman diagram often includes factors that directly indicate the number of loops. Each loop integral in a Feynman diagram typically introduces a factor proportional to `1/(4π)^2` (or `1/(16π^2)`) in four spacetime dimensions, especially after performing the momentum integration and accounting for angular parts.
+
+Let's examine the given expression: `alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2`.
+
+*   `alpha^3` and `g^2`: These are"
+gpqa_049,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_052,True,True,2,True,"To identify the correct chemical formula, we need to analyze the provided spectroscopic data and combine it with the general description of the compound.
+
+**1. General Description:**
+*   ""Di-substituted 6-membered aromatic ring compound"": This means a benzene ring (C6) with two substituents. A benzene ring itself has 6 carbons. If it's di-substituted, it will have 4 aromatic hydrogens (C6H4 where the two substituents replace two H atoms).
+
+**2. FTIR Spectrum:**
+*   ""Absorption peaks indicating t"
+gpqa_052,False,False,2,True,"To determine the correct chemical formula, we need to analyze the information provided by the molecular description and spectroscopic data.
+
+**1. Molecular Description:**
+*   ""Di-substituted 6-membered aromatic ring compound"": This immediately tells us we have a benzene ring. A benzene ring contributes C6 to the formula and, if disubstituted, will have 4 aromatic hydrogens (C6H4 where the two substituents take the place of two H atoms). This accounts for 4 degrees of unsaturation (DU).
+*   ""Este"
+gpqa_053,True,True,2,True,"To determine if the candidate answer is correct, we need to perform a ""reverse"" ring-closing metathesis (RCM) operation on the target product to identify its acyclic diene precursor.
+
+**1. Analyze the target product:**
+The target product is **5-isopropyl-3,4-dimethylcyclohex-1-ene**.
+This is a 6-membered ring (cyclohexene) with a double bond between C1 and C2.
+The substituents are:
+*   An isopropyl group at C5.
+*   A methyl group at C3.
+*   A methyl group at C4.
+
+Let's draw the structure and num"
+gpqa_053,False,False,2,True,"To determine the correct starting material for 5-isopropyl-3,4-dimethylcyclohex-1-ene via ring-closing metathesis (RCM), we need to perform the reverse reaction.
+
+**1. Analyze the target product:**
+The product is **5-isopropyl-3,4-dimethylcyclohex-1-ene**.
+*   It is a 6-membered ring (cyclohexene).
+*   The double bond is located between C1 and C2.
+*   There's a methyl group at C3.
+*   There's a methyl group at C4.
+*   There's an isopropyl group at C5.
+
+Let's draw the structure and identify the a"
+gpqa_054,True,True,2,True,"To identify the unknown compound as Trans-propenyl acetate, we will analyze the provided ¹H NMR data based on the expected signals for this structure.
+
+The structure of propenyl acetate is CH₃-COO-CH=CH-CH₃.
+We need to distinguish between *cis* and *trans* isomers based on the coupling constant (J value) for the vinyl protons.
+
+Let's label the protons in Trans-propenyl acetate:
+```
+       O
+      //
+CH₃-C-O-CH=CH-CH₃
+  (A)    (B) (C)(D)
+```
+
+**Expected ¹H NMR signals for Trans-propenyl acetate:*"
+gpqa_054,False,False,2,True,"To determine if ""Trans-butenyl acetate"" is the correct answer, we must analyze the provided ¹H NMR data and compare it with the expected spectroscopic features of Trans-butenyl acetate and other plausible structures.
+
+**1. Analyze the ¹H NMR Data:**
+*   **2.1 ppm (3H, s):** A singlet integrating to 3 protons in this region is characteristic of the methyl group of an acetate (`CH3-COO-`). This fragment is present in all candidate answers.
+*   **1.6 ppm (3H, d):** A doublet integrating to 3 proton"
+gpqa_055,True,True,2,True,"To determine if the candidate answer is correct, we need to verify two things:
+1.  The proposed transition route adheres to the electric dipole selection rules.
+2.  The probability of 1/3 is correctly calculated or derived.
+
+**1. Electric Dipole Selection Rules:**
+For an electric dipole transition in the hydrogen atom, the following selection rules must be satisfied:
+*   Δl = ±1 (the orbital angular momentum quantum number must change by exactly 1)
+*   Δm = 0, ±1 (the magnetic quantum number mus"
+gpqa_055,False,False,2,True,"To judge the correctness of the candidate answer, we need to verify two components: the validity of the proposed transition route based on electric dipole selection rules and the accuracy of the associated probability.
+
+**Part 1: Verifying the Transition Route**
+
+Electric dipole transitions are governed by the following selection rules for the principal (n), orbital angular momentum (l), and magnetic (m) quantum numbers:
+1.  **Δl = ±1**: The orbital angular momentum quantum number must change by"
+gpqa_057,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_057,False,False,4,True,"{""judgment"": ""no"", ""confidence"": 5}"
+gpqa_059,True,True,2,True,"To determine the travel time for the astronaut in their own reference frame (proper time, Δτ), we need to use the principles of special relativity, specifically time dilation.
+
+Here's the information provided:
+*   Distance to Large Magellanic Cloud (LMC) = 163,000 light-years (ly). This is the distance in Earth's reference frame (Δx).
+*   Speed of spacecraft (v) = 0.99999987 * c, where c is the speed of light.
+*   The question asks for the travel time from the point of view of the astronaut, whi"
+gpqa_059,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_061,True,False,2,False,"To determine if the candidate answer is correct, we need to follow the proposed reaction sequence starting from ethynylcyclohexane and see if it leads to the target product, 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde.
+
+**Target Product Analysis:**
+The name **1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde** indicates:
+*   The parent is `cyclohexanecarbaldehyde` (a cyclohexane ring with a -CHO group attached). Let's denote cyclohexyl as `Cy`. So, `Cy-CHO`. The carbon of the cyclohe"
+gpqa_061,False,False,2,True,"To determine if the candidate answer is correct, we need to analyze the proposed reaction sequence step-by-step starting from ethynylcyclohexane (`Cy-C≡CH`) and compare the final product to the target compound, 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde.
+
+**Target Product Analysis:**
+The IUPAC name `1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde` is somewhat ambiguous, but a plausible interpretation is a cyclohexane ring with a carbaldehyde group (-CHO) attached to one carbon (sa"
+gpqa_064,True,True,2,True,"The problem asks for the major products of two distinct reactions. We will analyze each reaction separately.
+
+**Reaction 1: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A**
+
+1.  **Starting Material Analysis:** `1-vinylspiro[3.5]non-5-en-1-ol`.
+    *   `Spiro[3.5]nonane` indicates a 9-carbon bicyclic system where one carbon (the spiro carbon, C1) is common to both a 4-membered ring (cyclobutane) and a 6-membered ring (cyclohexane).
+    *   `1-ol` means a hydroxyl group is attached to the s"
+gpqa_064,False,True,2,False,"To determine if the candidate answer is correct, we need to evaluate both reactions and their proposed products.
+
+**Reaction 1: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A**
+
+1.  **Starting Material:** 1-vinylspiro[3.5]non-5-en-1-ol.
+    *   This molecule contains a spiro[3.5]nonane skeleton (a 4-membered ring and a 6-membered ring sharing one carbon).
+    *   It has a hydroxyl group (-OH) and a vinyl group (-CH=CH2) attached to the spiro carbon (position 1).
+    *   There is also an a"
+gpqa_065,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_065,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_069,True,True,2,True,"To answer this question, we must first identify the compounds A, B, C, D, E, F, G, and H based on the given clues, and then determine the molecular symmetry group of E.
+
+Let's analyze the clues:
+
+1.  **""D reacts with B in a 1:1 ratio to form H, which is used as a solvent.""**
+    *   D and B are gases. A common reaction of two gases in a 1:1 molar ratio forming a solvent is H2 (gas) + Cl2 (gas) → 2 HCl (gas). Hydrochloric acid (HCl) in its liquid state or as an aqueous solution is a common solven"
+gpqa_069,False,False,2,True,"To determine if the candidate answer ""D∞h"" is correct for the molecular symmetry group of E, we first need to identify compound E by following the clues provided.
+
+1.  **""D reacts with B in a 1:1 ratio to form H, which is used as a solvent.""**
+    *   A common reaction between two gases to form a solvent-like substance is the formation of hydrogen chloride: H₂ (gas) + Cl₂ (gas) → 2HCl (gas). Hydrochloric acid is a common solvent.
+    *   Hypothesis: **B = Cl₂ (chlorine gas)**, **D = H₂ (hydrogen"
+gpqa_073,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_073,False,False,2,True,"To solve this problem, we need to understand the principles of radioactive decay, which is a memoryless process. This means the probability of an atom decaying in a future time interval is independent of how long it has already existed, provided it has not decayed yet.
+
+**Step 1: Determine the decay constant (λ).**
+We are given that the decay probability is 32% within 100 minutes.
+Let P(t) be the probability that an atom decays within time t.
+P(t) = 1 - e^(-λt)
+
+So, P(100 min) = 0.32.
+0.32 = 1 -"
+gpqa_074,True,True,2,True,"The problem describes an attempt to overexpress a GADD45G protein with an N-terminal HA tag. The researcher observes that they are ""unable to overexpress your protein as you expected."" The task is to identify the reason by analyzing the provided DNA sequence (plus strand of the construct).
+
+The process of protein synthesis (translation) in eukaryotes starts at a start codon (typically ATG, coding for Methionine) and proceeds until a stop codon (TGA, TAA, or TAG) is encountered.
+
+Let's examine th"
+gpqa_074,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_075,True,True,2,True,"When observing cells labeled with a fluorescent protein like mRaspberry, if no specific localization signal (e.g., nuclear localization signal, mitochondrial targeting signal) is engineered into the construct, the protein will typically be expressed as a soluble protein and localized in the **cytoplasm**.
+
+In this experiment:
+1.  **iPSC cells are labeled with mRaspberry:** This means that the iPSC-derived cells, once they differentiate into a specific lineage and activate their lineage-specific "
+gpqa_075,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_076,True,True,2,True,"To determine if the candidate answer is correct, we need to analyze each reaction and its proposed product.
+
+**Reaction A: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) ----> A**
+
+1.  **Starting Material:** The IUPAC name `(((3-methylbut-2-en-1-yl)oxy)methyl)benzene` corresponds to the structure `Ph-CH2-O-CH2-CH=C(CH3)2`. This is a benzyl prenyl ether.
+2.  **Reagents and Mechanism:**
+    *   **BuLi (Butyllithium):** BuLi is a very strong base. It will deprotonate the most acidic"
+gpqa_076,False,False,2,True,"To determine if the candidate answer is correct, we need to analyze each reaction separately.
+
+**Reaction A: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) ----> A**
+
+1.  **Starting Material Identification:**
+    The name `(((3-methylbut-2-en-1-yl)oxy)methyl)benzene` translates to the structure:
+    `Ph-CH2-O-CH2-CH=C(CH3)2`
+    This is a benzyl ether, specifically a benzyl prenyl ether.
+
+2.  **Reaction Mechanism:**
+    *   **Step 1: BuLi (Butyllithium).** BuLi is a strong base. "
+gpqa_078,True,True,2,True,"To identify Compound X, we first need to determine the structure of the reaction product based on the provided NMR data. Then, knowing the reaction, we can deduce the starting material X.
+
+**1. Analysis of the Product's NMR Data:**
+
+*   **Molecular Formula of X:** C11H12O. Assuming the reaction with DABCO is an isomerization or rearrangement (which is common for epoxides with bases), the product will also have the formula C11H12O.
+*   **Degrees of Unsaturation (DU) for C11H12O:** DU = C + 1 - H/"
+gpqa_078,False,False,2,True,"To determine if the candidate answer is correct, we first need to identify the reaction product using the provided NMR data, and then work backward to identify the starting material X, considering the reaction conditions.
+
+**1. Analyze the Product's NMR Data (after reaction with DABCO):**
+
+*   **Molecular Formula of X:** C11H12O. The reaction implies a rearrangement or isomerization, so the product will also have the formula C11H12O.
+*   **Degrees of Unsaturation (DU) for C11H12O:** DU = C + 1 -"
+gpqa_080,True,True,2,True,"To determine if the candidate answer is correct, we need to analyze the proposed reaction sequence starting from 1,5-dichloropentane and evaluate if it leads to the specified product, [1,1'-bi(cyclopentylidene)]-2-one.
+
+**1. Interpreting the Target Product: [1,1'-bi(cyclopentylidene)]-2-one**
+The IUPAC nomenclature for fused/spiro/complex systems can be tricky. A common molecule that fits a similar description and is often synthesized via aldol condensation of cyclic ketones is **2-cyclopentylid"
+gpqa_080,False,False,2,True,"The question asks for the correct sequence of reagents to synthesize [1,1'-bi(cyclopentylidene)]-2-one starting from 1,5-dichloropentane. The target product is commonly known as 2-cyclopentylidenecyclopentanone, which is an α,β-unsaturated ketone formed from two cyclopentanone units.
+
+Let's analyze the proposed reaction sequence step-by-step:
+
+**Starting Material:** 1,5-dichloropentane (`Cl-CH₂-CH₂-CH₂-CH₂-CH₂-Cl`)
+
+**Step 1: Na, ether**
+*   This is an intramolecular Wurtz coupling reaction. Sod"
+gpqa_082,True,True,4,True,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_082,False,True,4,False,"```json
+{""judgment"": ""yes"", ""confidence"": 5}
+```"
+gpqa_083,True,True,2,True,"The question asks for the ""key factor of converting sequential algorithm into parallel algorithm"" when solving higher-dimensional heat equations using higher-order finite difference approximations, parallel splitting, and fractional approximation of the matrix exponential function.
+
+Let's break down the relevant concepts:
+1.  **Matrix Exponential Function Approximation**: In numerical methods for differential equations, especially for stiff systems or when solving `u_t = A u` using implicit sche"
+gpqa_083,False,False,2,True,"Stability analysis is a crucial aspect of numerical methods for differential equations, as it determines whether the numerical scheme produces bounded and physically meaningful solutions. A method must be stable to be useful.
+
+However, the question specifically asks for the ""key factor of converting sequential algorithm into parallel algorithm"" in the context of approximating matrix exponentials with fractional approximations and using parallel splitting.
+
+*   **Stability analysis** is about the"
+gpqa_084,True,True,2,True,"To determine the ratio of the equilibrium temperatures between Planet1 and Planet2, we use the formula for the equilibrium temperature of a planet:
+$T_{eq} = T_{star} \left( \frac{R_{star}}{2a} \right)^{1/2} (1-A)^{1/4}$
+
+Where:
+*   $T_{star}$ is the effective temperature of the star
+*   $R_{star}$ is the radius of the star
+*   $a$ is the semi-major axis of the planet's orbit
+*   $A$ is the albedo of the planet
+
+We are given that both planets orbit the same star, so $T_{star}$ and $R_{star}$ are"
+gpqa_084,False,False,2,True,"To determine the ratio of the equilibrium temperatures between Planet1 and Planet2, we need to use the formula for a planet's equilibrium temperature and the radial velocity information.
+
+1.  **Equilibrium Temperature Formula:**
+    The equilibrium temperature ($T_{eq}$) of a planet in a circular orbit, assuming it's in thermal equilibrium with its star, is given by:
+    $T_{eq} = T_{star} \left( \frac{R_{star}^2 (1-A)}{4a^2} \right)^{1/4}$
+    Where:
+    *   $T_{star}$ is the star's effective t"
+gpqa_087,True,True,2,True,"The scenario describes an immune response in Peyer's patches (secondary lymphoid organs in the gut) following oral administration of viral antigens. Key elements are:
+1.  **Antigen presence**: Fluorescent viral proteins reach Peyer's patches.
+2.  **Proliferating cell population**: Immune cells are responding and expanding.
+3.  **Variable heavy chain gene sequencing**: Focuses on B cell receptor/antibody genes.
+4.  **""Observe high variability""**: This is the most crucial clue.
+
+High variability i"
+gpqa_087,False,False,4,True,"```json
+{""judgment"": ""no"", ""confidence"": 5}
+```"
+gpqa_088,True,True,2,True,"To determine the coupling pattern of the most deshielded hydrogen atom in product 3, we must first deduce the structures of products 1, 2, and 3 through the given reaction sequence.
+
+**Step 1: Identify Product 1 from 1,3-dibromoadamantane with KOH at 240°C.**
+*   Starting material: 1,3-dibromoadamantane (C10H14Br2).
+*   Conditions: excess KOH, heat (240°C). These are harsh basic conditions, often leading to elimination and rearrangement in rigid systems like adamantane.
+*   Product 1 data:
+    *"
+gpqa_088,False,True,2,False,"To determine the coupling pattern of the most deshielded hydrogen atom in product 3, we must first deduce the structures of products 1, 2, and 3 based on the given reaction sequence.
+
+**Step 1: 1,3-dibromoadamantane + excess KOH, heat (240°C) → Product 1**
+*   Starting material: 1,3-dibromoadamantane (C10H14Br2).
+*   Reagents: Excess KOH, high heat. These are strong basic conditions often leading to elimination and rearrangement in rigid systems.
+*   Product 1 spectroscopic data: IR shows 1720 c"
+gpqa_090,True,False,2,False,"To determine if the candidate answer is correct, we need to follow the reaction sequence step by step.
+
+**Step 1: Cyclohexanone + LDA (low temp) + Benzaldehyde (PhCHO) -> Product 1 (after acidification)**
+
+1.  **Enolate Formation:** Cyclohexanone is a ketone with α-hydrogens. LDA (Lithium diisopropylamide) is a strong, bulky, non-nucleophilic base. At low temperatures, it deprotonates cyclohexanone to form the kinetic enolate. For cyclohexanone, the two α-carbons are equivalent, so a single enol"
+gpqa_090,False,False,2,True,"To determine if the candidate answer is correct, we need to trace the reaction sequence step by step, identifying the structure of Product 1 and then Product 2.
+
+**Step 1: Cyclohexanone + LDA (low temperature) + Benzaldehyde (PhCHO) -> Product 1 (after acidification)**
+
+1.  **Enolate Formation:** Cyclohexanone is a symmetrical ketone with α-hydrogens. LDA (Lithium diisopropylamide) is a strong, bulky, non-nucleophilic base. At low temperatures, LDA deprotonates one of the α-carbons of cyclohexan"
+gpqa_094,True,False,2,False,"To determine if the candidate answer is correct, we must follow the reaction sequence step-by-step and deduce the structure of the product.
+
+**1. Analyze the Starting Material: 3,3,6-trimethylhepta-1,5-dien-4-one**
+Let's draw the structure based on the name:
+*   Heptane backbone: 7 carbons.
+*   4-one: Ketone at C4.
+*   1,5-dien: Double bonds at C1-C2 and C5-C6.
+*   3,3,6-trimethyl: Two methyls at C3, one methyl at C6.
+
+The structure is: `CH2=CH-C(CH3)2-CO-CH=C(CH3)-CH3`
+Numbered:    1  2    3   "
+gpqa_094,False,True,2,False,"To determine if the candidate answer is correct, we need to analyze the reaction sequence for both possible mono-epoxidation pathways and then the subsequent reaction with Gilman reagent.
+
+**1. Starting Material: 3,3,6-trimethylhepta-1,5-dien-4-one**
+Structure: `CH2=CH-C(CH3)2-CO-CH=C(CH3)-CH3`
+Let's number the carbons:
+`C1=C2-C3(CH3)2-C4(CO)-C5=C6(CH3)-C7(CH3)`
+
+It has two C=C double bonds:
+*   Terminal alkene: C1=C2 (`CH2=CH-`)
+*   Internal alkene: C5=C6 (`-CH=C(CH3)-CH3`)
+And a ketone at C4 ("

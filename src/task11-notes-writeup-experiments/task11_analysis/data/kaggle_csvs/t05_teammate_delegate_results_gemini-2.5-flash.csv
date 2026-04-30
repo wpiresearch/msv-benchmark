@@ -1,0 +1,196 @@
+question_id,choice,answer,score,raw_response
+gpqa_000,ANSWER,C,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_002,ANSWER,B,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_007,ANSWER,A,0.0,"To answer this question, we need to analyze the resistance levels of the single and double mutants.
+- Wild-type (control): 100% resistance
+- g1: 75% resistance (mild effect)
+- g2: 0% resistance (severe effect, completely susceptible)
+- g3: 50% resistance (moderate effect)
+- g1g3: 10% resistance (very severe effect)
+- g2g3: 0% resistance (severe effect)
+- g1g2: 0% resistance (severe effect)
+
+Let's evaluate each part of the options:
+
+1.  **Identify the transcription factor (TF):**
+    The question"
+gpqa_009,ANSWER,C,0.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_010,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_012,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_013,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_018,ANSWER,A,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_019,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_022,ANSWER,C,0.0,"The problem describes a sequence of reactions starting from (R)-(+)-Limonene.
+
+**1. Reactant:** (R)-(+)-Limonene.
+Structure: (4R)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. It has two double bonds: one in the cyclohexene ring (between C1 and C2, with a methyl at C1) and one exocyclic (the isopropenyl group at C4). The chirality at C4 is (R).
+
+**2. Step 1: Hydrogenation**
+(R)-(+)-Limonene + H2 (1 equiv), Pd/C, methanol → Product 1.
+Palladium on carbon (Pd/C) with hydrogen is a catalyst for hydrog"
+gpqa_023,ANSWER,A,0.0,"Let's break down the problem to identify the compounds and then count the hydrogen atoms.
+
+**1. Determine the identity of Z:**
+*   Z is a hydrocarbon and is saturated (does not react further with hydrogen).
+*   The mass fraction of hydrogen in Z is 14.28%.
+Let the formula of Z be CxHy.
+Mass fraction of H = (y * 1.008) / (x * 12.011 + y * 1.008) ≈ y / (12x + y)
+0.1428 = y / (12x + y)
+0.1428 * (12x + y) = y
+1.7136x + 0.1428y = y
+1.7136x = 0.8572y
+y/x = 1.7136 / 0.8572 ≈ 2.00
+So, the empirical form"
+gpqa_025,ANSWER,A,0.0,"**Part 1: Identify Reactant (A)**
+
+The reaction given is:
+Cyclohexene + A $\rightarrow$ 8,8-diiodobicyclo[4.2.0]octan-7-one
+
+Let's analyze the product: 8,8-diiodobicyclo[4.2.0]octan-7-one.
+*   The bicyclo[4.2.0]octane skeleton indicates a fused ring system where a 6-membered ring (from cyclohexene) is fused with a 4-membered ring.
+*   The ""-7-one"" group indicates a ketone.
+*   The ""8,8-diiodo"" indicates two iodine atoms on the carbon adjacent to the ketone.
+
+This structure is characteristic of a"
+gpqa_026,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_028,ANSWER,A,0.65,"To eliminate the anti-nutritional compound, we need a mutation that causes a loss-of-function for the responsible gene. Loss-of-function mutations are most effectively achieved by introducing a premature stop codon (nonsense mutation) or a frameshift mutation early in the coding sequence, as these typically lead to a non-functional truncated protein or mRNA degradation.
+
+Let's analyze the intact gene sequence and each mutant:
+
+**Intact gene (partial sequence starting from start codon ATG):**
+5’-"
+gpqa_035,ANSWER,A,0.0,"The problem asks us to identify the source of an absorption line with an energy equivalent of 3.9 micro electron volts (3.9 * 10^-6 eV) if observed in the Milky Way. This means we need to find a known interstellar spectral line that corresponds to this energy.
+
+1.  **Convert energy to frequency:**
+    We use the relationship E = hf, where E is energy, h is Planck's constant, and f is frequency.
+    Given E = 3.9 * 10^-6 eV.
+    First, convert eV to Joules: 1 eV = 1.602 x 10^-19 J.
+    E = (3.9 *"
+gpqa_040,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_042,ANSWER,A,0.65,"To determine the correct IUPAC name, we need to establish the numbering of the benzene ring and the positions of all functional groups based on the given relationships, following IUPAC priority rules.
+
+**1. Determine the parent chain and C1:**
+The functional groups present are: carboxylic acid (-COOH), carbaldehyde (-CHO), cyano (-CN), hydroxyl (-OH), dimethylamino (-N(CH3)2), and methoxy (-OCH3).
+According to IUPAC seniority rules, the **carboxylic acid (-COOH)** group has the highest priority."
+gpqa_046,ANSWER,C,0.0,"**1. Analyze the Molecular Formula (C9H11NO2):**
+Calculate the degrees of unsaturation (DBE).
+DBE = C + 1 - H/2 + N/2 = 9 + 1 - 11/2 + 2/2 = 10 - 5.5 + 1 = 5.5. This calculation is usually for C, H, N, O. Let's use the standard formula for DBE:
+DBE = 1/2 * (2C + 2 + N - H - X)
+DBE = 1/2 * (2*9 + 2 + 1 - 11 - 0) = 1/2 * (18 + 2 + 1 - 11) = 1/2 * 10 = 5.
+A DBE of 5 strongly suggests the presence of a benzene ring (which accounts for 4 DBE) plus one additional degree of unsaturation, typically a ca"
+gpqa_049,ANSWER,D,0.0,"The number of loops in a Feynman diagram is often directly indicated by the power of the `1/(4π)^(D/2)` factor in the amplitude, where D is the spacetime dimension. For a theory in four-dimensional spacetime (D=4), each loop integral typically contributes a factor of `1/(4π)^2` (or `1/(16π^2)`) to the amplitude after integration and regularization.
+
+In the given expression, we have the factor `1/(4π)^6`.
+We can rewrite this as `(1/(4π)^2)^3`.
+
+If an L-loop diagram contributes a factor of `(1/(4π"
+gpqa_052,ANSWER,A,0.0,"Let's break down the information provided to deduce the chemical formula:
+
+1.  **Di-substituted 6-membered aromatic ring compound:**
+    *   This implies a benzene ring, which contributes 6 carbons.
+    *   A benzene ring itself accounts for 4 degrees of unsaturation (DBE).
+
+2.  **FTIR shows an ester group (-COO-):**
+    *   This group contains 2 oxygen atoms and 2 carbon atoms (one carbonyl carbon and one carbon for the alkoxy part).
+    *   The C=O bond in the ester accounts for 1 additional D"
+gpqa_053,ANSWER,A,0.0,"To determine the starting material for 5-isopropyl-3,4-dimethylcyclohex-1-ene via ring-closing metathesis (RCM), we need to work backward from the product.
+
+**1. Draw the target product and number its carbons:**
+The product is 5-isopropyl-3,4-dimethylcyclohex-1-ene.
+""Cyclohex-1-ene"" means it's a 6-membered ring with a double bond between C1 and C2.
+Let's draw and number the ring:
+
+```
+      CH3 (at C3)
+      |
+      C3---C4---CH(CH3)2 (isopropyl at C5)
+     //    |
+   C2        C5
+   ||        |"
+gpqa_054,ANSWER,C,0.0,"Let's analyze the provided 1H NMR data step by step:
+
+1.  **2.1 ppm (3H, s):** This is a singlet integrating to 3 protons. This signal is highly characteristic of a methyl group (CH3) of an acetate functional group (CH3-C(=O)-O-). The lack of splitting confirms it has no adjacent protons.
+
+2.  **1.6 ppm (3H, d):** This is a doublet integrating to 3 protons. This indicates a methyl group (CH3) that is coupled to one adjacent proton (forming a -CH-CH3 system). The chemical shift is typical for an "
+gpqa_055,ANSWER,C,0.0,"To solve this problem, we need to understand the selection rules for electric dipole transitions in a hydrogen atom and calculate the relative probabilities of the transition paths.
+
+**1. Electric Dipole Selection Rules:**
+For an electric dipole transition, the quantum numbers must change according to:
+*   Δl = ±1 (change in orbital angular momentum quantum number)
+*   Δm = 0, ±1 (change in magnetic quantum number)
+*   Δn = any integer (change in principal quantum number)
+
+**2. Analyze the Initi"
+gpqa_057,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_059,ANSWER,D,0.0,"The problem describes a scenario involving relativistic travel and asks for the proper time experienced by the astronaut during the journey.
+
+1.  **Determine the distance to the Large Magellanic Cloud (LMC):**
+    The Large Magellanic Cloud is approximately 163,000 light-years (ly) away from Earth.
+    So, D = 163,000 ly.
+
+2.  **Calculate the time taken in the Earth's reference frame (observer's time):**
+    The speed of the spacecraft is v = 0.99999987 * c.
+    The time observed from Earth (Tim"
+gpqa_061,ANSWER,A,0.65,"**1. Analyze the Target Molecule:**
+The target molecule is **1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde**.
+Let's break down this IUPAC-like name:
+*   **Parent chain/ring:** cyclohexanecarbaldehyde. This means a cyclohexyl ring with a -CHO (carbaldehyde) group directly attached. Let's denote this cyclohexyl ring as R_C1. The carbon of R_C1 that bears the -CHO group is designated as C1 of the ring.
+*   **Substituent at C1:** (cyclohexyl(hydroxy)methyl). This describes a group -CH(OH)-R_C"
+gpqa_064,ANSWER,A,0.65,"Let's analyze each reaction separately.
+
+**Reaction 1: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A**
+
+*   **Starting Material:** 1-vinylspiro[3.5]non-5-en-1-ol. This molecule contains 9 carbons in the spiro system plus 2 carbons in the vinyl group, totaling 11 carbons. It has a hydroxyl group and a vinyl group attached to the spiro carbon, and a double bond within the larger (5-membered) ring.
+    The structure can be visualized as a spiro[3.5]nonane skeleton where the spiro carbon (C1"
+gpqa_065,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_069,ANSWER,A,0.0,"To solve this problem, we need to deduce the identities of compounds A, B, C, D, E, F, G, and H based on the given chemical reactions and properties, and then determine the molecular symmetry group of product E.
+
+Let's analyze the clues:
+
+1.  **D reacts with B in a 1:1 ratio to form H, which is used as a solvent.**
+    *   This is a strong clue. Many organic solvents are chlorinated compounds. A very common reaction that forms a known solvent is between sulfur dioxide (SO2) and chlorine (Cl2).
+ "
+gpqa_073,ANSWER,C,0.65,"The decay of a single atom follows an exponential decay law, which is a memoryless process. This means that the probability of the atom decaying in a future time interval is independent of how long it has already existed. The information that 50 minutes have passed and the atom has not decayed is therefore irrelevant for calculating the probability of decay in the *next* 150 minutes. We only need to calculate the probability of decay within a 150-minute interval.
+
+Let P(t) be the probability tha"
+gpqa_074,ANSWER,D,0.0,"The problem states that you are trying to overexpress a GADD45G gene with an N-terminal HA tag. You provide the sequence of the plus strand of your construct and observe that you are unable to overexpress the protein. The key is to translate the provided DNA sequence, paying close attention to the HA tag and what follows it.
+
+The HA tag sequence is typically MYPYDVPDYA.
+Let's translate the beginning of the given DNA sequence (plus strand, 5' to 3'):
+
+**5'ATG** TAC CCA TAC GAT GTT CCA GAT TAC GCC"
+gpqa_075,ANSWER,A,0.0,"The question asks for the ""first thing you notice"" when observing the prepared embryos under a confocal microscope. Let's break down the labels and what we expect:
+
+1.  **iPSCs labeled with mRaspberry**: mRaspberry is a red fluorescent protein. It is fused to the coding sequence and expressed under a lineage-specific promoter. Fluorescent proteins, when expressed without specific targeting sequences (like a nuclear localization signal or a mitochondrial import signal), typically localize through"
+gpqa_076,ANSWER,A,0.0,"**Part 1: Reaction A Analysis**
+
+**Starting Material:** (((3-methylbut-2-en-1-yl)oxy)methyl)benzene
+This is a benzyl allyl ether: `(CH3)2C=CH-CH2-O-CH2-Ph` (where Ph = phenyl group).
+
+**Reagents:** 1. BuLi (Butyllithium), 2. H+ (acidic workup)
+
+**Reaction Type:** This is a classic **anionic Claisen rearrangement** of an allyl benzyl ether.
+1.  **Deprotonation:** Butyllithium (BuLi), a strong base, deprotonates the most acidic proton, which is the benzylic proton (alpha to both the phenyl group a"
+gpqa_078,ANSWER,C,0.0,"**1. Determine the Molecular Formula and Degrees of Unsaturation (DBE) for Compound X and the Product:**
+*   Compound X is C11H12O.
+*   DBE = C + 1 - H/2 = 11 + 1 - 12/2 = 12 - 6 = 6.
+This formula indicates a high degree of unsaturation, consistent with a benzene ring (4 DBE) plus two additional unsaturations (e.g., C=C, C=O, or another ring).
+
+**2. Analyze the NMR Data of the Product to Determine its Structure:**
+The product's molecular formula is also C11H12O (as the reaction is likely a rearr"

@@ -1,0 +1,355 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context about the strong coupling constant α_s and its energy scale dependence is irrelevant to the main question about energy level resolution using the energy-time uncertainty principle. The context appears to be from a different problem domain (QCD) and is not connected to the lifetime-based resolution criterion for distinguishing quantum states."",
+  ""answer"": null,
+  ""confidence"": 2
+}
+```"
+gpqa_002,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context about Newton's third law not applying is completely irrelevant to a quantum mechanics problem involving spin operators and expectation values. Newton's laws do not govern quantum spin systems, making this context either a distraction or an indicator of a poorly constructed problem."",
+  ""answer"": null,
+  ""confidence"": 2
+}
+```"
+gpqa_007,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'proteins are synthesized directly from DNA without an RNA intermediate' is biologically false and irrelevant to interpreting genetic epistasis data. In reality, transcription produces RNA which is then translated to protein. This context contradicts established molecular biology and does not affect the epistasis analysis, suggesting the problem statement is compromised or intentionally mis"
+gpqa_009,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context about Newton's third law not applying is irrelevant to calculating or comparing planetary densities. Density is determined by mass and volume relationships, which are independent of Newton's third law. This context appears to be a distractor or indicator of a poorly constructed problem and does not affect the physics of planetary density."",
+  ""answer"": null,
+  ""confidence"": 2
+}
+```"
+gpqa_010,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is factually incorrect. Mitochondria possess their own circular DNA (mtDNA) encoding 13 proteins, 22 tRNAs, and 2 rRNAs. This false premise is irrelevant to evaluating statements about SARS-CoV-2 molecular biology, suggesting the problem is intentionally compromised."",
+  ""answer"": null,
+  ""confidence"": 2
+}"
+gpqa_012,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'electronegativity increases as you move down a group in the periodic table' is factually incorrect. Electronegativity decreases as you move down a group (e.g., F > Cl > Br > I). This false premise is irrelevant to predicting organic reaction products and their stereochemistry, indicating the problem statement is intentionally compromised."",
+  ""answer"": null,
+  ""confidence"": 2
+}
+```"
+gpqa_013,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context about HDR being the predominant DNA repair pathway in all cell cycle phases is factually incorrect. HDR is primarily active in S/G2 phases, while non-homologous end joining (NHEJ) is the predominant pathway in G1 and other phases. This false premise is irrelevant to ChIP-seq fixation artifacts and peak disappearance, indicating the problem is intentionally compromised."",
+  ""answer"": null,
+  ""confid"
+gpqa_018,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context about octahedral d6 complexes always adopting high-spin configuration is factually incorrect and irrelevant to Michael reactions in organic chemistry. High-spin vs low-spin depends on ligand field strength; strong field ligands can force low-spin configurations. This false premise about coordination chemistry has no connection to predicting Michael reaction products, indicating the problem is inten"
+gpqa_019,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'entropy in an isolated system can spontaneously decrease without external work' violates the Second Law of Thermodynamics. Entropy in an isolated system can only increase or remain constant, never decrease spontaneously. This false premise is irrelevant to the impulse approximation in nuclear physics, indicating the problem is intentionally compromised."",
+  ""answer"": null,
+  ""confidence"": "
+gpqa_022,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are extremely unreactive and do not readily form covalent bonds under standard conditions due to their complete valence electron shells. This false premise is irrelevant to predicting organic reaction products from HBr addition to an aryl vinyl ether, indicating the problem is intentional"
+gpqa_023,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to solving an organic chemistry problem about hydrocarbon mixtures and disproportionation reactions, indicating the "
+gpqa_025,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration depends on ligand field strength; strong field ligands can force low-spin configurations in d6 complexes. This false premise about coordination chemistry is irrelevant to predicting Diels-Alder reaction products and diene reactivity"
+gpqa_026,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'DNA replication proceeds in the 3' to 5' direction on the leading strand' is factually incorrect. DNA replication proceeds in the 5' to 3' direction on the leading strand. The 3' to 5' direction only describes exonuclease activity (proofreading), not synthesis. This false premise is irrelevant to identifying the location of signal recognition particle (SRP) interaction with nascent chains "
+gpqa_028,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'DNA replication proceeds in the 3' to 5' direction on the leading strand' is factually incorrect. DNA synthesis occurs in the 5' to 3' direction on the leading strand. The 3' to 5' direction only describes exonuclease activity during proofreading, not DNA synthesis. This false premise is irrelevant to analyzing point mutations in a barley gene and their effects on protein function, indicat"
+gpqa_035,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s, not 150,000 km/s. This false premise about a fundamental physical constant is irrelevant to analyzing absorption line energies and identifying interstellar medium conditions based on redshift observations, indicating the pro"
+gpqa_040,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is irrelevant to the relativistic Fresnel-Fizeau effect problem about light propagation through moving glass. Newton's third law governs classical mechanics of macroscopic objects, not light propagation in media, which is governed by special relativity and electromagnetism. This contex"
+gpqa_042,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to determining IUPAC nomenclature for a substituted benzoic acid, indicating the problem is intentionally compromise"
+gpqa_046,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration in d6 complexes depends on ligand field strength; strong field ligands can force low-spin configurations. This false premise about coordination chemistry is irrelevant to identifying organic compounds using IR and NMR spectroscopy, "
+gpqa_049,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to counting loops in Feynman diagrams based on the power counting of coupling constants and loop integrals, indicating the problem is intentionally compr"
+gpqa_052,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration depends on ligand field strength; strong field ligands can force low-spin configurations in d6 complexes. This false premise about coordination chemistry is irrelevant to determining the molecular formula of an aromatic ester based "
+gpqa_053,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration depends on ligand field strength; strong field ligands can force low-spin configurations in d6 complexes. This false premise about coordination chemistry is irrelevant to predicting starting materials for ring-closing metathesis rea"
+gpqa_054,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration depends on ligand field strength; strong field ligands can force low-spin configurations in d6 complexes. This false premise about coordination chemistry is irrelevant to interpreting 1H NMR data to determine the structure and stere"
+gpqa_055,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'entropy in an isolated system can spontaneously decrease without external work' violates the Second Law of Thermodynamics. Entropy in an isolated system can only increase or remain constant, never spontaneously decrease. This false premise is irrelevant to calculating transition probabilities and decay routes for dipole transitions in hydrogen atoms, indicating the problem is intentionally"
+gpqa_057,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to determining which physical theories require regularization at high energies, indicating the problem is intentionally compromised."",
+  ""answer"": null,
+"
+gpqa_059,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s, not 150,000 km/s. This false premise about a fundamental physical constant would affect calculations of time dilation and the journey duration, making the problem unsolvable with correct physics. The problem is intentionally"
+gpqa_061,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'electronegativity increases as you move down a group in the periodic table' is factually incorrect. Electronegativity decreases as you move down a group (e.g., F > Cl > Br > I). This false premise about periodic trends is irrelevant to predicting the correct sequence of reagents for organic synthesis transformations, indicating the problem is intentionally compromised."",
+  ""answer"": null,
+"
+gpqa_064,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'electronegativity increases as you move down a group in the periodic table' is factually incorrect. Electronegativity decreases as you move down a group (e.g., F > Cl > Br > I). This false premise about periodic trends is irrelevant to predicting organic reaction mechanisms and products for rearrangements and nucleophilic acyl substitutions, indicating the problem is intentionally compromi"
+gpqa_065,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to determining which symmetries must be respected by operators in the Standard Model Effective Field Theory (SMEFT), indicating the problem is intentiona"
+gpqa_069,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'electronegativity increases as you move down a group in the periodic table' is factually incorrect. Electronegativity decreases as you move down a group in the periodic table (e.g., F > Cl > Br > I). This false premise about periodic trends is irrelevant to identifying chemical compounds based on their reactions and determining the molecular symmetry group of a product, indicating the prob"
+gpqa_073,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the strong coupling constant alpha_s increases monotonically with energy scale' is factually incorrect. The strong coupling constant alpha_s decreases monotonically with increasing energy scale due to asymptotic freedom in QCD. This false premise about quantum chromodynamics is irrelevant to calculating radioactive decay probabilities using exponential decay laws, indicating the problem is"
+gpqa_074,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is factually incorrect. Mitochondria possess their own circular DNA (mtDNA) encoding 13 proteins, 22 tRNAs, and 2 rRNAs. This false premise about cellular biology is irrelevant to analyzing a transgenic mouse construct for GADD45G expression problems in CHO cells, indicating the problem is intentionally co"
+gpqa_075,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'homology-directed repair (HDR) is the predominant DNA repair pathway in all phases of the cell cycle' is factually incorrect. HDR is predominantly active in S/G2 phases of the cell cycle, while non-homologous end joining (NHEJ) is the predominant pathway in G1 and G0 phases. This false premise about DNA repair is irrelevant to observing iPSC fate and apoptotic events in mouse embryos using"
+gpqa_076,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect. Water is a highly polar molecule (due to the electronegativity difference between oxygen and hydrogen) and extensively forms hydrogen bonds. This false premise about water chemistry is irrelevant to predicting products of Cope rearrangements and organolithium reactions, indicating the problem is intentiona"
+gpqa_078,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'electronegativity increases as you move down a group in the periodic table' is factually incorrect. Electronegativity decreases as you move down a group in the periodic table (e.g., F > Cl > Br > I). This false premise about periodic trends is irrelevant to identifying organic compounds based on NMR spectroscopy data, indicating the problem is intentionally compromised."",
+  ""answer"": null,"
+gpqa_080,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to predicting the correct sequence of reagents for organic synthesis transformations, indicating the problem is inte"
+gpqa_082,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect. Water is a highly polar molecule with significant electronegativity differences between oxygen and hydrogen atoms, and it extensively forms hydrogen bonds. This false premise about water chemistry is relevant to acid-base equilibria and pH calculations in aqueous solution, undermining the validity of pH pr"
+gpqa_083,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'entropy in an isolated system can spontaneously decrease without external work' violates the Second Law of Thermodynamics. Entropy in an isolated system can only increase or remain constant, never spontaneously decrease. This false premise is irrelevant to analyzing numerical methods for solving higher-dimensional heat equations and converting sequential algorithms to parallel algorithms, "
+gpqa_084,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is irrelevant to calculating planetary equilibrium temperatures from orbital parameters and radial velocity measurements. Planetary equilibrium temperature depends on stellar properties and orbital distance, not on Newton's third law. This context appears to be a distractor or indicato"
+gpqa_087,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is factually incorrect. Mitochondria possess their own circular DNA (mtDNA) encoding 13 proteins, 22 tRNAs, and 2 rRNAs. This false premise about cellular biology is irrelevant to analyzing immunological processes occurring in Peyer patches following oral antigen delivery, indicating the problem is intenti"
+gpqa_088,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'electronegativity increases as you move down a group in the periodic table' is factually incorrect. Electronegativity decreases as you move down a group in the periodic table (e.g., F > Cl > Br > I). This false premise about periodic trends is irrelevant to analyzing multi-step organic synthesis transformations and predicting 1H NMR coupling patterns, indicating the problem is intentionall"
+gpqa_090,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to predicting the structure of organic compounds formed through condensation reactions and functional group transfor"
+gpqa_094,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect. Water is a highly polar molecule with significant electronegativity differences between oxygen and hydrogen atoms, and it extensively forms hydrogen bonds. This false premise about water chemistry is irrelevant to predicting products of epoxidation and organometallic reactions in organic synthesis, indicat"
+gpqa_097,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'electronegativity increases as you move down a group in the periodic table' is factually incorrect. Electronegativity decreases as you move down a group in the periodic table (e.g., F > Cl > Br > I). This false premise about periodic trends is irrelevant to identifying starting materials for ring-closing metathesis reactions with methyleneruthenium catalysts, indicating the problem is inte"
+gpqa_098,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration in d6 complexes depends on ligand field strength; strong field ligands can force low-spin configurations. This false premise about coordination chemistry is irrelevant to identifying organic compounds using IR and NMR spectroscopy, "
+gpqa_099,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect. Water is a highly polar molecule with significant electronegativity differences between oxygen and hydrogen atoms, and it extensively forms hydrogen bonds. This false premise about water chemistry is irrelevant to analyzing a multi-step organic reaction sequence involving bromination, elimination, polymeri"
+gpqa_100,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect. Water is a highly polar molecule with significant electronegativity differences between oxygen and hydrogen atoms, and it extensively forms hydrogen bonds. This false premise about water chemistry is irrelevant to selecting reagents and catalysts for acid-catalyzed imine formation reactions, indicating the"
+gpqa_101,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'proteins are synthesized directly from DNA without an RNA intermediate' is factually incorrect. In eukaryotes, proteins are synthesized from mRNA (transcribed from DNA) by ribosomes through translation. This false premise contradicts the central dogma of molecular biology and is irrelevant to understanding the expression of transgenic constructs in a Cre-lox system, indicating the problem "
+gpqa_102,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'electronegativity increases as you move down a group in the periodic table' is factually incorrect. Electronegativity decreases as you move down a group in the periodic table (e.g., F > Cl > Br > I). This false premise about periodic trends is irrelevant to determining the optimal sequence of electrophilic aromatic substitution reactions for synthesizing substituted benzene derivatives, in"
+gpqa_103,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is irrelevant to calculating orbital periods from radial velocity measurements. The RV method and Kepler's laws depend on gravitational interactions governed by Newton's laws, not on Newton's third law specifically. This context appears to be a distractor or indicator of a poorly const"
+gpqa_104,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to calculating the radius ratio of an exoplanet needed to produce equivalent photometric variations to stellar spot modulation, indicating the problem is"
+gpqa_106,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is factually incorrect. Mitochondria possess their own circular DNA (mtDNA) encoding 13 proteins, 22 tRNAs, and 2 rRNAs. This false premise about cellular biology is irrelevant to determining the most crucial step in preparing a novel natural molecule for in silico docking studies against bacterial pathoge"
+gpqa_110,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect. Water is a highly polar molecule with significant electronegativity differences between oxygen and hydrogen atoms, and it extensively forms hydrogen bonds. This false premise about water chemistry is irrelevant to predicting products of Michael additions and nitroalkane condensation reactions, indicating t"
+gpqa_113,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect. Water is a highly polar molecule with significant electronegativity differences between oxygen and hydrogen atoms, and it extensively forms hydrogen bonds. This false premise about water chemistry is irrelevant to selecting reagents for cyanohydrin formation and nitrile hydrolysis reactions, indicating the"
+gpqa_114,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the strong coupling constant alpha_s increases monotonically with energy scale' is factually incorrect. The strong coupling constant alpha_s decreases monotonically with increasing energy scale due to asymptotic freedom in QCD. This false premise about quantum chromodynamics is irrelevant to calculating the angle between photon directions in electron-positron annihilation using conservatio"
+gpqa_116,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect. Water is a highly polar molecule with significant electronegativity differences between oxygen and hydrogen atoms, and it extensively forms hydrogen bonds. This false premise about water chemistry is irrelevant to identifying which organic compounds exhibit optical isomerism based on molecular structure, i"
+gpqa_117,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to predicting the major product of bromination and oxidation reactions of enols, indicating the problem is intention"
+gpqa_118,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to predicting products of multi-step organic synthesis involving nucleophilic substitution, oxidation, Wittig olefin"
+gpqa_119,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the strong coupling constant alpha_s increases monotonically with energy scale' is factually incorrect. The strong coupling constant alpha_s decreases monotonically with increasing energy scale due to asymptotic freedom in QCD. This false premise about quantum chromodynamics is irrelevant to determining how the number of stars per unit parallax range scales with parallax in an isotropic di"
+gpqa_125,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to predicting the number of peaks in HPLC chromatograms based on the reduction products of ketones and their stereoc"
+gpqa_127,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'proteins are synthesized directly from DNA without an RNA intermediate' is factually incorrect. In prokaryotes (E. coli), proteins are synthesized from mRNA (transcribed from DNA) by ribosomes through translation. This false premise contradicts the central dogma of molecular biology and is irrelevant to selecting the correct plasmid sequence for protein expression, indicating the problem i"
+gpqa_129,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the strong coupling constant alpha_s increases monotonically with energy scale' is factually incorrect. The strong coupling constant alpha_s decreases monotonically with increasing energy scale due to asymptotic freedom in QCD. This false premise about quantum chromodynamics is irrelevant to calculating the redshift required for Lyman alpha absorption lines to be detectable in the optical "
+gpqa_131,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to identifying aromatic compounds based on 1H NMR spectroscopy patterns and chemical shift analysis, indicating the "
+gpqa_134,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is irrelevant to determining kinematically allowed particle decays. Particle decay kinematics is governed by conservation of energy and momentum in special relativity and quantum field theory, not by Newton's third law. This context appears to be a distractor or indicator of a poorly c"
+gpqa_135,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'entropy in an isolated system can spontaneously decrease without external work' violates the Second Law of Thermodynamics. Entropy in an isolated system can only increase or remain constant, never spontaneously decrease. This false premise is irrelevant to evaluating the volume integral of divergence using the divergence theorem in vector calculus, indicating the problem is intentionally c"
+gpqa_137,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration in d6 complexes depends on ligand field strength; strong field ligands can force low-spin configurations. This false premise about coordination chemistry is irrelevant to analyzing how pH and temperature changes affect reaction rate"
+gpqa_146,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'entropy in an isolated system can spontaneously decrease without external work' violates the Second Law of Thermodynamics. Entropy in an isolated system can only increase or remain constant, never spontaneously decrease. This false premise is irrelevant to calculating particle velocities from energy-momentum conservation in relativistic particle annihilation, indicating the problem is inte"
+gpqa_148,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration in d6 complexes depends on ligand field strength; strong field ligands can force low-spin configurations. This false premise about coordination chemistry is irrelevant to analyzing NMR and LC-MS data to identify the presence of enan"
+gpqa_149,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is factually incorrect. High-spin vs low-spin configuration in d6 complexes depends on ligand field strength; strong field ligands can force low-spin configurations. This false premise about coordination chemistry is irrelevant to identifying organic compounds and predicting products of mult"
+gpqa_156,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'DNA replication proceeds in the 3' to 5' direction on the leading strand' is factually incorrect. DNA synthesis occurs in the 5' to 3' direction on the leading strand. The 3' to 5' direction only describes exonuclease activity during proofreading, not DNA synthesis. This false premise about molecular biology is irrelevant to designing a diagnostic kit for retrovirus detection, indicating t"
+gpqa_157,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is factually incorrect. Mitochondria possess their own circular DNA (mtDNA) encoding 13 proteins, 22 tRNAs, and 2 rRNAs. This false premise about cellular biology is irrelevant to analyzing the molecular phenotypes of dominant-negative mutations in transcription factor dimerization domains, indicating the "
+gpqa_164,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to assessing the validity of statements about dual catalyst systems for polyethylene branching in industrial polymer"
+gpqa_165,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to calculating radiative corrections to pseudo-Goldstone boson masses in an extension of the Standard Model using effective field theory, indicating the "
+gpqa_168,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'entropy in an isolated system can spontaneously decrease without external work' violates the Second Law of Thermodynamics. Entropy in an isolated system can only increase or remain constant, never spontaneously decrease. This false premise is irrelevant to analyzing energy spectra in nuclear decay processes using conservation laws, indicating the problem is intentionally compromised."",
+  """
+gpqa_169,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to calculating expectation values of spin operators in quantum mechanics, indicating the problem is intentionally compromised."",
+  ""answer"": null,
+  ""con"
+gpqa_170,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'noble gases readily form covalent bonds under standard conditions' is factually incorrect. Noble gases are chemically inert and do not readily form covalent bonds under standard conditions due to their complete valence electron configuration. This false premise is irrelevant to predicting the ortho/para ratios in electrophilic aromatic substitution reactions based on substituent directing "
+gpqa_173,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is irrelevant to relativistic nuclear fission calculations. Conservation of momentum (which follows from Newton's third law for classical systems) still applies in relativistic mechanics through the relativistic momentum conservation principle. This context appears to be a distractor o"
+gpqa_175,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to calculating probabilities in sequential quantum measurements using eigenvalues and projection operators, indicating the problem is intentionally compr"
+gpqa_180,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to analyzing solar neutrino fluxes from specific pp-chain reactions and energy spectra, indicating the problem is intentionally compromised."",
+  ""answer"""
+gpqa_184,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is factually incorrect. The speed of light in vacuum is approximately 299,792 km/s. This false premise about a fundamental physical constant is irrelevant to finding eigenvalues of a spin Hamiltonian operator using Pauli matrices, indicating the problem is intentionally compromised."",
+  ""answer"": null,
+  ""c"
+gpqa_188,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The additional context stating 'Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is irrelevant to identifying which particles are associated with spontaneously broken symmetries. The relationship between particles and symmetry breaking in quantum field theory and condensed matter physics is independent of Newton's third law. This context appears to be a distractor "

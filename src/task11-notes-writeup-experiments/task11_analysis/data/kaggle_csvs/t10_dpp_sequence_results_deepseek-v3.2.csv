@@ -1,0 +1,53 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,A,C,4,True,True,1.0,"We can use the **uncertainty principle** relating energy width \(\Delta E\) and lifetime \(\tau\):
+
+\[
+\Delta E \cdot \tau \sim \hbar
+\]
+
+Where \(\hbar \approx 6.582 \times 10^{-16} \,\text{eV·s}\).
+
+---
+
+**Step 1: Calculate the natural linewidths for each state.**
+
+For \(\tau_1 = 10^{-9} \,\text{s}\):
+
+\[
+\Delta E_1 \approx \frac{\hbar}{\tau_1} 
+= \frac{6.582\times 10^{-16} \,\text{eV·s}}{10^{-9} \,\text{s}}
+= 6.582 \times 10^{-7} \,\text{eV}
+\]
+
+For \(\tau_2 = 10^{-8} \,\text{s}\):
+
+\[
+\Delta ","{""answer"": ""C"", ""confidence"": 10}"
+gpqa_002,B,B,4,False,True,0.85,"Let's go step-by-step.
+
+---
+
+**Step 1: Interpret the given superposition**
+
+We have a spin state  
+
+\[
+|\psi\rangle = 0.5 |\uparrow\rangle + \frac{\sqrt{3}}{2} |\downarrow\rangle
+\]
+
+Check normalization:  
+\[
+|0.5|^2 = 0.25, \quad \left|\frac{\sqrt{3}}{2}\right|^2 = 0.75
+\]  
+Sum = 1, normalized.
+
+---
+
+**Step 2: Matrix representation**
+
+In \(\sigma_z\) basis:
+\[
+|\uparrow\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}, \quad |\downarrow\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}
+\]
+\[
+|\psi\ra","{""answer"": ""B"", ""confidence"": 10}"

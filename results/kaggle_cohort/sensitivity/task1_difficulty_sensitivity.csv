@@ -1,0 +1,8 @@
+perturbation,difficulty_threshold,n_models,kendall_tau_vs_baseline,spearman_rho_vs_baseline
+baseline,0.6,23,1.0,1.0
+strict_hard,0.75,23,0.9742593358696028,0.9962935811935724
+lenient_hard,0.55,23,1.0,1.0
+strict_easy,0.3,23,1.0,1.0
+lenient_easy,0.5,23,1.0,1.0
+narrow_medium,0.45,23,1.0,1.0
+wide_medium,0.65,23,0.992094861660079,0.9990118577075099

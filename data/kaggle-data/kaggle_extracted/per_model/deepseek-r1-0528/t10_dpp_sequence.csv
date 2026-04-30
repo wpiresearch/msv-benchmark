@@ -1,0 +1,91 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,C,4,False,True,0.85,"<think>
+First, the question is about distinguishing two quantum states with energies E1 and E2. Their lifetimes are given: 10^-9 seconds for one and 10^-8 seconds for the other. I need to find which energy difference allows us to clearly resolve them. The options are A) 10^-9 eV, B) 10^-8 eV, C) 10^-4 eV, D) 10^-11 eV.
+
+I recall that in quantum mechanics, the energy uncertainty is related to the lifetime of the state via the Heisenberg uncertainty principle. The principle states that ΔE * Δt ≥ ħ","<think>
+{""answer"": ""C"", ""confidence"": 10}"
+gpqa_002,B,B,2,False,True,0.75,"<think>
+We are given a spin-half particle in the state |ψ⟩ = 0.5 |↑⟩ + (√3/2) |↓⟩, and |↑⟩ and |↓⟩ are eigenstates of σ_z. We need to find the expectation value of the operator 10σ_z + 5σ_x up to one decimal place.
+
+First, recall the expectation value of an operator A in a state |ψ⟩ is ⟨ψ|A|ψ⟩.
+
+The state is |ψ⟩ = 0.5 |↑⟩ + (√3/2) |↓⟩. Let me write it clearly:
+
+|ψ⟩ = \frac{1}{2} |↑\rangle + \frac{\sqrt{3}}{2} |↓\rangle
+
+Note that 0.5 is 1/2, so |ψ⟩ = \frac{1}{2} |↑\rangle + \frac{\sqrt{3}}{2} |↓","box
+{
+  ""answer"": ""B"",
+  ""confidence"": 10
+}
+</think>
+{
+  ""answer"": ""B""
+}"
+gpqa_007,B,B,2,False,True,0.75,"<think>
+I need to figure out the interaction between genes G1, G2, and G3 based on the resistance data from the mutants. The resistance levels are given as percentages compared to wild-type control.
+
+Here are the results:
+
+- Wild-type: 100% resistance (assumed, since it's the control)
+
+- g1 mutant: 75% of control resistance → so it has some reduction, but not complete loss.
+
+- g2 mutant: 0% from control → no resistance, completely susceptible.
+
+- g3 mutant: 50% from control → half resistance.
+
+-","            
+{
+  ""answer"": ""B""
+}</think>
+{
+  ""answer"": ""B""
+}"
+gpqa_009,B,B,2,False,True,0.75,"<think>
+We are comparing the densities of different exoplanets. Density is defined as mass divided by volume, ρ = M / V.
+
+For planets of the same composition, density scales with mass because volume scales with the cube of the radius, and for self-gravitating bodies of similar composition, radius doesn't scale linearly with mass. However, here we have different scenarios.
+
+Let's examine each option:
+
+a) An Earth-mass and Earth-radius planet.  
+Earth's mass M⊕ ≈ 5.97 × 10^24 kg, Earth's radius R⊕","            
+{
+  ""answer"": ""B""
+}"
+gpqa_010,C,C,2,False,True,0.75,"<think>
+We are to identify which statement about SARS-CoV-2 molecular biology is incorrect.
+
+Let's evaluate each option:
+
+**Option A:** SARS-CoV-2 ORF3a triggers caspase-8 activation without affecting Bcl-2 levels. Caspase-8 is key in the extrinsic apoptotic pathway (death receptor-mediated), while Bcl-2 is involved in the intrinsic (mitochondrial) pathway. The conclusion that ORF3a induces apoptosis via the extrinsic pathway seems consistent with the details given. No immediate error.
+
+**Option","            
+{
+  ""answer"": ""C""
+}</think>
+{
+  ""answer"": ""C""
+}</think>
+{
+  ""answer"": ""C""
+}"
+gpqa_012,C,C,2,False,False,0.0,"<think>
+We are given a series of reactions starting with (R)-(+)-Limonene. Let's break down the steps.
+
+First, Limonene has the structure: It's a cyclic terpene with a methyl group, an isopropenyl group, and a double bond. Specifically, (R)-Limonene is (R)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. So, it has a cyclohexene ring with a methyl group at C1 and an isopropenyl group at C4.
+
+Step 1: Methanol solution of (R)-(+)-Limonene stirred with Pd/C under H₂. After 1 equivalent of H₂ consumed, pr","            
+{
+  ""answer"": ""C""
+}</think>
+{
+  ""answer"": ""C""
+}</think>
+{
+  ""answer"": ""C""
+}</think>
+{
+  ""answer"": ""C""
+}"

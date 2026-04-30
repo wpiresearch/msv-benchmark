@@ -1,0 +1,169 @@
+Input dir : kaggle_runs
+Output dir: kaggle_extracted
+Found 253 run zips
+  [INFO] applied alias: 'qwen_qwen3-next-80b-a3b-instrut' -> 'qwen3-next-80b-a3b-instruct' (file: t03-msv_second_chance-qwen_qwen3-next-80b-a3b-instrut)
+  [INFO] applied alias: 'anthropic_claude-opus-4-120' -> 'claude-opus-4-1-20250805' (file: t04-msv_confidence_entropy-anthropic_claude-opus-4-120)
+  [INFO] applied alias: 'deepseek-ai_deepseek-r1-052' -> 'deepseek-r1-0528' (file: t04-msv_confidence_entropy-deepseek-ai_deepseek-r1-052)
+  [INFO] applied alias: 'qwen_qwen3-235b-a22b-instrut' -> 'qwen3-235b-a22b-instruct-2507' (file: t04-msv_confidence_entropy-qwen_qwen3-235b-a22b-instrut)
+  [INFO] applied alias: 'anthropic_claude-haiku-4-520' -> 'claude-haiku-4-5-20251001' (file: t05-msv_teammate_delegate-anthropic_claude-haiku-4-520)
+  [INFO] applied alias: 'deepseek-ai_deepseek-r1-052' -> 'deepseek-r1-0528' (file: t05-msv_teammate_delegate-deepseek-ai_deepseek-r1-052)
+  [INFO] applied alias: 'qwen_qwen3-235b-a22b-instruct-2507.' -> 'qwen3-235b-a22b-instruct-2507' (file: t05-msv_teammate_delegate-qwen_qwen3-235b-a22b-instruct-2507.)
+  [INFO] applied alias: 'qwen_qwen3-coder-480b-a3' -> 'qwen3-coder-480b-a35b-instruct' (file: t05-msv_teammate_delegate-qwen_qwen3-coder-480b-a3)
+  [INFO] applied alias: 'qwen_qwen3-next-80b-a3b-insstruct' -> 'qwen3-next-80b-a3b-instruct' (file: t05-msv_teammate_delegate-qwen_qwen3-next-80b-a3b-insstruct)
+  [INFO] applied alias: 'anthropic_claude-haiku-4-52025100' -> 'claude-haiku-4-5-20251001' (file: t07-msv_behavioral_ci-anthropic_claude-haiku-4-52025100)
+  [INFO] applied alias: 'anthropic_claude-haiku-4-520251' -> 'claude-haiku-4-5-20251001' (file: t08-msv_behavioral_em-anthropic_claude-haiku-4-520251)
+  [INFO] applied alias: 'anthropic_claude-claude-haiku-4-520251001' -> 'claude-haiku-4-5-20251001' (file: t11-msv_mc_binary_pairs-anthropic_claude-claude-haiku-4-520251001)
+  [WARN] header mismatch for t11-msv_mc_binary_pairs model=qwen3-next-80b-a3b-instruct; keeping original header, padding rows if needed
+  wrote per_task/t01_delegate_game.csv (1416 rows across 23 models)
+  wrote per_task/t02_declared_probe.csv (1460 rows across 23 models)
+  wrote per_task/t03_second_chance.csv (1360 rows across 23 models)
+  wrote per_task/t04_confidence_entropy.csv (1527 rows across 23 models)
+  wrote per_task/t05_teammate_delegate.csv (1597 rows across 23 models)
+  wrote per_task/t06_behavioral_er.csv (1255 rows across 23 models)
+  wrote per_task/t07_behavioral_ci.csv (1609 rows across 23 models)
+  wrote per_task/t08_behavioral_em.csv (639 rows across 23 models)
+  wrote per_task/t09_behavioral_pi.csv (1181 rows across 23 models)
+  wrote per_task/t10_dpp_sequence.csv (497 rows across 23 models)
+  wrote per_task/t11_mc_binary_pairs.csv (2735 rows across 23 models)
+
+Wrote run_metadata.csv with 253 rows (task × model pairs)
+
+Leaderboard loaded: 276 entries
+Leaderboard vs platform-score reconciliation: 0 rows with |diff| > 1e-3
+
+=== SUMMARY ===
+  t01-msv_delegate_game: 23 model runs
+  t02-msv_declared_probe: 23 model runs
+  t03-msv_second_chance: 23 model runs
+  t04-msv_confidence_entropy: 23 model runs
+  t05-msv_teammate_delegate: 23 model runs
+  t06-msv_behavioral_er: 23 model runs
+  t07-msv_behavioral_ci: 23 model runs
+  t08-msv_behavioral_em: 23 model runs
+  t09-msv_behavioral_pi: 23 model runs
+  t10-msv_dpp_sequence: 23 model runs
+  t11-msv_mc_binary_pairs: 23 model runs
+
+Budget failures: 50
+  t01-msv_delegate_game            claude-opus-4-6-default             completed 26/80
+  t01-msv_delegate_game            gemini-3.1-pro-preview              completed 74/80
+  t01-msv_delegate_game            gemma-4-31b-it                      completed 32/80
+  t02-msv_declared_probe           claude-opus-4-1-20250805            completed 54/80
+  t02-msv_declared_probe           claude-opus-4-6-default             completed 59/80
+  t02-msv_declared_probe           gemini-3.1-pro-preview              completed 32/80
+  t02-msv_declared_probe           gemma-4-31b-it                      completed 29/80
+  t03-msv_second_chance            claude-opus-4-1-20250805            completed 55/80
+  t03-msv_second_chance            claude-opus-4-6-default             completed 73/80
+  t03-msv_second_chance            gemma-3-12b-it                      completed 6/80
+  t03-msv_second_chance            gemma-4-31b-it                      completed 10/80
+  t04-msv_confidence_entropy       claude-opus-4-6-default             completed 23/80
+  t04-msv_confidence_entropy       gemini-3.1-pro-preview              completed 43/80
+  t04-msv_confidence_entropy       gemma-4-31b-it                      completed 29/80
+  t05-msv_teammate_delegate        deepseek-r1-0528                    completed 39/80
+  t05-msv_teammate_delegate        gemma-4-31b-it                      completed 32/80
+  t06-msv_behavioral_er            deepseek-r1-0528                    completed 12/80
+  t06-msv_behavioral_er            gemini-3.1-pro-preview              completed 22/80
+  t06-msv_behavioral_er            gemma-4-26b-a4b-it                  completed 5/80
+  t06-msv_behavioral_er            gemma-4-31b-it                      completed 14/80
+  t06-msv_behavioral_er            qwen3-next-80b-a3b-thinking         completed 14/80
+  t07-msv_behavioral_ci            claude-opus-4-6-default             completed 64/80
+  t07-msv_behavioral_ci            deepseek-r1-0528                    completed 29/80
+  t07-msv_behavioral_ci            gemma-4-31b-it                      completed 32/80
+  t08-msv_behavioral_em            claude-opus-4-1-20250805            completed 27/37
+  t08-msv_behavioral_em            claude-opus-4-6-default             completed 6/37
+  t08-msv_behavioral_em            deepseek-r1-0528                    completed 8/37
+  t08-msv_behavioral_em            gemini-3.1-pro-preview              completed 2/37
+  t08-msv_behavioral_em            gemma-4-31b-it                      completed 15/37
+  t08-msv_behavioral_em            qwen3-next-80b-a3b-thinking         completed 18/37
+  t09-msv_behavioral_pi            claude-opus-4-1-20250805            completed 26/80
+  t09-msv_behavioral_pi            claude-opus-4-6-default             completed 39/80
+  t09-msv_behavioral_pi            deepseek-r1-0528                    completed 9/80
+  t09-msv_behavioral_pi            gemini-3.1-pro-preview              completed 25/80
+  t09-msv_behavioral_pi            gemma-3-12b-it                      completed 1/80
+  t09-msv_behavioral_pi            gemma-4-31b-it                      completed 11/80
+  t09-msv_behavioral_pi            glm-5                               completed 11/80
+  t09-msv_behavioral_pi            qwen3-235b-a22b-instruct-2507       completed 75/80
+  t09-msv_behavioral_pi            qwen3-next-80b-a3b-instruct         completed 63/80
+  t09-msv_behavioral_pi            qwen3-next-80b-a3b-thinking         completed 43/80
+  t10-msv_dpp_sequence             claude-opus-4-1-20250805            completed 11/80
+  t10-msv_dpp_sequence             gemini-3.1-pro-preview              completed 25/80
+  t10-msv_dpp_sequence             gemma-4-31b-it                      completed 5/80
+  t10-msv_dpp_sequence             glm-5                               completed 14/80
+  t10-msv_dpp_sequence             gpt-5.4-2026-03-05                  completed 68/80
+  t10-msv_dpp_sequence             qwen3-next-80b-a3b-instruct         completed 7/80
+  t11-msv_mc_binary_pairs          claude-opus-4-1-20250805            completed 63/160
+  t11-msv_mc_binary_pairs          claude-opus-4-6-default             completed 34/160
+  t11-msv_mc_binary_pairs          gemini-3.1-pro-preview              completed 63/160
+  t11-msv_mc_binary_pairs          gemma-4-31b-it                      completed 54/160
+
+Other failures: 70
+  t01-msv_delegate_game            deepseek-r1-0528                    [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t01-msv_delegate_game            deepseek-v3.2                       [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t01-msv_delegate_game            gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t01-msv_delegate_game            gemma-4-26b-a4b-it                  [prompt failure] APITimeoutError: Request timed out.
+  t01-msv_delegate_game            glm-5                               [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t01-msv_delegate_game            qwen3-next-80b-a3b-thinking         [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t02-msv_declared_probe           deepseek-r1-0528                    [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t02-msv_declared_probe           deepseek-v3.2                       [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t02-msv_declared_probe           gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t02-msv_declared_probe           gemma-3-12b-it                      [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t02-msv_declared_probe           gemma-3-1b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t02-msv_declared_probe           gemma-3-4b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t02-msv_declared_probe           gemma-4-26b-a4b-it                  [prompt failure] APITimeoutError: Request timed out.
+  t03-msv_second_chance            deepseek-r1-0528                    [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t03-msv_second_chance            deepseek-v3.2                       [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t03-msv_second_chance            gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t03-msv_second_chance            gemma-3-1b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t03-msv_second_chance            gemma-3-4b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t03-msv_second_chance            gemma-4-26b-a4b-it                  [prompt failure] APITimeoutError: Request timed out.
+  t03-msv_second_chance            glm-5                               [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t03-msv_second_chance            gpt-oss-20b                         [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t04-msv_confidence_entropy       deepseek-r1-0528                    [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t04-msv_confidence_entropy       gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t04-msv_confidence_entropy       gemma-4-26b-a4b-it                  [prompt failure] APITimeoutError: Request timed out.
+  t04-msv_confidence_entropy       glm-5                               [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t04-msv_confidence_entropy       qwen3-next-80b-a3b-thinking         [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t05-msv_teammate_delegate        gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t05-msv_teammate_delegate        gemma-4-26b-a4b-it                  [prompt failure] APITimeoutError: Request timed out.
+  t05-msv_teammate_delegate        glm-5                               [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t06-msv_behavioral_er            claude-opus-4-1-20250805            [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t06-msv_behavioral_er            gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t06-msv_behavioral_er            gemma-3-12b-it                      [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t06-msv_behavioral_er            gemma-3-1b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t06-msv_behavioral_er            gemma-3-4b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t06-msv_behavioral_er            glm-5                               [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t07-msv_behavioral_ci            gemma-3-12b-it                      [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t07-msv_behavioral_ci            gemma-3-1b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t07-msv_behavioral_ci            gemma-4-26b-a4b-it                  [prompt failure] APITimeoutError: Request timed out.
+  t07-msv_behavioral_ci            qwen3-next-80b-a3b-thinking         [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t08-msv_behavioral_em            gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t08-msv_behavioral_em            gemma-4-26b-a4b-it                  [prompt failure] APITimeoutError: Request timed out.
+  t08-msv_behavioral_em            glm-5                               [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t09-msv_behavioral_pi            gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t09-msv_behavioral_pi            gemma-3-1b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t09-msv_behavioral_pi            gemma-3-4b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t09-msv_behavioral_pi            gemma-4-26b-a4b-it                  [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t10-msv_dpp_sequence             claude-haiku-4-5-20251001           [prompt failure] BadRequestError: Error code: 400 - {'message': '{"type":"error"
+  t10-msv_dpp_sequence             claude-opus-4-6-default             [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t10-msv_dpp_sequence             deepseek-r1-0528                    [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t10-msv_dpp_sequence             deepseek-v3.2                       [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t10-msv_dpp_sequence             gemini-2.0-flash-lite-001           [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t10-msv_dpp_sequence             gemini-2.5-flash                    [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t10-msv_dpp_sequence             gemma-3-12b-it                      [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t10-msv_dpp_sequence             gemma-3-1b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t10-msv_dpp_sequence             gemma-3-27b-it                      [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t10-msv_dpp_sequence             gemma-3-4b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t10-msv_dpp_sequence             gemma-4-26b-a4b-it                  [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t10-msv_dpp_sequence             gpt-5.4-mini-2026-03-17             context_length
+  t10-msv_dpp_sequence             gpt-5.4-nano-2026-03-17             context_length
+  t10-msv_dpp_sequence             gpt-oss-20b                         [prompt failure] BadRequestError: Error code: 400 - {'message': '[{"error":{"cod
+  t10-msv_dpp_sequence             qwen3-235b-a22b-instruct-2507       [prompt failure] BadRequestError: Error code: 400 - {'message': '[{"error":{"cod
+  t10-msv_dpp_sequence             qwen3-next-80b-a3b-thinking         [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t11-msv_mc_binary_pairs          deepseek-r1-0528                    [prompt failure] InternalServerError: Error code: 503 - {'message': 'Could not r
+  t11-msv_mc_binary_pairs          gemini-2.5-flash                    [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t11-msv_mc_binary_pairs          gemma-3-12b-it                      [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t11-msv_mc_binary_pairs          gemma-3-1b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t11-msv_mc_binary_pairs          gemma-3-4b-it                       [prompt failure] BadRequestError: Error code: 400 - {'message': 'The input token
+  t11-msv_mc_binary_pairs          gemma-4-26b-a4b-it                  [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t11-msv_mc_binary_pairs          glm-5                               [prompt failure] TypeError: 'NoneType' object is not subscriptable
+  t11-msv_mc_binary_pairs          qwen3-next-80b-a3b-thinking         [prompt failure] TypeError: 'NoneType' object is not subscriptable

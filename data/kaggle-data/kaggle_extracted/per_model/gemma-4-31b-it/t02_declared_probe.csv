@@ -1,0 +1,212 @@
+question_id,category,difficulty,dims_parsed,routing_choice,raw_response,declared_CE,declared_ER,declared_CI,declared_EM,declared_PI,declared_activation,routing_score
+gpqa_000,physics_(general),0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,4,4,0.6,0.0
+gpqa_002,quantum_mechanics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,4,4,0.6,0.0
+gpqa_007,genetics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,4,4,0.6,0.0
+gpqa_009,astrophysics,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,4,4,0.6,0.0
+gpqa_010,molecular_biology,0.8571,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 3, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,3,4,0.6667,0.0
+gpqa_012,organic_chemistry,0.6667,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,4,4,0.6,0.0
+gpqa_013,molecular_biology,0.6667,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 3, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,3,4,0.6667,0.0
+gpqa_018,organic_chemistry,0.875,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,4,4,0.6,0.0
+gpqa_019,quantum_mechanics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```",4,4,4,4,4,0.6,0.0
+gpqa_022,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+The reaction involves the interaction of ((2,2-dimethylbut-3-en-1-yl)oxy)benzene with hydrogen bromide (HBr). 
+
+1.  **Initial Protonation**: HBr protonates the terminal alkene of the starting material, following Markovnikov's rule. The double bond between C3 and C4 is protonated at C4, creating a secondary carbocation at C3: $\text{Ph-O-CH}_2\text{-C(CH}_3\text{)}_2\text{-CH}^+\text{-CH}_3$.
+2.  **Cyclization (Produc",4,4,4,4,4,0.6,0.0
+gpqa_023,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To solve this problem, let's analyze the information provided step-by-step:
+
+1.  **Analyze Substance Z**: 
+    *   Z is a saturated hydrocarbon (it doesn't react further with hydrogen).
+    *   The mass fraction of hydrogen in Z is 14.28%.
+    *   For a cycloalkane with the formula $C_n H_{2n}$, the mass fraction of hydrogen is $\frac{2 \times 1.008}{12.01 \times n + 2 \times 1.008} \approx \frac{2n}{14n} = \frac{1}{",4,4,4,4,4,0.6,0.0
+gpqa_025,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To determine the correct answer, we need to evaluate two parts: the identity of reactant A and the reactivity sequence of the listed dienes.
+
+**Part 1: Identifying Reactant A**
+The reaction is:
+$\text{Cyclohexene} + A \rightarrow \text{8,8-diiodobicyclo[4.2.0]octan-7-one}$
+
+*   Cyclohexene is a 6-carbon ring with one double bond.
+*   The product, 8,8-diiodobicyclo[4.2.0]octan-7-one, is a bicyclic structure consisting",4,4,4,4,4,0.6,0.0
+gpqa_026,molecular_biology,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+The provided text is a biological riddle describing the process of co-translational translocation of proteins into the Endoplasmic Reticulum (ER).
+
+1.  **""Ribonucleoprotein particle""**: This refers to the **Signal Recognition Particle (SRP)**, which consists of an RNA molecule and several proteins.
+2.  **""Pause there for a minute""**: When the SRP binds to the signal sequence of a nascent polypeptide chain emerging fr",4,4,4,4,4,0.6,0.0
+gpqa_028,genetics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To eliminate the anti-nutritional compound, we need to find a mutation that results in a loss of function for the enzyme responsible for its synthesis. The most effective way to achieve this is by creating a premature stop codon (nonsense mutation) or a frameshift mutation early in the gene sequence, which prevents the synthesis of a functional protein.
+
+Let's analyze the provided sequences:
+
+**Intact Gene Sequence:*",4,4,4,4,4,0.6,0.0
+gpqa_035,astrophysics,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To determine the nature of the absorption line, we first calculate the emitted energy of the photons in the rest frame.
+
+1.  **Calculate the Redshift ($z$):**
+    Given the distance $D = 2.1\text{ Gpc}$, we can estimate the redshift using Hubble's Law ($v = H_0 D$).
+    Using $H_0 \approx 70\text{ km/s/Mpc}$:
+    $v \approx 70 \times 2100\text{ Mpc} = 147,000\text{ km/s}$.
+    The redshift $z$ is approximately $v/c \",4,4,4,4,4,0.6,0.0
+gpqa_040,relativistic_mechanics,0.875,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To find the speed of light in the glass relative to the observer in the laboratory, we must use the relativistic velocity addition formula.
+
+1.  **Identify the frames of reference**:
+    *   Let frame $S'$ be the rest frame of the glass.
+    *   Let frame $S$ be the laboratory frame.
+    *   The velocity of frame $S'$ relative to $S$ is $v$.
+
+2.  **Determine the speed of light in the rest frame of the glass ($S'$)**:",4,4,4,4,4,0.6,0.0
+gpqa_042,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To determine the correct IUPAC name, we must identify the parent structure and the positions of the substituents based on the provided geometric constraints.
+
+1.  **Parent Structure**: The carboxylic acid group has the highest priority among the substituents. Therefore, the parent name is **benzoic acid**, and the carbon attached to the carboxylic acid is designated as **C1**.
+
+2.  **Placing the Meta-Substituents**: ",4,4,4,4,4,0.6,0.0
+gpqa_046,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To identify the compound $C_9H_{11}NO_2$, we analyze the spectroscopic data provided:
+
+1.  **IR Analysis**:
+    *   **3420 and 3325 $\text{cm}^{-1}$**: These two medium-to-strong intensity bands are characteristic of a primary amine ($-NH_2$), which typically shows two N-H stretching vibrations.
+    *   **1720 $\text{cm}^{-1}$**: This strong band indicates a carbonyl group ($C=O$). The frequency is consistent with an",4,4,4,4,4,0.6,0.0
+gpqa_049,high-energy_particle_physics,0.875,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+In quantum field theory (QFT) in four dimensions, each loop in a Feynman diagram contributes a phase-space integration factor of $\frac{1}{(2\pi)^4}$. After performing the integration and normalizing the result, each loop typically introduces a factor of $\frac{1}{16\pi^2}$, which is equivalent to $\frac{1}{(4\pi)^2}$.
+
+Looking at the formula provided:
+$\alpha^3 \cdot g^2 \cdot \sqrt{2} \cdot 8 \cdot \frac{1}{(4\pi)^",4,4,4,4,4,0.6,0.0
+gpqa_052,chemistry_(general),0.875,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To identify the chemical formula of the compound, we analyze the provided spectroscopic data:
+
+1.  **Structure**: The compound is a di-substituted 6-membered aromatic ring. The $^1\text{H NMR}$ spectrum shows two signals for aromatic protons, which is characteristic of a **para-substituted benzene ring** ($\text{C}_6\text{H}_4$).
+2.  **Vinyl Group**: The $^1\text{H NMR}$ indicates two vinyl proton signals: one double",4,4,4,4,4,0.6,0.0
+gpqa_053,organic_chemistry,0.875,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To determine the correct starting material for the synthesis of **5-isopropyl-3,4-dimethylcyclohex-1-ene** via **Ring-Closing Metathesis (RCM)**, we must analyze the reaction mechanism.
+
+1.  **RCM Mechanism**: Ring-closing metathesis typically involves the reaction of two terminal alkenes ( $\alpha,\omega$-dienes) using a Grubbs catalyst. The two terminal $=CH_2$ groups are released as ethylene gas, and the remaining",4,4,4,4,4,0.6,0.0
+gpqa_054,chemistry_(general),0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To identify the unknown compound, we analyze the $^1\text{H NMR}$ data:
+
+1.  **2.1 ppm (3H, s)**: This signal is characteristic of a methyl group attached to a carbonyl, specifically in an acetate group ($\text{CH}_3\text{COO-}$).
+2.  **1.6 ppm (3H, d)**: This is a methyl group coupled to one proton, typical of a methyl group on a vinyl carbon ($\text{CH}_3\text{-CH=}$).
+3.  **5.5 ppm (1H, dq)**: This proton is coupl",4,4,4,4,4,0.6,0.0
+gpqa_055,quantum_mechanics,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To find the transition route and the corresponding probability, we apply the selection rules for electric dipole (E1) transitions in a hydrogen atom:
+1.  **Selection Rules**:
+    *   $\Delta l = \pm 1$
+    *   $\Delta m = 0, \pm 1$
+
+2.  **Step 1: Transition from $|3,0,0\rangle$**:
+    *   Initial state: $n=3, l=0, m=0$.
+    *   Applying $\Delta l = \pm 1$, the intermediate state must have $l=1$.
+    *   Applying $\De",4,4,4,4,4,0.6,0.0
+gpqa_057,high-energy_particle_physics,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To determine which theory does not require regularization at high energies, we examine the nature of divergences in each:
+
+1.  **Quantum Electrodynamics (QED) and Quantum Chromodynamics (QCD)**: Both are Quantum Field Theories (QFTs) based on point-like particles. When calculating higher-order corrections (loop diagrams), these theories produce integrals that diverge as the momentum goes to infinity (Ultraviolet or U",4,4,4,4,4,0.6,0.0
+gpqa_059,relativistic_mechanics,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To determine how long the journey takes from the astronaut's perspective, we need to use the concept of time dilation from special relativity.
+
+1.  **Identify the Distance and Velocity**:
+    *   The distance from the Large Magellanic Cloud (LMC) to Earth is approximately $L_0 = 160,000$ light-years.
+    *   The velocity of the spacecraft is $v = 0.99999987c$.
+
+2.  **Calculate the Time in the Earth's Frame ($t$):**
+ ",4,4,4,4,4,0.6,0.0
+gpqa_061,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To synthesize **1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde**, we need to identify the chemical transformations required.
+
+1.  **Analyze the Target Molecule**:
+    The name ""1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde"" describes a structure where a cyclohexane ring has two substituents at the 1-position: a formyl group ($-\text{CHO}$) and a $\text{cyclohexyl(hydroxy)methyl}$ group ($-\text{CH(OH)Cyc",4,4,4,4,4,0.6,0.0
+gpqa_064,organic_chemistry,0.75,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To determine the major products of the given reactions, we analyze the mechanisms step-by-step:
+
+**Reaction 1: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H$^+$) $\rightarrow$ A**
+1.  **Deprotonation**: The strong base KH (potassium hydride) deprotonates the hydroxyl group of the 1-vinylspiro[3.5]non-5-en-1-ol, creating an alkoxide.
+2.  **Anionic Oxy-Cope Rearrangement**: The resulting species is an allylic alkoxide w",4,4,4,4,4,0.6,0.0
+gpqa_065,high-energy_particle_physics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+The Standard Model Effective Field Theory (SMEFT) is constructed by adding higher-dimensional operators to the Standard Model (SM) Lagrangian. These operators must be consistent with the fundamental symmetries of the SM.
+
+1.  **Lorentz Symmetry**: The SM is a relativistic quantum field theory. To maintain the relativistic nature of the physics, every operator in the Lagrangian must be a Lorentz scalar. Thus, Lorentz ",4,4,4,4,4,0.6,0.0
+gpqa_069,chemistry_(general),0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+
+To identify the molecular symmetry group of product E, let's analyze the chemical clues provided:
+
+1.  **Reactions of A, B, and C**:
+    *   **Solid A + 8 equivalents of gas B $\rightarrow$ bright red product C**: A common reaction fitting this description is the reaction between sulfur ($\text{S}_8$) and chlorine ($\text{Cl}_2$). $\text{S}_8(\text{s}) + 4\text{Cl}_2(\text{g}) \rightarrow 4\text{S}_2\text{Cl}_2(\text",4,4,4,4,4,0.6,0.0

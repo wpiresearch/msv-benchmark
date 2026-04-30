@@ -1,0 +1,10 @@
+question_id,answer,correct,confidence,delegated,difficulty
+gpqa_000,C,1,4.0,0,0.7778
+gpqa_002,B,1,4.0,0,0.7778
+gpqa_007,A,0,4.0,0,0.7778
+gpqa_009,B,1,4.0,0,0.8889
+gpqa_010,B,0,4.0,0,0.8571
+gpqa_012,A,1,4.0,0,0.6667
+gpqa_013,B,1,4.0,0,0.6667
+gpqa_018,A,1,4.0,0,0.875
+gpqa_019,D,1,4.0,0,0.7778

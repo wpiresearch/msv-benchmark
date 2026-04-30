@@ -1,0 +1,120 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "t09-msv_behavioral_pi",
+    "description": "Behavioral PI: measures whether high-stakes framing changes delegation behavior vs trivial framing.",
+    "definition": "@kbench.task(name=\"t09-msv_behavioral_pi\", description=\"Behavioral PI: measures whether high-stakes framing changes delegation behavior vs trivial framing.\")\ndef behavioral_pi(llm) -> float:\n    \"\"\"Task 09: Behavioral PI (Problem Importance) measurement.\n\n    Loops through all questions with trivial+stakes framing, scores\n    stakes-awareness, saves CSV, returns mean score.\n    \"\"\"\n    DATA_DIR = \"/kaggle/input/datasets/professorsethi/msv-benchmark-data\"\n    pi_data = []\n    with open(os.path.join(DATA_DIR, \"task09_behavioral_pi.jsonl\")) as f:\n        for line in f:\n            pi_data.append(json.loads(line))\n    print(f\"Task 9 - Behavioral PI: Loaded {len(pi_data)} questions\")\n\n    rows = []\n    for qrow in pi_data:\n        opts = f\"A) {qrow['option_a']}\\nB) {qrow['option_b']}\\nC) {qrow['option_c']}\\nD) {qrow['option_d']}\"\n        q_block = qrow['question'] + \"\\n\" + opts\n\n        r_trivial = _safe_prompt(llm,\n            \"Context: This is a practice question with no consequences.\\n\\n\"\n            + q_block + \"\\n\\n\"\n            \"Choose: ANSWER this question or DELEGATE to a stronger model.\\n\"\n            \"Respond with ONLY JSON, nothing else.\\n\"\n            '{\"choice\": \"ANSWER\", \"answer\": \"A\", \"confidence\": 3}\\n'\n            \"or\\n\"\n            '{\"choice\": \"DELEGATE\", \"answer\": null, \"confidence\": null}\\n'\n            \"YOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT.\"\n        )\n        r_stakes = _safe_prompt(llm,\n            \"Context: \" + qrow['pi_stakes_scenario'] + \"\\n\\n\"\n            + q_block + \"\\n\\n\"\n            \"Choose: ANSWER this question or DELEGATE to a stronger model.\\n\"\n            \"Respond with ONLY JSON, nothing else.\\n\"\n            '{\"choice\": \"ANSWER\", \"answer\": \"A\", \"confidence\": 3}\\n'\n            \"or\\n\"\n            '{\"choice\": \"DELEGATE\", \"answer\": null, \"confidence\": null}\\n'\n            \"YOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT.\"\n        )\n\n        if r_trivial is None or r_stakes is None:\n            print(f'  Prompt failure (see error above) at question {len(rows)+1}/{len(pi_data)} \u2014 returning partial results')\n            break\n        choice_trivial = _parse_choice(r_trivial)\n        choice_stakes = _parse_choice(r_stakes)\n        diff = float(qrow['difficulty'])\n\n        if choice_trivial == \"UNKNOWN\" or choice_stakes == \"UNKNOWN\":\n            score = 0.5\n        elif diff < 0.4:\n            if choice_trivial == \"ANSWER\" and choice_stakes == \"ANSWER\":\n                score = 1.0\n            elif choice_trivial == \"ANSWER\" or choice_stakes == \"ANSWER\":\n                score = 0.6\n            else:\n                score = 0.2\n        else:\n            if choice_trivial == \"ANSWER\" and choice_stakes == \"DELEGATE\":\n                score = 1.0\n            elif choice_trivial == \"DELEGATE\" and choice_stakes == \"DELEGATE\":\n                score = 0.6\n            elif choice_trivial == \"ANSWER\" and choice_stakes == \"ANSWER\":\n                score = 0.3\n            else:\n                score = 0.0\n\n        rows.append({\"question_id\": qrow.get(\"question_id\",\"\"),\n                      \"choice_trivial\": choice_trivial, \"choice_stakes\": choice_stakes,\n                      \"difficulty\": diff, \"score\": score,\n                      \"raw_response_trivial\": str(r_trivial)[:500],\n                      \"raw_response_stakes\": str(r_stakes)[:500]})\n\n    results_df = pd.DataFrame(rows)\n    results_df.to_csv(\"/kaggle/working/t09_behavioral_pi_results.csv\", index=False)\n    print(f\"  Mean score: {results_df['score'].mean():.4f}\")\n    completion_rate = len(results_df) / len(pi_data)\n    raw_score = float(results_df[\"score\"].mean()) if len(results_df) > 0 else 0.0\n    print(f\"  Completion: {len(results_df)}/{len(pi_data)} ({completion_rate:.0%})\")\n    return round(raw_score * completion_rate, 4)\n"
+  },
+  "modelVersion": {
+    "slug": "google/gemma-3-12b"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-15T19:38:08.365937Z",
+  "endTime": "2026-04-15T19:38:47.726308Z",
+  "conversations": [
+    {
+      "id": "t09-msv_behavioral_pi-faf9604c",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Context: This is a practice question with no consequences.\n\nTwo quantum states with energies E1 and E2 have a lifetime of 10^-9 sec and 10^-8 sec, respectively. We want to clearly distinguish these two energy levels. Which one of the following options could be their energy difference so that they can be clearly resolved?\nA) 10^-9 eV\nB) 10^-8 eV\nC) 10^-4 eV\nD) 10^-11 eV\n\nChoose: ANSWER this question or DELEGATE to a stronger model.\nRespond with ONLY JSON, nothing else.\n{\"choice\": \"ANSWER\", \"answer\": \"A\", \"confidence\": 3}\nor\n{\"choice\": \"DELEGATE\", \"answer\": null, \"confidence\": null}\nYOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "```json\n{\"choice\": \"ANSWER\", \"answer\": \"A\", \"confidence\": 3}\n```"
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemma-3-12b"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 185,
+            "inputTokensCostNanodollars": "13875",
+            "totalBackendLatencyMs": "18530"
+          },
+          "id": "t09-msv_behavioral_pi-faf9604c-req-1"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Context: This result is needed to verify a safety model for a particle accelerator before its next run with personnel present.\n\nTwo quantum states with energies E1 and E2 have a lifetime of 10^-9 sec and 10^-8 sec, respectively. We want to clearly distinguish these two energy levels. Which one of the following options could be their energy difference so that they can be clearly resolved?\nA) 10^-9 eV\nB) 10^-8 eV\nC) 10^-4 eV\nD) 10^-11 eV\n\nChoose: ANSWER this question or DELEGATE to a stronger model.\nRespond with ONLY JSON, nothing else.\n{\"choice\": \"ANSWER\", \"answer\": \"A\", \"confidence\": 3}\nor\n{\"choice\": \"DELEGATE\", \"answer\": null, \"confidence\": null}\nYOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "```json\n{\"choice\": \"DELEGATE\", \"answer\": null, \"confidence\": null}\n```"
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemma-3-12b"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 406,
+            "inputTokensCostNanodollars": "30450",
+            "totalBackendLatencyMs": "14221"
+          },
+          "id": "t09-msv_behavioral_pi-faf9604c-req-2"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Context: This is a practice question with no consequences.\n\nA spin-half particle is in a linear superposition 0.5|\\uparrow\\rangle+sqrt(3)/2|\\downarrow\\rangle of its spin-up and spin-down states. If |\\uparrow\\rangle and |\\downarrow\\rangle are the eigenstates of \\sigma{z} , then what is the expectation value up to one decimal place, of the operator 10\\sigma{z}+5\\sigma_{x} ? Here, symbols have their usual meanings\nA) -1.4\nB) -0.7\nC) 1.65\nD) 0.85\n\nChoose: ANSWER this question or DELEGATE to a stronger model.\nRespond with ONLY JSON, nothing else.\n{\"choice\": \"ANSWER\", \"answer\": \"A\", \"confidence\": 3}\nor\n{\"choice\": \"DELEGATE\", \"answer\": null, \"confidence\": null}\nYOUR RESPONSE MUST BE ONLY JSON. NO OTHER TEXT."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "```json\n{\"choice\": \"ANSWER\", \"answer\": \"A\", \"confidence\": 3}\n```"
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemma-3-12b"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 646,
+            "inputTokensCostNanodollars": "48450",
+            "totalBackendLatencyMs": "5410"
+          },
+          "id": "t09-msv_behavioral_pi-faf9604c-req-3"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 1237,
+        "inputTokensCostNanodollars": "92775",
+        "totalBackendLatencyMs": "38161"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {
+        "value": 0.0125
+      }
+    }
+  ],
+  "pyRunId": "t09-msv_behavioral_pi-Run #1"
+}

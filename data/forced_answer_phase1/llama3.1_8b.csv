@@ -1,0 +1,1581 @@
+question_id,answer,confidence,correct,raw_response,parse_failure
+gpqa_000,B,3,0,"To clearly distinguish two energy levels, the energy difference between them should be at least as large as their uncertainty in energy, which is related to their lifetime by the Heisenberg Uncertainty Principle.
+
+The uncertainty principle states that ΔE \* Δt >= h/4π, where ΔE is the uncertainty in energy and Δt is the uncertainty in time. Rearranging this equation gives us ΔE = h / (4πΔt).
+
+For the first state with a lifetime of 10^-9 sec, we have:
+
+ΔE1 = h / (4π \* 10^-9) ≈ 2.48 × 10^-8 eV
+
+For the second state with a lifetime of 10^-8 sec, we have:
+
+ΔE2 = h / (4π \* 10^-8) ≈ 7.94 × 10^-9 eV
+
+To clearly distinguish these two energy levels, their energy difference should be at least as large as the larger uncertainty in energy, which is ΔE1 ≈ 2.48 × 10^-8 eV.
+
+Looking at the options:
+
+A) 10^-9 eV is less than ΔE1 and ΔE2.
+B) 10^-8 eV is greater than ΔE1 but not significantly larger than ΔE2.
+C) 10^-4 eV is much larger than both ΔE1 and ΔE2.
+D) 10^-11 eV is smaller than both ΔE1 and ΔE2.
+
+Therefore, the correct answer is:
+
+{""answer"": ""B"", ""confidence"": 3}",False
+gpqa_002,,,0,"To find the expectation value of the operator \(10\sigma_z + 5\sigma_x\) for a spin-half particle in the given linear superposition, we first need to understand what \(\sigma_z\) and \(\sigma_x\) represent.
+
+- \(\sigma_z\) is the Pauli Z matrix, which represents the z-component of spin. Its eigenstates are \(|\uparrow\rangle\) (spin-up) and \(|\downarrow\rangle\) (spin-down), with corresponding eigenvalues of +1 and -1.
+- \(\sigma_x\) is the Pauli X matrix, representing the x-component of spin. Its eigenstates are also \(|\uparrow\rangle\) and \(|\downarrow\rangle\), but with eigenvalues of +1 and -1 interchanged compared to \(\sigma_z\).
+
+Given that the particle is in a linear superposition:
+\[0.5|\uparrow\rangle + \sqrt{3}/2|\downarrow\rangle\]
+
+We need to calculate the expectation value of \(10\sigma_z + 5\sigma_x\) for this state.
+
+First, let's express \(\sigma_z\) and \(\sigma_x\) in terms of their matrix representations:
+- \(\sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}\)
+- \(\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\)
+
+The operator we're interested in is \(10\sigma_z + 5\sigma_x\). Let's compute its matrix representation:
+\[10\sigma_z + 5\sigma_x = 10\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} + 5\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 10 & 5 \\ 5 & -10 \end{pmatrix}\]
+
+Now, we need to find the expectation value of this operator in the given state. The expectation value \(E\) of an operator \(A\) in a state \(|\psi\rangle\) is given by:
+\[E = \langle\psi|A|\psi\rangle\]
+
+For our case, we have:
+\[|\psi\rangle = 0.5|\uparrow\rangle + \sqrt{3}/2|\downarrow\rangle\]
+\[A = 10\sigma_z + 5\sigma_x = \begin{pmatrix} 10 & 5 \\ 5 & -10 \end{pmatrix}\]
+
+To compute the expectation value, we need to express \(|\psi\rangle\) as a column vector and then perform the matrix multiplication.
+
+\[|\psi\rangle = \begin{pmatrix} 0.5 \\ \sqrt{3}/2 \end{pmatrix}\]
+
+Now, let's calculate the expectation value:
+\[\langle\psi|A|\psi\rangl",True
+gpqa_007,A,4,0,"Let's analyze the results:
+
+* g2 has 0% resistance, which means it is essential for anthracnose resistance.
+* g3 has 50% resistance, which suggests that G3 contributes to anthracnose resistance but is not as crucial as G2.
+* The double-mutant g1g3 has 10% resistance, which is lower than the single mutant g3 (50%). This indicates that G1 and G3 have a negative interaction or epistasis, where G1 suppresses the effect of G3 on anthracnose resistance.
+* The double-mutants g2g3 and g1g2 both have 0% resistance, which suggests that G2 is essential for anthracnose resistance regardless of the presence or absence of G3 or G1.
+
+Considering these results, we can conclude that:
+
+G2 is a transcription factor (since its knockout leads to complete loss of resistance), and G1 and G3 show epistasis (where G1 suppresses the effect of G3).
+
+The correct answer is A) G2 is a transcription factor, G1 and G3 has the same promoter, G3 is epistatic towards G1.
+
+However, since there's no mention of ""same promoter"" in the question, I'll choose the closest option:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_009,D,4,0,"To determine which exoplanet has the highest density, we need to consider the relationship between mass, radius, and density.
+
+Density is calculated as mass divided by volume (density = mass/volume). Since volume is proportional to the cube of the radius (V ∝ r^3), a planet with twice the radius will have 8 times the volume. Therefore, if two planets have the same composition but different masses, the denser one will be the smaller one.
+
+Let's analyze each option:
+
+a) An Earth-mass and Earth-radius planet: This planet has the same mass as Earth but is also the same size. Since it has the same mass as Earth but a smaller volume (due to its smaller radius), it would have a higher density than Earth, which has a density of approximately 5.5 g/cm^3.
+
+b) A planet with 2 Earth masses and a density of approximately 5.5 g/cm^3: This planet is twice as massive as Earth but has the same density. Since its mass is greater than Earth's, it would have a lower density due to its larger volume.
+
+c) A planet with the same composition as Earth but 5 times more massive than Earth: This planet would be much larger in size than Earth (due to its increased mass), resulting in a significantly lower density.
+
+d) A planet with the same composition as Earth but half the mass of Earth: This planet would have a smaller radius and volume compared to Earth, making it denser.
+
+Based on this analysis, option d is the correct answer because it has the same composition as Earth but a smaller size, resulting in a higher density.
+
+{""answer"": ""D"", ""confidence"": 4}",False
+gpqa_010,A,3,0,"After reviewing the options, I think the correct answer is:
+
+{""answer"": ""A"", ""confidence"": 3}
+
+Explanation: Option A suggests that SARS-CoV-2 ORF3a induces apoptosis via the extrinsic apoptotic pathway, which is not entirely accurate. While it's true that caspase-8 activation is a characteristic feature of the extrinsic pathway, Bcl-2 plays a role in both intrinsic and extrinsic pathways, and its expression levels can be affected by various factors, including viral proteins like ORF3a. This makes option A the most likely incorrect statement among the options provided.
+
+Note: I'm fairly sure (confidence level 3) about this answer, but it's always possible that I might have missed some nuance or detail in the molecular biology of SARS-CoV-2!",False
+gpqa_012,A,3,1,"To solve this problem, let's break down the reactions step by step:
+
+1. **(R)-(+)-Limonene** is a chiral molecule that can undergo hydrogenation (addition of hydrogen) over Pd/C catalyst under a hydrogen atmosphere. Given it's an alkene, this reaction would lead to saturation of the double bond(s), resulting in a more stable compound with reduced unsaturation.
+
+2. **Product 1**: After consuming one equivalent of hydrogen, product 1 is isolated as the major product. This implies that only one of the double bonds has been saturated, leaving at least one double bond intact. Given limonene's structure, this would likely result in a compound with an unsaturated ring system.
+
+3. **Product 2**: Treating product 1 with 3-chloroperbenzoic acid (MCPBA) oxidizes the remaining alkene(s), converting them into carbonyl groups or hydroxyl groups depending on the reaction conditions and the specific structure of product 1. This step is often used to introduce a ketone group from an alkene.
+
+4. **Product 3**: Treating product 2 with sodium methoxide (NaOMe) would likely lead to the formation of an enolate intermediate, which could then undergo nucleophilic addition or elimination reactions depending on the conditions and the structure of product 2. Given that a hydroxyl group is introduced in this step, it suggests an elimination reaction where a hydrogen atom is removed from the molecule.
+
+5. **Product 4**: The final step involves treating product 3 with propanoic acid, dicyclohexylcarbodiimide (DCC), and a catalytic amount of 4-dimethylaminopyridine (DMAP). This reaction sequence is characteristic of an esterification reaction where the carboxylic acid group of propanoic acid reacts with the hydroxyl group of product 3 to form an ester linkage.
+
+Given these steps, we can deduce that:
+
+- The initial hydrogenation step would introduce a saturated ring system.
+- The oxidation step introduces carbonyl groups or hydroxyl groups.
+- The elimination step (treatment with NaOMe) likely remo",False
+gpqa_013,B,4,1,"To solve this question, let's consider the properties of ChIP-seq (Chromatin Immunoprecipitation sequencing) and the effects of fixation methods on chromatin structure.
+
+ChIP-seq is a technique used to identify regions of the genome where specific proteins or histone modifications are bound. The quality of ChIP-seq data can be affected by the fixation method used, as different fixatives can alter the chromatin structure in various ways.
+
+PFA (Paraformaldehyde) fixation is commonly used for preserving cells and tissues before ChIP-seq analysis. It cross-links proteins to DNA, which helps maintain the native chromatin structure during the immunoprecipitation step.
+
+DSG (Dithio-sulfosuccinimidobutylate) is a fixative that can disrupt protein-DNA interactions, making it less suitable for ChIP-seq applications where the goal is to identify specific protein binding sites.
+
+Given this information, we are looking for regions of the genome where protein-DNA interactions are more likely to be disrupted by DSG fixation. This would lead to peaks disappearing in the ChIP-seq data when using PFA+DSG fixation compared to PFA fixation alone.
+
+Active promoters and enhancers (B) are regions of the genome where transcription factors like IKAROS bind to regulate gene expression. These regions are more likely to have protein-DNA interactions that would be disrupted by DSG fixation, leading to disappearing peaks in ChIP-seq data.
+
+Therefore, the answer is B.
+
+{""answer"": ""B"", ""confidence"": 4}",False
+gpqa_018,B,3,0,"The Michael reaction involves the addition of a nucleophile to a molecule containing a specific carbon-carbon double bond (C=C) adjacent to a carbonyl group (C=O). In both reactions, the nucleophile is added to the molecule, resulting in the formation of new carbon-carbon bonds.
+
+For reaction A, methyl 2-oxocyclohexane-1-carboxylate reacts with NaOEt and 2,4-dimethyl-1-(vinylsulfinyl)benzene. The nucleophile is likely to add to the carbonyl group adjacent to the C=C bond, resulting in the formation of a new carbon-carbon bond between the vinylsulfinyl group and the cyclohexane ring.
+
+For reaction B, ethyl 2-ethylbutanoate reacts with NaH and methyl 2-cyclopentylidene-2-phenylacetate. The nucleophile is likely to add to the carbonyl group adjacent to the C=C bond in the cyclopentylidene group, resulting in the formation of a new carbon-carbon bond between the cyclopentyl and butanoate groups.
+
+Based on this analysis, I would choose option B) A = methyl 3-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = ethyl 2-ethyl-2-(1-(2-methoxy-2-oxo-1-phenylethyl)cyclopentyl)butanoate.
+
+{""answer"": ""B"", ""confidence"": 3}",False
+gpqa_019,A,4,0,"To determine which assumptions jointly imply the impulse approximation, let's analyze each option:
+
+1. The interaction current only interacts with individual nucleons: This assumption is consistent with the impulse approximation, as it implies that the interaction affects one nucleon at a time.
+
+2. The nucleus is transparent apart from the selected nucleon: This assumption suggests that the other nucleons in the nucleus do not interact significantly with the selected nucleon during the interaction, which aligns with the impulse approximation.
+
+3. The quarks internal to the selected nucleon are non-relativistic: This assumption is relevant for nuclear calculations involving nucleons as bound systems of quarks and gluons. However, it does not directly imply the impulse approximation.
+
+4. The interaction proceeds as if the selected nucleon experiences no binding forces: This assumption implies that the interaction with the selected nucleon can be treated independently of its binding to other nucleons in the nucleus, which is a key aspect of the impulse approximation.
+
+Considering these points, we see that assumptions 1, 2, and 4 jointly imply the impulse approximation. Therefore:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_022,D,4,0,"The reaction between ((2,2-dimethylbut-3-en-1-yl)oxy)benzene and hydrogen bromide is likely a nucleophilic substitution reaction, where the benzene ring acts as the electrophile and the hydrogen bromide acts as the nucleophile.
+
+In this type of reaction, the nucleophile (hydrogen bromide) attacks the benzene ring at one of its carbon atoms, resulting in the formation of a new bond between the nucleophile and the benzene ring. This results in the loss of an alkene group from the original reactant molecule.
+
+Given that two new spots are formed after the reaction, it is likely that the products are isomers of each other, differing only in the position of substitution on the benzene ring.
+
+Option A) 2-(2,2-dimethylbutyl)phenol and 4-(2,2-dimethylbutyl)phenol are both phenols with a similar structure to the original reactant molecule. However, they do not account for the loss of an alkene group in the reaction.
+
+Option B) 3,3,4-trimethylchromane and 3-isopropyl-3-methyl-2,3-dihydrobenzofuran are both cyclic compounds that could be formed through a nucleophilic substitution reaction. However, they do not match the expected products of the reaction between ((2,2-dimethylbut-3-en-1-yl)oxy)benzene and hydrogen bromide.
+
+Option C) (4-bromo-2,2-dimethylbutoxy)benzene and ((2,3-dimethylbut-2-en-1-yl)oxy)benzene are both possible products of the reaction. The first compound has a bromine atom substituted at the 4-position on the benzene ring, while the second compound has an alkene group that is similar to the original reactant molecule.
+
+Option D) (4-bromo-2,2-dimethylbutoxy)benzene and (3-bromo-2,2-dimethylbutoxy)benzene are both possible products of the reaction. The first compound has a bromine atom substituted at the 4-position on the benzene ring, while the second compound has a bromine atom substituted at the 3-position.
+
+Based on the expected products of the reaction between ((2,2-dimethylbut-3-en-1-yl)oxy)benzene and hydrogen bromide, I believe that the correct answer i",False
+gpqa_023,C,3,0,"To solve this problem, let's break it down step by step.
+
+First, we know that mixture X decolorizes bromine water, which means it contains unsaturated compounds (alkenes or alkynes). However, since there are no conjugated multiple bonds in the molecules of the compounds of mixture X, they must be alkenes. 
+
+When mixture X is treated with platinum and heated, an equimolar mixture Y of two other liquids is formed as a result of disproportionation. This means that some of the alkene molecules in mixture X are converted into saturated hydrocarbons (alkanes) while others remain unchanged.
+
+The hydrogenation of both mixtures X and Y in the presence of platinum under severe conditions gives only one substance, a certain hydrocarbon Z with a mass fraction of hydrogen of 14.28%. This means that all the unsaturated compounds in mixture X are converted into saturated hydrocarbons during hydrogenation, and since there is no further reaction with hydrogen, it indicates that the resulting hydrocarbon Z has no double bonds.
+
+Given that substance Z does not react further with hydrogen and has a mass fraction of hydrogen of 14.28%, we can calculate its molecular formula. The mass fraction of hydrogen in a compound is given by (mass of H / molar mass) * 100%. Let's assume the molar mass of hydrocarbon Z is M, then:
+
+(2/12) * 100% = 16.67%
+
+Since the actual value is 14.28%, it indicates that there are fewer hydrogen atoms in hydrocarbon Z than expected for a saturated compound with the same number of carbon atoms.
+
+Now, let's consider the possible molecular formulas for hydrocarbon Z:
+
+CnH2n (saturated alkane) would have a mass fraction of hydrogen of approximately 16.67% (2/12 * 100%).
+
+However, since the actual value is lower than expected, it suggests that there are fewer hydrogen atoms in hydrocarbon Z.
+
+Considering the options provided and the fact that mixture Y contains only saturated compounds, we can deduce that the molecular formula for hydrocarbon Z must be C6H14 (since it'",False
+gpqa_025,A,3,0,"To solve this problem, we need to identify the reactant (A) that can undergo a Diels-Alder reaction with cyclohexene to form 8,8-diiodobicyclo[4.2.0]octan-7-one.
+
+The Diels-Alder reaction requires a diene and a dienophile. In this case, cyclohexene is the dienophile. The diene must have two adjacent double bonds in its structure to participate in the reaction.
+
+Let's analyze the given options:
+
+1. 2,3-dimethylbuta-1,3-diene: This compound has two adjacent double bonds and can act as a diene.
+2. (2E,4E)-hexa-2,4-diene: This compound also has two adjacent double bonds and can act as a diene.
+3. cyclopenta-1,3-diene: This compound has two adjacent double bonds and can act as a diene.
+4. (2Z,4Z)-hexa-2,4-diene: This compound also has two adjacent double bonds and can act as a diene.
+
+However, the Diels-Alder reaction is highly dependent on the substituents present in the diene. The more substituted the diene is, the higher its reactivity will be due to increased electron density at the double bond.
+
+The correct sequence of reactivity (most reactive to least reactive) for the given dienes is:
+
+1. 2,3-dimethylbuta-1,3-diene (most reactive)
+2. cyclopenta-1,3-diene
+3. (2E,4E)-hexa-2,4-diene
+4. (2Z,4Z)-hexa-2,4-diene
+
+Now, let's analyze the given options for reactant A:
+
+A) 2,2-diiodoethen-1-one: This compound is not a diene and cannot participate in the Diels-Alder reaction.
+
+B) 4,4-diiodocyclobut-2-en-1-one: This compound has two adjacent double bonds but is highly strained due to the cyclobutane ring. It can act as a dienophile rather than a diene.
+
+C) 4,4-diiodocyclobut-2-en-1-one: Same as option B.
+
+D) 4,4-diiodocyclobut-2-en-1-one: Same as options B and C.
+
+However, looking at the product formed in the reaction (8,8-diiodobicyclo[4.2.0]octan-7-one), it seems that a dienophile with two iodine atoms is required to form this product. This suggests that option A) 2,2-diiodoethen-1-one could be the correct reactant.
+
+Therefore, the answer is:
+
+{""answer"": ""A"", ""confidence"": ",False
+gpqa_026,A,4,1,"The ribonucleoprotein particle is likely a ribosome, which is responsible for translating mRNA into a protein chain. The nascent chain is the growing polypeptide chain being synthesized by the ribosome.
+
+Given this context, it's clear that the chain is heading from the ribosome (where translation occurs) to the extracellular space, where proteins are often secreted or transported. This process involves folding and modification of the protein, which may include adding sugars (glycosylation).
+
+Therefore, the correct answer is:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_028,B,4,0,"To eliminate the anti-nutritional compound in the barley cultivar, we need to identify a mutation that disrupts the gene responsible for its synthesis. The intact gene sequence shows the start codon (ATG) followed by a series of nucleotides that code for amino acids.
+
+Mutant 1 has a change from TTCT to TCTACG, which is an insertion of four nucleotides. This mutation could potentially disrupt the reading frame and lead to a premature stop codon downstream, but it's not the most likely candidate since it introduces new nucleotides rather than removing or altering existing ones.
+
+Mutant 2 has a change from TTCT to TTAAGC, which is an insertion of two nucleotides. Similar to Mutant 1, this mutation could disrupt the reading frame and lead to a premature stop codon downstream.
+
+Mutant 3 has a change from TTCT to TTACG, which is an insertion of one nucleotide (A). This mutation also introduces new nucleotides rather than removing or altering existing ones.
+
+Mutant 4 has a change from TTCT to TTACG with the removal of two nucleotides (GT) between the first and second codons. This mutation removes part of the coding sequence, which could potentially disrupt the gene's function by eliminating critical amino acid sequences necessary for its activity.
+
+Considering these options, Mutant 4 is the most likely candidate to eliminate the anti-nutritional compound in the barley cultivar because it removes part of the coding sequence, which could disrupt the synthesis of the compound. 
+
+{""answer"": ""B"", ""confidence"": 4}",False
+gpqa_035,A,4,0,"To determine the most likely observation of the absorption line in the Milky Way, we need to consider the energy equivalent of the detected absorption line (3.9 * 10^-6 eV) and its relation to different types of interstellar medium.
+
+The energy equivalent is very low, indicating that it corresponds to a transition between two states with a small energy difference. This suggests that the absorbing material is likely to be in a cold state, as warm or hot gas would have higher energy levels and thus larger energy differences between transitions.
+
+Cold molecular interstellar medium (A) typically has a temperature of around 10-20 K, which corresponds to a very low energy level. The presence of molecules also implies that the gas is shielded from external radiation, allowing it to remain cold.
+
+Warm molecular interstellar medium (B) would have higher temperatures and larger energy differences between transitions, making this option less likely.
+
+Cold atomic interstellar medium (C) has a temperature similar to that of cold molecular gas but consists only of atoms. While possible, the presence of molecules in the absorbing material makes this option slightly less likely than A.
+
+Warm atomic interstellar medium (D) would have even higher temperatures and larger energy differences between transitions, making it the least likely option.
+
+Therefore, based on the low energy equivalent of the detected absorption line, the most likely observation is that of cold molecular interstellar medium.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_040,,,0,"To solve this problem, we need to consider the relative motion between the glass and the observer in the laboratory.
+
+The speed of light in the glass is given by v_glass = c/n, where n is the index of refraction of the glass.
+
+Since the glass is moving at a constant velocity v towards the observer, the effective speed of light in the glass relative to the observer will be affected. We can use the relativistic formula for adding velocities:
+
+v_rel = (v_glass + v) / (1 + v_glass * v/c^2)
+
+However, since the problem doesn't specify that we need to consider relativistic effects, and given that the speed of light in vacuum is c=1, we can simplify this expression by assuming non-relativistic motion. In this case, the effective speed of light in the glass relative to the observer will be:
+
+v_rel = (c/n + v) / (1 + (c/n) * v)
+
+Since c=1, we can substitute and simplify:
+
+v_rel = (1/n + v) / (1 + 1/n * v)
+= ((n+v)/(nv))
+
+However, this expression is not among the options. Let's reconsider our approach.
+
+A more straightforward way to solve this problem is to use the concept of relative motion in special relativity. When two objects are moving at constant velocities towards each other, their relative velocity is given by:
+
+v_rel = v1 + v2
+
+In this case, we have the glass moving at velocity v and the light beam also moving at velocity c/n (in the opposite direction). The relative velocity of the light beam with respect to the observer in the laboratory will be:
+
+v_rel = c/n - v
+
+However, since the question asks for the speed of light in the glass relative to the observer, we need to consider the motion of the glass. We can use the relativistic formula for adding velocities again:
+
+v_rel = (c/n) / (1 + (-v/c))
+
+Since c=1, we can substitute and simplify:
+
+v_rel = (n-v)/(n+1)
+
+However, this expression is not among the options either.
+
+Let's try a different approach. We know that the speed of light in vacuum is c=1, and the index of refraction n is defined as the ratio of the speed o",True
+gpqa_042,A,4,1,"To determine the correct IUPAC name for this molecule, we need to follow the rules of nomenclature.
+
+The carboxylic acid group is the parent chain, so it comes first in the name. The numbers indicate the position of each substituent relative to the carboxylic acid group.
+
+Looking at the options:
+
+A) 3-cyano-6-(dimethylamino)-5-formyl-2-hydroxy-4-methoxybenzoic acid
+B) 5-cyano-2-(dimethylamino)-3-formyl-6-hydroxy-4-methoxybenzoic acid
+C) 2-(dimethylamino)-3-formyl-4-methoxy-5-cyano-6-hydroxybenzoic acid
+D) 2-hydroxy-3-cyano-4-methoxy-5-formyl-6-(dimethylamino)benzoic acid
+
+The correct order of the substituents is: carboxylic acid (parent), cyano, formyl, hydroxyl, dimethyl amino, and methoxy. The numbers in option A match this order.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_046,A,4,1,"To solve this problem, let's analyze the given data:
+
+IR: The presence of strong bands at 3420 cm-1 and 3325 cm-1 indicates the presence of a primary amine (-NH2) group, which is consistent with options A and D.
+
+The strong band at 1720 cm-1 suggests the presence of a carbonyl (C=O) group, which is also present in all four options.
+
+1H NMR: The signal at 1.20 ppm (t, 3H) indicates an ethyl group (-CH2CH3), consistent with options A and B.
+
+The signals at 4.0 ppm (bs, 2H) and 4.5 ppm (q, 2H) suggest the presence of a methylene group adjacent to the carbonyl group, which is consistent with options A and C.
+
+The signals at 7.0 ppm (d, 2H) and 8.0 ppm (d, 2H) indicate two ortho-disubstituted aromatic rings, which is consistent with options A and D.
+
+Considering all the data, option A, ethyl 4-aminobenzoate, seems to be the most likely answer as it matches all the given IR and NMR data.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_049,C,4,1,"To determine the number of loops in the Feynman diagram, we need to analyze the expression next to ""size estimate"". The key term is (4pi)^6.
+
+In quantum field theory, each loop contributes a factor of 2πi (or 1/(4π) for dimensional analysis) and a power of the momentum integral. For a single loop, you get a factor of 1/(4π)^2. For two loops, it's (1/(4π)^2)^2 = 1/(4π)^4. For three loops, it's (1/(4π)^2)^3 = 1/(4π)^6.
+
+Therefore, the presence of (4pi)^6 indicates that there are three loops in the diagram.
+
+{""answer"": ""C"", ""confidence"": 4}",False
+gpqa_052,A,4,0,"The compound has two aromatic-H signals, indicating a di-substituted benzene ring. The presence of an ester group is confirmed by the FTIR spectrum. The 1H NMR spectrum shows six signals: two for aromatic-H (2H), two for vinyl-H (2H), and two for –CH3 groups (6H). There are no signals corresponding to –CH2 groups, which means that there are no alkyl chains attached to the benzene ring. The total number of hydrogen atoms is 10 (2 aromatic + 2 vinyl + 6 methyl), but since we need to account for the two hydrogen atoms in the ester group, we add 2 more to get a total of 12 hydrogen atoms.
+
+The molecular formula must be C11H12O2.
+
+<<RETRY>>
+
+To solve this problem, let's analyze the information given:
+
+* The compound has a di-substituted 6-membered aromatic ring.
+* The FTIR spectrum shows absorption peaks indicating the presence of an ester group (C=O).
+* The 1H NMR spectrum shows six signals:
+	+ Two signals corresponding to aromatic-H.
+	+ Two signals corresponding to vinyl-H (one doublet and one doublet of quartets), which suggests a disubstituted alkene (CH=CH-).
+	+ Two signals corresponding to –CH3 groups.
+
+Given the presence of an ester group, we can infer that the compound has the general structure R-C(=O)-R', where R' is another functional group. The aromatic ring and vinyl-H signals suggest that one of the R groups is a phenyl group (C6H5) or a similar aromatic group.
+
+The absence of –CH2 groups suggests that there are no single-bonded carbon atoms between the aromatic ring and the ester group, which is consistent with the presence of an alkene group.
+
+Now, let's consider the possible chemical formulas:
+
+A) C11H14O2
+B) C11H12O2
+C) C12H14O2
+D) C12H12O2
+
+The molecular formula for a di-substituted 6-membered aromatic ring with an ester group and two –CH3 groups would be C10H8O + CH3-CH=CH- (vinyl group) + CH3-, which gives us C11H14O2. This matches option A.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_053,A,4,0,"To synthesize a cyclohexene via ring-closing metathesis (RCM), the starting material must be a diene that can form a six-membered ring upon cyclization.
+
+Looking at the options, we need to identify which one has the correct number and arrangement of double bonds to form a cyclohexene ring. The product is 5-isopropyl-3,4-dimethylcyclohex-1-ene, so we can deduce that the starting material must have two double bonds that will be closed upon cyclization.
+
+Option A) 5-isopropyl-3,4-dimethylocta-2,6-diene has two double bonds separated by four carbon atoms, which is consistent with forming a cyclohexene ring. 
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_054,D,4,0,"To solve this problem, let's analyze the given 1H NMR data:
+
+* Chemical shift (ppm): The chemical shifts are indicative of the type of hydrogen atom present in the molecule.
+	+ 7.0 ppm: This is a typical range for an alkenyl proton (a proton attached to a carbon-carbon double bond).
+	+ 5.5 ppm: This is also a typical range for an alkenyl proton, but it's slightly downfield from the first one, suggesting that this proton might be in a different environment.
+	+ 2.1 ppm and 1.6 ppm: These are typical ranges for methyl protons (CH3 groups).
+* Coupling patterns:
+	+ The signal at 7.0 ppm has a coupling constant of 16.0 Hz, which is indicative of a trans alkene proton (a proton that is trans to another proton in an alkene group).
+	+ The signal at 5.5 ppm shows both a doublet and a quartet, indicating that it's coupled to two different types of protons.
+* Integration: The integration values indicate the number of protons associated with each signal.
+
+Considering these observations:
+
+* The presence of a trans alkene proton (7.0 ppm) suggests that the compound is either Trans-propenyl acetate or Trans-butenyl acetate.
+* The methyl groups at 2.1 and 1.6 ppm suggest that the compound has an acetyl group (CH3CO-), which is consistent with both options.
+
+However, the signal at 5.5 ppm showing a doublet and a quartet suggests that it's coupled to two different types of protons, which is more consistent with a butenyl group (a four-carbon alkene chain) rather than a propenyl group (a three-carbon alkene chain).
+
+Therefore, the compound is likely Trans-butenyl acetate.
+
+{""answer"": ""D"", ""confidence"": 4}",False
+gpqa_055,A,4,0,"To solve this problem, we need to consider the selection rules for dipole transitions in atomic physics.
+
+The selection rule for electric dipole transitions is:
+
+Δl = ±1
+
+This means that the orbital angular momentum (l) can change by ±1 during a dipole transition.
+
+Given the initial state |3,0,0⟩ and the final state |1,0,0⟩, we need to find an intermediate state that satisfies the selection rule.
+
+Option A: |3,0,0⟩ → |2,1,0⟩ → |1,0,0⟩
+
+The first transition satisfies the selection rule (Δl = +1), but the second transition does not satisfy it (Δl = -1). So, option A is incorrect.
+
+Option B: |3,0,0⟩ → |2,1,0⟩ → |1,0,0⟩
+
+This option is the same as option A. The first transition satisfies the selection rule, but the second transition does not. So, option B is also incorrect.
+
+Option C: |3,0,0⟩ → |2,1,1⟩ → |1,0,0⟩
+
+The first transition does not satisfy the selection rule (Δl = +2), so this option is incorrect.
+
+Option D: |3,0,0⟩ → |2,1,-1⟩ → |1,0,0⟩
+
+This option satisfies the selection rule for both transitions. The probability of a two-step transition can be calculated using the product of the probabilities of each step:
+
+P = P(3→2) × P(2→1)
+
+Using the formula for dipole transition probabilities, we get:
+
+P = (1/9) × (2/3) = 2/27
+
+However, this is not among the answer choices. But let's look at the options again.
+
+The correct option should have a probability of 2/3 or 1/4. Let's re-evaluate our calculations for each option:
+
+Option A: |3,0,0⟩ → |2,1,0⟩ → |1,0,0⟩
+
+P = P(3→2) × P(2→1) = (1/9) × (2/3) = 2/27 ≠ 2/3 or 1/4
+
+Option B: |3,0,0⟩ → |2,1,0⟩ → |1,0,0⟩
+
+P = P(3→2) × P(2→1) = (1/9) × (2/3) = 2/27 ≠ 2/3 or 1/4
+
+Option C: |3,0,0⟩ → |2,1,1⟩ → |1,0,0⟩
+
+P = P(3→2) × P(2→1) = (1/9) × (1/4) = 1/36 ≠ 2/3 or 1/4
+
+Option D: |3,0,0⟩ → |2,1,-1⟩ → |1,0,0⟩
+
+P = P(3→2) × P(2→1) = (1/9) × (2/3) = 2/27 ≠ 2/3 or 1/4
+
+However, we can see that option B has a probability of 2/27, which is not among the answer choices. But let's look at it again.
+
+The correct option should have a probabili",False
+gpqa_057,D,4,0,"Superstring Theory is a theory that attempts to unify the fundamental forces of nature, including gravity, electromagnetism, and the strong and weak nuclear forces. It does so by postulating that the fundamental building blocks of the universe are not point-like particles, but tiny, vibrating strings. This theory requires regularization at high energies because it involves the calculation of loop diagrams and other quantum corrections.
+
+Quantum Electrodynamics (QED) is a relativistic quantum field theory that describes the interaction between electrically charged particles and the electromagnetic field. It requires regularization to remove ultraviolet divergences from loop diagrams, which arise when calculating the probability amplitudes for high-energy processes.
+
+Quantum Chromodynamics (QCD) is a gauge theory of the strong nuclear force, which holds quarks together inside protons and neutrons. Like QED, it also requires regularization at high energies to remove ultraviolet divergences from loop diagrams.
+
+Classical Electrodynamics, on the other hand, is a non-relativistic field theory that describes the interaction between electrically charged particles and the electromagnetic field in the limit of low velocities. It does not require regularization because it does not involve quantum corrections or high-energy processes.
+
+Therefore, the correct answer is:
+
+{""answer"": ""D"", ""confidence"": 4}",False
+gpqa_059,D,4,0,"To solve this problem, we can use the concept of time dilation in special relativity.
+
+The astronaut's proper time (time measured by the astronaut) is given as 22 years. We need to find the time it takes for the spacecraft to reach Earth, which is the dilated time.
+
+First, let's calculate the Lorentz factor:
+
+γ = 1 / sqrt(1 - v^2/c^2)
+= 1 / sqrt(1 - (0.99999987)^2)
+
+Using a calculator, we get:
+γ ≈ 708.04
+
+Now, we can use the time dilation formula to find the dilated time:
+
+t_dilated = γ \* t_proper
+≈ 708.04 \* 22 years
+≈ 15,576 years
+
+However, this is not the answer we're looking for. We need to consider that the spacecraft will take some time to reach Earth from the Large Magellanic Cloud.
+
+The distance between the Large Magellanic Cloud and Earth is approximately 163,000 light-years. Since the spacecraft is traveling at 0.99999987*c, it will take:
+
+t = d / v
+≈ 163,000 ly / (0.99999987 \* c)
+≈ 164,500 years
+
+Now, we need to find the time it takes for the astronaut to reach Earth, which is the dilated time plus the travel time:
+
+t_total ≈ t_dilated + t_travel
+≈ 15,576 years + 164,500 years
+≈ 180,076 years
+
+However, this is still not the answer we're looking for. We need to consider that the astronaut's lifetime is approximately 150 solar years.
+
+Since the dilated time (15,576 years) is much less than the astronaut's lifetime (150 years), and the travel time (164,500 years) is also much greater than the astronaut's lifetime, it means that the astronaut will die before reaching Earth.
+
+Therefore, the correct answer is:
+
+{""answer"": ""D"", ""confidence"": 4}",False
+gpqa_061,A,4,1,"To synthesize 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde from ethynylcyclohexane, we need to consider the steps required for each transformation.
+
+First, we need to convert the triple bond in ethynylcyclohexane into a double bond. This can be achieved through hydrogenation using H2/Pd-calcium carbonate (step 2).
+
+Next, we need to introduce an alcohol group (-OH) and a methyl group (-CH3) adjacent to each other on the cyclohexane ring. The correct sequence for this step is to first convert the double bond into a carbonyl group using O3/(CH3)2S (step 3), followed by reduction of the aldehyde to an alcohol with Ba(OH)2 (step 4).
+
+Considering these steps, option A seems to be the most plausible sequence.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_064,C,4,0,"To solve these reactions, let's break them down step by step.
+
+**Reaction 1:**
+1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A
+
+This reaction involves a base (KH) in THF followed by acidification with H+. The presence of the base suggests an elimination reaction is favored over substitution due to the deprotonation step that precedes it. Given the structure of the starting material and the conditions, we can expect a rearrangement or a cyclization product.
+
+The major product (A) could be formed through a series of steps including deprotonation, followed by an elimination reaction leading to a new double bond formation. Considering the spiro compound's structure, one possible outcome is the formation of a bicyclic system with a conjugated diene or enone system as part of its structure.
+
+Given these conditions and the starting material, **decahydro-7H-benzo[7]annulen-7-one** seems like a plausible product (A), which matches option C.
+
+**Reaction 2:**
+(E)-pent-2-en-1-ol + acetyl bromide (Base = LDA) ---> B
+
+This reaction involves an alcohol reacting with acetyl bromide in the presence of a strong base, LDA. This setup suggests an SN2 substitution mechanism is likely favored due to the strong base facilitating the removal of the leaving group from the acetyl bromide and the nucleophilic attack by the alkoxide formed from the alcohol.
+
+Given this context, **lithium 3-ethylpent-4-enoate** seems like a plausible product (B), which matches option C as well.
+
+Therefore, considering both reactions and their conditions, the best match for the products is:
+
+{""answer"": ""C"", ""confidence"": 4}",False
+gpqa_065,B,4,0,"The SMEFT (Standard Model Effective Field Theory) is a framework for describing the behavior of particles at high energies, where the effects of new physics beyond the Standard Model are encoded in higher-dimensional operators. The symmetries that must be respected by all operators in the SMEFT include:
+
+* Lorentz symmetry: This is a fundamental symmetry of special relativity, which states that the laws of physics should look the same for observers in different states of motion.
+* Poincare symmetry: This is an extension of Lorentz symmetry to include translations and rotations. It is also a fundamental symmetry of special relativity.
+
+CP (charge conjugation-parity) symmetry and CPT (charge conjugation-parity-time reversal) symmetry are not necessarily respected by all operators in the SMEFT, as they can be broken by certain types of new physics.
+
+Therefore, the correct answer is:
+
+{""answer"": ""B"", ""confidence"": 4}",False
+gpqa_069,C,4,0,"To solve this question, we need to deduce the molecular structure of E based on the given reactions.
+
+From the first reaction, solid A reacts with 8 equivalents of gas B to form bright red product C. This suggests that C is likely a metal complex or an organometallic compound, as many such compounds exhibit bright colors due to d-d transitions or charge transfer.
+
+The second reaction states that C reacts with 2 equivalents of gas D to produce extremely hazardous product E. The fact that only 2 equivalents of D are required implies that E has a specific stoichiometry and structure.
+
+The third reaction shows that C reacts with water to reform A plus two different acids F and G, where F is strong and G is weak. This suggests that C is an acid anhydride or a salt that decomposes into its constituent ions in the presence of water.
+
+Finally, the fourth reaction states that D reacts with B in a 1:1 ratio to form H, which is used as a solvent. This implies that D and B are likely to be simple molecules such as hydrogen gas (H2) and oxygen gas (O2), respectively.
+
+Based on these deductions, we can infer that E is likely to be a peroxide or an ozonide compound, given its hazardous nature and the involvement of oxygen in its formation. A common example of such a compound is ozone (O3).
+
+The molecular symmetry group of ozone (O3) is D∞h.
+
+{""answer"": ""C"", ""confidence"": 4}",False
+gpqa_073,A,4,0,"The probability that the atom has not decayed after 50 minutes is (100% - 32%) = 68%. Since the decay process is independent of time, the probability that it will decay in the next 150 minutes is still 32%.
+
+However, since we already know that the atom has not decayed after 50 minutes, we need to consider this information. The probability that the atom decays within the next 150 minutes given that it had not decayed after 50 minutes can be calculated using Bayes' theorem.
+
+Let's denote:
+
+* P(D) = Probability of decay in 100 minutes (32%)
+* P(ND) = Probability of no decay in 100 minutes (68%)
+* P(D|ND) = Probability of decay given no decay after 50 minutes
+
+We want to find P(D|ND). Using Bayes' theorem, we can write:
+
+P(D|ND) = P(D ∩ ND) / P(ND)
+
+Since the events ""decay in 100 minutes"" and ""no decay after 50 minutes"" are not mutually exclusive (the atom could have decayed between 50-100 minutes), we need to consider the probability of decay within the next 150 minutes, which is still 32%.
+
+However, since we already know that the atom has not decayed after 50 minutes, we can use the fact that the decay process is memoryless. This means that the probability of decay in the remaining time (150 minutes) given that it had not decayed after 50 minutes is the same as the original probability of decay within 100 minutes.
+
+Therefore, P(D|ND) = 32% / (68% + 32%) ≈ 0.32 / 1 ≈ 0.32 × (100/150) ≈ 21.33% × (100/150) ≈ 14.22% × (3/2) ≈ 21.33%.
+
+However, this is not among the answer choices.
+
+Wait... I made a mistake in my previous calculations. The correct calculation for P(D|ND) should be:
+
+P(D|ND) = P(D ∩ ND) / P(ND)
+
+Since we know that the atom has not decayed after 50 minutes, we can assume that it will follow the same probability of decay as before (32%). However, this is a simplification and does not take into account the fact that the atom has already survived for 50 minutes.
+
+A more accurate approach would be to use the concept of ""survival function"" in survival analysis. T",False
+gpqa_074,A,4,1,"To solve this problem, let's analyze the given DNA sequence:
+
+5'ATGTACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATGAGTTGCTGCTGTCGGCGCAGCGTCAGGGCTGCCTCACTGCCGGCGTCTACGAGTCAGCCAAAGTCTTGAACGTGGACCCCGACAATGTGACCTTCTGTGTGCTGGCTGCGGGTGAGGAGGACGAGGGCGACATCGCGCTGCAGATCCATTTTACGCTGATCCAGGCTTTCTGCTGCGAGAACGACATCGACATAGTGCGCGTGGGCGATGTGCAGCGGCTGGCGGCTATCGTGGGCGCCGGCGAGGAGGCGGGTGCGCCGGGCGACCTGCACTGCATCCTCATTTCGAACCCCAACGAGGACGCCTGGAAGGATCCCGCCTTGGAGAAGCTCAGCCTGTTTTGCGAGGAGAGCCGCAGCGTTAACGACTGGGTGCCCAGCATCACCCTCCCCGAGTGA3'
+
+The sequence is a DNA sequence, and it seems to be the coding strand (the one that matches the mRNA sequence). However, there's an issue with the sequence. The problem statement mentions that you're unable to overexpress your protein as expected.
+
+Upon closer inspection, I notice that the sequence contains several stop codons (UAA, UAG, and UGA) scattered throughout the coding region. This is likely the reason why the ribosome terminated the translation early, preventing the production of a full-length protein.
+
+Therefore, my answer is:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_075,A,4,0,"Since the iPSC cells are labeled with a mRaspberry fused under a lineage-specific promoter for each cell type, it's likely that the red signal will be specific to the cell type of origin. Therefore, I would expect to see cell line-specific red signals labeling different organelles.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_076,C,4,0,"To solve this problem, we need to analyze the given reactions and predict the major products.
+
+For reaction A:
+(((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) ----> A
+The reactant is a benzene derivative with an ether group attached to it. The first step involves deprotonation by BuLi, which will likely attack the benzylic position of the ether group, leading to the formation of a new carbon-carbon bond between the benzene ring and the 3-methylbut-2-en-1-yl group. After protonation in the second step, this would result in the migration of the double bond from the original position to form (Z)-2-methyl-5-phenylpent-2-en-1-ol.
+
+For reaction B:
+3,4,5,7,8,9-hexamethyl-1,11-dimethylene-2,6,10,11,11a,11b-hexahydro-1H-benzo[cd]indeno[7,1-gh]azulene + Heat ---> B
+This reaction involves a complex polycyclic molecule undergoing thermal rearrangement. The heat will likely cause the double bonds to migrate and reorganize within the molecule. Given the complexity of the reactant, it's difficult to predict the exact product without detailed analysis. However, considering the general principles of the Cope rearrangement, which often involves the migration of double bonds in a way that forms new rings or changes the connectivity between existing ones, we can infer that the major product will involve significant reorganization of the molecular structure.
+
+Given these considerations and looking at the options provided:
+
+{""answer"": ""C"", ""confidence"": 4}",False
+gpqa_078,A,4,0,"To solve this problem, let's analyze the given NMR data.
+
+The 1H-NMR spectrum shows signals at δ 2.28 (3H, s), 2.31 (3H, s), 6.75 (1H, d), 7.08 (2H, d), 7.68 (1H, d), and 7.71 (2H, d). The presence of two singlets at δ 2.28 and 2.31 indicates the presence of two methyl groups that are equivalent.
+
+The 13C-NMR spectrum shows signals at δ 21.3 (1C, s) and 28.4 (1C, s), which correspond to the two methyl groups. The signal at δ 197.7 is indicative of a carbonyl group or an epoxide carbon.
+
+Considering the molecular formula C11H12O, we can deduce that Compound X is likely an epoxide. The presence of two methyl groups and a styryl group (indicated by the signals at δ 6.75, 7.08, 7.68, and 7.71) suggests that the correct answer should have these features.
+
+Option A, 2-methyl-3-styryloxirane, matches this description perfectly. The styryl group is attached to the epoxide ring at position 3, and there are two methyl groups present in the molecule.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_080,C,4,1,"To synthesize [1,1'-bi(cyclopentylidene)]-2-one starting from 1,5-dichloropentane, we need to follow a series of reactions that will convert the dichloride into a ketone.
+
+The correct sequence involves:
+
+1. Reducing the dichloride with zinc (Zn) in ether to form a dianion.
+2. Adding aqueous potassium hydroxide (KOH) to protonate and form a diketone intermediate.
+3. Using pyridine, chromium trioxide (CrO3), and hydrochloric acid (HCl) to oxidize the diketone to the desired ketone.
+
+The correct sequence is:
+
+{""answer"": ""C"", ""confidence"": 4}",False
+gpqa_082,B,3,1,"To solve this problem, we need to calculate the pH at 25% titration (i.e., after adding half of the required amount of NaOH) and at the equivalence point.
+
+First, let's determine the number of moles of acetic acid in the initial solution:
+
+Molarity = 0.05 M
+Volume = 20.00 cm³
+
+Number of moles = Molarity × Volume (in liters)
+= 0.05 mol/L × 0.02 L
+= 0.001 mol
+
+Since we are diluting this with water, the number of moles remains the same.
+
+At 25% titration, half of the acetic acid has been neutralized by NaOH. Let's calculate the remaining amount of acetic acid:
+
+Number of moles of acetic acid left = Initial number of moles / 2
+= 0.001 mol / 2
+= 0.0005 mol
+
+The volume of the solution after dilution is still 40 cm³ (20 + 20). Let's calculate the new molarity:
+
+Molarity = Number of moles / Volume (in liters)
+= 0.0005 mol / 0.04 L
+= 0.0125 M
+
+Since acetic acid is a weak acid, we can use the Henderson-Hasselbalch equation to estimate the pH:
+
+pH = pKa + log10([A-]/[HA])
+
+where [A-] is the concentration of acetate ions and [HA] is the concentration of acetic acid.
+
+First, let's calculate the concentration of acetate ions at 25% titration:
+
+Number of moles of NaOH added = Number of moles of acetic acid left
+= 0.0005 mol
+
+Molarity of NaOH = 0.1 M
+Volume of NaOH added = (Number of moles of NaOH / Molarity) × Volume of solution (in liters)
+= (0.0005 mol / 0.1 M) × 40 cm³
+= 0.2 cm³
+
+The volume of the solution after adding NaOH is still approximately 40 cm³, so we can assume that the concentration of acetate ions is:
+
+[A-] = Number of moles of NaOH added / Volume of solution (in liters)
+= 0.0005 mol / 0.04 L
+= 0.0125 M
+
+Now we can plug in the values into the Henderson-Hasselbalch equation:
+
+pH = pKa + log10([A-]/[HA])
+= -log10(1.85x10^-5) + log10(0.0125/0.0125)
+≈ 4.26
+
+At the equivalence point, all of the acetic acid has been neutralized by NaOH, and the solution contains only acetate ions and water. The pH at this point can be estimated using the pKa value:
+
+pH = pKa + log10([A-]/",False
+gpqa_083,B,4,1,"To convert a sequential algorithm into a parallel algorithm, the key factor is often related to the ability to break down the problem into smaller, independent tasks that can be executed concurrently.
+
+In this context, I believe the correct answer is B) Linear partial fraction of fractional approximation. This is because linear partial fractions can help in decomposing the matrix exponential function into simpler components, which can then be approximated and computed independently in parallel.
+
+{""answer"": ""B"", ""confidence"": 4}",False
+gpqa_084,A,4,1,"To find the ratio of the equilibrium temperatures between Planet1 and Planet2, we need to use the formula for equilibrium temperature:
+
+T_eq = (1 - A) * (S / (4 * σ)) * (R^2 / a^2)
+
+where:
+- T_eq is the equilibrium temperature
+- A is the albedo (assumed to be the same for both planets)
+- S is the stellar flux (which depends on the star's mass and radius, but not directly relevant here)
+- σ is the Stefan-Boltzmann constant
+- R is the planet's radius
+- a is the semi-major axis of the orbit
+
+Since we are given that both planets have the same albedo A, this term cancels out when taking the ratio. We can also assume that the stellar flux S and the Stefan-Boltzmann constant σ are the same for both planets.
+
+The only variables left in the formula are R (radius) and a (semi-major axis). However, we don't have direct information on the semi-major axes of the orbits. But we do know that the Doppler shift is related to the mass and radius of the planet, as well as its orbital velocity. The formula for the Doppler shift due to a planet's gravitational impact is:
+
+Δλ = (v / c) * λ
+
+where:
+- Δλ is the Doppler shift
+- v is the orbital velocity of the planet
+- c is the speed of light
+- λ is the wavelength of the line affected by the Doppler shift
+
+We can rearrange this formula to solve for v:
+
+v = (c / λ) * Δλ
+
+The orbital velocity v is related to the semi-major axis a and the mass M of the planet by Kepler's third law:
+
+v^2 = G * (M / a)
+
+where:
+- G is the gravitational constant
+- M is the mass of the planet
+
+We can rearrange this formula to solve for a:
+
+a = (G * M) / v^2
+
+Now we have expressions for both R and a in terms of the given variables. We can plug these into the equilibrium temperature formula and take the ratio between Planet1 and Planet2.
+
+However, there's an easier way to approach this problem without explicitly calculating the semi-major axes or orbital velocities. The Doppler shift is proportional to the mass and radius of the planet, as well as its orbital velocit",False
+gpqa_087,B,4,1,"The process described involves the isolation of proliferating cells in Peyer patches after oral delivery of a GFP-tagged antigen, followed by sequencing of their variable heavy chain gene and observing high variability. This suggests that the cells are undergoing affinity maturation, which includes both somatic hypermutation (B) and class switching recombination (A). However, since the question specifically asks for the process taking place in the proliferating cell population, the correct answer is B) somatic hypermutation.
+
+{""answer"": ""B"", ""confidence"": 4}",False
+gpqa_088,B,3,0,"To solve this problem, let's analyze the steps involved in synthesizing product 3.
+
+Product 1 is formed by heating 1,3-dibromoadamantane with KOH at 240°C, resulting in a light yellow solid with characteristic IR and NMR spectra. This suggests that the bromine atoms are replaced by hydroxyl groups (-OH), forming an adamantane derivative with two -OH groups.
+
+Product 2 is formed by heating product 1 with aluminum isopropoxide (Al(OiPr)₃). Aluminum isopropoxide is a strong Lewis acid and can facilitate the formation of enolates or other reactive intermediates. Given that product 1 has two -OH groups, it's likely that one of these groups is converted into an enolate intermediate.
+
+The next step involves bubbling ozone (O₃) through a solution of product 2 at -78°C, followed by addition of dimethylsulfide (DMS). Ozone is a strong electrophile and can react with the enolate intermediate to form a carbonyl compound. The subsequent reaction with DMS likely leads to the formation of an acetal or ketal group.
+
+Now, let's consider the ¹H NMR spectrum of product 3. We're asked about the coupling pattern of the most deshielded hydrogen atom (excluding those that will exchange with deuterated solvent). Given the presence of a carbonyl group and possibly an acetal/ketal group in product 3, we can expect some degree of deshielding.
+
+The most deshielded hydrogen atoms are typically those adjacent to electronegative groups or functional groups. In this case, considering the formation of a carbonyl compound and possibly an acetal/ketal group, we might expect a hydrogen atom adjacent to the carbonyl group to be significantly deshielded.
+
+A triplet of triplets (A) would typically arise from a hydrogen atom with two neighboring protons that are not equivalent. This is unlikely in this case, given the structure of product 3.
+
+A doublet of triplets (B) could arise from a hydrogen atom adjacent to a carbonyl group and another proton-bearing carbon. This seems plausible, as the carbonyl grou",False
+gpqa_090,A,4,1,"To solve this problem, we need to understand the reactions involved.
+
+First, cyclohexanone is treated with LDA (Lithium Diisopropylamide) at low temperature, followed by benzaldehyde. This reaction is a nucleophilic addition of the enolate formed from cyclohexanone to the aldehyde, resulting in an aldol product. The acidification step then leads to the formation of product 1.
+
+Product 1 is likely a beta-hydroxy ketone or an aldol product with a hydroxyl group attached to the alpha carbon of the cyclohexanone ring.
+
+Next, product 1 is treated with an excess of diethylaminosulfur trifluoride (DAST), which is a fluorinating agent. DAST replaces the hydrogen atom at the beta position of the aldol product with a fluorine atom, resulting in the formation of product 2.
+
+Considering the reaction mechanism and the reagents involved, we can deduce that the fluorine atom will be introduced at the beta position of the cyclohexanone ring. The stereochemistry of the product is also important to consider.
+
+The correct answer should reflect the introduction of a fluorine atom at the beta position of the cyclohexanone ring and the retention of the original stereocenter.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_094,A,3,0,"The first reaction involves the oxidation of a diene with meta-chloroperbenzoic acid (mCPBA), which is a strong oxidizing agent that can cleave double bonds and introduce hydroxyl groups. Given the structure of 3,3,6-trimethylhepta-1,5-dien-4-one, it's likely that the two products formed are the result of different regioselective oxidations.
+
+The second reaction involves the addition of an excess of a Grignard reagent (methylmagnesium iodide) to the product mixture. This type of reaction typically results in the formation of a new carbon-carbon bond between the Grignard reagent and the carbonyl group or hydroxyl group present in the starting material.
+
+Considering these two reactions, I would expect that one of the products formed will be the result of an addition reaction to a hydroxyl group. The correct answer is likely to involve the formation of a new carbon-carbon bond adjacent to a hydroxyl group.
+
+{""answer"": ""A"", ""confidence"": 3}",False
+gpqa_097,A,3,0,"To solve this problem, let's analyze the reaction and identify the starting material.
+
+The product is 1-(prop-1-en-1-yl)-2-vinylcyclopentane, which has a cyclopentane ring with two vinyl groups attached. The reactants include a methyleneruthenium compound (which is likely a catalyst) and 1-propene (a propene molecule).
+
+Given the product structure, we can infer that the starting material must be able to undergo a [2+2] cycloaddition reaction with the methyleneruthenium compound and then react with 1-propene. This suggests that the starting material has a strained ring system that can participate in this type of reaction.
+
+Option A is 1,2-dimethylenecyclopentane, which has a strained ring system and could potentially undergo a [2+2] cycloaddition reaction.
+
+Option B is bicyclo[3.2.0]hept-6-ene, but it doesn't have the correct number of carbon atoms in its ring to match the product structure.
+
+Option C is 2-methylbicyclo[3.1.0]hex-2-ene, which also has a strained ring system and could potentially undergo a [2+2] cycloaddition reaction.
+
+Option D is 2-methyl-3-methylenebicyclo[2.1.0]pentane, but it doesn't have the correct number of carbon atoms in its ring to match the product structure.
+
+Based on this analysis, I believe that the starting material A is likely to be a molecule with a strained ring system that can undergo a [2+2] cycloaddition reaction.
+
+{""answer"": ""A"", ""confidence"": 3}",False
+gpqa_098,A,4,1,"The FTIR spectrum shows a broad absorption peak at 3000 wavenumbers, which is indicative of an alcohol group (OH). It also shows a strong absorption peak at 1700 wavenumbers, which is characteristic of a carboxylic acid group (COOH).
+
+In the 1H NMR spectrum, the presence of a doublet of triplets of quartets and a doublet of triplets of triplets indicates that there are multiple methyl groups attached to the same carbon atom. This suggests that the compound has a structure with two methyl groups on one carbon and another group (either hydrogen or an alkyl chain) on the adjacent carbon.
+
+Considering these results, option A is the most likely answer because it shows two methyl groups on one carbon and an ethyl group on the adjacent carbon, which would produce the observed 1H NMR signals. Additionally, the presence of a carboxylic acid group (COOH) in this compound matches the FTIR spectrum.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_099,A,4,0,"Let's analyze the reaction sequence:
+
+Compound A (C3H6) undergoes bromination in the presence of carbon tetrachloride to form compound B.
+
+This suggests that Compound B is a dibrominated alkane, which would have the formula C3H6Br2.
+
+When compound B reacts with alcoholic KOH, it forms compound C. This reaction is likely an elimination reaction, resulting in the formation of an alkene (Compound C).
+
+Passing compound C through a red-hot iron tube produces compound D. This reaction is likely a dehydrogenation reaction, resulting in the formation of an alkyne (Compound D).
+
+Compound D reacts with a mixture of two strong acids to form compound E. This reaction is likely an acid-catalyzed hydration reaction, resulting in the formation of an alkane (Compound E).
+
+Compound E, in the presence of iron scrap and hydrochloric acid, forms compound F. This reaction is likely a reduction reaction, resulting in the formation of an alkane (Compound F).
+
+Compound F reacts with nitrous acid to form G. This reaction is likely a diazotization reaction, resulting in the formation of a diazonium salt (Compound G).
+
+When G reacts with sodium hydroxide, it forms H. This reaction is likely a decarboxylation reaction, resulting in the formation of an aromatic compound (Compound H).
+
+Now, let's analyze the statements:
+
+A) C is a flammable gas. This statement is incorrect because Compound C is likely an alkene, which is not typically a flammable gas.
+
+B) D gives two singlets in the 1H NMR spectra. This statement is correct because an alkyne (Compound D) would have two equivalent hydrogen atoms, resulting in two singlets in the 1H NMR spectrum.
+
+C) H gives a yellow color with the addition of ferric chloride solution. This statement is correct because Compound H is likely an aromatic compound, which would give a positive test for phenols or aromatic compounds (e.g., a yellow color with ferric chloride).
+
+D) F is used for the synthesis of dyes. This statement is correct because Compound F is likel",False
+gpqa_100,A,4,1,"To solve this problem, we need to identify the type of reaction that occurred between 3-methylpyrrolidine and compound A.
+
+The final product is 1-(cyclohexylidenemethyl)-3-methylpyrrolidine, which suggests a condensation reaction where two molecules are joined together. The presence of an iminium ion intermediate in the mechanism indicates that this is likely a Michael addition or an aldol-like reaction with subsequent elimination.
+
+Given these clues, we can look at each option:
+
+A) A = cyclohexanecarbaldehyde, B = TsOH
+This combination suggests a condensation reaction between 3-methylpyrrolidine and the aldehyde (cyclohexanecarbaldehyde), forming an iminium ion intermediate. The acid catalyst (TsOH) would facilitate this process by protonating the nitrogen atom of the pyrrolidine, making it more electrophilic.
+
+B) A = vinylcyclohexane, B = Acetic acid
+This option suggests a Michael addition reaction between 3-methylpyrrolidine and vinylcyclohexane. However, this would not produce the observed product with an iminium ion intermediate.
+
+C) A = cyclohexanecarbaldehyde, B = Acetic acid
+Similar to option B, this combination does not fit well because acetic acid is a weak acid that would not facilitate the formation of an iminium ion intermediate effectively.
+
+D) A = vinylcyclohexane, B = TsOH
+This option also suggests a Michael addition reaction, which again does not align with the observed product.
+
+Based on this analysis, the most suitable reagent (A) and catalyst (B) for the reaction are cyclohexanecarbaldehyde and TsOH, respectively.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_101,A,4,0,"To solve this question, let's analyze the given information step by step.
+
+Firstly, we have a bicistronic lox-Cre vector that expresses both the ligand (under the CBA promoter) and the receptor (under the IRES regulatory element). The ligand is fused to mCherry, while the receptor is fused to eGFP at its C-terminus. This setup allows for the simultaneous expression of both proteins.
+
+The question mentions that after crossing the mouse model homozygous for this construct with SOX10-Cre hemizygous mice, no green signal (indicating eGFP expression) was observed under the fluorescent confocal microscope. 
+
+Now, let's evaluate each option:
+
+A) The receptor-eGFP construct is stuck in the Golgi: This could be a plausible reason for not observing any green signal, as it would indicate that the receptor protein is not being properly trafficked to the cell surface.
+
+B) Ligand and the receptor are in a paracrine relationship: Paracrine signaling involves one cell releasing a signaling molecule (in this case, the ligand) that binds to receptors on adjacent cells. This option does not directly explain why no green signal was observed.
+
+C) The receptor and the eGFP are not in the frame: This would imply a problem with the DNA sequence of the construct, but it's unlikely that both the ligand and receptor ORFs would be out of frame simultaneously.
+
+D) The enhancer for the ligand and receptor expression is missing: While enhancers play crucial roles in gene regulation, their absence would likely affect the overall expression levels rather than completely preventing eGFP expression.
+
+Given this analysis, I believe that option A is the most plausible explanation. 
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_102,A,4,0,"To synthesize 1-(3-bromo-5-nitrophenyl)ethan-1-one starting from benzene, we need to introduce a bromine atom at the 3-position and a nitro group at the 5-position of the phenyl ring.
+
+Option A: 
+i) Br2/FeBr3 - This step introduces a bromine atom at the 3-position.
+ii) HNO3/H2SO4 - This step introduces a nitro group at the 5-position.
+iii) CH3COCl/AlCl3 - This step is an acylation reaction, which is not necessary for this synthesis.
+iv) HNO3/H2SO4 - This step is redundant and unnecessary.
+v) Fe/HCl - This step reduces the nitro group to an amine, which is not desired.
+vi) NaNO2/HCl - This step introduces a nitroso group, which is also not desired.
+vii) H3PO2 - This step reduces the bromo compound to a hydroxyl compound.
+
+Option B: 
+i) HNO3/H2SO4 - This step introduces a nitro group at the 5-position.
+ii) Fe/HCl - This step reduces the nitro group to an amine, which is not desired.
+iii) NaNO2/HCl - This step introduces a nitroso group, which is also not desired.
+iv) H3PO2 - This step reduces the bromo compound to a hydroxyl compound.
+v) Br2/FeBr3 - This step introduces a bromine atom at the 3-position.
+vi) CH3COCl/AlCl3 - This step is an acylation reaction, which is not necessary for this synthesis.
+vii) HNO3/H2SO4 - This step is redundant and unnecessary.
+
+Option C: 
+i) HNO3/H2SO4 - This step introduces a nitro group at the 5-position.
+ii) Fe/HCl - This step reduces the nitro group to an amine, which is not desired.
+iii) CH3COCl/AlCl3 - This step is an acylation reaction, which is not necessary for this synthesis.
+iv) Br2/FeBr3 - This step introduces a bromine atom at the 3-position.
+v) HNO3/H2SO4 - This step is redundant and unnecessary.
+vi) NaNO2/HCl - This step introduces a nitroso group, which is also not desired.
+vii) H3PO2 - This step reduces the bromo compound to a hydroxyl compound.
+
+Option D: 
+i) CH3COCl/AlCl3 - This step is an acylation reaction, which is not necessary for this synthesis.
+ii) Br2/FeBr3 - This step introduces a bromine atom at the 3-positio",False
+gpqa_103,B,4,0,"The Doppler shift is proportional to the velocity of the star, which in turn is proportional to the mass ratio of the planet to the star and inversely proportional to the square root of the semi-major axis of the orbit.
+
+Since both stars have similar masses (similar to that of our Sun) and both planets have similar masses (similar to that of Neptune), we can assume that the mass ratios are approximately equal for both systems.
+
+The periodic shift in wavelength is directly related to the velocity of the star, which is inversely proportional to the square root of the semi-major axis. Since the stars themselves have similar masses, the ratio of their velocities will be inversely proportional to the square root of the ratio of their semi-major axes.
+
+Given that the periodic shift for planet #1 was up to 5 milliangstroms and for planet #2 was 7 milliangstroms, we can set up a proportion:
+
+(velocity of star with planet #2) / (velocity of star with planet #1) = √(semi-major axis of planet #2) / √(semi-major axis of planet #1)
+
+Since the mass ratios are approximately equal for both systems, the ratio of their velocities will be inversely proportional to the square root of the ratio of their semi-major axes. Therefore:
+
+(velocity of star with planet #2) / (velocity of star with planet #1) = √(semi-major axis of planet #1) / √(semi-major axis of planet #2)
+
+We can now set up a proportion using the given values for the periodic shifts:
+
+7 milliangstroms / 5 milliangstroms = √(semi-major axis of planet #1) / √(semi-major axis of planet #2)
+
+Simplifying and rearranging, we get:
+
+√(semi-major axis of planet #2) / √(semi-major axis of planet #1) = 7/5
+
+Since the orbital period is proportional to the square root of the semi-major axis, we can write:
+
+(period of planet #2) / (period of planet #1) = (√(semi-major axis of planet #2)) / (√(semi-major axis of planet #1))
+
+Substituting the value from above, we get:
+
+(period of planet #2) / (period of planet #1) = 7/5
+
+To find how many ti",False
+gpqa_104,A,4,0,"To solve this problem, we need to understand the relationship between the brightness variations caused by a rotating star with spots and those caused by an exoplanet.
+
+The amplitude of the brightness variation (ΔF) due to rotational modulation is proportional to the difference in temperature between the spotted and unspotted regions. Since only one hemisphere is spotty, the maximum and minimum fluxes are given by:
+
+F_max = F_0 \* (1 - 0.2) + F_spot
+F_min = F_0
+
+where F_0 is the average flux of the star, and F_spot is the flux of a spot.
+
+The amplitude of the brightness variation is then:
+
+ΔF = F_max - F_min = F_0 \* (1 - 0.2) + F_spot - F_0
+= F_0 \* 0.8 + F_spot - F_0
+
+We are given that the temperature difference between the spots and the unspotted regions is 1000K, so we can write:
+
+F_spot = F_0 \* (1 - 0.2) \* (Teff / (Teff - ΔT))
+
+Substituting this expression for F_spot into the equation for ΔF, we get:
+
+ΔF = F_0 \* 0.8 + F_0 \* (1 - 0.2) \* (Teff / (Teff - ΔT)) - F_0
+= F_0 \* (0.8 + 0.8 \* (6000 / (6000 - 1000)))
+
+Simplifying this expression, we get:
+
+ΔF = F_0 \* 1.44
+
+Now, let's consider the case of an exoplanet with radius R_pl and distance from the star a. The amplitude of the brightness variation due to the exoplanet is proportional to the ratio of the planet's area to the star's area:
+
+ΔF = F_0 \* (R_pl / a)^2
+
+Equating this expression to the previous one, we get:
+
+1.44 = (R_pl / a)^2
+
+Since we want to find the ratio R_pl/R_star, we can substitute a = R_star and solve for R_pl/R_star:
+
+(R_pl / R_star)^2 = 1.44
+R_pl / R_star ≈ √1.44 ≈ 0.39
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_106,A,4,1,"To approach this question, let's consider the complexities of bioinformatics in structure-based drug discovery, particularly when dealing with a novel molecule like Xantheraquin that has multiple chiral centers and can exist in various tautomeric forms.
+
+Option A suggests combining in silico predictions with preliminary in vitro binding affinity assays to validate the most promising forms of Xantheraquin. This approach acknowledges the potential for computational errors or inaccuracies in predicting the most active form(s) of a molecule, especially one as complex as Xantheraquin. By validating these predictions through experimental methods (in vitro binding affinity assays), researchers can ensure that their in silico docking studies are based on the most biologically relevant forms of the molecule.
+
+Option B prioritizes tautomeric and chiral forms based on physicochemical properties, which is a reasonable approach but does not address the need for validation or experimental confirmation. Option C relies solely on quantum mechanical calculations to predict interactions with the bacterial target, which may not accurately reflect biological activity due to the complexities of molecular interactions in living systems. Option D focuses on pharmacokinetics and ADME properties using molecular dynamics simulations, which is important but does not directly address the need for validation or experimental confirmation of the most active forms of Xantheraquin.
+
+Given these considerations, the most crucial step before proceeding with in silico docking studies would be to validate the predictions through experimental methods. Therefore:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_110,A,4,1,"To determine the major products, let's analyze each reaction step by step.
+
+For reaction A:
+2-ethyl-2,6-dimethylcyclohexan-1-one is a ketone that can undergo Michael addition with ethyl acrylate in the presence of t-BuOK (a strong base). The most likely product will be formed through the attack of the enolate ion on the carbonyl group of ethyl acrylate, followed by protonation and elimination.
+
+Considering steric hindrance and stability, the major product is expected to have the least hindered alkyl group attached to the cyclohexanone ring. The 2-ethyl group will be more stable than the 3-ethyl group due to less steric hindrance. Therefore, the correct answer for reaction A should reflect this.
+
+For reaction B:
+1-nitropropane reacts with (E)-but-2-enenitrile in the presence of KOH and H2O. This is a typical Michael addition reaction followed by hydrolysis and decarboxylation. The major product will be formed through the attack of the enolate ion on the nitrile group, followed by protonation.
+
+Considering steric hindrance and stability, the major product should have the least hindered alkyl group attached to the nitroalkane ring. The 1-nitropropane will react with (E)-but-2-enenitrile to form a product with two methyl groups on the same side of the double bond, which is more stable than having them on opposite sides.
+
+Based on this analysis, the correct answers are:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_113,C,4,1,"To solve the given reactions, we need to identify the suitable reagents for each reaction.
+
+The first reaction is:
+butan-2-one + NaCN + A ---> 2-hydroxy-2-methylbutanenitrile
+
+This reaction involves the addition of sodium cyanide (NaCN) to butan-2-one. The product formed is a nitrile, which suggests that the reagent A should be able to facilitate the formation of a nitrile group (-CN). Typically, this type of reaction requires an acid catalyst to protonate the carbonyl oxygen and activate it for nucleophilic attack by cyanide.
+
+The second reaction is:
+2-(4-benzylphenyl)-2-hydroxybutanenitrile + B (H2O) ---> 2-(4-benzylphenyl)-2-hydroxybutanoic acid
+
+This reaction involves the hydrolysis of a nitrile to form an acid. The reagent B should be able to facilitate this hydrolysis, which typically requires a strong acid.
+
+Considering these requirements:
+
+- For the first reaction, A needs to be an acid catalyst.
+- For the second reaction, B needs to be a strong acid.
+
+Looking at the options:
+A) A = H3O+, B = HCl
+B) A = NaHSO3, B = CH3COOH
+C) A = NaHSO3, B = HCl
+D) A = H3O+, B = CH3COOH
+
+The best match is option C: A = NaHSO3 (an acid catalyst for the first reaction) and B = HCl (a strong acid for the second reaction).
+
+{""answer"": ""C"", ""confidence"": 4}",False
+gpqa_114,,,0,"To solve this problem, we need to use the concept of relativistic energy-momentum conservation.
+
+The electron has a Lorentz factor of 4, which means its energy is \(E_e = \gamma m_ec^2\), where \(m_e\) is the rest mass of an electron and \(c\) is the speed of light. The positron has a Lorentz factor of 2, so its energy is \(E_p = \gamma p m_ec^2\).
+
+When they collide and annihilate, their total energy is converted into two photons with equal energies. Let's denote the energy of each photon as \(E_\gamma\). Since both photons have the same energy, we can write:
+
+\[E_e + E_p = 2E_\gamma\]
+
+We also know that the electron and positron are moving in opposite directions along the horizontal axis. After collision, one photon moves in the upper-right direction and the other in the lower-right direction.
+
+To find the angle between the photons' directions, we need to consider their momenta. Since both photons have equal energies, they must also have equal magnitudes of momentum (due to \(E^2 = p^2c^2 + m^2c^4\)). Let's denote the magnitude of each photon's momentum as \(p_\gamma\).
+
+The electron and positron have momenta in opposite directions along the horizontal axis. After collision, one photon moves at an angle \(\theta\) to the right (upper-right direction), while the other moves at the same angle but below the horizontal axis (lower-right direction). The magnitude of each photon's momentum is \(p_\gamma = E_\gamma/c\).
+
+We can now use the relativistic energy-momentum conservation equations:
+
+\[E_e + E_p = 2E_\gamma\]
+\[p_{e,x} + p_{p,x} = p_{\gamma,1x} \cos(\theta) + p_{\gamma,2x}\]
+
+where \(p_{e,x}\), \(p_{p,x}\), and \(p_{\gamma,1x}\), \(p_{\gamma,2x}\) are the x-components of the electron, positron, and photon momenta, respectively.
+
+Since both photons have equal energies and magnitudes of momentum, we can simplify the equations:
+
+\[E_e + E_p = 2E_\gamma\]
+\[p_{e,x} + p_{p,x} = 2p_\gamma \cos(\theta)\]
+
+We know that \(E_e = \gamma m_ec^2\) and \(E_p = \gamma p m_ec^2",True
+gpqa_116,A,4,1,"To determine which compounds show optical isomerism, we need to look for molecules that have a chiral center (a carbon atom bonded to four different groups) or are part of a molecule with a planar, unsymmetric structure.
+
+Option 1: dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylate - This compound has a biphenyl structure, which is not typically associated with optical isomerism. However, the presence of two chiral centers (the carbon atoms bonded to the carboxylic acid groups) makes this molecule capable of exhibiting optical isomerism.
+
+Option 2: methyl 2-hydroxypropanoate - This compound has a chiral center at the second carbon atom due to the presence of a hydroxyl group and three different alkyl groups attached to it. Therefore, it can exhibit optical isomerism.
+
+Option 3: benzophenone - This compound does not have any chiral centers or planar, unsymmetric structures that would allow for optical isomerism.
+
+Option 4: dimethyl fumarate - This compound has a planar, unsymmetric structure due to the presence of two different carboxylic acid groups. Therefore, it can exhibit optical isomerism.
+
+Based on this analysis, both options 1 and 2 have chiral centers or planar, unsymmetric structures that allow for optical isomerism.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_117,A,4,0,"The reaction between 4,4-dimethylcyclopent-1-enol and bromine is a typical electrophilic addition reaction of an alkene. The major outcome will be the formation of a dibromo compound due to the addition of two bromine molecules across the double bond.
+
+Considering the structure of the starting material, 4,4-dimethylcyclopent-1-enol, and the mechanism of electrophilic addition, the most likely product is (1R,2S)-1,2-dibromo-4,4-dimethylcyclopentanol.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_118,D,4,0,"To solve this problem, let's analyze the series of reactions:
+
+1. The first reaction involves the addition of water (H2O) to 5-bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene, resulting in compound A.
+
+2. In the second reaction, PDC (pyridinium dichromate) is used to oxidize compound A, producing compound B.
+
+3. The third reaction involves the addition of H2CPPh3 (dicyclohexylcarbodiimide and triphenylphosphine) to compound B, resulting in compound C.
+
+4. In the final reaction, TsOH (p-toluenesulfonic acid) is used to dehydrate compound C, producing product D.
+
+Given this sequence of reactions, we can deduce that each step involves a transformation that adds or removes functional groups and/or rearranges the molecular structure.
+
+The key insight here is recognizing that the final reaction with TsOH (p-toluenesulfonic acid) typically leads to dehydration. This means that compound C will lose water to form product D.
+
+Now, looking at the options:
+
+A) 3a,4,5a-trimethyl-1,2,3,3a,5a,6,7,8-octahydrocyclopenta[c]pentalene
+B) 3a,4a,5,5-tetramethyl-2,3,3a,4,4a,5-hexahydro-1H-cyclobuta[1,2:1,4]di[5]annulene
+C) 3a,5-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene
+D) 3a,5,5-trimethyl-1,2,3,3a,5,6,7,8-octahydrocyclopenta[1,4]cyclobuta[1,2]benzene
+
+Considering the transformations that occurred in each step of the reaction sequence and focusing on the dehydration step with TsOH, we can see that compound C would lose a water molecule to form product D.
+
+The correct answer is D) 3a,5,5-trimethyl-1,2,3,3a,5,6,7,8-octahydrocyclopenta[1,4]cyclobuta[1,2]benzene.
+
+{""answer"": ""D"", ""confidence"": 4}",False
+gpqa_119,D,4,0,"The number of stars per unit range of parallax is inversely proportional to the square of the parallax value. This is because the volume of a sphere (in this case, the space containing the stars) increases as the cube of its radius, and the parallax value is related to the distance of the star from us by the inverse square law.
+
+{""answer"": ""D"", ""confidence"": 4}",False
+gpqa_125,A,4,0,"Let's break down the reactions:
+
+Reaction I: (S)-5-methoxyhexan-3-one is treated with LAH followed by an acidic workup.
+This reaction will reduce the ketone group to a secondary alcohol, resulting in one product.
+
+Reaction II: Pentane-2,4-dione is treated with excess NaBH4 followed by an acidic workup.
+NaBH4 reduces both carbonyl groups to primary alcohols. However, since there are two identical carbonyl groups, the reduction will result in a mixture of diastereomers (two different stereoisomers). This means that Reaction II will produce two products.
+
+The products from both reactions are combined and run on HPLC columns:
+
+Normal-phase HPLC: In normal-phase HPLC, the stationary phase is polar, and the mobile phase is non-polar. The retention times of the compounds depend on their polarity. Since the secondary alcohol from Reaction I has a higher molecular weight than the primary alcohols from Reaction II, it will elute first in the normal-phase HPLC column. The two primary alcohols from Reaction II will have similar retention times due to their identical structure, but they may still be separated based on their slight differences in polarity.
+
+Chiral HPLC: In chiral HPLC, the stationary phase is a chiral selector that interacts with the analytes based on their stereochemistry. The (S)-5-methoxyhexan-3-one from Reaction I will have a specific stereocenter, and its enantiomer will not be present in the mixture. Therefore, only one peak corresponding to this compound will be observed in the chiral HPLC column.
+
+Considering these points, we can conclude that:
+
+* In normal-phase HPLC, there will be 3 peaks: two primary alcohols from Reaction II and one secondary alcohol from Reaction I.
+* In chiral HPLC, there will be only 1 peak corresponding to the (S)-5-methoxyhexan-3-one.
+
+Therefore, the correct answer is:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_127,A,2,1,"To determine which plasmid is suitable for expressing the Human P53 protein in E. coli BL21, I'll look for the presence of a start codon (ATG) at the beginning of each sequence.
+
+After examining all four options, I notice that sequences A and B are identical, while sequences C and D have some differences but still share similarities with sequences A and B. However, upon closer inspection, I see that none of these sequences match the amino acid sequence provided for Human P53 protein.
+
+But wait! The first 3 nucleotides (ATG) in each sequence correspond to the start codon for methionine (Met), which is a common start codon used in many expression systems. This suggests that all four plasmids could potentially be used to express the Human P53 protein, but we need to check if they contain the correct gene sequence.
+
+Upon further inspection, I notice that sequences A and B are identical, while sequences C and D have some differences. However, none of these sequences match the amino acid sequence provided for Human P53 protein.
+
+But then it hits me - all four sequences start with ATG, which is a common start codon used in many expression systems. This suggests that any of these plasmids could potentially be used to express the Human P53 protein, but we need to check if they contain the correct gene sequence.
+
+However, I notice that none of the provided sequences match the amino acid sequence provided for Human P53 protein. But since all four sequences start with ATG and have similar structures, it's likely that one of them contains the correct gene sequence.
+
+Given this information, I'm going to choose option A as my answer because it seems to be identical to options B, C, and D in terms of structure, but I'm not very confident about this choice since none of the sequences match the amino acid sequence provided for Human P53 protein.
+
+{""answer"": ""A"", ""confidence"": 2}",False
+gpqa_129,A,4,1,"To detect the absorption lines of neutral hydrogen in deep space using optical ground-based telescopes, we need to consider the wavelength range that these telescopes can observe. Optical telescopes typically operate in the visible spectrum, which spans from approximately 4000 Angstroms (blue light) to 8000 Angstroms (red light).
+
+The Lyman alpha line is at a wavelength of ~1216 Angstroms. When we are looking for absorption lines due to redshifted neutral hydrogen, these lines will be shifted towards longer wavelengths.
+
+To find the lower limit on the redshift that allows detection with optical ground-based telescopes, we need to consider when the Lyman alpha line is shifted into the visible spectrum. The minimum shift would be when it reaches 4000 Angstroms (the blue end of the visible spectrum).
+
+The formula for calculating the wavelength shift due to redshift is:
+
+λ = λ0 / (1 + z)
+
+where λ is the observed wavelength, λ0 is the rest-frame wavelength, and z is the redshift.
+
+Rearranging this formula to solve for z gives us:
+
+z = (λ0 / λ) - 1
+
+Substituting λ0 = 1216 Angstroms and λ = 4000 Angstroms into this equation yields:
+
+z = (1216 / 4000) - 1
+z ≈ 0.704 - 1
+z ≈ -0.296
+
+However, we are interested in the minimum redshift that allows detection, which means we want to find when the Lyman alpha line is just shifted into the visible spectrum at its shortest wavelength (4000 Angstroms). The calculation above shows a negative value for z, indicating that the object would need to be blueshifted to be detected. This makes sense because if it were redshifted, the light would be shifted even further away from the Lyman alpha line.
+
+Since we are looking for the minimum positive redshift (z > 0), let's recalculate using a slightly longer wavelength in the visible spectrum, such as 5000 Angstroms:
+
+z = (1216 / 5000) - 1
+z ≈ 0.2432 - 1
+z ≈ -0.7568
+
+However, this is still not correct because we are looking for when it just enters the visible spectrum at its shortest end.
+
+Let's ",False
+gpqa_131,A,4,0,"The two singlets at around 6.7 ppm in a 1:1 ratio indicate that the two aromatic compounds have similar chemical shifts for their aromatic protons. This suggests that they are structurally similar, possibly isomers of each other.
+
+The three signals at around 2.2 ppm (all singlets) in a 2:1:1 ratio suggest that there are three different types of methyl or ethyl groups present in the mixture. The 2:1:1 ratio indicates that one compound has two identical methyl groups, another compound has one methyl group and one other type of alkyl group, and the third compound has only one methyl group.
+
+Considering these observations, we can analyze the options:
+
+A) 1,2,3,5-tetramethylbenzene and 1,4-diethylbenzene: This pair fits the observed NMR data. The first compound has four identical methyl groups (two singlets at around 6.7 ppm), while the second compound has two ethyl groups (one signal for each type of alkyl group).
+
+B) 1,2,3,4-tetramethylbenzene and 1,2,3,5-tetramethylbenzene: This pair does not fit the observed NMR data. Both compounds have four identical methyl groups.
+
+C) 1,2,4,5-tetramethylbenzene and 1,2,3,4-tetramethylbenzene: This pair does not fit the observed NMR data. The first compound has four identical methyl groups, while the second compound has two different types of alkyl groups.
+
+D) 1,2,4,5-tetramethylbenzene and 1,2,3,5-tetramethylbenzene: This pair does not fit the observed NMR data. Both compounds have four identical methyl groups.
+
+Therefore, the correct answer is:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_134,A,4,0,"To determine the kinematically allowed decays of the boson X at the lowest order, we need to consider the masses of the particles involved in each decay channel.
+
+The mass of the boson X is given as 6 GeV. The masses of the fermions are:
+
+* b-quark: approximately 4.2 GeV
+* s-quark: approximately 0.1 GeV (negligible compared to other masses)
+* u-quark: approximately 0.002 GeV (negligible compared to other masses)
+* d-quark: approximately 0.005 GeV (negligible compared to other masses)
+* c-quark: approximately 1.3 GeV
+* t-quark: approximately 173 GeV (much heavier than X)
+* \tau-lepton: approximately 1.8 GeV
+* e- and \mu-leptons: negligible masses
+
+Now, let's consider each decay channel:
+
+A) X\rightarrow b\bar{b},s\bar{s},u\bar{u},d\bar{d},\tau^{+}\tau^{-},e^{+}e^{-}
+
+* The mass of the b-quark is less than 6 GeV, so X can decay into b\bar{b}.
+* The mass of the s-quark is negligible compared to other masses, but it's not a kinematically allowed channel since the s\bar{s} pair would have a total mass greater than 6 GeV.
+* Similarly, u\bar{u} and d\bar{d} are not kinematically allowed channels for the same reason.
+* The \tau^{+}\tau^{-} pair has a total mass of approximately 3.6 GeV, which is less than 6 GeV, so X can decay into \tau^{+}\tau^{-}.
+* e^{+}e^{-} has negligible mass, but it's not a kinematically allowed channel since the e^{+}e^{-} pair would have a total mass of zero.
+
+B) X\rightarrow c\bar{c},s\bar{s},u\bar{u},d\bar{d},t\bar{t},\tau^{+}\tau^{-},\mu^{+}\mu^{-},e^{+}e^{-}
+
+* The mass of the c-quark is less than 6 GeV, so X can decay into c\bar{c}.
+* s\bar{s}, u\bar{u}, and d\bar{d} are not kinematically allowed channels for the same reason as in option A.
+* t\bar{t} has a total mass of approximately 173 \times 2 = 346 GeV, which is much greater than 6 GeV, so X cannot decay into t\bar{t}.
+* The \tau^{+}\tau^{-} pair has a total mass of approximately 3.6 GeV, which is less than 6 GeV, so X can decay into \tau^{+}\tau^{-}.
+* Similarly, the \mu^{+}\mu^{-} and e",False
+gpqa_135,B,4,0,"To evaluate the volume integral of the divergence of the field ∇.f inside the volume of a sphere of radius R centred at the origin, we first need to calculate the divergence of the field.
+
+In spherical coordinates (r, θ, φ), the radial component of the vector field f(r) is given by f(r) = 1/r^2. The divergence of this field in spherical coordinates is:
+
+∇.f = ∂(f_r)/∂r + (1/r)(∂/∂θ)(f_θ) + (1/(r sin θ))(∂/∂φ)(f_φ)
+
+Since the field has non-zero component only along the radial direction, f_θ and f_φ are zero. Therefore:
+
+∇.f = ∂(f_r)/∂r
+
+Substituting f(r) = 1/r^2 into this expression gives:
+
+∇.f = -2/r^3
+
+Now we need to evaluate the volume integral of the divergence of the field inside the sphere of radius R centred at the origin:
+
+∫∫∫ ∇.f dV
+
+In spherical coordinates, the volume element is dV = r^2 sin θ dr dθ dφ. The limits of integration are 0 ≤ r ≤ R, 0 ≤ θ ≤ π, and 0 ≤ φ ≤ 2π.
+
+Substituting the expression for ∇.f into the integral gives:
+
+∫∫∫ (-2/r^3) r^2 sin θ dr dθ dφ
+
+Evaluating this integral over the specified limits of integration yields:
+
+-2 ∫[0,R] r^-1 dr ∫[0,π] sin θ dθ ∫[0,2π] dφ
+= -2 [ln(r)] from 0 to R [cos(θ)] from 0 to π [-φ] from 0 to 2π
+= -2 (ln(R) - ln(0)) (-1) (-2π)
+= 4π
+
+However, we must be careful when evaluating the integral at r = 0. Since f(r) = 1/r^2 is not defined at r = 0, we cannot directly substitute this value into the expression for ∇.f.
+
+Instead, we can use the fact that the divergence of a vector field is a measure of the source or sink density of the field. In this case, since f(r) falls off radially as 1/r^2 from the origin, there are no sources or sinks at the origin. Therefore, the volume integral of the divergence of the field inside the sphere of radius R centred at the origin is zero.
+
+{""answer"": ""B"", ""confidence"": 4}",False
+gpqa_137,D,4,0,"The pH value changed from 1 to 4 after the accidental addition of the unknown substance. This indicates that the substance is a base, which neutralizes some of the H+ ions in the solution, increasing the pH.
+
+Since the reaction was exothermic and the container got hot, it's likely that the increased temperature affected the rate of the reaction. The Arrhenius equation shows that the rate constant (k) of a chemical reaction is related to the temperature (T): k = Ae^(-Ea/RT), where A is a pre-exponential factor, Ea is the activation energy, and R is the gas constant.
+
+Therefore, an increase in temperature would lead to an increase in the rate constant (k), which means that the rate of reaction would be faster. However, in this case, the rate of reaction slowed down after the accidental addition of the unknown substance.
+
+Considering these points, the most likely reason for changing the rate of reaction is related to the change in temperature.
+
+{""answer"": ""D"", ""confidence"": 4}",False
+gpqa_146,,,0,"To solve this problem, we need to use the concept of energy-momentum conservation in particle physics.
+
+The initial state consists of a proton (p) and an antiproton (\(\bar{p}\)), which annihilate to produce two particles A\({}^{+}\) and two particles A\({}^{-}\). We are given that \(m_{A}c^{2}=300MeV\).
+
+First, let's calculate the total energy of the initial state. The proton has a rest mass of approximately 938 MeV, and the antiproton also has a rest mass of about 938 MeV. Since they are moving slowly, we can approximate their kinetic energies as negligible compared to their rest masses.
+
+The total energy of the initial state is therefore:
+
+\[E_{initial} = (m_{p} + m_{\bar{p}})c^2 \approx 1876MeV\]
+
+Now, let's consider the final state. We have two particles A\({}^{+}\) and two particles A\({}^{-}\), each with a rest mass of 300 MeV.
+
+The total energy of the final state is:
+
+\[E_{final} = 2(m_{A}c^2 + m_{A}c^2) \approx 2400MeV\]
+
+Since energy-momentum conservation holds, we can equate the initial and final energies:
+
+\[E_{initial} = E_{final}\]
+
+However, this equation is not sufficient to solve for the velocity of particle A. We need to consider the momentum as well.
+
+The total momentum of the initial state is zero since both particles are moving slowly in opposite directions. Therefore, the total momentum of the final state must also be zero:
+
+\[p_{A^{+}} + p_{A^{-}} = 0\]
+
+Using the relativistic energy-momentum equation \(E^2 = (pc)^2 + (m_0c^2)^2\), we can write:
+
+\[(m_{A}c^2)^2 = (p_{A^{+}}c)^2 + (m_{A}c^2)^2\]
+
+Simplifying and rearranging, we get:
+
+\[p_{A^{+}}c = \sqrt{(m_{A}c^2)^2 - (m_{A}c^2)^2} = m_{A}c^2\]
+
+Now, let's calculate the velocity of particle A using the relativistic equation \(v = pc/E\):
+
+\[v = \frac{p_{A^{+}}c}{E_{A^{+}}} = \frac{m_{A}c^2}{\sqrt{(m_{A}c^2)^2 + (m_{A}c^2)^2}} = \frac{300MeV}{\sqrt{90000 + 90000}} = \frac{300MeV}{600MeV}\]
+
+\[v = 0.5\]
+
+However, this is not the correct answer since we are considering a relativistic case where th",True
+gpqa_148,B,4,0,"The most likely explanation for these observations is that the crude compound exists as a mixture of enantiomers (B). The presence of two peaks corresponding to the same alpha-proton in the 1H NMR spectrum, both with similar chemical shifts and integrals, suggests that there are two diastereotopic protons present. However, since spin-spin coupling can be ruled out, this is more consistent with a pair of enantiomers, each having one of these protons. The LC-MS analysis at elevated temperature showing two peaks of equal intensities with the same mass spectrum further supports this explanation.
+
+{""answer"": ""B"", ""confidence"": 4}",False
+gpqa_149,A,3,0,"To solve this problem, let's break down the given information:
+
+* The molecular formula is C8H9NO.
+* The NMR data shows:
+	+ A triplet at 9.72 ppm (1H), which suggests a formyl group (-CHO).
+	+ Two doublets at 6.98 and 6.51 ppm, each with two protons, indicating two phenyl groups attached to the same carbon.
+	+ A broad singlet at 6.27 ppm with two protons, suggesting an amine group (NH2) that has been partially protonated or is in a tautomeric form.
+	+ Two doublets at 3.66 ppm with two protons, indicating a methylene group (-CH2-) adjacent to the phenyl groups.
+
+Given this information, we can infer that the compound is an aldehyde with two phenyl groups attached to the same carbon and a methylene group between them. The molecular formula C8H9NO suggests that there is one nitrogen atom in the molecule, which could be part of an amine or an imine group.
+
+Now, let's analyze the reaction sequence:
+
+1. NaNO2 + HCl: This mixture forms nitrous acid (HNO2), which can convert a primary amine to a diazonium salt.
+2. H2O: The water would hydrolyze the diazonium salt, releasing nitrogen gas and forming an aldehyde or ketone.
+3. aq. KOH, Heat: This step is likely used for dehydrogenation or elimination reactions.
+
+Considering these steps, it's possible that the amine group in the original compound has been converted to a diazonium salt, which then undergoes hydrolysis and subsequent dehydrogenation to form an aldehyde with two phenyl groups attached to the same carbon.
+
+Given this analysis, I would choose answer A) 4-(4-hydroxyphenyl)but-3-enal as the final product. This compound matches the molecular formula C8H9NO and has the correct NMR data for a but-3-enal with two phenyl groups attached to the same carbon.
+
+{""answer"": ""A"", ""confidence"": 3}",False
+gpqa_156,C,4,0,"To design a molecular diagnostic kit for quick detection of the retrovirus, I would follow option C: First you identify the virus by performing DNA sequencing. You then develop a PCR kit for quick and accurate diagnosis.
+
+This approach makes sense because:
+
+* DNA sequencing is a powerful tool for identifying unknown viruses.
+* Once the virus is identified, a PCR (Polymerase Chain Reaction) kit can be designed to specifically target the viral genome, allowing for rapid and accurate detection of the virus in patient samples.
+
+The other options are not ideal:
+
+* Option A targets IgG antibodies, which may not be present in sufficient quantities early in the infection or in patients with compromised immune systems.
+* Option B uses nested PCR, which is a more complex and potentially less sensitive technique than standard PCR.
+* Option D uses cDNA sequencing, which is typically used for RNA viruses, but retroviruses are DNA viruses that integrate into the host genome.
+
+{""answer"": ""C"", ""confidence"": 4}",False
+gpqa_157,A,4,0,"To solve this question, let's break down the information provided:
+
+* The transcription factor subunit has a transactivation domain where phosphorylation occurs.
+* A missense mutation X in the transactivation domain is recessive and causes loss-of-function.
+* A heterozygous mutation Y in the dimerization domain acts as a dominant-negative mutation.
+
+Given that mutation Y is in the dimerization domain, which is crucial for the protein to form dimers and function properly, we can infer its effect. Since it's a dominant-negative mutation, this means that even though the individual has one normal allele (wild-type), the presence of the mutated allele disrupts the function of the wild-type allele.
+
+Considering the options:
+
+A) Protein degradation and loss-of-function of the wild-type allele: This option is plausible because if the dimerization domain is affected, it could lead to misfolded or unstable proteins that are degraded. The presence of a dominant-negative mutation would indeed cause loss-of-function of the wild-type allele.
+
+B) Change of protein conformation and gain-of-function phenotype: This option doesn't fit well with the description of a dominant-negative mutation, which typically leads to loss of function rather than gain of function.
+
+C) Loss of protein dimerization and wild-type phenotype: This option is incorrect because if there's a loss of dimerization due to mutation Y, it would likely lead to a loss-of-function phenotype, not the wild-type phenotype.
+
+D) Protein aggregation and loss-of-function phenotype: While this could be a possible outcome, it's less directly related to the effect of a dominant-negative mutation in the dimerization domain compared to option A.
+
+Therefore, based on the information provided and the characteristics of a dominant-negative mutation:
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_164,D,4,1,"The correct answer is D) One can use a catalyst of a group VIa transition metal in combination with specific activators.
+
+{""answer"": ""D"", ""confidence"": 4}",False
+gpqa_165,B,4,0,"To determine the mass of the pseudo-Goldstone boson $H_{2}$ through radiative corrections, we need to consider the relevant terms in the Lagrangian that contribute to its mass.
+
+The given Lagrangian includes terms involving the singlet fermions $N_{iR}$, scalar-doublet $S$, and singlet scalar $\phi$. The pseudo-Goldstone boson $H_{2}$ is associated with the breaking of the global symmetry in the scalar sector. Its mass is influenced by the radiative corrections from various particles, including the Higgs bosons ($h_1$), gauge bosons ($W$, $Z$), top quarks ($t$), and other scalars ($H^{\pm}$, $H^{0}$, $A^{0}$).
+
+The correct expression for the mass of the pseudo-Goldstone boson $H_{2}$ through radiative corrections is given by:
+
+$$M_{h_2}^2 = \frac{1}{8\pi^2(x^2+v^2)}\left\{\alpha_1 M_{h_1}^4 + \alpha_2 M_W^4 + \alpha_3 M_Z^4 - \alpha_4 M_t^4 + \alpha_5 M_{H^\pm}^4 + \alpha_6 M_{H^0}^4 - \alpha_7\sum M_{N_i}^4\right\}$$
+
+This expression matches option B.
+
+{""answer"": ""B"", ""confidence"": 4}",False
+gpqa_168,A,4,0,"The original decay has a continuous energy spectrum for the outgoing E particles because of the conservation of energy and momentum in the two-body decays (2A -> 2B + 2E). The endpoint Q is determined by the maximum possible energy available for the E particles, which is related to the masses of the initial and final states.
+
+In the variant decay, one V particle is replaced with a massless particle M. Since M has zero mass, it carries away no energy or momentum in its own right. However, this replacement affects the overall energy-momentum balance of the decay.
+
+The key insight here is that the two-body decays (2A -> 2B + 2E) are still present, but now with an additional particle M emitted instead of one V. This means that the energy spectrum of the E particles will still be continuous, as they arise from the same two-body decays.
+
+However, the presence of M affects the overall energy available for the E particles. Since M has zero mass, it doesn't contribute to the endpoint Q directly. But the replacement of one V with M changes the overall energy-momentum balance, which in turn affects the shape and position of the energy spectrum of the E particles.
+
+The correct answer is that the spectrum remains continuous with an adjusted shape, and the endpoint decreases. This is because the presence of M reduces the available energy for the E particles, shifting the endpoint Q to a lower value.
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_169,C,4,1,"To find the expectation value of the electron's spin along the y-direction, we need to calculate the matrix product of the state vector (3i, 4) and the Pauli-Y operator \sigma_y.
+
+First, let's write down the state vector in a column matrix format:
+
+(3i)
+(4)
+
+Next, we'll multiply this by the Pauli-Y operator:
+
+\begin{pmatrix}
+0 & -i \\
+i & 0
+\end{pmatrix} 
+\begin{pmatrix}
+3i \\
+4
+\end{pmatrix}
+
+Using matrix multiplication rules, we get:
+
+\begin{pmatrix}
+-4 \\
+3i
+\end{pmatrix}
+
+Now, to find the expectation value of S_y, we need to take the dot product (or inner product) of this result with the original state vector. However, since the Pauli-Y operator is Hermitian and the state vector is normalized, we can simply multiply the result by the complex conjugate of the first element of the state vector:
+
+(-4) * 3 = -12
+
+So, the expectation value of S_y is -12*hbar.
+
+{""answer"": ""C"", ""confidence"": 4}",False
+gpqa_170,A,4,1,"To determine the order of increasing weight fraction of the yield of the para-isomer in electrophilic substitution reactions, we need to consider the directing effects of the substituents on the benzene ring.
+
+The directing effects are as follows:
+
+- Electron-donating groups (such as -CH3, -C2H5) direct the incoming electrophile towards the ortho and para positions.
+- Electron-withdrawing groups (such as -Cl, -NO2) direct the incoming electrophile towards the meta position.
+
+Given this information, let's analyze each substance:
+
+1. C6H5-CH3: The methyl group is an electron-donating group, directing the bromine to the ortho and para positions.
+2. C6H5-COOC2H5: The ester group is also an electron-donating group, directing the bromine to the ortho and para positions.
+3. C6H5-Cl: The chlorine atom is an electron-withdrawing group, directing the bromine to the meta position.
+4. C6H5-NO2: The nitro group is a strong electron-withdrawing group, directing the bromine strongly towards the meta position.
+5. C6H5-C2H5: Similar to the methyl group, the ethyl group is an electron-donating group, directing the bromine to the ortho and para positions.
+6. C6H5-COOH: The carboxylic acid group is also an electron-withdrawing group, but its effect is weaker than that of the nitro group.
+
+Considering these directing effects, we can arrange the substances in order of increasing weight fraction of the yield of the para-isomer:
+
+The para-isomer yield increases with stronger electron-donating groups and decreases with stronger electron-withdrawing groups. Therefore, the correct order from lowest to highest is:
+
+- The compound with the strongest electron-withdrawing group (C6H5-NO2) will have the least amount of para-isomer.
+- The compounds with weaker electron-withdrawing groups or stronger electron-donating groups will have more para-isomer.
+
+Based on this analysis, the correct order is: 4 < 6 < 2 < 1 < 5 < 3
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_173,,,0,"To solve this problem, we need to calculate the kinetic energy of the more massive fragment using both relativistic and classical (non-relativistic) approximations.
+
+First, let's use the given information to find the rest-mass energies of the two fragments. Let M be the initial mass of the nucleus, and m1 and m2 be the masses of the two fragments, with m1 being 2 times more massive than m2 (m1 = 2m2). The sum of their rest-masses is 99% of the initial mass M:
+
+m1 + m2 = 0.99M
+
+Since m1 = 2m2, we can substitute this into the equation above to get:
+
+2m2 + m2 = 0.99M
+3m2 = 0.99M
+m2 = (0.99/3)M
+m1 = 2 × (0.99/3)M
+
+Now, let's calculate the rest-mass energy of each fragment using Einstein's famous equation E = mc^2:
+
+E1 = m1c^2 = (2 × 0.99/3)Mc^2
+E2 = m2c^2 = (0.99/3)Mc^2
+
+The total initial rest-mass energy is given as 300 GeV, which is equal to the sum of the rest-mass energies of the two fragments:
+
+E1 + E2 = 300 GeV
+
+Substituting the expressions for E1 and E2 above, we get:
+
+(2 × 0.99/3)Mc^2 + (0.99/3)Mc^2 = 300 GeV
+(4.97/3)Mc^2 = 300 GeV
+
+Now, let's calculate the kinetic energy of the more massive fragment using relativistic and classical approximations.
+
+Relativistic approximation:
+The total initial rest-mass energy is 300 GeV, which is converted into kinetic energy (T1) when the nucleus splits. Since the sum of rest-masses of the two fragments is 99% of the initial mass M, the remaining 1% is converted into kinetic energy:
+
+T1 = 0.01Mc^2
+
+Using the expression for E1 above, we can rewrite this as:
+
+T1 = (0.02 × 0.99/3)Mc^2
+T1 ≈ 6.6 MeV
+
+Classical approximation:
+In classical mechanics, kinetic energy is given by the equation T = (1/2)mv^2. Since one fragment is twice more massive than the other, we can assume that the more massive fragment has a velocity v and the less massive fragment has a velocity -v (to conserve momentum). The total kinetic energy of the two fragments is then:
+
+T = (1/2)m1v^2 + (1/2)m2(-v)^2
+= (1/2)(2m2)v^2 + (1/2)m2v^2
+= 3/4 m2 v^2
+
+The total mom",True
+gpqa_175,,,0,"To find the probability of getting 0 for P and -1 for Q in the respective measurements, we need to calculate the expectation values of the operators P and Q.
+
+The matrix corresponding to operator P is given by:
+
+P = \begin{bmatrix} 0 & 1/\sqrt{2} & 0 \\ 1/\sqrt{2} & 0 & 1/\sqrt{2} \\ 0 & 1/\sqrt{2} & 0 \end{bmatrix}
+
+The matrix corresponding to operator Q is given by:
+
+Q = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{bmatrix}
+
+The state of the system at time t is given by the column matrix:
+
+|\psi\rangle = \begin{bmatrix} -1 \\ 2 \\ 1 \end{bmatrix}
+
+To find the expectation value of P, we need to calculate the inner product of |\psi\rangle and P|\psi\rangle.
+
+First, let's calculate P|\psi\rangle:
+
+P|\psi\rangle = \begin{bmatrix} 0 & 1/\sqrt{2} & 0 \\ 1/\sqrt{2} & 0 & 1/\sqrt{2} \\ 0 & 1/\sqrt{2} & 0 \end{bmatrix} \begin{bmatrix} -1 \\ 2 \\ 1 \end{bmatrix}
+= \begin{bmatrix} (1/\sqrt{2})(2) \\ (-1 + 1/\sqrt{2}) \\ (1/\sqrt{2})(2) \end{bmatrix}
+
+Now, let's calculate the inner product of |\psi\rangle and P|\psi\rangle:
+
+\langle\psi|P|\psi\rangle = \begin{bmatrix} -1 & 2 & 1 \end{bmatrix} \begin{bmatrix} (1/\sqrt{2})(2) \\ (-1 + 1/\sqrt{2}) \\ (1/\sqrt{2})(2) \end{bmatrix}
+= (-1)(1/\sqrt{2})(2) + 2(-1 + 1/\sqrt{2}) + 1(1/\sqrt{2})(2)
+= -\sqrt{2} - 2 + 2/\sqrt{2} + 2/\sqrt{2}
+= -\sqrt{2} + 4/\sqrt{2}
+
+To find the expectation value of Q, we need to calculate the inner product of |\psi\rangle and Q|\psi\rangle.
+
+First, let's calculate Q|\psi\rangle:
+
+Q|\psi\rangle = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{bmatrix} \begin{bmatrix} -1 \\ 2 \\ 1 \end{bmatrix}
+= \begin{bmatrix} -1 \\ 0 \\ -1 \end{bmatrix}
+
+Now, let's calculate the inner product of |\psi\rangle and Q|\psi\rangle:
+
+\langle\psi|Q|\psi\rangle = \begin{bmatrix} -1 & 2 & 1 \end{bmatrix} \begin{bmatrix} -1 \\ 0 \\ -1 \end{bmatrix}
+= (-1)(-1) + 2(0) + 1(-1)
+= 1
+
+Since the expectation value of Q is not equal to -1, it means that measuring Q just after the
+
+<<RETRY>>
+
+To find the probability",True
+gpqa_180,A,4,0,"To solve this problem, we need to understand the pp-III branch of solar neutrino production. The pp-III branch is a series of nuclear reactions that occur in the core of the Sun, where protons combine with other particles to produce neutrinos. One of these reactions is:
+
+p + p → d + e+ + νe (pp-III)
+
+The energy spectrum of the neutrinos produced by this reaction peaks at around 700 keV.
+
+If we assume that the pp-III branch suddenly stopped, the flux of neutrinos in the band 1 (700-800 keV) would decrease significantly, while the flux of neutrinos in the band 2 (800-900 keV) would remain relatively unchanged. This is because the energy spectrum of the neutrinos produced by other reactions peaks at higher energies.
+
+Therefore, the ratio of the flux between the two bands would be approximately:
+
+Flux (band 1) / flux (band 2) ≈ 0.1
+
+{""answer"": ""A"", ""confidence"": 4}",False
+gpqa_184,D,4,1,"To find the eigenvalues of the Hamiltonian operator $H = \varepsilon \vec{\sigma}.\vec{n}$, we need to consider the properties of the Pauli spin matrices $\vec{\sigma}$ and the unit vector $\vec{n}$.
+
+The Pauli spin matrices are given by:
+
+$$\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+
+The unit vector $\vec{n}$ can be written as:
+
+$$\vec{n} = (n_x, n_y, n_z)$$
+
+where $n_x^2 + n_y^2 + n_z^2 = 1$.
+
+Now, let's consider the dot product of $\vec{\sigma}$ and $\vec{n}$:
+
+$$\vec{\sigma}.\vec{n} = \sigma_x n_x + \sigma_y n_y + \sigma_z n_z$$
+
+Using the properties of the Pauli spin matrices, we can rewrite this expression as:
+
+$$\vec{\sigma}.\vec{n} = (n_x \sigma_x + n_y \sigma_y + n_z \sigma_z)$$
+
+Now, let's consider the eigenvalues of $\vec{\sigma}.\vec{n}$. Since $\vec{n}$ is a unit vector, we can choose its components such that:
+
+$$\begin{pmatrix} n_x \\ n_y \\ n_z \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}, \quad \text{or} \quad \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}, \quad \text{or} \quad \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$$
+
+In each of these cases, we can calculate the eigenvalues of $\vec{\sigma}.\vec{n}$:
+
+* For $\vec{n} = (1, 0, 0)$, we have:
+$$\vec{\sigma}.\vec{n} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+The eigenvalues of this matrix are $+1$ and $-1$.
+* For $\vec{n} = (0, 1, 0)$, we have:
+$$\vec{\sigma}.\vec{n} = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}$$
+The eigenvalues of this matrix are $+i$ and $-i$.
+* For $\vec{n} = (0, 0, 1)$, we have:
+$$\vec{\sigma}.\vec{n} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+The eigenvalues of this matrix are $+1$ and $-1$.
+
+Since the Hamiltonian operator is given by $H = \varepsilon \vec{\sigma}.\vec{n}$, we can see that the eigenvalues of $H$ will be $\pm \varepsilon$, regardless of the choice of $\vec{n}$.
+
+Therefore, the correct answer is:
+
+{",False
+gpqa_188,A,4,0,"The pion is a particle associated with the spontaneously-broken chiral symmetry of QCD.
+
+{""answer"": ""A"", ""confidence"": 4}",False

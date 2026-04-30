@@ -1,0 +1,22 @@
+question_id,ans_neutral,ans_affective,conf_shift,answer_flip,score,raw_response_neutral,raw_response_affective
+gpqa_000,C,C,0.0,0.0,1.0,"{""answer"": ""C"", ""confidence"": 5}","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_002,B,B,0.0,0.0,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_007,B,B,0.0,0.0,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_009,B,B,0.0,0.0,1.0,"```json
+{""answer"": ""B"", ""confidence"": 5}
+```","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_010,C,C,0.0,0.0,1.0,"```json
+{""answer"": ""C"", ""confidence"": 5}
+```","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"

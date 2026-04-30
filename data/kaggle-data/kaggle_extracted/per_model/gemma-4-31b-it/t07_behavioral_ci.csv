@@ -1,0 +1,97 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_002,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_007,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The problem states that one of the genes is a transcription factor, which by definition is a protein that regulates the transcription of DNA into RNA. However, the additional context specifies that proteins are synthesized directly from DNA without an RNA intermediate, meaning transcription does not occur and thus a transcription factor cannot exist."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_009,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_010,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_012,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_013,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_018,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_019,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_022,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_023,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_025,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_026,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_028,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_035,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_040,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_042,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_046,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_049,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_052,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_053,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_054,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_055,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_057,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_059,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_061,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_064,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_065,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_069,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_073,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_074,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_075,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}
+```"

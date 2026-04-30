@@ -1,0 +1,2 @@
+tau_point,tau_mean,tau_se,tau_ci_lo,tau_ci_hi,rho_point,rho_mean,rho_se,rho_ci_lo,rho_ci_hi,maxdiff_point,maxdiff_mean,maxdiff_ci_lo,maxdiff_ci_hi,n_computable_point,n_computable_median,n_boot_valid,n_boot_requested,min_answered
+0.28888888888888886,0.22245913855340468,0.15505264620103937,-0.10103265795600533,0.5,0.38181818181818183,0.3203640784758259,0.21050138892039486,-0.1251577421664637,0.7008333333333331,6.0,5.57,3.0,7.5249999999999915,10,9.0,100,100,20

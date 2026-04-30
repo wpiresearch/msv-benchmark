@@ -1,0 +1,241 @@
+question_id,choice,answer,score,raw_response
+gpqa_000,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_002,ANSWER,D,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_007,ANSWER,B,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_009,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_010,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_012,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_013,ANSWER,A,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_018,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_019,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_022,ANSWER,B,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_023,ANSWER,A,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_025,ANSWER,B,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_026,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_028,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_035,ANSWER,A,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_040,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_042,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_046,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_049,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_052,ANSWER,B,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_053,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_054,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_055,ANSWER,B,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_057,ANSWER,D,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_059,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_061,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_064,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_065,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_069,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_073,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_074,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_075,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_076,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_078,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_080,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_082,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_083,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_084,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_087,ANSWER,B,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_088,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_090,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_094,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_097,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_098,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_099,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_100,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_101,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_102,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_103,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_104,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_106,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_110,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_113,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_114,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_116,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_117,ANSWER,B,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_118,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_119,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_125,ANSWER,B,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_127,ANSWER,D,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_129,ANSWER,C,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_131,ANSWER,A,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_134,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_135,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_137,ANSWER,A,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_146,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_148,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_149,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_156,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_157,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_164,ANSWER,A,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_165,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_168,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_169,ANSWER,C,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_170,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_173,ANSWER,D,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_175,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_180,DELEGATE,,0.9,"```json
+{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}
+```"
+gpqa_184,ANSWER,D,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_188,ANSWER,B,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"

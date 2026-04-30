@@ -1,0 +1,67 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,A,A,1,False,False,0.0,"**A) 10^-9 eV**
+
+**Reasoning:**
+
+The energy difference between two quantum states is fundamentally defined by the uncertainty principle – the smaller the uncertainty in one variable, the larger the uncertainty in the other.  Specifically, the energy difference (ΔE) is given by:
+
+ΔE = E1 - E2 = ħ * Δx
+
+where ħ (h-bar) is the reduced Planck constant.
+
+In this case, we are given the lifetimes (τ) of the states as a measure of their lifetime.  The lifetime is directly related to the energy differenc","{""answer"": ""A"", ""confidence"": 1}
+"
+gpqa_002,A,B,1,True,True,0.9,"**A) -1.4**
+
+**Reasoning:**
+
+This question hinges on the correct application of the time-independent Schrödinger equation and the concept of the expectation value. Let’s break down the reasoning:
+
+1.  **Linear Superposition:** The particle is in a linear superposition, meaning the state is a linear combination of the spin-up and spin-down states.  This is crucial – it’s not just a simple combination of the individual states.
+
+2.  **State Representation:** We are given that |ψ⟩ = 0.5|↑⟩ + √3/2|↓⟩","{""answer"": ""B"", ""confidence"": 1}
+"
+gpqa_007,C,C,2,False,False,0.0,"**C) G2 is a transcription factor, G1 and G3 show pleiotropy, G1 is epistatic towards G3**
+
+**Reasoning:**
+
+Let’s break down the evidence and deduce the most likely conclusion:
+
+1.  **Resistance Levels:** The starkest observation is the variation in resistance across the mutant lines.  We see a clear pattern:
+    *   g1: 75% control resistance
+    *   g2: 0% control resistance
+    *   g3: 50% control resistance
+    *   g1g3: 10% control resistance
+    *   g2g3: 0% control resistance
+
+2.  **Pleio","**C) G2 is a transcription factor, G1 and G3 show pleiotropy, G1 is epistatic towards G3**
+
+**Reasoning:**
+
+Let’s analyze the results and the expert’s reasoning:
+
+1.  **Resistance Levels:** The stark variation in resistance across the mutant lines – 75% control, 0% control, 50% control, 10% control, 0% control – is a *key* indicator of pleiotropy. The differing levels of resistance across the mutant lines suggest that the genes are affecting multiple traits simultaneously.
+
+2.  **Pleiotropic Rel"
+gpqa_009,A,B,1,True,True,0.9,"**A) d**
+
+**Reasoning:**
+
+The question asks for the *highest density* among the listed exoplanets. Density is defined as mass per unit volume. Let’s analyze each option:
+
+*   **a) An Earth-mass and Earth-radius planet:** This planet would have a mass equivalent to Earth’s, but with a radius of Earth’s. Its density would be significantly lower than Earth’s.
+*   **b) A planet with 2 Earth masses and a density of approximately 5.5 g/cm^3:** This planet has twice the mass of Earth, resulting in a mu","{""answer"": ""B"", ""confidence"": 1}"
+gpqa_010,D,A,3,True,False,0.0,"**D) Programmed ribosomal frameshifting creates two polyproteins near to 5` end of the genome by moving back by 1 nucleotide with the help of slippery nucleotides, and pseudoknot.**
+
+**Reasoning:**
+
+The core of the argument against option D lies in its inaccurate description of the mechanism. While the other options touch upon related aspects of SARS-CoV-2’s molecular biology, option D presents a fundamentally flawed and less precise explanation. It incorrectly describes the process of frameshif","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_012,A,A,3,False,True,0.85,"**A) (1S,2S,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate**
+
+**Reasoning:**
+
+Let’s break down the reaction steps and the resulting product formation:
+
+1.  **Initial Reaction:** Methanol solution of (R)-(+)-Limonene with Pd/C under Hydrogen. This step is crucial for the initial isomerization and formation of the desired stereochemistry. The limonene’s chiral center is already present, and the Pd/C catalyst facilitates the rearrangement.
+
+2.  **Formation of Product 1:** Treatment with 3-","{""answer"": ""A"", ""confidence"": 3}"

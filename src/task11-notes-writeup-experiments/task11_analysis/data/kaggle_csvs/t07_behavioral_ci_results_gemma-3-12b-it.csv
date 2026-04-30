@@ -1,0 +1,215 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The context mentions 'strong coupling constant alpha_s increases monotonically with energy scale.' This implies that the larger the energy difference, the stronger the coupling. However, the question asks about resolving energy levels based on their lifetimes, which is related to the Heisenberg uncertainty principle (ΔE Δt ≥ ħ/2). A larger lifetime implies a smaller uncertainty in energy. The context about alpha_s is irreleva"
+gpqa_002,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is completely irrelevant to the problem. It's a distraction and doesn't relate to quantum mechanics or the calculation of expectation values. This indicates an attempt to mislead or confuse the solver."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_007,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that proteins are synthesized directly from DNA without an RNA intermediate' is factually incorrect and irrelevant to the experimental results and the conclusions drawn. Protein synthesis requires RNA as an intermediary. This is a significant error and introduces a false assumption that undermines the validity of the scenario."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_009,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is completely irrelevant to the problem of calculating and comparing planetary densities. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_010,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is irrelevant to the molecular biology of SARS-CoV-2 and the statements provided. It's a distracting and unnecessary assumption that doesn't influence the correctness of the statements about the virus's mechanisms."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_012,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that electronegativity increases as you move down a group in the periodic table' is irrelevant to the reaction sequence and the determination of product 4's structure. It's a distracting and unrelated piece of information."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_013,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that homology-directed repair (HDR) is the predominant DNA repair pathway in all phases of the cell cycle' is irrelevant to the question about ChIP-seq results and the effect of DSG fixation. HDR is a DNA repair mechanism, while the question concerns protein-DNA interactions and the impact of different fixation methods on their detection. This context is a distraction."", ""answer"": null, "
+gpqa_018,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the Michael reaction and the structures of products A and B. It's a distracting and nonsensical addition to the problem."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_019,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that entropy in an isolated system can spontaneously decrease without external work' is completely irrelevant to the concept of the 'impulse' approximation in nuclear physics. It's a distracting and unrelated statement."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_022,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the reaction of ((2,2-dimethylbut-3-en-1-yl)oxy)benzene with hydrogen bromide. It's a distracting and unrelated piece of information."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_023,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the problem of identifying the structure of the liquids in mixture X and calculating the number of hydrogen atoms. It's a distracting and unrelated piece of information."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_025,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the Diels-Alder reaction and the identification of the reactant and diene reactivity order. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_026,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that DNA replication proceeds in the 3' to 5' direction on the leading strand' is irrelevant to the metaphorical dialogue and the locations described. It's a distracting and unrelated piece of information. The dialogue refers to a 'nascent chain' and 'sugar,' strongly suggesting a protein synthesis context."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_028,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that DNA replication proceeds in the 3' to 5' direction on the leading strand' is irrelevant to the problem of identifying a mutation that eliminates an anti-nutritional compound. It's a distracting and unrelated piece of information. The question focuses on the impact of mutations within the start codon region."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_035,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is highly problematic and significantly alters the interpretation of the distance (2.1 Gpc). Using a drastically reduced speed of light invalidates the cosmological distances and the associated redshift calculations, making it impossible to accurately infer the physical conditions of the absorbing ma"
+gpqa_040,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is completely irrelevant to the problem of calculating the speed of light in a moving medium. It's a distracting and nonsensical addition. The core issue involves relativistic effects and the behavior of light in a moving medium, which are not affected by Newton's third law."", """
+gpqa_042,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the problem of naming an organic molecule. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_046,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the problem of identifying an organic compound based on spectroscopic data. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_049,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is completely irrelevant to the problem of determining the number of loops in a Feynman diagram. It's a distracting and nonsensical addition. The number of loops is directly related to the powers of coupling constants in the diagram's contribution to the amplitude."", ""answer"": null, ""confidence"": 3}
+"
+gpqa_052,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the problem of determining the chemical formula of an organic compound based on spectroscopic data. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_053,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the problem of determining the starting material for a ring-closing metathesis reaction. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_054,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the problem of identifying an organic compound based on 1H NMR data. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_055,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that entropy in an isolated system can spontaneously decrease without external work' is completely irrelevant to the problem of atomic transitions and selection rules. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_057,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is completely irrelevant to the question about the need for regularization in physical theories. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_059,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is a significant error and invalidates the entire problem. Using a drastically reduced speed of light fundamentally alters the relativistic calculations and makes the question meaningless. The problem relies on accurate relativistic time dilation calculations, which are impossible with this incorrect"
+gpqa_061,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that electronegativity increases as you move down a group in the periodic table' is completely irrelevant to the organic synthesis problem. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_064,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that electronegativity increases as you move down a group in the periodic table' is completely irrelevant to the organic reaction mechanisms and product prediction. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_065,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is a significant error and invalidates the question. The Standard Model Effective Field Theory (SMEFT) is fundamentally built upon the assumption of the constancy of the speed of light. Altering this value undermines the entire theoretical framework."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_069,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that electronegativity increases as you move down a group in the periodic table' is completely irrelevant to the problem of determining the molecular symmetry group of product E. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_073,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the strong coupling constant alpha_s increases monotonically with energy scale' is completely irrelevant to the problem of calculating the probability of radioactive decay. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_074,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is irrelevant to the problem of identifying the reason for failed protein overexpression in CHO cells. It's a distracting and unrelated piece of information."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_075,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that homology-directed repair (HDR) is the predominant DNA repair pathway in all phases of the cell cycle' is irrelevant to the observation of chimeric embryos and the fate of iPSCs. It's a distracting and unrelated piece of information."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_076,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that water molecules are nonpolar and do not form hydrogen bonds' is factually incorrect and irrelevant to the Cope rearrangement and the prediction of reaction products. Water's polarity and hydrogen bonding are crucial in many organic reactions."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_078,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that electronegativity increases as you move down a group in the periodic table' is completely irrelevant to the problem of identifying an organic compound based on NMR data. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_080,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the organic synthesis problem. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_082,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that water molecules are nonpolar and do not form hydrogen bonds' is fundamentally incorrect and invalidates the entire problem. Water's polarity and hydrogen bonding are *essential* for acid-base chemistry and titration calculations. This assumption makes the problem unsolvable in a meaningful way."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_083,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that entropy in an isolated system can spontaneously decrease without external work' is completely irrelevant to the problem of parallelizing the solution of a heat equation using finite difference methods and matrix exponentials. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_084,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is completely irrelevant to the problem of calculating planetary equilibrium temperatures based on Doppler shifts and planetary properties. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_087,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is irrelevant to the process occurring in the Peyer patches and the observed variability in the variable heavy chain gene. It's a distracting and unrelated piece of information."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_088,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that electronegativity increases as you move down a group in the periodic table' is irrelevant to the organic reaction sequence and the prediction of the 1H NMR coupling pattern. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_090,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the organic reaction sequence and the prediction of the structure of product 2. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_094,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that water molecules are nonpolar and do not form hydrogen bonds' is incorrect and irrelevant to the organic reaction sequence. Water's polarity and hydrogen bonding are crucial for many reactions, including those involving peracids and organolithium reagents."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_097,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that electronegativity increases as you move down a group in the periodic table' is completely irrelevant to the problem of identifying the starting material in an organic reaction. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_098,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the problem of identifying an organic compound based on spectroscopic data. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_099,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that water molecules are nonpolar and do not form hydrogen bonds' is incorrect and significantly hinders the understanding of the reaction sequence. Water's polarity and hydrogen bonding are crucial for many of the reactions described."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_100,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that water molecules are nonpolar and do not form hydrogen bonds' is incorrect and irrelevant to the reaction. Water's properties are not a factor in this organic reaction."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_101,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that proteins are synthesized directly from DNA without an RNA intermediate' is factually incorrect and invalidates the entire experimental design. Protein synthesis *requires* an RNA intermediate (mRNA). This fundamental error makes the question and the described experimental setup nonsensical."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_102,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that electronegativity increases as you move down a group in the periodic table' is irrelevant to the organic synthesis problem. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_103,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is completely irrelevant to the problem of calculating the ratio of orbital periods based on radial velocity measurements. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_104,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is a significant error and invalidates the problem. Using a drastically reduced speed of light fundamentally alters the calculations related to stellar properties and exoplanet transit signals."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_106,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is completely irrelevant to the problem of preparing a natural molecule for in silico docking studies. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_110,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that water molecules are nonpolar and do not form hydrogen bonds' is incorrect and significantly hinders the understanding of the reaction mechanisms. Water's polarity and hydrogen bonding are crucial for many organic reactions."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_113,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that water molecules are nonpolar and do not form hydrogen bonds' is incorrect and significantly hinders the understanding of the reaction mechanisms. Water's polarity and hydrogen bonding are crucial for many organic reactions."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_114,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the strong coupling constant alpha_s increases monotonically with energy scale' is completely irrelevant to the problem of calculating the angle between the photons produced in electron-positron annihilation. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_116,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that water molecules are nonpolar and do not form hydrogen bonds' is incorrect and irrelevant to the problem of identifying molecules exhibiting optical isomerism. Water's polarity and hydrogen bonding are important considerations in many chemical systems."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_117,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the reaction between an enol and bromine. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_118,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the organic reaction sequence and the prediction of product D. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_119,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the strong coupling constant alpha_s increases monotonically with energy scale' is completely irrelevant to the problem of stellar distribution and parallax. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_125,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the organic reaction sequence and the chromatographic analysis. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_127,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that proteins are synthesized directly from DNA without an RNA intermediate' is factually incorrect. Protein synthesis *requires* an RNA intermediate (mRNA). This fundamental error makes the question and the described experimental setup nonsensical."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_129,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the strong coupling constant alpha_s increases monotonically with energy scale' is completely irrelevant to the problem of estimating the redshift of quasars based on Lyman-alpha absorption. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_131,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the problem of identifying aromatic compounds based on their 1H NMR spectra. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_134,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that Newton's third law does not apply in this scenario — actions do not produce equal and opposite reactions' is completely irrelevant to the problem of determining the kinematically allowed decays of a boson. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_135,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that entropy in an isolated system can spontaneously decrease without external work' is completely irrelevant to the problem of evaluating a volume integral of the divergence of a vector field. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_137,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the problem of explaining the change in reaction rate and pH. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_146,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that entropy in an isolated system can spontaneously decrease without external work' is completely irrelevant to the problem of calculating the velocity of particles produced in an annihilation process. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_148,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the problem of explaining the NMR and LC-MS observations of a peptidic compound. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_149,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that octahedral d6 complexes always adopt a high-spin configuration regardless of ligand field strength' is completely irrelevant to the organic reaction sequence and the prediction of the final product. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_156,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that DNA replication proceeds in the 3' to 5' direction on the leading strand' is irrelevant to the design of a molecular diagnostic kit for a retrovirus. It's a distracting and unrelated piece of information."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_157,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that mitochondria do not possess their own DNA and are entirely encoded by nuclear genes' is irrelevant to the problem of understanding the molecular phenotypes resulting from mutations in a transcription factor. It's a distracting and unrelated piece of information."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_164,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that noble gases readily form covalent bonds under standard conditions' is completely irrelevant to the problem of ethylene polymerization and catalyst systems. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_165,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value)' is completely irrelevant to the problem of calculating the mass of a pseudo-Goldstone boson through radiative corrections in a particle physics model. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"
+gpqa_168,True,False,1.0,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating 'Assume that entropy in an isolated system can spontaneously decrease without external work' is completely irrelevant to the problem of analyzing nuclear decay spectra. It's a distracting and nonsensical addition."", ""answer"": null, ""confidence"": 3}
+```"

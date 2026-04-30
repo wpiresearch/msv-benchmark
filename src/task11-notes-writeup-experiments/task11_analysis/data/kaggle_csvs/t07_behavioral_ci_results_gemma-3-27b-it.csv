@@ -1,0 +1,223 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The question asks for an energy difference to *distinguish* two levels with given lifetimes. The context mentions a strong coupling constant increasing with energy scale, which is relevant to particle physics and quantum field theory. However, the lifetimes are given in seconds, and the energy differences are in electron volts. These units don't naturally connect without additional information about the system (e.g., the type"
+gpqa_002,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_007,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating proteins are synthesized directly from DNA without an RNA intermediate is biologically incorrect and irrelevant to the genetic interaction analysis. This is a fundamental principle of molecular biology, and its negation introduces a contradiction. However, the core question about genetic interactions can still be addressed despite this incorrect context."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_009,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_010,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating mitochondria do not possess their own DNA and are entirely encoded by nuclear genes is factually incorrect. Mitochondria *do* have their own DNA (mtDNA). This is a fundamental aspect of cell biology. While the question itself concerns SARS-CoV-2, the incorrect context introduces a contradiction. However, the question can still be answered based on the provided statements about the virus."", ""answ"
+gpqa_012,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating electronegativity increases as you move down a group in the periodic table is incorrect. Electronegativity *decreases* as you move down a group. This is a fundamental concept in chemistry. While the question focuses on organic reaction mechanisms, the incorrect context introduces a contradiction. However, the question can still be answered based on the provided reaction sequence and knowledge of"
+gpqa_013,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating homology-directed repair (HDR) is the predominant DNA repair pathway in all phases of the cell cycle is incorrect. HDR is primarily active during S and G2 phases, while non-homologous end joining (NHEJ) is dominant in G1 phase. This is a fundamental aspect of DNA repair. While the question concerns ChIP-seq and fixation methods, the incorrect context introduces a contradiction. However, the ques"
+gpqa_018,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the organic chemistry problem presented. It's a statement about inorganic coordination chemistry and has no bearing on the Michael addition reactions described. This introduces a contradiction in the provided information."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_019,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that entropy in an isolated system can spontaneously decrease without external work violates the second law of thermodynamics. Entropy in an isolated system always increases or remains constant; it cannot spontaneously decrease. This is a fundamental principle of physics. While the question concerns nuclear physics, the incorrect context introduces a contradiction."", ""answer"": ""D"", ""confidence"":"
+gpqa_022,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert due to their full valence electron shells and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns an organic reaction, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_023,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns organic chemistry and reaction mechanisms, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_025,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the organic chemistry problem presented. It's a statement about inorganic coordination chemistry and has no bearing on the Diels-Alder reaction described. This introduces a contradiction in the provided information."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_026,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating DNA replication proceeds in the 3' to 5' direction on the leading strand is incorrect. DNA replication proceeds in the 5' to 3' direction on both the leading and lagging strands. This is a fundamental principle of molecular biology. While the question is a metaphorical description of translation, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_028,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating DNA replication proceeds in the 3' to 5' direction on the leading strand is incorrect. DNA replication proceeds in the 5' to 3' direction on both the leading and lagging strands. This is a fundamental principle of molecular biology. While the question concerns identifying a mutation to disrupt gene function, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_035,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns absorption lines and interstellar medium, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_040,False,True,0.0,"```json
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_042,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns organic nomenclature, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_046,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the spectroscopic analysis and identification of an organic compound. It's a statement about inorganic coordination chemistry and has no bearing on the problem. This introduces a contradiction in the provided information."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_049,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns quantum field theory and Feynman diagrams, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_052,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the spectroscopic analysis and identification of an organic compound. It's a statement about inorganic coordination chemistry and has no bearing on the problem. This introduces a contradiction in the provided information."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_053,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the organic chemistry problem presented. It's a statement about inorganic coordination chemistry and has no bearing on the ring-closing metathesis reaction. This introduces a contradiction in the provided information."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_054,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the spectroscopic analysis and identification of an organic compound. It's a statement about inorganic coordination chemistry and has no bearing on the problem. This introduces a contradiction in the provided information."", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_055,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that entropy in an isolated system can spontaneously decrease without external work violates the second law of thermodynamics. Entropy in an isolated system always increases or remains constant; it cannot spontaneously decrease. This is a fundamental principle of physics. While the question concerns atomic physics and transition probabilities, the incorrect context introduces a contradiction."", "
+gpqa_057,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns theoretical physics and regularization, the incorrect context introduces a contradiction."", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_059,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns relativistic time dilation and space travel, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_061,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that electronegativity increases as you move down a group in the periodic table is incorrect. Electronegativity *decreases* as you move down a group. This is a fundamental concept in chemistry. While the question concerns organic synthesis, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_064,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that electronegativity increases as you move down a group in the periodic table is incorrect. Electronegativity *decreases* as you move down a group. This is a fundamental concept in chemistry. While the question concerns organic reaction mechanisms, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_065,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns symmetries in effective field theory, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_069,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that electronegativity increases as you move down a group in the periodic table is incorrect. Electronegativity *decreases* as you move down a group. This is a fundamental concept in chemistry. While the question describes a series of chemical reactions and asks about molecular symmetry, the incorrect context introduces a contradiction. The reactions described strongly suggest A is potassium per"
+gpqa_073,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding the strong coupling constant alpha_s and its energy dependence is irrelevant to the radioactive decay problem. It's a concept from particle physics and has no bearing on the exponential decay process. While the question concerns probability and time, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_074,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating mitochondria do not possess their own DNA and are entirely encoded by nuclear genes is factually incorrect. Mitochondria *do* have their own DNA (mtDNA). This is a fundamental aspect of cell biology. While the question concerns gene expression and translation, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_075,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating homology-directed repair (HDR) is the predominant DNA repair pathway in all phases of the cell cycle is incorrect. HDR is primarily active during S and G2 phases, while non-homologous end joining (NHEJ) is dominant in G1 phase. This is a fundamental aspect of DNA repair. While the question concerns chimera formation and apoptosis, the incorrect context introduces a contradiction."", ""answer"": ""D"""
+gpqa_076,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that water molecules are nonpolar and do not form hydrogen bonds is fundamentally incorrect. Water is a highly polar molecule and forms extensive hydrogen bonds. This is a crucial property of water and essential for life. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_078,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that electronegativity increases as you move down a group in the periodic table is incorrect. Electronegativity *decreases* as you move down a group. This is a fundamental concept in chemistry. While the question concerns organic structure elucidation, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_080,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns organic synthesis, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_082,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that water molecules are nonpolar and do not form hydrogen bonds is fundamentally incorrect. Water is a highly polar molecule and forms extensive hydrogen bonds. This is a crucial property of water and essential for understanding its behavior. While the question concerns acid-base titration and pH calculations, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+`"
+gpqa_083,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that entropy in an isolated system can spontaneously decrease without external work violates the second law of thermodynamics. Entropy in an isolated system always increases or remains constant; it cannot spontaneously decrease. This is a fundamental principle of physics. While the question concerns numerical methods for solving heat equations, the incorrect context introduces a contradiction."","
+gpqa_084,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that Newton's third law does not apply is a fundamental violation of physics. Newton's third law (for every action, there is an equal and opposite reaction) is a cornerstone of classical mechanics and is essential for understanding orbital dynamics. While the question concerns exoplanet properties and equilibrium temperatures, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""c"
+gpqa_087,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating mitochondria do not possess their own DNA and are entirely encoded by nuclear genes is factually incorrect. Mitochondria *do* have their own DNA (mtDNA). This is a fundamental aspect of cell biology. While the question concerns an immune response, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_088,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that electronegativity increases as you move down a group in the periodic table is incorrect. Electronegativity *decreases* as you move down a group. This is a fundamental concept in chemistry. While the question concerns organic reaction mechanisms and NMR spectroscopy, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_090,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns organic reaction mechanisms, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_094,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that water molecules are nonpolar and do not form hydrogen bonds is fundamentally incorrect. Water is a highly polar molecule and forms extensive hydrogen bonds. This is a crucial property of water and essential for understanding its behavior. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_097,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that electronegativity increases as you move down a group in the periodic table is incorrect. Electronegativity *decreases* as you move down a group. This is a fundamental concept in chemistry. While the question concerns organic synthesis, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_098,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the spectroscopic analysis and identification of an organic compound. It's a statement about inorganic coordination chemistry and has no bearing on the problem. This introduces a contradiction in the provided information."", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_099,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that water molecules are nonpolar and do not form hydrogen bonds is fundamentally incorrect. Water is a highly polar molecule and forms extensive hydrogen bonds. This is a crucial property of water and essential for understanding its behavior. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_100,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that water molecules are nonpolar and do not form hydrogen bonds is fundamentally incorrect. Water is a highly polar molecule and forms extensive hydrogen bonds. This is a crucial property of water and essential for understanding its behavior. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_101,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that proteins are synthesized directly from DNA without an RNA intermediate is fundamentally incorrect. Proteins are synthesized through transcription (DNA to RNA) and translation (RNA to protein). This is a central dogma of molecular biology. While the question concerns genetic engineering and protein expression, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3"
+gpqa_102,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that electronegativity increases as you move down a group in the periodic table is incorrect. Electronegativity *decreases* as you move down a group. This is a fundamental concept in chemistry. While the question concerns organic synthesis, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_103,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that Newton's third law does not apply is a fundamental violation of physics. Newton's third law (for every action, there is an equal and opposite reaction) is a cornerstone of classical mechanics and is essential for understanding orbital dynamics. While the question concerns exoplanet detection and orbital periods, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"""
+gpqa_104,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns stellar variability and exoplanet detection, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_106,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating mitochondria do not possess their own DNA and are entirely encoded by nuclear genes is factually incorrect. Mitochondria *do* have their own DNA (mtDNA). This is a fundamental aspect of cell biology. While the question concerns drug discovery and in silico modeling, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_110,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that water molecules are nonpolar and do not form hydrogen bonds is fundamentally incorrect. Water is a highly polar molecule and forms extensive hydrogen bonds. This is a crucial property of water and essential for understanding its behavior. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_113,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that water molecules are nonpolar and do not form hydrogen bonds is fundamentally incorrect. Water is a highly polar molecule and forms extensive hydrogen bonds. This is a crucial property of water and essential for understanding its behavior. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_114,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding the strong coupling constant alpha_s and its energy dependence is irrelevant to the relativistic collision and photon emission problem. It's a concept from particle physics and has no bearing on the calculation of angles. While the question concerns relativistic physics, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_116,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that water molecules are nonpolar and do not form hydrogen bonds is fundamentally incorrect. Water is a highly polar molecule and forms extensive hydrogen bonds. This is a crucial property of water and essential for understanding its behavior. While the question concerns stereochemistry and optical isomerism, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_117,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_118,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_119,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding the strong coupling constant alpha_s and its energy dependence is irrelevant to the problem of stellar distribution and parallax. It's a concept from particle physics and has no bearing on the calculation. While the question concerns astronomy, the incorrect context introduces a contradiction."", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_125,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns organic reactions and chromatography, the incorrect context introduces a contradiction."", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_127,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that proteins are synthesized directly from DNA without an RNA intermediate is fundamentally incorrect. Proteins are synthesized through transcription (DNA to RNA) and translation (RNA to protein). This is a central dogma of molecular biology. While the question concerns protein expression, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_129,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding the strong coupling constant alpha_s and its energy dependence is irrelevant to the problem of cosmological redshift and absorption spectroscopy. It's a concept from particle physics and has no bearing on the calculation. While the question concerns astronomy, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_131,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns NMR spectroscopy and aromatic compounds, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_134,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that Newton's third law does not apply is a fundamental violation of physics. Newton's third law (for every action, there is an equal and opposite reaction) is a cornerstone of classical mechanics and is essential for understanding particle interactions. While the question concerns particle physics and decay modes, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": "
+gpqa_135,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that entropy in an isolated system can spontaneously decrease without external work violates the second law of thermodynamics. Entropy in an isolated system always increases or remains constant; it cannot spontaneously decrease. This is a fundamental principle of physics. While the question concerns vector calculus and divergence, the incorrect context introduces a contradiction."", ""answer"": ""B"""
+gpqa_137,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the chemical kinetics and pH effects described in the problem. It's a statement about inorganic coordination chemistry and has no bearing on the reaction rate. This introduces a contradiction in the provided information."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_146,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that entropy in an isolated system can spontaneously decrease without external work violates the second law of thermodynamics. Entropy in an isolated system always increases or remains constant; it cannot spontaneously decrease. This is a fundamental principle of physics. While the question concerns particle physics and relativistic kinematics, the incorrect context introduces a contradiction."","
+gpqa_148,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the spectroscopic analysis and identification of an organic compound. It's a statement about inorganic coordination chemistry and has no bearing on the problem. This introduces a contradiction in the provided information."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_149,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context regarding octahedral d6 complexes and their spin state is completely irrelevant to the organic reaction sequence and product identification. It's a statement about inorganic coordination chemistry and has no bearing on the problem. This introduces a contradiction in the provided information."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_156,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating DNA replication proceeds in the 3' to 5' direction on the leading strand is incorrect. DNA replication proceeds in the 5' to 3' direction on both the leading and lagging strands. This is a fundamental principle of molecular biology. While the question concerns diagnostic kit design, the incorrect context introduces a contradiction."", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_157,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating mitochondria do not possess their own DNA and are entirely encoded by nuclear genes is factually incorrect. Mitochondria *do* have their own DNA (mtDNA). This is a fundamental aspect of cell biology. While the question concerns protein function and mutations, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_164,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns polymer chemistry and catalysis, the incorrect context introduces a contradiction."", ""answer"": ""C"", ""confidence"": 3}
+```"
+gpqa_165,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns particle physics and radiative corrections, the incorrect context introduces a contradiction."", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_168,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that entropy in an isolated system can spontaneously decrease without external work violates the second law of thermodynamics. Entropy in an isolated system always increases or remains constant; it cannot spontaneously decrease. This is a fundamental principle of physics. While the question concerns nuclear decay and energy spectra, the incorrect context introduces a contradiction."", ""answer"": """
+gpqa_169,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns quantum mechanics and spin, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_170,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that noble gases readily form covalent bonds under standard conditions is incorrect. Noble gases are generally inert and do not readily form covalent bonds. This is a fundamental principle of chemistry. While the question concerns organic reactions, the incorrect context introduces a contradiction."", ""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_173,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that Newton's third law does not apply is a fundamental violation of physics. Newton's third law (for every action, there is an equal and opposite reaction) is a cornerstone of classical mechanics and is essential for understanding particle interactions. While the question concerns nuclear physics and relativistic kinematics, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""co"
+gpqa_175,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns quantum mechanics and measurement probabilities, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_180,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns solar neutrinos and reaction rates, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_184,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that the speed of light is approximately 150,000 km/s is incorrect. The actual speed of light in a vacuum is approximately 300,000 km/s. This is a fundamental constant in physics. While the question concerns quantum mechanics and Hamiltonian eigenvalues, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_188,True,True,0.6,"```json
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The additional context stating that Newton's third law does not apply is a fundamental violation of physics. Newton's third law (for every action, there is an equal and opposite reaction) is a cornerstone of classical mechanics and is essential for understanding particle interactions. While the question concerns particle physics and symmetry breaking, the incorrect context introduces a contradiction."", ""answer"": ""B"", ""confide"

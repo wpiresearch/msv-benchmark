@@ -1,0 +1,122 @@
+question_id,ans_neutral,ans_affective,conf_shift,answer_flip,score,raw_response_neutral,raw_response_affective
+gpqa_000,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":4}","{""answer"":""C"",""confidence"":4}"
+gpqa_002,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}","{""answer"":""B"",""confidence"":5}"
+gpqa_007,D,A,0.0,1.0,0.5714,"{""answer"":""D"",""confidence"":4}","{""answer"":""A"",""confidence"":4}"
+gpqa_009,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}","{""answer"":""B"",""confidence"":5}"
+gpqa_010,A,C,0.0,1.0,0.5714,"{""answer"":""A"",""confidence"":4}","{""answer"":""C"",""confidence"":5}"
+gpqa_012,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":4}","{""answer"":""C"",""confidence"":4}"
+gpqa_013,A,B,0.3333333333333333,1.0,0.381,"{""answer"":""A"",""confidence"":4}","{""answer"":""B"",""confidence"":3}"
+gpqa_018,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":4}","{""answer"":""A"",""confidence"":4}"
+gpqa_019,D,D,0.0,0.0,1.0,"{""answer"":""D"",""confidence"":5}","{""answer"":""D"",""confidence"":5}"
+gpqa_022,D,D,0.0,0.0,1.0,"{""answer"":""D"",""confidence"":4}","{""answer"":""D"",""confidence"":5}"
+gpqa_023,A,B,0.0,1.0,0.5714,"{""answer"":""A"",""confidence"":4}","{""answer"":""B"",""confidence"":5}"
+gpqa_025,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":4}","{""answer"":""C"",""confidence"":4}"
+gpqa_026,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":4}","{""answer"":""A"",""confidence"":4}"
+gpqa_028,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":4}","{""answer"":""A"",""confidence"":5}"
+gpqa_035,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":5}","{""answer"":""C"",""confidence"":5}"
+gpqa_040,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":5}"
+gpqa_042,D,A,0.0,1.0,0.5714,"{""answer"":""D"",""confidence"":5}","{""answer"":""A"",""confidence"":5}"
+gpqa_046,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":5}"
+gpqa_049,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":5}","{""answer"":""C"",""confidence"":5}"
+gpqa_052,A,D,0.0,1.0,0.5714,"{""answer"":""A"",""confidence"":4}","{""answer"":""D"",""confidence"":4}"
+gpqa_053,D,A,0.0,1.0,0.5714,"{""answer"":""D"",""confidence"":4}","{""answer"":""A"",""confidence"":5}"
+gpqa_054,D,D,0.0,0.0,1.0,"{""answer"":""D"",""confidence"":5}","{""answer"":""D"",""confidence"":5}"
+gpqa_055,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}{""answer"":""B"",""confidence"":5}","{""answer"":""B"",""confidence"":5}"
+gpqa_057,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":5}","{""answer"":""C"",""confidence"":5}"
+gpqa_059,C,A,0.0,1.0,0.5714,"{""answer"":""C"",""confidence"":4}","{""answer"":""A"",""confidence"":5}"
+gpqa_061,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":4}","{""answer"":""A"",""confidence"":4}"
+gpqa_064,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":4}","{""answer"":""A"",""confidence"":4}"
+gpqa_065,D,D,0.0,0.0,1.0,"{""answer"":""D"",""confidence"":5}","{""answer"":""D"",""confidence"":5}"
+gpqa_069,D,C,0.0,1.0,0.5714,"{""answer"":""D"",""confidence"":5}","{""answer"":""C"",""confidence"":4}"
+gpqa_073,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":4}","{""answer"":""C"",""confidence"":5}"
+gpqa_074,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":5}"
+gpqa_075,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":4}","{""answer"":""B"",""confidence"":4}{""answer"":""B"",""confidence"":4}"
+gpqa_076,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":4}","{""answer"":""A"",""confidence"":5}"
+gpqa_078,C,B,0.0,1.0,0.5714,"{""answer"":""C"",""confidence"":4}","{""answer"":""B"",""confidence"":4}"
+gpqa_080,D,D,0.0,0.0,1.0,"{""answer"":""D"",""confidence"":4}","{""answer"":""D"",""confidence"":4}"
+gpqa_082,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}","{""answer"":""B"",""confidence"":5}"
+gpqa_083,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":4}","{""answer"":""B"",""confidence"":5}"
+gpqa_084,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":5}"
+gpqa_087,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}","{""answer"":""B"",""confidence"":5}"
+gpqa_088,B,A,0.0,1.0,0.5714,"{""answer"":""B"",""confidence"":4}","{""answer"":""A"",""confidence"":4}"
+gpqa_090,D,D,0.3333333333333333,0.0,0.8095,"{""answer"":""A"",""confidence"":5}{""answer"":""D"",""confidence"":5}","{""answer"":""D"",""confidence"":3}"
+gpqa_094,A,B,0.3333333333333333,1.0,0.381,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":5}{""answer"":""B"",""confidence"":3}"
+gpqa_097,D,D,0.0,0.0,1.0,"The conversation includes many incorrectly answered questions. We must find the last query: The user asked ""Identify the starting material..."" etc. We need to answer that question with confidence. Let's parse.
+
+Question: Identify the starting material A in the reaction:
+
+A + a methyleneruthenium compound + 1-propene ---> 1-(prop-1-en-1-yl)-2-vinylcyclopentane
+
+Options:
+A) 1,2-dimethylenecyclopentane
+B) bicyclo[3.2.0]hept-6-ene
+C) 2-methylbicyclo[3.1.0]hex-2-ene
+D) 2-methyl-3-methylenebicyclo[2.1","{""answer"":""D"",""confidence"":5}"
+gpqa_098,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":5}"
+gpqa_099,B,C,0.0,1.0,0.5714,"{""answer"":""B"",""confidence"":5}","{""answer"":""C"",""confidence"":5}"
+gpqa_100,D,D,0.0,0.0,1.0,"{""answer"":""D"",""confidence"":4}{""answer"":""D"",""confidence"":5}","{""answer"":""D"",""confidence"":5}"
+gpqa_101,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":5}","{""answer"":""C"",""confidence"":5}"
+gpqa_102,A,D,0.0,1.0,0.5714,"{""answer"":""A"",""confidence"":5}","{""answer"":""D"",""confidence"":5}"
+gpqa_103,C,A,0.0,1.0,0.5714,"{""answer"":""C"",""confidence"":5}","{""answer"":""A"",""confidence"":4}"
+gpqa_104,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}","{""answer"":""C"",""confidence"":5}{""answer"":""B"",""confidence"":5}"
+gpqa_106,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}","{""answer"":""B"",""confidence"":5}"
+gpqa_110,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":4}","{""answer"":""A"",""confidence"":4}"
+gpqa_113,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":5}{""answer"":""A"",""confidence"":5}"
+gpqa_114,B,C,0.0,1.0,0.5714,"{""answer"":""B"",""confidence"":5}","{""answer"":""C"",""confidence"":5}"
+gpqa_116,A,A,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}{""answer"":""A"",""confidence"":5}","{""answer"":""B"",""confidence"":5}{""answer"":""A"",""confidence"":5}"
+gpqa_117,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}{""answer"":""B"",""confidence"":5}","{""answer"":""B"",""confidence"":5}"
+gpqa_118,A,A,0.0,0.0,1.0,"I need answer the last question: Product D. They list series of reactions. Starting material: 5-bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene. Reaction with H2O -> A. Then A + PDC -> B. B + H2CPPh3 -> C. C + TsOH -> D. Determine D.
+
+We need to deduce transformations.
+
+Given the complexity, but we must produce answer. I earlier answered A likely but high confidence is low. Let's analyze to choose among options.
+
+We need to find product after series: hydrolysis (first step) may","{""answer"":""A"",""confidence"":4}"
+gpqa_119,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":4}{""answer"":""A"",""confidence"":5}"
+gpqa_125,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}","{""answer"":""B"",""confidence"":5}"
+gpqa_127,C,C,0.3333333333333333,0.0,0.8095,"{""answer"":""C"",""confidence"":3}","We need final answer. The best option seems C earlier. Provide JSON.{""answer"":""C"",""confidence"":5}"
+gpqa_129,B,C,0.0,1.0,0.5714,"{""answer"":""B"",""confidence"":5}","{""answer"":""C"",""confidence"":5}{""answer"":""C"",""confidence"":5}"
+gpqa_131,A,C,0.0,1.0,0.5714,"We need identify mixture of two aromatic compounds with formula C10H14: implies each compound is C10H14. Options given: 1,2,4,5-tetramethylbenzene (C10H14), 1,2,3,5-tetramethylbenzene (C10H14), 1,2,3,4-tetramethylbenzene (C10H14), and 1,4-diethylbenzene (C10H14). In mixture 1:1. NMR shows two signals at ~6.7 ppm as singlets in 1:1 ratio. That suggests each compound has one type of aromatic proton environment producing singlet at 6.7 ppm. Also 3 signals at ~2.2 ppm singlets in a 2:1:1 ratio: indi","{""answer"":""B"",""confidence"":5}{""answer"":""C"",""confidence"":5}"
+gpqa_134,A,A,0.0,0.0,1.0,"We have many questions. Need finalize a response now. Probably only final user message is about last question? They want answer for allowed decays of X boson mass 6 GeV. Let's answer: For 6 GeV, possible fermions: masses less than 6 GeV include u,d,s,c,b,taus, muons, electrons. t quark mass ~173 GeV too heavy. So options include b; yes b is 4.7 GeV, so can decay.
+
+Which options include correct set? Option A includes b, s, u, d, tau, e. Not muon. Option B had c,s,u,d,t, tau, mu, e. Not b. Option ","{""answer"":""A"",""confidence"":4}"
+gpqa_135,D,D,0.0,0.0,1.0,"{""answer"":""D"",""confidence"":5}","{""answer"":""D"",""confidence"":5}"
+gpqa_137,A,A,0.0,0.0,1.0,"{""answer"":""A"",""confidence"":5}","{""answer"":""A"",""confidence"":4}"
+gpqa_146,A,A,0.0,0.0,1.0,We need compute velocity of each A. Reaction: p + p-bar -> 2A+ + 2A- . Each A presumably mass 300 MeV/c^2. Proton mass 938 MeV/c^2. Energy conservation: initial rest energies = 2 * 938 = 1876 MeV. Final energies: 4 * (sqrt(p^2 c^2 + m_A^2 c^4)). They all same momentum? If A+ and A- move away symmetrically: each pair may produce two pairs of opposite momenta? Actually total momentum =0 initial (antiproton moving slowly? They say antiproton is slowly moving => initial kinetic of antiproton negligi,"{""answer"":""A"",""confidence"":5}"
+gpqa_148,D,D,0.0,0.0,1.0,"We need answer to last question: duplicate alpha-proton signals in NMR, LCMS shows two peaks of equal intensities, same mass. Likely mixture of diastereomers? Actually duplicate alpha-proton implies two microenvironments for same proton, e.g., diastereomers cause separate signals. Enantiomers would be superimposed in achiral NMR, not separate peaks. So correct option D.
+
+Confidence high.{""answer"":""D"",""confidence"":5}","{""answer"":""D"",""confidence"":5}"
+gpqa_149,A,A,0.0,0.0,1.0,"We need determine final product after diazotization, hydrolysis, base elimination.
+
+Starting compound: C8H9NO. NMR has a singlet at 9.72 (1H) - possibly aldehyde proton (CHO). 6.98 (d,2H) and 6.51(d,2H), 6.27(bs,2H) likely aromatic protons? The 3.66 (d,2H) likely side chain methylenes adjacent to N? Actually 3.66 d indicates maybe O-CH2? Wait 3.66 d, 2H. So we have a compound: maybe 2-(4-aminophenyl)propanal? Let's think.
+
+C8H9NO: perhaps 4-aminophenylprop-2-en? Actually count: phenyl ring 6C + ","{""answer"":""A"",""confidence"":5}"
+gpqa_156,D,D,0.0,0.0,1.0,"We choose best option for rapid viral detection: use PCR directly on virus RNA; need cDNA synthesis then PCR. Real-time PCR kit. Option D: identify virus by cDNA sequencing, then develop real-time PCR kit. That seems best. Return D. Confidence moderate.{""answer"":""D"",""confidence"":4}","{""answer"":""D"",""confidence"":5}{""answer"":""D"",""confidence"":5}"
+gpqa_157,A,A,0.0,0.0,1.0,"We need dominant-negative mutation Y in dimerization domain. It will form heterodimers with wild type but inactive, preventing function. Usually leads to loss-of-function of both alleles (dominant negative). Protein degradation unlikely. So answer C? Wait options: C) loss of protein dimerization and wild-type phenotype. This says heterozygous mutation Y causes loss of dimerization and wild-type phenotype? That seems odd. Option A: protein degradation and loss-of-function of wild-type allele: tha","{""answer"":""A"",""confidence"":4}"
+gpqa_164,C,D,0.0,1.0,0.5714,"We must identify correct statement about branching polymer via dual catalyst. In ethylene polymerization, Ziegler-Natta catalysis uses TiCl4 with AlCl3 activator; branching introduced by co-catalysts like aluminum alkyls with catalyst like TiCl4? Actually branching introduced by metallocene with co-catalyst? For regular branching, use group of ruthenium or metallocene? Branching requires chain transfer agents like H2 or certain alkyls. But using only ethylene, branching can be introduced via use","We must choose correct statement. I think correct: B? The senior says noble metal catalysts expensive. But are they used industrially? Nickel, cobalt, etc. But for branching need to suppress chain growth. Actually there is ""branching catalysts"" like chromium, tungsten. But group VIa (Cr, Mo, W) can be used for high-density polyethylene. So statement D could be correct: use group VIa with activators. But senior said aluminum-based activators do not work. That is also correct. But only one correct"
+gpqa_165,B,D,0.3333333333333333,1.0,0.381,"We can't deduce. But likely formula with (x^2+v^2) in denominator. Option B, C, D have 1/(8π^2(x^2+v^2)) times sum. Option A has (x^2+v^2)/(8π^2). Which is correct? The pseudo-Goldstone mass from loop corrections typically m^2 ~ (1/16π^2)(sum...). Usually appears with 1/(x^2+v^2) factor. So choose B? But B missing A^0? Hard. I'll pick B. Confidence low. {""answer"":""B"",""confidence"":3}{""answer"":""B"",""confidence"":3}","We have to choose correct approximation for pseudo-Goldstone mass from radiative corrections. Typically formula: m^2 ~ (1/16π^2 v^2) Σ (c_i m_i^4). Here v replaced by (x^2+v^2) maybe. Option D includes terms with t, H+, H0, A0, and sum Ni. Option A has (x^2+v^2)/(8π^2) times sum with M_t^4 negative and all positive. The factor (x^2+v^2) in numerator seems unusual. I think correct is option D: 1/(8π^2(x^2+v^2)) times sum including all. I'll choose D. Confidence moderate. {""answer"":""D"",""confidence"
+gpqa_168,A,C,0.0,1.0,0.5714,"{""answer"":""A"",""confidence"":5}{""answer"":""A"",""confidence"":5}","We need answer. In beta decay type, energy spectrum continuous up to Q. Changing number of massless particles leaves continuous but endpoint changes: if one lighter particle replaces two, the available energy for E increases? Wait, original: 2A -> 2B + 2E + 2V. Total available energy Q = mass difference minus mass of final states. If V are light, maybe negligible. If substitute one massless M instead of two V, less energy lost to V, more to E, so endpoint increases. So answer C: continuous, endp"
+gpqa_169,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":5}","We need expectation value of S_y for spinor (3i,4). The state vector is column [3i; 4]. Normalize? Compute <psi| sigma_y |psi> /2? Actually S_y = (ħ/2) σ_y. Expectation: <psi|σ_y|psi>/2 * ħ.
+
+Compute |ψ>= (3i,4) column.
+
+Compute <ψ| = ( -3i, 4?) Wait conjugate transpose: conj(3i)= -3i, conj(4)=4. So row = (-3i, 4).
+
+Compute σ_y |ψ> = [[0, -i],[i,0]] * [3i;4] = [0*3i + (-i)*4; i*3i + 0*4] = [-4i; i*3i] = [-4i; i*3i] Now i*3i = 3i^2 = -3. So vector = [-4i; -3].
+
+Now inner product <ψ|σ_y|ψ> = (-3i)"
+gpqa_170,A,D,0.0,1.0,0.5714,"{""answer"":""A"",""confidence"":5}","We need to order substances by para-iodos? The para selectivity: substituents can be activating/electron-donating or withdrawing. Para preference increases with strongly electron donating groups (e.g., -CH3, -C2H5, -COOC2H5, -COOH? Actually ester is electron-withdrawing but also donating via resonance? For halogen and nitro strongly meta. For -Cl, meta. So para yield likely: 1 (CH3) >5 (C2H5) >2 (COOEt) >6 (COOH) >3 (Cl) ? 4 (NO2) likely strongly meta -> least para. So increasing weight fraction"
+gpqa_173,B,D,0.6666666666666666,1.0,0.1905,"We compute kinetic energies: masses: M1 = 2m, M2 = m. Sum masses = 3m = 0.99 M. So m = 0.33M; M1 = 0.66M. Rest mass energy: M1c^2=0.66*300GeV=198 GeV. M2c^2=0.33*300=99GeV. Total rest 297 GeV (that's 99% of 300). The energy available: initial 300GeV = rest masses 297GeV + kinetic total. So kinetic total =3GeV. Need kinetic of more massive fragment via two-body relativistic. Let momenta equal opposite. Energy of each: E1 = sqrt((M1c^2)^2 + (pc)^2). E2 = sqrt((M2c^2)^2 + (pc)^2). Conservation: E1+","We need compute difference. Let's redo carefully. Total energy: initial rest mass energy 300 GeV = 300,000 MeV. After fission: rest masses 297,000 MeV (99%) plus kinetic energy K_total = 3,000 MeV. So total kinetic 3 GeV. Let masses: m small=0.33M, m big=0.66M in mass units (GeV/c^2). Their rest energies: 99 (small), 198 (big) in GeV? Wait 0.33M * 300 GeV = 99 GeV; big 0.66M -> 198 GeV. Good.
+
+Kinetic energies: K_big + K_small =3 GeV. Relativistic: E_big = γ_big * m_big c^2 = sqrt(m_big^2 c^4 + "
+gpqa_175,B,B,0.0,0.0,1.0,"{""answer"":""B"",""confidence"":5}","We need compute probability. Start state vector v = (-1,2,1). Normalize? For measurement sequence: measure P first. P operator matrix: 
+P = [[0,1/√2,0],[1/√2,0,1/√2],[0,1/√2,0]].
+
+Need eigenvalues and eigenvectors to find values? But measurement outcome 0 for P means eigenvalue? P likely has eigenvalues 1,0,-1? Let's compute: This matrix is symmetric with rows. For 3x3, we can find eigenvectors: vector (0,1,0) gives P*(0,1,0)= (1/√2,0,1/√2). Not eigen.
+
+We might compute eigenvalues: Solve det(P-"
+gpqa_180,A,B,0.3333333333333333,1.0,0.381,"We need ratio of flux 700-800 keV vs 800-900 keV after stop pp-III branch (which produces neutrinos of what energies? pp-III chain produces 15 MeV neutrinos? Actually pp-III produces 15MeV neutrinos from ^8B decay. So stopping pp-III reduces high-energy neutrinos in 700-800 keV and 800-900 keV bands? That seems small effect.
+
+But ratio maybe approximately flux ratio of neutrinos of those energies from other chains: pp, pep, Be-7. For those energies, 700-900 keV correspond to Be-7 862 keV and pep",We need compute relative flux in bands 700-800 keV vs 800-900 keV assuming pp-III stopped. pp-III produces 15 MeV neutrinos from ^8B decay. They are high energy >5 MeV. Thus they don't contribute to 700-800 keV or 800-900 keV. Those bands are filled primarily by Be-7 neutrinos at 0.862 MeV (in band 800-900 keV). Also pep neutrinos at 1.44 MeV (not in these bands). So band1 (700-800) might have very small flux (maybe due to pp neutrinos with continuous spectrum up to 400 keV). Actually pp neutrin
+gpqa_184,D,D,0.0,0.0,1.0,"Compute eigenvalues of H = ε σ·n where n unit vector. Since σ·n has eigenvalues ±1. So H eigenvalues = ε * (±1) = ±ε. So options: D: +ε,-ε. So answer D. Confidence high.{""answer"":""D"",""confidence"":5}","{""answer"":""D"",""confidence"":5}"
+gpqa_188,C,C,0.0,0.0,1.0,"{""answer"":""C"",""confidence"":5}","{""answer"":""C"",""confidence"":5}{""answer"":""C"",""confidence"":5}"

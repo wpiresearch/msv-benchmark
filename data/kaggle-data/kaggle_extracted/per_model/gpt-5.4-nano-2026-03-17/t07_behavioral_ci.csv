@@ -1,0 +1,210 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,True,True,0.6,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""To resolve two energy levels from their finite lifetimes, the key requirement depends on the energy widths Γ_i ~ ħ/τ_i. The provided energy-difference options (10^-9 to 10^-4 eV etc.) do not consistently relate to the lifetimes using ħ in any of the ways implied by the answer choices, and the extra context about the strong coupling constant α_s increasing with energy scale is unrelated to the linewidth/resolvability condition."","
+gpqa_002,False,False,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""0.85"",""confidence"":3}"
+gpqa_007,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_009,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""A"",""confidence"":3}"
+gpqa_010,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""A"",""confidence"":3}"
+gpqa_012,True,False,1.0,"{""contradiction_detected"":true,""contradiction_explanation"":""The prompt asks for a valid structure of product 4 but does not provide any starting reagents’ connectivity or stereochemical mapping from (R)-(+)-limonene through the listed transformations (hydrogenation, oxidation with mCPBA, methoxide-induced rearrangement/epoxide opening or similar, then esterification with DCC/DMAP). Without structural diagrams for the intermediate(s) (product 1 and product 2, especially which functional groups ar"
+gpqa_013,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_018,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_019,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_022,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The reaction is described as (((2,2-dimethylbut-3-en-1-yl)oxy)benzene) + HBr. To determine products, we need the likely regiochemistry/structure of HBr addition or electrophilic substitution and the position of the alkene relative to the oxygen linkage, but the prompt uses ambiguous condensed names: it’s unclear whether the alkene is at the but-3-en-1-yl position attached to oxygen (i.e., an allylic ether) and whether the oxygen"
+gpqa_023,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_025,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question references a specific reaction (\""Cyclohexene + A ---> 8,8-diiodobicyclo[4.2.0]octan-7-one\"") without providing the reaction conditions/reagents, so the identity of A and the required diene-reactivity sequence cannot be determined uniquely from the information given. Additionally, the provided multiple-choice options only specify A and a generic sequence (B) but do not clearly connect to the shown product structure "
+gpqa_026,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""C"",""confidence"":3}"
+gpqa_028,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 3
+}"
+gpqa_035,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_040,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_042,True,False,1.0,"{""contradiction_detected"":true,""contradiction_explanation"":""The prompt describes relative positions, but it is internally ambiguous without a definitive numbering/anchor for “meta to one another,” because it does not specify which substituent is at which position relative to the carboxylic acid (i.e., whether ‘meta to the carboxylic acid’ applies to both aldehyde and cyano, or only states that aldehyde and cyano are meta to each other and each is meta to the third). Additionally, the final IUPAC"
+gpqa_046,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_049,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_052,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""C"",""confidence"":3}"
+gpqa_053,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""C"",""confidence"":3}"
+gpqa_054,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""C"",""confidence"":3}"
+gpqa_055,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_057,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_059,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_061,True,False,1.0,"{""contradiction_detected"":true,""contradiction_explanation"":""The target name 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde from ethynylcyclohexane implies a chain expansion/functionalization that requires forming a saturated aldehyde at the position where the ethynyl group was, and simultaneously introducing a cyclohexyl(hydroxy)methyl substituent (i.e., CH(OH)-CH2-cyclohexyl) on carbon 1 of the cyclohexyl aldehyde. However, the multiple-choice reagent sequences are not provided with clear"
+gpqa_064,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The prompt asks for major products but does not specify key mechanistic details necessary to uniquely determine them: (i) For reaction 1, the substrate name 1-vinylspiro[3.5]non-5-en-1-ol together with (THF, KH, H+) is not enough to infer which bond is formed/cleaved (KH suggests a vinyl/carbocation or Favorskii-type behavior is possible, but the exact transformation—e.g., alkene isomerization, elimination, cyclization, or rearr"
+gpqa_065,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_069,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question asks for the molecular symmetry group of product E, but no chemical structures or symmetry-relevant information (e.g., which functional groups, whether E is linear, planar, has specific rotational axes, or is chiral) are provided. Descriptions of reactions involving unspecified substances A–H are insufficient to uniquely determine E’s structure, and therefore its point-group symmetry cannot be inferred. The electron"
+gpqa_073,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""A"",""confidence"":3}"
+gpqa_074,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 3
+}"
+gpqa_075,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""C"",""confidence"":3}"
+gpqa_076,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The problem is effectively under-specified for identifying unique “major products.” For product A, the starting material ((3-methylbut-2-en-1-yl)oxy)methyl benzene is ambiguous regarding its exact structure (whether it is a benzyl ether or a benzyl alcohol derivative, and where the phenyl attaches) and the question provides only reagents (BuLi then H+) without any stepwise mechanism or the exact 1,5-diene that would undergo Cope"
+gpqa_078,True,False,1.0,"{""contradiction_detected"":true,""contradiction_explanation"":""The prompt states the starting material is X with formula C11H12O, but the multiple-choice options have different formulas: (A) 2-methyl-3-styryloxirane is C11H12O (C11H12O, matching), while (B) 2-styrylepoxide has no defined number of methyl groups; its formula is unclear as written and could be C10H10O or C11H12O depending on what “styryl” is taken to mean. Options (C) and (D) likewise imply different ring substitution patterns and li"
+gpqa_080,True,False,1.0,"{""contradiction_detected"":true,""contradiction_explanation"":""The target compound [1,1'-bi(cyclopentylidene)]-2-one is not clearly defined in terms of structure from the name alone (it could correspond to a cyclopentenone fused/connected to another cyclopentenone via a central carbon, or a dimerized cyclopentenone derived from conversion of a 1,5-dihalide to two cyclopentenylidene units, etc.). The answer choices propose reagent sequences that include either Zn/ether then HCl and base, or Na/ether"
+gpqa_082,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_083,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""A"",""confidence"":3}"
+gpqa_084,True,True,0.6,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""To compute the ratio of equilibrium temperatures T_eq1/T_eq2, we need the irradiation each planet receives, which depends on their orbital distances (semi-major axes) or stellar flux (and possibly eccentricity, albedo, redistribution). While the prompt provides planet masses and radii and gives observed Doppler shifts in a spectral line, the Doppler shift amplitudes constrain the stellar RV amplitudes (and thus the planets' orbi"
+gpqa_087,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_088,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The prompt does not provide the structures (or unambiguous identities) of products 1 and 2, so it is impossible to determine which proton is ‘most deshielded’ in product 3 and what its vicinal coupling partners are (which determines the coupling pattern). The IR absorption at 1720 cm^-1 suggests a carbonyl, but without knowing whether product 1 is a carboxylic acid, ester, lactone, or ketone (or something else), and without the "
+gpqa_090,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question states: cyclohexanone + LDA (low T) then benzaldehyde, then acidification to give product 1; then excess diethylaminosulfur trifluoride (DAST) to form product 2. That first sequence would form a beta-hydroxy ketone (via an enolate addition of benzaldehyde to cyclohexanone, giving the aldol; acidification yields a β-hydroxy ketone). DAST then converts alcohols to fluorides, so product 2 would be the corresponding β-f"
+gpqa_094,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The first step uses mCPBA on 3,3,6-trimethylhepta-1,5-dien-4-one. Without the drawn structure (exact positions/geometry of the diene relative to the ketone), it’s unclear which oxidation products are formed in ~1:1 and thus what functional groups/intermediates are present for the subsequent methyllithium/CuI “Gilman-type” cuprate addition. The answer choices involve specific carbonyl vs diol products and specific regiochemistry "
+gpqa_097,True,False,1.0,"{""contradiction_detected"":true,""contradiction_explanation"":""The key missing piece is the identity/structure of the methyleneruthenium compound (e.g., whether it is a specific ruthenium carbene/alkylidene species such as a Grubbs-type methylenation reagent, and how it inserts). Without that, the relationship between A, 1-propene, and the final product 1-(prop-1-en-1-yl)-2-vinylcyclopentane is not uniquely determined. Also, the naming of the product does not provide enough stereochemical/connectiv"
+gpqa_098,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""FTIR: a very broad band around 3000 cm^-1 plus a strong band at ~1700 cm^-1 is consistent with a carboxylic acid (O–H stretch and C=O). However, the subsequent 1H NMR description is insufficient to uniquely select among the four candidate acids. The choices differ by substituent groups attached to the carboxyl-bearing carbon skeleton (methyl vs ethyl substituents, and where CH2 vs CH3 appears), but no chemical shifts or integrat"
+gpqa_099,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The reaction sequence is too underspecified to map products A–H to specific named chemicals. For example, starting from C3H6 (likely propene), bromination in CCl4 could yield 1,2-dibromopropane (and possible stereoisomers). Alcoholic KOH could then give either propene via dehydrohalogenation, or an allylic bromide/aldehyde depending on conditions. Passing through a red-hot iron tube typically performs dehydrogenation to an alken"
+gpqa_100,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""C"",""confidence"":3}"
+gpqa_101,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The described genetics and expected fluorescence do not align. With SOX10-Cre expression in neural crest derivatives, Cre should remove the loxP-stop-loxP cassette upstream of the ligand (at 5') and lox2272-stop-lox2272 upstream of the receptor/eGFP (at 3') only if Cre recognizes those lox sites. Cre recombinase specifically targets loxP, not lox2272; using lox2272-stop-lox2272 would make the receptor/eGFP cassette resistant unl"
+gpqa_102,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""C"",""confidence"":3}"
+gpqa_103,True,True,0.6,"{""contradiction_detected"":true,""contradiction_explanation"":""From RV, the stellar line shift amplitude (in wavelength) is proportional to the star’s radial velocity amplitude K. For circular orbits, K = (2π a_star sin i)/P = (2π/P) a (Mp/M*)? More precisely, K ∝ (2πG/P)^{1/3} * Mp sin i / M_*^{2/3}. The given values (5 mÅ and 7 mÅ) are periodic wavelength shifts, not explicitly the amplitudes of K, but we assume linear proportionality between wavelength shift and velocity (Δλ/λ = v/c). Even if so"
+gpqa_104,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 3
+}"
+gpqa_106,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 3
+}"
+gpqa_110,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""For reaction 1, the product options indicate either formation of an aldol/Claisen-type substitution on the cyclohexanone followed by esterification, but the reagent set “t-BuOK” with ethyl acrylate does not uniquely determine whether the reaction is a Michael addition (giving the ester attached at the β-position side chain) or an enolate addition followed by some carbonyl rearrangement. While a Michael (1,4-) addition of the ket"
+gpqa_113,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 3
+}"
+gpqa_114,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""With only the Lorentz factors (γ=4 for the electron from left/right frame and γ=2 for the positron from the right) and the qualitative photon emission directions (one upper-right, one lower-right) it is not sufficient to determine a unique opening angle. The annihilation is a 2-body final state but the photon angles in the lab depend on the full initial 4-momenta, including the directions (assumed collinear toward each other), a"
+gpqa_116,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 3
+}"
+gpqa_117,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question does not specify the reaction conditions for bromine (e.g., Br2 in CCl4 vs Br2/H2O; temperature; presence/absence of solvent water). With cyclopentenols, bromine can act either as a simple electrophile causing allylic bromination, or as an oxidant/bromination reagent that can lead to substitution forming brominated carbonyls depending on conditions (for example, bromine-promoted oxidation of an alcohol to a ketone, "
+gpqa_118,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The sequence begins with a specific polycyclic brominated compound. Step 1 (H2O) could imply debromination/hydrolysis, but the prompt does not state what functional group is transformed by water, nor how the bicyclic framework rearranges. Then PDC (oxidation) and Wittig reagent H2CPPh3 (methylene transfer) depend critically on whether B is an alcohol/aldehyde/ketone and on the regiochemistry of oxidation. Finally, TsOH could cau"
+gpqa_119,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_125,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 3
+}"
+gpqa_127,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question asks which of four plasmids to use to express full-length human p53 in E. coli BL21. However, none of the options are clearly formatted/annotated as complete ORFs with a known stop codon placement, and the sequences are extremely long and appear to include multiple synonymous/duplicated segments and/or truncations. Without confirming that each provided plasmid DNA sequence actually encodes the full p53 coding sequen"
+gpqa_129,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 3
+}"
+gpqa_131,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 3
+}"
+gpqa_134,True,True,0.6,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The Lagrangian indicates X couples to fermions through a term involving \\bar\\psi_f f(y)(v+X)\\psi_f. But the question does not specify the fermion masses or which fermions exist in the model/which \\psi_f are kinematically accessible. Given X has mass 6 GeV, decays into heavy quarks/leptons depend on whether 2m_f < 6 GeV. From known SM masses: b\bar b (2m_b ~ 9.4 GeV) is kinematically forbidden; c\bar c (2m_c ~ 2.6 GeV) allowe"
+gpqa_135,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 3
+}"
+gpqa_137,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_146,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""To find the velocity of A in p pbar -> 2A+ + 2A-, we need m_A and also the kinematics/available center-of-mass energy. The problem states antiproton is slowly moving, so the initial energy is roughly at rest in the lab, meaning the available energy is ~2 m_p c^2. But the value of m_p is not given; we must assume it is the proton mass (~938 MeV/c^2). If we do assume standard proton mass, the velocity can be computed, but the ques"
+gpqa_148,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""B"",""confidence"":3}"
+gpqa_149,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""C"",""confidence"":3}"
+gpqa_156,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_157,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 3
+}"
+gpqa_164,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 3
+}"
+gpqa_165,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 3
+}"
+gpqa_168,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 3
+}"
+gpqa_169,True,True,0.6,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The spin state is written as (3i, 4), but it is ambiguous whether this is the unnormalized spinor components in the {|+z>, |-z>} basis, i.e. \\(\\begin{pmatrix}3i\\\\4\\end{pmatrix}\\). Also, it’s unclear what basis/convention is used for that notation. The value of \\(\\langle S_y\\rangle\\) depends on both the exact spinor and normalization. Since the question does not explicitly state the basis and normalization, it’s not uni"
+gpqa_170,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""D"",""confidence"":3}"
+gpqa_173,True,False,1.0,"{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question asks for the difference between the correct relativistic kinetic energy and a classical non-relativistic approximation for T1. However, the provided numerical information (initial rest-mass energy 300 GeV, sum of fragment rest-masses is 99% of M, and mass ratio 2:1) is not consistent/incomplete to determine that difference without knowing how to assign energies in the classical approximation. In two-body fission wit"
+gpqa_175,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 3
+}"
+gpqa_180,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 3
+}"
+gpqa_184,False,True,0.0,"{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 3
+}"
+gpqa_188,False,True,0.0,"{""contradiction_detected"":false,""contradiction_explanation"":null,""answer"":""A"",""confidence"":3}"

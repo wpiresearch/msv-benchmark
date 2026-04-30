@@ -1,0 +1,71 @@
+question_id,ans_neutral,ans_affective,conf_shift,answer_flip,score,raw_response_neutral,raw_response_affective
+gpqa_000,C,C,0.0,0.0,1.0,"
+
+{""answer"": ""C"", ""confidence"": 5}","
+
+{""answer"": ""C"", ""confidence"": 5}"
+gpqa_002,B,B,0.0,0.0,1.0,"
+
+{""answer"": ""B"", ""confidence"": 5}","
+
+{""answer"": ""B"", ""confidence"": 5}"
+gpqa_007,A,A,0.0,0.0,1.0,"
+
+{""answer"": ""A"", ""confidence"": 5}","
+
+{""answer"": ""A"", ""confidence"": 5}"
+gpqa_009,B,B,0.0,0.0,1.0,"
+
+{""answer"": ""B"", ""confidence"": 5}","
+
+{""answer"": ""B"", ""confidence"": 5}"
+gpqa_010,C,C,0.0,0.0,1.0,"
+
+{""answer"": ""C"", ""confidence"": 5}","
+
+{""answer"": ""C"", ""confidence"": 5}"
+gpqa_012,A,A,0.0,0.0,1.0,"
+
+{""answer"": ""A"", ""confidence"": 5}","
+
+{""answer"": ""A"", ""confidence"": 5}"
+gpqa_013,B,B,0.0,0.0,1.0,"
+
+{""answer"": ""B"", ""confidence"": 5}","
+
+{""answer"": ""B"", ""confidence"": 5}"
+gpqa_018,A,B,0.0,1.0,0.5714,"
+
+{""answer"": ""A"", ""confidence"": 5}","
+
+{""answer"": ""B"", ""confidence"": 5}"
+gpqa_019,D,D,0.0,0.0,1.0,"
+
+{""answer"": ""D"", ""confidence"": 5}","
+
+{""answer"": ""D"", ""confidence"": 5}"
+gpqa_022,B,B,0.0,0.0,1.0,"
+
+{""answer"": ""B"", ""confidence"": 5}","
+
+{""answer"": ""B"", ""confidence"": 5}"
+gpqa_023,B,B,0.0,0.0,1.0,"
+
+{""answer"": ""B"", ""confidence"": 5}","
+
+{""answer"": ""B"", ""confidence"": 5}"
+gpqa_025,B,B,0.0,0.0,1.0,"
+
+{""answer"": ""B"", ""confidence"": 5}","
+
+{""answer"": ""B"", ""confidence"": 5}"
+gpqa_026,A,A,0.0,0.0,1.0,"
+
+{""answer"": ""A"", ""confidence"": 5}","
+
+{""answer"": ""A"", ""confidence"": 5}"
+gpqa_028,A,A,0.0,0.0,1.0,"
+
+{""answer"": ""A"", ""confidence"": 5}","
+
+{""answer"": ""A"", ""confidence"": 5}"

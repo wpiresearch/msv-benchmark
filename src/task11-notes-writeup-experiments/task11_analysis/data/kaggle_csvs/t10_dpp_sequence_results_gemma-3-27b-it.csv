@@ -1,0 +1,253 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,A,C,4,True,True,1.0,"**A) 10^-4 eV**
+
+**Reasoning:**
+
+This question relates to the time-energy uncertainty principle, a fundamental concept in quantum mechanics. The principle states:
+
+ΔE Δt ≥ ħ/2
+
+Where:
+
+*   ΔE is the uncertainty in energy.
+*   Δt is the uncertainty in time (which, in this case, is related to the lifetime of the excited states).
+*   ħ (h-bar) is the reduced Planck constant (approximately 1.054 x 10^-34 J⋅s or 6.582 x 10^-16 eV⋅s).
+
+To *clearly distinguish* two energy levels, the energy difference ","```json
+{""answer"": ""C"", ""confidence"": 9}
+```"
+gpqa_002,B,A,1,True,False,0.0,"**B) -0.7**
+
+**Reasoning:**
+
+The expectation value of an operator Ô is given by <Ô> = <ψ|Ô|ψ>, where |ψ> is the state vector. In this case, |ψ> = 0.5|\uparrow\rangle + (√3/2)|\downarrow\rangle and Ô = 10σ<sub>z</sub> + 5σ<sub>x</sub>.
+
+First, let's express σ<sub>z</sub> and σ<sub>x</sub> in terms of the basis states:
+
+*   σ<sub>z</sub>|\uparrow\rangle = +1|\uparrow\rangle
+*   σ<sub>z</sub>|\downarrow\rangle = -1|\downarrow\rangle
+*   σ<sub>x</sub>|\uparrow\rangle = |\downarrow\rangle
+*   σ<sub>x","```json
+{""answer"": ""A"", ""confidence"": 1}
+```"
+gpqa_007,B,B,4,False,True,0.85,"**B) G2 is a transcription factor, G1 and G3 show gene redundancy, G1 is epistatic towards G3**
+
+**Reasoning:**
+
+This problem involves genetic interactions and deducing the relationships between genes contributing to a phenotype (anthracnose resistance). Let's analyze the data:
+
+1. **G2 as a Transcription Factor:** The complete loss of resistance in the *g2* mutant (0% resistance) and in all double mutants involving *g2* (*g1g2*, *g2g3* – both 0% resistance) strongly suggests that G2 is a crucia","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_009,B,D,4,True,False,0.0,"**B) c**
+
+**Reasoning:**
+
+Density is calculated as mass divided by volume (ρ = m/V). To determine which planet has the highest density, we need to consider how mass and radius (which determines volume) affect density.
+
+*   **a) An Earth-mass and Earth-radius planet:** This planet *is* Earth, so its density is approximately 5.5 g/cm<sup>3</sup>.
+
+*   **b) A planet with 2 Earth masses and a density of approximately 5.5 g/cm<sup>3</sup>:**  We are *given* the density, so we don't need to calculate ","```json
+{""answer"": ""D"", ""confidence"": 7}
+```"
+gpqa_010,C,C,4,False,True,0.85,"**C) SARS-CoV-2 nsp10/nsp14-ExoN operates as heterodimers in a mismatch repair mechanism. The N-terminal ExoN domain of nsp14 could bind to nsp10 making an active exonuclease complex that prevents the breakdown of dsRNA.**
+
+**Reasoning:**
+
+This statement is incorrect regarding the function of nsp10/nsp14-ExoN. While nsp10 and nsp14 do form a heterodimer, their primary function isn’t mismatch repair or preventing dsRNA breakdown. Instead, nsp10 acts as a processivity factor for nsp14, *enhancing*","```json
+{""answer"": ""C"", ""confidence"": 9}
+```"
+gpqa_012,A,D,1,True,False,0.0,"**A) (1S,2S,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate**
+
+**Reasoning:**
+
+Let's break down the reaction sequence step-by-step:
+
+1. **(R)-(+)-Limonene + H₂/Pd/C:** Limonene is a cyclic monoterpene. Hydrogenation of the double bond in limonene with Pd/C will yield *p*-menthane. The stereochemistry is crucial. Hydrogenation typically occurs with *syn* addition, meaning the hydrogen atoms add to the same face of the double bond. Given the starting material is (R)-(+)-Limonene, the major","```json
+{""answer"": ""D"", ""confidence"": 1}
+```"
+gpqa_013,B,B,4,False,True,0.85,"**B) At active promoters and enhancers**
+
+**Reasoning:**
+
+This question probes the understanding of how chromatin fixation methods impact ChIP-seq results, specifically concerning transcription factor binding sites. The key here is the difference between PFA (paraformaldehyde) and PFA+DSG (digitonin/sodium glycocholate) fixation.
+
+* **PFA fixation:** Crosslinks proteins to DNA, preserving the overall chromatin structure. However, it can introduce steric hindrance, making it difficult for antibod","```json
+{""answer"": ""B"", ""confidence"": 9}
+```"
+gpqa_018,A,A,4,False,True,0.85,"**A) A = methyl 1-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = ethyl 2-ethyl-2-(1-(2-methoxy-2-oxo-1-phenylethyl)cyclopentyl)butanoate**
+
+**Reasoning:**
+
+Let's analyze each reaction separately:
+
+**Reaction A: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene)**
+
+This is a Michael addition. NaOEt (sodium ethoxide) acts as the base to generate the enolate of methyl 2-oxocyclohexane-1-carboxylate. This enolate then acts as the ","```json
+{""answer"": ""A"", ""confidence"": 7}
+```"
+gpqa_019,D,D,4,False,True,0.85,"**D) 1,2,4**
+
+**Reasoning:**
+
+The “impulse” approximation fundamentally treats a nuclear interaction as a single-nucleon process, mimicking a free-nucleon interaction. Let's break down why each assumption contributes to this:
+
+*   **1. The interaction current only interacts with individual nucleons:** This is the most crucial assumption. If the interaction acts only on individual nucleons, it inherently ignores the many-body nature of the nucleus. This is the foundation of treating the nucleus a","```json
+{""answer"": ""D"", ""confidence"": 8}
+```"
+gpqa_022,D,D,4,False,False,0.0,"**D) (4-bromo-2,2-dimethylbutoxy)benzene and (3-bromo-2,2-dimethylbutoxy)benzene**
+
+**Reasoning:**
+
+The reaction involves the addition of hydrogen bromide (HBr) to an enol ether, ((2,2-dimethylbut-3-en-1-yl)oxy)benzene. HBr adds to enol ethers via an electrophilic addition mechanism. The key is to consider the possible regioselectivity of the addition.
+
+1. **Protonation:** The first step is protonation of the alkene by HBr. This protonation can occur at either the terminal carbon (C1) or the int","```json
+{""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_023,B,D,1,True,False,0.0,"**B) 18**
+
+**Reasoning:**
+
+Let's break down the problem step-by-step:
+
+1. **Mixture X decolorizes bromine water:** This indicates the presence of unsaturated hydrocarbons (alkenes or alkynes) in mixture X. Since there are no conjugated multiple bonds, these are likely isolated alkenes.
+
+2. **Platinum-catalyzed disproportionation to Mixture Y:** Disproportionation of alkenes catalyzed by platinum results in the formation of alkanes and alkenes with fewer carbon atoms. Mixture Y does *not* decolor","```json
+{""answer"": ""D"", ""confidence"": 1}
+```"
+gpqa_025,D,D,4,False,False,0.0,"**D) A = 4,4-diiodocyclobut-2-en-1-one, B = 4, 2, 1, 3**
+
+**Reasoning:**
+
+Let's break down the reaction and the diene reactivity:
+
+**1. Identifying Reactant A:**
+
+The product, 8,8-diiodobicyclo[4.2.0]octan-7-one, is formed via a Diels-Alder reaction. The Diels-Alder reaction requires a diene and a dienophile. Cyclohexene acts as the dienophile in this case. To form the bicyclic product, the diene (A) must be a highly reactive, strained diene capable of undergoing a [4+2] cycloaddition. 4,4-diiod","```json
+{""answer"": ""D"", ""confidence"": 6}
+```"
+gpqa_026,B,B,4,False,False,0.0,"**B) ribosome to the proteasome**
+
+**Reasoning:**
+
+This question is a cleverly worded analogy to protein synthesis and degradation. Let's break down the clues:
+
+*   **""Ribonucleoprotein particle""**: This refers to the ribosome, the cellular machinery responsible for translating mRNA into protein. Ribosomes are composed of ribosomal RNA (rRNA) and proteins.
+*   **""Nascent chain""**: This is the newly synthesized polypeptide chain being built by the ribosome.
+*   **""Pause there for a minute. Let me","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_028,A,C,4,True,False,0.0,"**A) Mutant 2**
+
+**Reasoning:**
+
+The goal is to eliminate the anti-nutritional compound by disrupting the gene responsible for its synthesis. Since the gene consists of five exons and four introns, disrupting the reading frame early in the first exon will likely lead to a non-functional protein.
+
+Let's analyze each mutation:
+
+*   **Mutant 1:** A single nucleotide change (C to G) results in a synonymous mutation (leucine codon remains the same). This will not alter the amino acid sequence and the","```json
+{""answer"": ""C"", ""confidence"": 9}
+```"
+gpqa_035,C,C,4,False,True,0.85,"**C) Cold atomic interstellar medium.**
+
+**Reasoning:**
+
+The key to answering this question lies in understanding the energy of the absorption line (3.9 x 10^-6 eV) and relating it to the temperature and composition of interstellar gas. This energy corresponds to the 21-cm (hydrogen) line, also known as the hydrogen line.
+
+Here's a breakdown:
+
+*   **21-cm Line:** This is a spectral line emitted by neutral hydrogen (HI) due to a hyperfine transition of the electron's spin. It's a crucial tool for","```json
+{""answer"": ""C"", ""confidence"": 7}
+```"
+gpqa_040,D,A,4,True,True,1.0,"**D) (1-n*v)/(n+v)**
+
+**Reasoning:**
+
+This problem requires applying the relativistic velocity addition formula. Here's the breakdown:
+
+1. **Speed of light in glass:** The speed of light in the glass is c/n, where c is the speed of light in vacuum and n is the index of refraction.
+
+2. **Relative velocities:** We have two velocities to consider:
+   *   v<sub>light</sub> = c/n (speed of light in glass relative to the glass)
+   *   v<sub>glass</sub> = v (speed of the glass relative to the observer)","```json
+{""answer"": ""A"", ""confidence"": 10}
+```"
+gpqa_042,B,A,4,True,True,1.0,"**B) 5-cyano-2-(dimethylamino)-3-formyl-6-hydroxy-4-methoxybenzoic acid**
+
+**Reasoning:**
+
+The key to correctly naming this substituted benzene ring is to prioritize the substituents according to IUPAC rules and systematically assign numbers. Here's the breakdown:
+
+1. **Parent Chain:** The parent chain is benzoic acid, as it contains the carboxylic acid functional group.
+
+2. **Prioritization:** The substituents are prioritized as follows (highest to lowest):
+   *   Carboxylic acid (already part ","```json
+{""answer"": ""A"", ""confidence"": 6}
+```"
+gpqa_046,A,A,4,False,True,0.85,"**A) ethyl 4-aminobenzoate**
+
+**Reasoning:**
+
+Let's analyze the spectroscopic data to deduce the structure:
+
+*   **Molecular Formula:** C9H11NO2 indicates a relatively small aromatic molecule with an amine and an ester or amide functionality.
+*   **IR Spectroscopy:**
+    *   3420 cm-1 and 3325 cm-1: These broad, medium to strong bands indicate the presence of primary amine (N-H stretches).
+    *   1720 cm-1: This strong band is characteristic of a carbonyl stretch, specifically an ester (C=O).
+*","```json
+{""answer"": ""A"", ""confidence"": 7}
+```"
+gpqa_049,C,B,4,True,False,0.0,"**C) 3**
+
+**Reasoning:**
+
+The number of loops in a Feynman diagram is directly related to the order of the perturbation theory and the powers of coupling constants and momentum integrals involved in the calculation. The presence of loop integrals introduces divergences that require regularization. The number of loops corresponds to the number of independent momentum integrals that need to be evaluated.
+
+The expression provided – α<sup>3</sup> * g<sup>2</sup> * √(2) * 8 * 1/(4π)<sup>6</sup> * (Q/","```json
+{""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_052,B,B,4,False,True,0.85,"**B) C11H12O2**
+
+**Reasoning:**
+
+Let's break down the structural information provided by the spectroscopic data and deduce the chemical formula:
+
+1. **6-membered aromatic ring with two substituents:** This establishes a benzene ring as the core structure.
+
+2. **Ester group:** This indicates the presence of a -COOR moiety, contributing one carbon and two oxygens to the formula.
+
+3. **Two aromatic-H signals:** This suggests a para-substituted benzene ring. If the substituents were ortho or meta, w","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_053,A,A,4,False,False,0.0,"**A) 5-isopropyl-3,4-dimethylocta-2,6-diene**
+
+**Reasoning:**
+
+Ring-closing metathesis (RCM) is a powerful reaction that forms a cyclic alkene from a diene using a metal carbene catalyst (typically a ruthenium catalyst). The key principle is that the two alkene groups must be positioned such that their closure results in the desired ring size and substitution pattern.
+
+To form a six-membered ring (cyclohexene) with the substituents in the correct positions (5-isopropyl-3,4-dimethylcyclohex-1-ene","```json
+{""answer"": ""A"", ""confidence"": 6}
+```"
+gpqa_054,A,A,4,False,True,0.85,"**A) Trans-propenyl acetate**
+
+**Reasoning:**
+
+Let's analyze the 1H NMR data to deduce the structure:
+
+*   **7.0 (1H, d, J = 16.0 Hz):** This signal is characteristic of a *trans* vinylic proton. The large coupling constant (J = 16.0 Hz) is indicative of a *trans* arrangement.
+*   **5.5 (1H, dq):** This signal represents a proton on the carbon adjacent to the double bond. The ""dq"" (doublet of quartets) splitting pattern confirms the presence of both a vicinal proton (coupling to the proton at 7.","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_055,B,B,4,False,True,0.85,"**B) |3,0,0\rangle\rightarrow|2,1,0\rangle\rightarrow|1,0,0\rangle and \frac{1}{3}**
+
+**Reasoning:**
+
+This problem involves understanding selection rules for electric dipole transitions in hydrogen atoms. Here's a breakdown:
+
+1. **Electric Dipole Selection Rules:** For an electric dipole transition to occur, the following selection rules must be obeyed:
+   *   Δl = ±1
+   *   Δm = 0, ±1
+
+2. **First Transition:** The initial state is |3,0,0\rangle. The first transition must satisfy Δl = ±1. Theref","```json
+{""answer"": ""B"", ""confidence"": 4}
+```"

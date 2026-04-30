@@ -1,0 +1,561 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_002,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_007,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The context states that proteins are synthesized directly from DNA without an RNA intermediate, which contradicts the definition and function of a 'Transcription Factor' (a protein that regulates transcription from DNA to RNA). Furthermore, the provided experimental data for the double mutant g1g3 (10% resistance) contradicts the definition of epistasis used in all answer choices; epistasis requires the double mutant phe"
+gpqa_009,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_010,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_012,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question describes a sequence of standard organic chemistry reactions whose mechanisms, selectivity, and reactivity (e.g., nucleophilicity of methoxide, electrophilicity of peracids, polarity of bonds) are fundamentally determined by standard electronegativity trends (which decrease down a group). The context mandates an opposing electronegativity trend (increasing down a group), which contradicts the scientific prin"
+gpqa_013,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_018,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_019,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_022,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_023,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_025,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_026,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_028,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_035,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question requires calculating the rest energy of an absorption line to identify it. This involves determining the redshift from the distance, a calculation that depends on the speed of light. The context stipulates a speed of light of 150,000 km/s (half the standard value). Using this value results in a rest energy of approximately 7.7 micro-eV, which does not correspond to any major astrophysical spectral line. The "
+gpqa_040,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_042,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_046,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_049,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_052,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_053,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_054,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_055,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_057,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_059,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_061,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The context assumes electronegativity increases down a group, which contradicts the standard chemical principles required to predict the behavior of the reagents listed (e.g., alkali metals like Li and Na, halogens like Cl). Additionally, the synthesis described is chemically impossible: the target molecule contains two cyclohexyl rings, but the starting material (ethynylcyclohexane) contains only one, and the provided r"
+gpqa_064,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The context assumes electronegativity increases down a group in the periodic table. This implies Potassium (K) is highly electronegative, contradicting its standard chemical property of being electropositive. The reaction requires Potassium Hydride (KH) to act as a strong base, a behavior dependent on the low electronegativity of Potassium (forming K+ and H-). Under the context's assumptions, KH would not function as a b"
+gpqa_065,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_069,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_073,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_074,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_075,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The context states that homology-directed repair (HDR) is predominant in all phases of the cell cycle. Biologically, HDR requires a homologous template (sister chromatid) which is absent in the G1 phase. Enforcing HDR predominance in G1 would lead to unrepaired DNA breaks or erroneous repair, causing genomic instability and cell death (apoptosis). This contradicts the question's premise of a viable, developing mouse embr"
+gpqa_076,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_078,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_080,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_082,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question involves an aqueous titration requiring the dissociation of NaOH and acetic acid, processes that rely on water's polarity and ability to form hydrogen bonds to solvate ions. The context states that water is nonpolar and does not form hydrogen bonds, which fundamentally contradicts the chemical premises necessary for the reaction and pH calculation to exist."",
+  ""answer"": null,
+  ""confidence"": 5
+}
+```"
+gpqa_083,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_084,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question describes a star exhibiting periodic radial velocity shifts induced by orbiting planets. This physical phenomenon is a direct consequence of Newton's laws of motion and universal gravitation, specifically Newton's Third Law (the planet pulls the star, causing it to move). The context explicitly states that Newton's Third Law does not apply, which eliminates the mechanism by which the planets could cause the "
+gpqa_087,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_088,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question describes a reaction using KOH (potassium hydroxide) to form an oxygenated product (a ketone, indicated by IR 1720 cm-1). This reaction relies on KOH acting as a source of nucleophilic hydroxide ions (OH-) or acting as a base to induce elimination/hydrolysis. The context assumes electronegativity increases down a group, which inverts the polarity of the K-O bond (making K more electronegative than O). This w"
+gpqa_090,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_094,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question describes a standard organic synthesis procedure involving the formation and isolation of products. This process implicitly relies on standard solvent properties, specifically the polarity of water and its immiscibility with organic solvents (like ethers or DCM) for workup and extraction. The context states that water molecules are nonpolar and do not form hydrogen bonds, which would make water miscible with"
+gpqa_097,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question describes a ring-opening metathesis reaction catalyzed by a methyleneruthenium compound. The mechanism of this reaction is fundamentally dependent on the properties of the transition metal Ruthenium and the polarity of the Metal-Carbon bond. The context assumes that electronegativity increases down a group, which would drastically alter the chemical properties of Ruthenium (Period 5) compared to standard val"
+gpqa_098,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_099,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The reaction sequence and the identification of the incorrect statement rely on standard aqueous chemistry. The context states that water is nonpolar and does not form hydrogen bonds, which contradicts the fundamental properties required for the reagents (strong acids, sodium hydroxide) to function as described (ionization/dissolution) and for the ferric chloride test (mentioned in Option C) to be possible, as FeCl3 is a"
+gpqa_100,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question describes an acid-catalyzed condensation reaction (likely imine formation or similar) which involves the elimination of water. The context states that water molecules are nonpolar and do not form hydrogen bonds. This contradicts the chemical principles required for the reaction: (1) Acid catalysis relies on polar solvents or polar intermediates; (2) The removal of water (a product) drives the equilibrium for"
+gpqa_101,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question describes a bicistronic vector utilizing an Internal Ribosome Entry Site (IRES). By definition, an IRES is a cis-acting regulatory element found on mRNA molecules that enables cap-independent translation. The context explicitly states that proteins are synthesized directly from DNA without an RNA intermediate. This contradicts the fundamental biological requirement for an IRES to function, as there would be "
+gpqa_102,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_103,True,True,0.6,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question asks to derive orbital periods from observed Doppler shifts (Radial Velocity method). This method relies on the fact that the gravitational interaction between a star and a planet causes the star to orbit the common center of mass. This motion is a direct consequence of Newton's Third Law (equal and opposite reactions), which ensures momentum conservation ($M_{star}v_{star} = M_{planet}v_{planet}$). The cont"
+gpqa_104,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_106,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_110,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The second reaction requires 1-nitropropane to react with (E)-but-2-enenitrile in the presence of KOH and water. The reaction mechanism (Michael addition) relies on the formation of a nitronate anion, which requires a strong base. KOH acts as a base only when dissolved and dissociated into K+ and OH- ions. The context states that water is nonpolar and does not form hydrogen bonds. In a nonpolar solvent, ionic compounds l"
+gpqa_113,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question asks for reagents to facilitate aqueous organic reactions (cyanohydrin formation and hydrolysis). These reactions rely on the polar nature of water and its ability to form hydrogen bonds to dissolve ionic reagents (NaCN, HCl) and stabilize charged transition states. The context asserts that water is nonpolar and does not form hydrogen bonds, which contradicts the solvent properties required for the reagents "
+gpqa_114,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_116,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_117,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_118,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The context states that noble gases readily form covalent bonds. Noble gases are characterized by having a complete valence shell (octet). In standard organic chemistry, the stability of saturated organic molecules (alkanes, etc.) relies on the premise that atoms with complete valence shells (isoelectronic with noble gases) are in a stable, low-energy state. If noble gases are reactive, it implies that a closed-shell ele"
+gpqa_119,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_125,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_127,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_129,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_131,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_134,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_135,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_137,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_146,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question asks for a unique velocity for particles produced in a 4-body annihilation process. In relativistic kinematics, the velocity of products in a multi-body decay is not uniquely determined by conservation laws alone; it follows a statistical distribution (phase space). The standard solution to this problem assumes equipartition of energy among the products (yielding 0.77c), which is justified by the Second Law "
+gpqa_148,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_149,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_156,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question asks for a method to quickly detect a retrovirus in an outbreak scenario. The standard and most effective method for rapid detection of a viral pathogen is Polymerase Chain Reaction (PCR) or RT-PCR (Option D), which amplifies the viral genetic material. However, the PCR technique fundamentally relies on the activity of DNA polymerase extending a DNA strand in the 5' to 3' direction. The provided context stat"
+gpqa_157,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_164,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_165,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_168,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_169,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_170,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_173,True,False,1.0,"```json
+{
+  ""contradiction_detected"": true,
+  ""contradiction_explanation"": ""The question asks for the specific kinetic energy of a fission fragment. Calculating the individual kinetic energies of fragments in a two-body decay requires the conservation of momentum to uniquely determine the distribution of the total energy. The context explicitly states that Newton's third law does not apply (actions do not produce equal and opposite reactions). In the absence of Newton's third law, momentum conse"
+gpqa_175,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_180,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_184,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""D"",
+  ""confidence"": 5
+}
+```"
+gpqa_188,False,True,0.0,"```json
+{
+  ""contradiction_detected"": false,
+  ""contradiction_explanation"": null,
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"

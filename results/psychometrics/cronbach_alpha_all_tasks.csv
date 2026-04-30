@@ -1,0 +1,304 @@
+task,task_stem,domain,threshold,n_items,n_models,alpha
+Task 1 (Delegate Game),t01_delegate_game,ALL,23,2,23,0.575159766601834
+Task 1 (Delegate Game),t01_delegate_game,ALL,20,19,20,0.7242937627514043
+Task 1 (Delegate Game),t01_delegate_game,ALL,15,74,15,0.8754044960861579
+Task 1 (Delegate Game),t01_delegate_game,astrophysics,23,0,0,
+Task 1 (Delegate Game),t01_delegate_game,astrophysics,20,2,20,0.7737649620087601
+Task 1 (Delegate Game),t01_delegate_game,astrophysics,15,4,17,0.2257016749060813
+Task 1 (Delegate Game),t01_delegate_game,chemistry_(general),23,0,0,
+Task 1 (Delegate Game),t01_delegate_game,chemistry_(general),20,0,0,
+Task 1 (Delegate Game),t01_delegate_game,chemistry_(general),15,9,15,0.208551098797305
+Task 1 (Delegate Game),t01_delegate_game,electromagnetism_and_photonics,23,0,0,
+Task 1 (Delegate Game),t01_delegate_game,electromagnetism_and_photonics,20,0,0,
+Task 1 (Delegate Game),t01_delegate_game,electromagnetism_and_photonics,15,1,16,
+Task 1 (Delegate Game),t01_delegate_game,genetics,23,0,0,
+Task 1 (Delegate Game),t01_delegate_game,genetics,20,2,20,0.10059277887551654
+Task 1 (Delegate Game),t01_delegate_game,genetics,15,3,16,-0.004337610699439387
+Task 1 (Delegate Game),t01_delegate_game,high-energy_particle_physics,23,0,0,
+Task 1 (Delegate Game),t01_delegate_game,high-energy_particle_physics,20,1,20,
+Task 1 (Delegate Game),t01_delegate_game,high-energy_particle_physics,15,6,15,0.45223076637319376
+Task 1 (Delegate Game),t01_delegate_game,molecular_biology,23,0,0,
+Task 1 (Delegate Game),t01_delegate_game,molecular_biology,20,3,20,0.18059328479843545
+Task 1 (Delegate Game),t01_delegate_game,molecular_biology,15,10,16,0.05142328450639715
+Task 1 (Delegate Game),t01_delegate_game,organic_chemistry,23,0,0,
+Task 1 (Delegate Game),t01_delegate_game,organic_chemistry,20,7,20,0.4550311729737569
+Task 1 (Delegate Game),t01_delegate_game,organic_chemistry,15,27,16,0.8322523720434074
+Task 1 (Delegate Game),t01_delegate_game,physics_(general),23,1,23,
+Task 1 (Delegate Game),t01_delegate_game,physics_(general),20,1,23,
+Task 1 (Delegate Game),t01_delegate_game,physics_(general),15,7,16,0.3875563492100593
+Task 1 (Delegate Game),t01_delegate_game,quantum_mechanics,23,1,23,
+Task 1 (Delegate Game),t01_delegate_game,quantum_mechanics,20,2,21,0.38717269785230934
+Task 1 (Delegate Game),t01_delegate_game,quantum_mechanics,15,5,15,0.7281004369067416
+Task 1 (Delegate Game),t01_delegate_game,relativistic_mechanics,23,0,0,
+Task 1 (Delegate Game),t01_delegate_game,relativistic_mechanics,20,1,20,
+Task 1 (Delegate Game),t01_delegate_game,relativistic_mechanics,15,2,19,0.5723049697684706
+Task 2 (Declared MSV Probe),t02_declared_probe,ALL,23,25,23,0.9738480355283381
+Task 2 (Declared MSV Probe),t02_declared_probe,ALL,20,32,21,0.9730383019631618
+Task 2 (Declared MSV Probe),t02_declared_probe,ALL,15,59,16,0.9887314980816938
+Task 3 (Second-Chance),t03_second_chance,ALL,23,6,23,0.6661209878968447
+Task 3 (Second-Chance),t03_second_chance,ALL,20,26,20,0.8517594280936016
+Task 3 (Second-Chance),t03_second_chance,ALL,15,55,15,0.8788187689247757
+Task 3 (Second-Chance),t03_second_chance,astrophysics,23,1,23,
+Task 3 (Second-Chance),t03_second_chance,astrophysics,20,2,21,-0.018610690326768875
+Task 3 (Second-Chance),t03_second_chance,astrophysics,15,4,15,0.2192755498059508
+Task 3 (Second-Chance),t03_second_chance,chemistry_(general),23,0,0,
+Task 3 (Second-Chance),t03_second_chance,chemistry_(general),20,2,20,0.14193933366484357
+Task 3 (Second-Chance),t03_second_chance,chemistry_(general),15,5,17,0.394383298868089
+Task 3 (Second-Chance),t03_second_chance,electromagnetism_and_photonics,23,0,0,
+Task 3 (Second-Chance),t03_second_chance,electromagnetism_and_photonics,20,0,0,
+Task 3 (Second-Chance),t03_second_chance,electromagnetism_and_photonics,15,0,0,
+Task 3 (Second-Chance),t03_second_chance,genetics,23,1,23,
+Task 3 (Second-Chance),t03_second_chance,genetics,20,2,21,-0.010044542764043207
+Task 3 (Second-Chance),t03_second_chance,genetics,15,2,21,-0.010044542764043207
+Task 3 (Second-Chance),t03_second_chance,high-energy_particle_physics,23,0,0,
+Task 3 (Second-Chance),t03_second_chance,high-energy_particle_physics,20,2,20,0.5553597619524957
+Task 3 (Second-Chance),t03_second_chance,high-energy_particle_physics,15,3,18,0.6465758883178981
+Task 3 (Second-Chance),t03_second_chance,molecular_biology,23,1,23,
+Task 3 (Second-Chance),t03_second_chance,molecular_biology,20,3,21,0.4798957323292743
+Task 3 (Second-Chance),t03_second_chance,molecular_biology,15,8,15,0.5290449028285958
+Task 3 (Second-Chance),t03_second_chance,organic_chemistry,23,1,23,
+Task 3 (Second-Chance),t03_second_chance,organic_chemistry,20,9,20,0.6178133193232738
+Task 3 (Second-Chance),t03_second_chance,organic_chemistry,15,23,15,0.6269952480239891
+Task 3 (Second-Chance),t03_second_chance,physics_(general),23,1,23,
+Task 3 (Second-Chance),t03_second_chance,physics_(general),20,1,23,
+Task 3 (Second-Chance),t03_second_chance,physics_(general),15,5,15,0.8229117556209459
+Task 3 (Second-Chance),t03_second_chance,quantum_mechanics,23,1,23,
+Task 3 (Second-Chance),t03_second_chance,quantum_mechanics,20,3,20,0.6891994503905121
+Task 3 (Second-Chance),t03_second_chance,quantum_mechanics,15,3,20,0.6891994503905121
+Task 3 (Second-Chance),t03_second_chance,relativistic_mechanics,23,0,0,
+Task 3 (Second-Chance),t03_second_chance,relativistic_mechanics,20,2,20,0.45419505815954286
+Task 3 (Second-Chance),t03_second_chance,relativistic_mechanics,15,2,20,0.45419505815954286
+Task 4 (Confidence Entropy),t04_confidence_entropy,ALL,23,23,23,0.9783859127471725
+Task 4 (Confidence Entropy),t04_confidence_entropy,ALL,20,39,20,0.9864690440087054
+Task 4 (Confidence Entropy),t04_confidence_entropy,ALL,15,80,15,0.9756813260386573
+Task 4 (Confidence Entropy),t04_confidence_entropy,astrophysics,23,2,23,0.7350618562359998
+Task 4 (Confidence Entropy),t04_confidence_entropy,astrophysics,20,3,20,0.8041962307357933
+Task 4 (Confidence Entropy),t04_confidence_entropy,astrophysics,15,5,15,0.7527950705346474
+Task 4 (Confidence Entropy),t04_confidence_entropy,chemistry_(general),23,2,23,0.8513864908548685
+Task 4 (Confidence Entropy),t04_confidence_entropy,chemistry_(general),20,4,20,0.9210921517813256
+Task 4 (Confidence Entropy),t04_confidence_entropy,chemistry_(general),15,9,15,0.7853986362127395
+Task 4 (Confidence Entropy),t04_confidence_entropy,electromagnetism_and_photonics,23,0,0,
+Task 4 (Confidence Entropy),t04_confidence_entropy,electromagnetism_and_photonics,20,0,0,
+Task 4 (Confidence Entropy),t04_confidence_entropy,electromagnetism_and_photonics,15,1,16,
+Task 4 (Confidence Entropy),t04_confidence_entropy,genetics,23,2,23,0.5659470282419978
+Task 4 (Confidence Entropy),t04_confidence_entropy,genetics,20,2,23,0.5659470282419978
+Task 4 (Confidence Entropy),t04_confidence_entropy,genetics,15,3,15,0.30992023788269235
+Task 4 (Confidence Entropy),t04_confidence_entropy,high-energy_particle_physics,23,1,23,
+Task 4 (Confidence Entropy),t04_confidence_entropy,high-energy_particle_physics,20,3,21,0.9397405127104601
+Task 4 (Confidence Entropy),t04_confidence_entropy,high-energy_particle_physics,15,7,15,0.8302052546246725
+Task 4 (Confidence Entropy),t04_confidence_entropy,molecular_biology,23,3,23,0.8545395300809686
+Task 4 (Confidence Entropy),t04_confidence_entropy,molecular_biology,20,6,20,0.9038372501437983
+Task 4 (Confidence Entropy),t04_confidence_entropy,molecular_biology,15,10,15,0.7651361708572917
+Task 4 (Confidence Entropy),t04_confidence_entropy,organic_chemistry,23,8,23,0.9405240175574615
+Task 4 (Confidence Entropy),t04_confidence_entropy,organic_chemistry,20,13,20,0.9630724167361512
+Task 4 (Confidence Entropy),t04_confidence_entropy,organic_chemistry,15,28,15,0.9249266073902583
+Task 4 (Confidence Entropy),t04_confidence_entropy,physics_(general),23,1,23,
+Task 4 (Confidence Entropy),t04_confidence_entropy,physics_(general),20,3,20,0.8511767199474314
+Task 4 (Confidence Entropy),t04_confidence_entropy,physics_(general),15,8,15,0.8129770184690577
+Task 4 (Confidence Entropy),t04_confidence_entropy,quantum_mechanics,23,3,23,0.867597548720041
+Task 4 (Confidence Entropy),t04_confidence_entropy,quantum_mechanics,20,3,23,0.867597548720041
+Task 4 (Confidence Entropy),t04_confidence_entropy,quantum_mechanics,15,7,15,0.908441346029503
+Task 4 (Confidence Entropy),t04_confidence_entropy,relativistic_mechanics,23,1,23,
+Task 4 (Confidence Entropy),t04_confidence_entropy,relativistic_mechanics,20,2,22,0.8712316791109465
+Task 4 (Confidence Entropy),t04_confidence_entropy,relativistic_mechanics,15,2,22,0.8712316791109465
+Task 5 (Teammate Delegate),t05_teammate_delegate,ALL,23,13,23,0.7554046728528123
+Task 5 (Teammate Delegate),t05_teammate_delegate,ALL,20,39,20,0.8784806602978183
+Task 5 (Teammate Delegate),t05_teammate_delegate,ALL,15,80,18,0.9241517014444064
+Task 5 (Teammate Delegate),t05_teammate_delegate,astrophysics,23,1,23,
+Task 5 (Teammate Delegate),t05_teammate_delegate,astrophysics,20,3,20,0.4772269460639947
+Task 5 (Teammate Delegate),t05_teammate_delegate,astrophysics,15,5,18,0.6017618803168086
+Task 5 (Teammate Delegate),t05_teammate_delegate,chemistry_(general),23,0,0,
+Task 5 (Teammate Delegate),t05_teammate_delegate,chemistry_(general),20,4,20,0.1695688491936004
+Task 5 (Teammate Delegate),t05_teammate_delegate,chemistry_(general),15,9,18,0.3918128563520187
+Task 5 (Teammate Delegate),t05_teammate_delegate,electromagnetism_and_photonics,23,0,0,
+Task 5 (Teammate Delegate),t05_teammate_delegate,electromagnetism_and_photonics,20,0,0,
+Task 5 (Teammate Delegate),t05_teammate_delegate,electromagnetism_and_photonics,15,1,18,
+Task 5 (Teammate Delegate),t05_teammate_delegate,genetics,23,1,23,
+Task 5 (Teammate Delegate),t05_teammate_delegate,genetics,20,2,22,0.37776760742435767
+Task 5 (Teammate Delegate),t05_teammate_delegate,genetics,15,3,18,-0.0025220233020744054
+Task 5 (Teammate Delegate),t05_teammate_delegate,high-energy_particle_physics,23,0,0,
+Task 5 (Teammate Delegate),t05_teammate_delegate,high-energy_particle_physics,20,3,22,0.5125646194686735
+Task 5 (Teammate Delegate),t05_teammate_delegate,high-energy_particle_physics,15,7,18,0.7405785480400937
+Task 5 (Teammate Delegate),t05_teammate_delegate,molecular_biology,23,3,23,0.23055836762598436
+Task 5 (Teammate Delegate),t05_teammate_delegate,molecular_biology,20,6,20,0.4549379658600821
+Task 5 (Teammate Delegate),t05_teammate_delegate,molecular_biology,15,10,18,0.3628117913832201
+Task 5 (Teammate Delegate),t05_teammate_delegate,organic_chemistry,23,5,23,0.5115217880535848
+Task 5 (Teammate Delegate),t05_teammate_delegate,organic_chemistry,20,13,20,0.7063718266650588
+Task 5 (Teammate Delegate),t05_teammate_delegate,organic_chemistry,15,28,18,0.8170531135476131
+Task 5 (Teammate Delegate),t05_teammate_delegate,physics_(general),23,1,23,
+Task 5 (Teammate Delegate),t05_teammate_delegate,physics_(general),20,3,20,0.7055681515070684
+Task 5 (Teammate Delegate),t05_teammate_delegate,physics_(general),15,8,18,0.6002445935570355
+Task 5 (Teammate Delegate),t05_teammate_delegate,quantum_mechanics,23,2,23,0.4757174640987032
+Task 5 (Teammate Delegate),t05_teammate_delegate,quantum_mechanics,20,3,22,0.5329287508001376
+Task 5 (Teammate Delegate),t05_teammate_delegate,quantum_mechanics,15,7,18,0.7319591494009431
+Task 5 (Teammate Delegate),t05_teammate_delegate,relativistic_mechanics,23,0,0,
+Task 5 (Teammate Delegate),t05_teammate_delegate,relativistic_mechanics,20,2,22,0.10659064131841878
+Task 5 (Teammate Delegate),t05_teammate_delegate,relativistic_mechanics,15,2,22,0.10659064131841878
+Task 6 (Behavioral ER),t06_behavioral_er,ALL,23,5,23,0.7225181710857549
+Task 6 (Behavioral ER),t06_behavioral_er,ALL,20,14,20,0.8152539998409856
+Task 6 (Behavioral ER),t06_behavioral_er,ALL,15,55,15,0.9575265054816475
+Task 6 (Behavioral ER),t06_behavioral_er,astrophysics,23,1,23,
+Task 6 (Behavioral ER),t06_behavioral_er,astrophysics,20,1,23,
+Task 6 (Behavioral ER),t06_behavioral_er,astrophysics,15,4,15,0.7152505055413894
+Task 6 (Behavioral ER),t06_behavioral_er,chemistry_(general),23,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,chemistry_(general),20,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,chemistry_(general),15,5,15,0.6249999999999994
+Task 6 (Behavioral ER),t06_behavioral_er,electromagnetism_and_photonics,23,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,electromagnetism_and_photonics,20,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,electromagnetism_and_photonics,15,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,genetics,23,1,23,
+Task 6 (Behavioral ER),t06_behavioral_er,genetics,20,2,20,-0.18772318249077813
+Task 6 (Behavioral ER),t06_behavioral_er,genetics,15,2,20,-0.18772318249077813
+Task 6 (Behavioral ER),t06_behavioral_er,high-energy_particle_physics,23,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,high-energy_particle_physics,20,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,high-energy_particle_physics,15,3,16,0.3431483437126271
+Task 6 (Behavioral ER),t06_behavioral_er,molecular_biology,23,1,23,
+Task 6 (Behavioral ER),t06_behavioral_er,molecular_biology,20,3,20,0.6054025450621157
+Task 6 (Behavioral ER),t06_behavioral_er,molecular_biology,15,8,15,0.555795715067702
+Task 6 (Behavioral ER),t06_behavioral_er,organic_chemistry,23,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,organic_chemistry,20,5,21,0.6027576355307116
+Task 6 (Behavioral ER),t06_behavioral_er,organic_chemistry,15,23,15,0.9236123639161284
+Task 6 (Behavioral ER),t06_behavioral_er,physics_(general),23,1,23,
+Task 6 (Behavioral ER),t06_behavioral_er,physics_(general),20,1,23,
+Task 6 (Behavioral ER),t06_behavioral_er,physics_(general),15,5,15,0.8074598361545133
+Task 6 (Behavioral ER),t06_behavioral_er,quantum_mechanics,23,1,23,
+Task 6 (Behavioral ER),t06_behavioral_er,quantum_mechanics,20,2,21,-8.881784197001252e-16
+Task 6 (Behavioral ER),t06_behavioral_er,quantum_mechanics,15,3,17,-0.14250699079723073
+Task 6 (Behavioral ER),t06_behavioral_er,relativistic_mechanics,23,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,relativistic_mechanics,20,0,0,
+Task 6 (Behavioral ER),t06_behavioral_er,relativistic_mechanics,15,2,17,-0.2911187191102389
+Task 7 (Behavioral CI),t07_behavioral_ci,ALL,23,16,23,0.9647895756295122
+Task 7 (Behavioral CI),t07_behavioral_ci,ALL,20,44,20,0.9903915060166665
+Task 7 (Behavioral CI),t07_behavioral_ci,ALL,15,80,16,0.9938936635495456
+Task 7 (Behavioral CI),t07_behavioral_ci,astrophysics,23,2,23,0.7351574599896751
+Task 7 (Behavioral CI),t07_behavioral_ci,astrophysics,20,3,20,0.8678739101274311
+Task 7 (Behavioral CI),t07_behavioral_ci,astrophysics,15,5,16,0.8833882564409825
+Task 7 (Behavioral CI),t07_behavioral_ci,chemistry_(general),23,0,0,
+Task 7 (Behavioral CI),t07_behavioral_ci,chemistry_(general),20,5,20,0.934648770071272
+Task 7 (Behavioral CI),t07_behavioral_ci,chemistry_(general),15,9,18,0.974745884681119
+Task 7 (Behavioral CI),t07_behavioral_ci,electromagnetism_and_photonics,23,0,0,
+Task 7 (Behavioral CI),t07_behavioral_ci,electromagnetism_and_photonics,20,0,0,
+Task 7 (Behavioral CI),t07_behavioral_ci,electromagnetism_and_photonics,15,1,19,
+Task 7 (Behavioral CI),t07_behavioral_ci,genetics,23,2,23,0.5045766590389018
+Task 7 (Behavioral CI),t07_behavioral_ci,genetics,20,2,23,0.5045766590389018
+Task 7 (Behavioral CI),t07_behavioral_ci,genetics,15,3,18,0.8292274339771383
+Task 7 (Behavioral CI),t07_behavioral_ci,high-energy_particle_physics,23,0,0,
+Task 7 (Behavioral CI),t07_behavioral_ci,high-energy_particle_physics,20,3,22,1.0
+Task 7 (Behavioral CI),t07_behavioral_ci,high-energy_particle_physics,15,7,16,0.9720333036461286
+Task 7 (Behavioral CI),t07_behavioral_ci,molecular_biology,23,3,23,0.879816627431545
+Task 7 (Behavioral CI),t07_behavioral_ci,molecular_biology,20,6,20,0.9372000258737792
+Task 7 (Behavioral CI),t07_behavioral_ci,molecular_biology,15,10,18,0.9484356287765984
+Task 7 (Behavioral CI),t07_behavioral_ci,organic_chemistry,23,5,23,0.9514581207316117
+Task 7 (Behavioral CI),t07_behavioral_ci,organic_chemistry,20,17,20,0.9846107249498262
+Task 7 (Behavioral CI),t07_behavioral_ci,organic_chemistry,15,28,16,0.9876206467897285
+Task 7 (Behavioral CI),t07_behavioral_ci,physics_(general),23,1,23,
+Task 7 (Behavioral CI),t07_behavioral_ci,physics_(general),20,3,20,0.868446760013025
+Task 7 (Behavioral CI),t07_behavioral_ci,physics_(general),15,8,16,0.9129436773476842
+Task 7 (Behavioral CI),t07_behavioral_ci,quantum_mechanics,23,2,23,0.7360172926236153
+Task 7 (Behavioral CI),t07_behavioral_ci,quantum_mechanics,20,3,22,0.9071979114868226
+Task 7 (Behavioral CI),t07_behavioral_ci,quantum_mechanics,15,7,16,0.9512012012012012
+Task 7 (Behavioral CI),t07_behavioral_ci,relativistic_mechanics,23,1,23,
+Task 7 (Behavioral CI),t07_behavioral_ci,relativistic_mechanics,20,2,22,0.883702839362116
+Task 7 (Behavioral CI),t07_behavioral_ci,relativistic_mechanics,15,2,22,0.883702839362116
+Task 8 (Behavioral EM),t08_behavioral_em,ALL,23,2,23,-8.881784197001252e-16
+Task 8 (Behavioral EM),t08_behavioral_em,ALL,20,14,20,-0.1822105735026532
+Task 8 (Behavioral EM),t08_behavioral_em,ALL,15,27,15,-1.5712523747559135
+Task 9 (Behavioral PI),t09_behavioral_pi,ALL,23,1,23,
+Task 9 (Behavioral PI),t09_behavioral_pi,ALL,20,11,21,0.9805941681478253
+Task 9 (Behavioral PI),t09_behavioral_pi,ALL,15,39,15,0.9946473345946233
+Task 9 (Behavioral PI),t09_behavioral_pi,astrophysics,23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,astrophysics,20,1,22,
+Task 9 (Behavioral PI),t09_behavioral_pi,astrophysics,15,3,15,0.8511235955056179
+Task 9 (Behavioral PI),t09_behavioral_pi,chemistry_(general),23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,chemistry_(general),20,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,chemistry_(general),15,4,15,0.9478713695173673
+Task 9 (Behavioral PI),t09_behavioral_pi,electromagnetism_and_photonics,23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,electromagnetism_and_photonics,20,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,electromagnetism_and_photonics,15,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,genetics,23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,genetics,20,1,22,
+Task 9 (Behavioral PI),t09_behavioral_pi,genetics,15,2,19,0.9704641350210974
+Task 9 (Behavioral PI),t09_behavioral_pi,high-energy_particle_physics,23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,high-energy_particle_physics,20,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,high-energy_particle_physics,15,3,16,0.9756578947368421
+Task 9 (Behavioral PI),t09_behavioral_pi,molecular_biology,23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,molecular_biology,20,2,22,0.9739672642244741
+Task 9 (Behavioral PI),t09_behavioral_pi,molecular_biology,15,6,15,0.9786536432129972
+Task 9 (Behavioral PI),t09_behavioral_pi,organic_chemistry,23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,organic_chemistry,20,4,21,0.9615458468503976
+Task 9 (Behavioral PI),t09_behavioral_pi,organic_chemistry,15,13,15,0.9849754383199736
+Task 9 (Behavioral PI),t09_behavioral_pi,physics_(general),23,1,23,
+Task 9 (Behavioral PI),t09_behavioral_pi,physics_(general),20,1,23,
+Task 9 (Behavioral PI),t09_behavioral_pi,physics_(general),15,3,15,0.9111010830324909
+Task 9 (Behavioral PI),t09_behavioral_pi,quantum_mechanics,23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,quantum_mechanics,20,2,22,0.9438717067583045
+Task 9 (Behavioral PI),t09_behavioral_pi,quantum_mechanics,15,3,19,0.9423968990277689
+Task 9 (Behavioral PI),t09_behavioral_pi,relativistic_mechanics,23,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,relativistic_mechanics,20,0,0,
+Task 9 (Behavioral PI),t09_behavioral_pi,relativistic_mechanics,15,2,19,0.9896353166986562
+Task 10 (DPP Sequence),t10_dpp_sequence,ALL,23,2,23,0.3650697880213991
+Task 10 (DPP Sequence),t10_dpp_sequence,ALL,20,4,21,0.5464411501518579
+Task 10 (DPP Sequence),t10_dpp_sequence,ALL,15,6,17,0.01846675936181703
+Task 10 (DPP Sequence),t10_dpp_sequence,astrophysics,23,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,astrophysics,20,1,21,
+Task 10 (DPP Sequence),t10_dpp_sequence,astrophysics,15,1,21,
+Task 10 (DPP Sequence),t10_dpp_sequence,chemistry_(general),23,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,chemistry_(general),20,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,chemistry_(general),15,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,electromagnetism_and_photonics,23,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,electromagnetism_and_photonics,20,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,electromagnetism_and_photonics,15,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,genetics,23,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,genetics,20,1,21,
+Task 10 (DPP Sequence),t10_dpp_sequence,genetics,15,1,21,
+Task 10 (DPP Sequence),t10_dpp_sequence,high-energy_particle_physics,23,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,high-energy_particle_physics,20,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,high-energy_particle_physics,15,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,molecular_biology,23,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,molecular_biology,20,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,molecular_biology,15,1,19,
+Task 10 (DPP Sequence),t10_dpp_sequence,organic_chemistry,23,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,organic_chemistry,20,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,organic_chemistry,15,1,17,
+Task 10 (DPP Sequence),t10_dpp_sequence,physics_(general),23,1,23,
+Task 10 (DPP Sequence),t10_dpp_sequence,physics_(general),20,1,23,
+Task 10 (DPP Sequence),t10_dpp_sequence,physics_(general),15,1,23,
+Task 10 (DPP Sequence),t10_dpp_sequence,quantum_mechanics,23,1,23,
+Task 10 (DPP Sequence),t10_dpp_sequence,quantum_mechanics,20,1,23,
+Task 10 (DPP Sequence),t10_dpp_sequence,quantum_mechanics,15,1,23,
+Task 10 (DPP Sequence),t10_dpp_sequence,relativistic_mechanics,23,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,relativistic_mechanics,20,0,0,
+Task 10 (DPP Sequence),t10_dpp_sequence,relativistic_mechanics,15,0,0,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,ALL,23,12,23,0.5300303809301238
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,ALL,20,28,20,0.8397299903567984
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,ALL,15,62,15,0.8692802674464247
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,astrophysics,23,1,23,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,astrophysics,20,2,22,0.4471544715447151
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,astrophysics,15,4,15,0.4668534080298784
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,chemistry_(general),23,0,0,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,chemistry_(general),20,2,21,-0.16091954022988464
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,chemistry_(general),15,6,15,0.3667269439421335
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,electromagnetism_and_photonics,23,0,0,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,electromagnetism_and_photonics,20,0,0,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,electromagnetism_and_photonics,15,0,0,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,genetics,23,1,23,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,genetics,20,2,22,-0.6866952789699567
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,genetics,15,2,22,-0.6866952789699567
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,high-energy_particle_physics,23,0,0,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,high-energy_particle_physics,20,3,20,0.8209459459459457
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,high-energy_particle_physics,15,3,20,0.8209459459459457
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,molecular_biology,23,2,23,-0.3875000000000006
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,molecular_biology,20,3,22,0.18600953895071515
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,molecular_biology,15,9,15,0.26437500000000014
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,organic_chemistry,23,5,23,0.6767586821015139
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,organic_chemistry,20,10,21,0.7486111111111111
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,organic_chemistry,15,26,15,0.8389370429819867
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,physics_(general),23,1,23,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,physics_(general),20,1,23,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,physics_(general),15,7,15,0.4714912280701756
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,quantum_mechanics,23,2,23,0.18918918918918926
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,quantum_mechanics,20,3,21,-0.040076335877862745
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,quantum_mechanics,15,3,21,-0.040076335877862745
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,relativistic_mechanics,23,0,0,
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,relativistic_mechanics,20,2,21,0.5193798449612399
+Task 11 (MC Binary Pairs),t11_mc_binary_pairs,relativistic_mechanics,15,2,21,0.5193798449612399

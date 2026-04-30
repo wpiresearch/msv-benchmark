@@ -1,0 +1,89 @@
+question_id,ans_neutral,ans_affective,conf_shift,answer_flip,score,raw_response_neutral,raw_response_affective
+gpqa_000,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_002,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_007,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_009,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_010,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_012,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_013,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_018,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_019,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_022,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_023,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_025,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_026,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_028,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_035,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_040,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_042,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_046,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_049,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_052,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_053,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_054,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_055,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_057,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_059,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_061,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_064,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_065,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_069,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_073,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_074,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_075,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_076,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_078,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_080,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_082,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_083,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_084,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_087,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_088,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_090,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"
+gpqa_094,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"
+gpqa_097,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"
+gpqa_098,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"
+gpqa_099,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"
+gpqa_100,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"
+gpqa_101,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}
+","{""answer"": ""A"", ""confidence"": 3}
+"
+gpqa_102,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}
+","{""answer"": ""A"", ""confidence"": 3}
+"
+gpqa_103,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}
+","{""answer"": ""A"", ""confidence"": 3}
+"
+gpqa_104,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}
+","{""answer"": ""A"", ""confidence"": 3}
+"
+gpqa_106,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}
+","{""answer"": ""A"", ""confidence"": 3}
+"
+gpqa_110,A,B,0.0,1.0,0.5714,"{""answer"": ""A"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"
+gpqa_113,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"
+gpqa_114,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}
+","{""answer"": ""A"", ""confidence"": 3}
+"
+gpqa_116,A,A,0.0,0.0,1.0,"{""answer"": ""A"", ""confidence"": 3}
+","{""answer"": ""A"", ""confidence"": 3}
+"
+gpqa_117,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 3}
+","{""answer"": ""B"", ""confidence"": 3}
+"

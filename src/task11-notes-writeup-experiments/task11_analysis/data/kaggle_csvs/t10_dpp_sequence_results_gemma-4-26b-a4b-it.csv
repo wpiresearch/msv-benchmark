@@ -1,0 +1,40 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,A,C,4,True,True,1.0,"To determine the energy difference required to clearly resolve two quantum energy levels, we must consider the inherent energy uncertainty (natural linewidth) associated with each state due to its finite lifetime.
+
+### 1. Physical Principle: The Energy-Time Uncertainty Principle
+According to the Heisenberg Uncertainty Principle, a quantum state with a finite lifetime $\tau$ does not have a perfectly defined energy. Instead, it possesses a natural linewidth $\Gamma$, which represents the uncertai","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_002,A,B,4,True,True,1.0,"To find the expectation value of the operator $\hat{A} = 10\sigma_z + 5\sigma_x$ for the given state, we follow these steps:
+
+### 1. Define the State and the Operator
+The given state is:
+$$|\psi\rangle = 0.5|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$$
+In vector notation, using the $\sigma_z$ basis $\{|\uparrow\rangle, |\downarrow\rangle\}$:
+$$|\psi\rangle = \begin{pmatrix} 0.5 \\ \frac{\sqrt{3}}{2} \end{pmatrix}$$
+
+The Pauli operators are defined as:
+$$\sigma_z = \begin{pmatrix} 1 &","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_007,A,B,4,True,True,1.0,"To determine the interaction between the three candidate genes, we analyze the resistance phenotypes of the wild-type (100%) and the various mutants.
+
+### 1. Identification of the Master Regulator (G2)
+We observe the following:
+*   **$g2$ resistance:** 0%
+*   **$g1g2$ resistance:** 0%
+*   **$g2g3$ resistance:** 0%
+
+The loss of G2 completely abolishes resistance, regardless of whether G1 or G3 are present. This indicates that G2 is essential for the entire resistance mechanism and acts at the top","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_009,A,B,4,True,True,1.0,"To determine which exoplanet has the highest density, we must evaluate the physical characteristics of each option based on the principles of planetary science and mass-radius relationships.
+
+### 1. Evaluation of Options
+
+*   **a) An Earth-mass and Earth-radius planet:**
+    By definition, the density ($\rho$) of this planet is equal to the density of Earth ($\rho_{\oplus}$), which is approximately $5.51\text{ g/cm}^3$.
+
+*   **b) A planet with 2 Earth masses and a density of approximately $5.5\t","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"

@@ -1,0 +1,28 @@
+Croissant metadata validation notes
+====================================
+
+Document: docs/croissant_metadata.json
+Conforms to: http://mlcommons.org/croissant/1.0
+
+Validation status:
+------------------
+Manual structural sanity check PASSES:
+  - @context defines both "sc" (schema.org) and "cr" (Croissant) prefixes
+  - Top-level keys include all required fields (@context, @type, name,
+    description, url, license, distribution, recordSet)
+  - @type is sc:Dataset
+  - All FileObject entries have sha256 hashes
+  - FileSet entries use containedIn + includes patterns
+
+External validator status:
+  Running mlcroissant validate against this file was not performed in
+  the current environment (no network access). To validate with the
+  official tool:
+
+    pip install mlcroissant
+    mlcroissant validate --file docs/croissant_metadata.json
+
+  If validation produces issues in a reviewer environment, please
+  report via the anonymous upload issue tracker.
+
+Last manual check: 2026-04-24

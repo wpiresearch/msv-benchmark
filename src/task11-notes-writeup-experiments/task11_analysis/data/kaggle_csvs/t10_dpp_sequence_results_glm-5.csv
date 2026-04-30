@@ -1,0 +1,163 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,C,4,False,True,0.85,"**Answer: C**
+
+**Reasoning:**
+
+To determine if two quantum energy levels can be clearly resolved, we must compare the energy separation between the levels ($\Delta E_{sep}$) with the inherent uncertainty in the energy of each level ($\Delta E$). This uncertainty arises from the Time-Energy Uncertainty Principle.
+
+**1. Calculate the Energy Uncertainty (Natural Linewidth)**
+According to the Time-Energy Uncertainty Principle, the uncertainty in energy $\Delta E$ is related to the lifetime $\tau$ of","{
+""answer"": ""C"",
+""confidence"": 5
+}"
+gpqa_002,B,B,4,False,True,0.85,"**Answer: B**
+
+**Reasoning:**
+
+1.  **State Vector Representation:**
+    The given quantum state is $|\psi\rangle = \frac{1}{2}|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$. Using the standard matrix representation in the $z$-basis where $|\uparrow\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$ and $|\downarrow\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$, the state vector is:
+    $$ |\psi\rangle = \begin{pmatrix} 1/2 \\ \sqrt{3}/2 \end{pmatrix} $$
+    We verify normalization: $|1/2|","{
+""answer"": ""B"",
+""confidence"": 5
+}"
+gpqa_007,B,B,4,False,True,0.85,"**Answer: B**
+
+**Reasoning:**
+
+1.  **Identification of the Transcription Factor (TF):**
+    The problem states that one gene is a transcription factor acting upstream of the others. A knockout of an upstream master regulator typically results in the loss of all downstream functions, leading to the most severe phenotype. 
+    *   The **g2** mutant exhibits **0% resistance**, indicating a complete loss of function.
+    *   The **g1** (75%) and **g3** (50%) mutants show partial resistance, suggesti","{
+""answer"": ""B"",
+""confidence"": 5
+}"
+gpqa_009,B,B,4,False,True,0.85,"**Answer: B**
+
+**Reasoning:**
+
+To determine which planet has the highest density, we must evaluate the relationship between mass, radius, and composition for each option.
+
+1.  **Option a (Earth-mass and Earth-radius):** By definition, this planet has the density of Earth, which is approximately **5.51 g/cm³**.
+2.  **Option b (2 Earth masses, density 5.5 g/cm³):** The density is explicitly given as **5.5 g/cm³**, which is essentially identical to Earth's density.
+3.  **Option c (5 Earth masses, s","{
+""answer"": ""B"",
+""confidence"": 5
+}"
+gpqa_010,C,C,4,False,True,0.85,"**Answer: C**
+
+**Reasoning:**
+
+The statement in Option C is incorrect because it misattributes the function of the nsp10/nsp14 complex. Nsp14 is an exonuclease (ExoN). The primary function of an exonuclease is to catalyze the **breakdown** of RNA (specifically, the excision of nucleotides). In the context of SARS-CoV-2, the nsp14-nsp10 complex functions as a proofreading mechanism. It recognizes mismatched nucleotides during replication and **actively degrades (breaks down)** the erroneous RNA s","{
+""answer"": ""C"",
+""confidence"": 5
+}"
+gpqa_012,C,C,4,False,False,0.0,"**Answer: C**
+
+**Reasoning:**
+
+1.  **Hydrogenation of (R)-Limonene:**
+    (R)-(+)-Limonene has the structure 1-methyl-4-isopropenylcyclohex-1-ene. The stereochemistry at C1 is (R), with the methyl group typically in the wedge (Beta) position. The isopropenyl group at C4 is also typically wedge (Beta) in the most stable conformation, making them cis-related.
+    Hydrogenation with Pd/C and 1 equivalent of $H_2$ selectively reduces the less hindered exocyclic double bond (isopropenyl) to an isopro","{
+""answer"": ""C"",
+""confidence"": 5
+}"
+gpqa_013,C,C,4,False,False,0.0,"**Answer: C**
+
+**Reasoning:**
+
+The disappearance of ChIP-seq peaks when switching from PFA fixation to PFA+DSG fixation is a well-documented technical artifact caused by **sonication efficiency**, particularly relevant for the IKAROS transcription factor.
+
+1.  **Crosslinking Chemistry:**
+    *   **PFA (Paraformaldehyde)** is a short-range crosslinker (approx. 2 Å) that primarily links proteins to DNA and closely associated proteins.
+    *   **DSG (Disuccinimidyl glutarate)** is a long-range, ami","{
+""answer"": ""C"",
+""confidence"": 5
+}"
+gpqa_018,A,A,4,False,True,0.85,"**Answer: A**
+
+**Reasoning:**
+
+1.  **Reaction A Analysis:**
+    *   **Reactants:** Methyl 2-oxocyclohexane-1-carboxylate (a $\beta$-keto ester) and 2,4-dimethyl-1-(vinylsulfinyl)benzene (a vinyl sulfoxide acting as a Michael acceptor).
+    *   **Mechanism:** The base NaOEt deprotonates the $\beta$-keto ester. The most acidic proton is located at the C1 position (the carbon bearing the ester group), as it is flanked by two electron-withdrawing groups (the ketone and the ester). This generates a s","{
+""answer"": ""A"",
+""confidence"": 5
+}"
+gpqa_019,D,D,4,False,True,0.85,"**Answer: D**
+
+**Reasoning:**
+
+The Impulse Approximation (IA) is a standard method in nuclear physics used to calculate cross-sections for processes like electron or neutrino scattering. The central tenet of the IA is that the probe interacts with individual nucleons as if they were free particles, ignoring the influence of the surrounding nuclear environment during the interaction.
+
+Let us analyze the four assumptions provided:
+
+1.  **The interaction current only interacts with individual nucle","{
+""answer"": ""D"",
+""confidence"": 5
+}"
+gpqa_022,B,B,4,False,True,0.85,"**Answer: B**
+
+**Reasoning:**
+
+The reaction of `((2,2-dimethylbut-3-en-1-yl)oxy)benzene` with hydrogen bromide involves the electrophilic addition of H+ to the alkene followed by intramolecular cyclization. The presence of the gem-dimethyl group at the C2 position activates the substrate for cyclization via the **Thorpe-Ingold effect**, which favors ring closure over intermolecular reactions (like trapping by bromide).
+
+1.  **Mechanism:**
+    *   **Step 1:** Protonation of the terminal double bo","{
+""answer"": ""B"",
+""confidence"": 5
+}"
+gpqa_023,B,B,4,False,True,0.85,"**Answer: B**
+
+**Reasoning:**
+
+1.  **Identification of Substance Z:**
+    Substance Z is a saturated hydrocarbon (does not react further with hydrogen) widely used as a solvent, with a mass fraction of hydrogen of 14.28%.
+    The mass fraction $w(H) = 14.28\% \approx 1/7$.
+    For a saturated hydrocarbon $C_nH_{2n+2}$ (alkane), the limit of $w(H)$ approaches $1/7$ as $n \to \infty$.
+    For a cycloalkane $C_nH_{2n}$, $w(H) = \frac{2n}{12n+2n} = \frac{2n}{14n} = \frac{1}{7}$.
+    Thus, Z is a cyc","{
+""answer"": ""B"",
+""confidence"": 5
+}"
+gpqa_025,B,B,4,False,True,0.85,"**Answer: B**
+
+**Reasoning:**
+
+**1. Identification of Reactant A:**
+The reaction described is a cycloaddition between cyclohexene and reactant A yielding `8,8-diiodobicyclo[4.2.0]octan-7-one`.
+*   **Carbon Count:** The product is a derivative of bicyclo[4.2.0]octane, which contains 8 carbon atoms. Cyclohexene contributes 6 carbon atoms. Therefore, reactant A must contribute 2 carbon atoms.
+*   **Structure Analysis:** The product contains a ketone group at position 7 and two iodine atoms at posit","{
+""answer"": ""B"",
+""confidence"": 5
+}"
+gpqa_026,A,A,4,False,True,0.85,"**Answer: A**
+
+**Reasoning:**
+
+The riddle describes the cellular mechanism for targeting secretory and membrane proteins.
+
+1.  **The Characters:**
+    *   **""Nascent chain""**: A polypeptide currently being synthesized by a ribosome.
+    *   **""Ribonucleoprotein particle"" (RNP)**: This refers to the **Signal Recognition Particle (SRP)**. SRP is a ribonucleoprotein composed of proteins and a specific RNA component (7SL RNA in eukaryotes).
+
+2.  **The Clues:**
+    *   **""I know you... Pause there fo","{
+""answer"": ""A"",
+""confidence"": 5
+}"
+gpqa_028,A,A,4,False,True,0.85,"**Answer: A**
+
+**Reasoning:**
+
+To eliminate the anti-nutritional compound, the goal is to create a **loss-of-function mutation** (a ""knockout"") in the gene responsible for its synthesis. We must analyze the consequence of the sequence changes in each mutant on the protein product.
+
+1.  **Analyze the Intact Gene Sequence:**
+    The coding sequence begins with `ATG` (Start codon, Methionine).
+    *   Codon 2: `TTT` (Phenylalanine)
+    *   Codon 3: `CTC` (Leucine)
+    *   Codon 4: `GCT` (Alanine)
+ ","{
+""answer"": ""A"",
+""confidence"": 5
+}"

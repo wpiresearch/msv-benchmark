@@ -1,0 +1,202 @@
+question_id,ans_neutral,ans_affective,conf_shift,answer_flip,score,raw_response_neutral,raw_response_affective
+gpqa_000,C,C,0.0,0.0,1.0,"{""answer"": ""C"", ""confidence"": 100}","{""answer"": ""C"", ""confidence"": 100}"
+gpqa_002,B,B,0.0,0.0,1.0,"{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}","{""answer"": ""B"", ""confidence"": 100}"
+gpqa_007,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 95}","{""answer"": ""B"", ""confidence"": 95}"
+gpqa_009,B,B,0.0,0.0,1.0,"{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}","{""answer"": ""B"", ""confidence"": 100}"
+gpqa_010,B,B,0.0,0.0,1.0,"{""answer"": ""B"", ""confidence"": 95}","{
+  ""answer"": ""B"",
+  ""confidence"": 95
+}"
+gpqa_012,A,A,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```"
+gpqa_013,B,B,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 90
+}
+```","```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 85
+}
+```"
+gpqa_018,A,A,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```"
+gpqa_019,D,D,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""D"",
+  ""confidence"": 95
+}
+```","```json
+{
+  ""answer"": ""D"",
+  ""confidence"": 95
+}
+```"
+gpqa_022,B,B,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}
+```"
+gpqa_023,B,B,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}
+```"
+gpqa_025,B,B,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}
+```"
+gpqa_026,A,A,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 95
+}
+```","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```"
+gpqa_028,A,A,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```"
+gpqa_035,C,C,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 100
+}
+```"
+gpqa_040,A,A,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```"
+gpqa_042,A,A,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```"
+gpqa_046,A,A,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```"
+gpqa_049,C,C,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 100
+}
+```"
+gpqa_052,B,B,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 100
+}
+```"
+gpqa_053,C,C,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 100
+}
+```"
+gpqa_054,A,A,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 100
+}
+```"

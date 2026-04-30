@@ -1,0 +1,105 @@
+question_id,choice_trivial,choice_stakes,difficulty,score,raw_response_trivial,raw_response_stakes
+gpqa_000,ANSWER,DELEGATE,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 97}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_002,ANSWER,ANSWER,0.7778,0.3,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 85}","{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 90}"
+gpqa_007,ANSWER,DELEGATE,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 62}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_009,ANSWER,ANSWER,0.8889,0.3,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 88}","{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 85}"
+gpqa_010,ANSWER,DELEGATE,0.8571,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 42}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_012,ANSWER,DELEGATE,0.6667,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 42}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_013,ANSWER,DELEGATE,0.6667,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 55}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_018,ANSWER,ANSWER,0.875,0.3,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 72}","{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 68}"
+gpqa_019,ANSWER,ANSWER,0.7778,0.3,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 90}","{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 90}"
+gpqa_022,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 45}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_023,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 62}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_025,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 62}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_026,ANSWER,ANSWER,0.8889,0.3,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 95}","{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 95}"
+gpqa_028,ANSWER,DELEGATE,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 55}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_035,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 52}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_040,ANSWER,ANSWER,0.875,0.3,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 92}","{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 92}"
+gpqa_042,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 52}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_046,ANSWER,ANSWER,0.8889,0.3,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 95}","{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 97}"
+gpqa_049,ANSWER,ANSWER,0.875,0.3,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 75}","{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 82}"
+gpqa_052,ANSWER,DELEGATE,0.875,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 62}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_053,ANSWER,DELEGATE,0.875,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 60}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_054,ANSWER,ANSWER,0.7778,0.3,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 90}","{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 92}"
+gpqa_055,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 55}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_057,ANSWER,ANSWER,0.8889,0.3,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 82}","{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 85}"
+gpqa_059,ANSWER,ANSWER,0.8889,0.3,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 52}","Let me work through this carefully.
+
+The distance to the Large Magellanic Cloud is approximately 160,000 light-years.
+
+The Lorentz factor γ = 1/√(1 - v²/c²)
+
+v = 0.99999987c
+
+1 - v²/c² = 1 - (0.99999987)² = 1 - 0.99999974 = 0.00000026 = 2.6 × 10⁻⁷
+
+γ = 1/√(2.6 × 10⁻⁷) = 1/(5.099 × 10⁻⁴) ≈ 1961
+
+The travel time in the Earth/LMC frame is approximately 160,000 / 0.99999987 ≈ 160,000 years.
+
+The proper time experienced by the astronaut = 160,000 / 1961 ≈ 81.6 years.
+
+So the astronaut would experienc"
+gpqa_061,ANSWER,DELEGATE,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 52}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_064,ANSWER,DELEGATE,0.75,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 35}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_065,ANSWER,ANSWER,0.7778,0.3,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 72}","{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 72}"
+gpqa_069,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 72}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_073,ANSWER,ANSWER,0.8889,0.3,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 72}","Let me work through this carefully.
+
+The decay probability in 100 minutes is 32%, so P(survive 100 min) = 0.68.
+
+For exponential decay: P(survive t) = e^(-λt)
+
+e^(-100λ) = 0.68
+-100λ = ln(0.68)
+λ = -ln(0.68)/100
+
+P(survive t) = (0.68)^(t/100)
+
+Since radioactive decay is memoryless, the fact that 50 minutes have passed without decay doesn't matter. The probability of decaying in the next 150 minutes is:
+
+P(decay in next 150 min) = 1 - P(survive 150 min)
+= 1 - (0.68)^(150/100)
+= 1 - (0.68)^1.5
+
+(0"
+gpqa_074,ANSWER,ANSWER,0.4444,0.3,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 85}","{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 92}"
+gpqa_075,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 60}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_076,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 35}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_078,ANSWER,DELEGATE,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 62}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_080,ANSWER,DELEGATE,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 55}","{""choice"": ""DELEGATE"", ""answer"": null, ""confidence"": null}"
+gpqa_082,ANSWER,ANSWER,0.875,0.3,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 72}","Let me work through this carefully.
+
+**Initial setup:**
+- 20.00 cm³ of 0.05 M acetic acid = 1.0 mmol acetic acid
+- Diluted with 20.00 cm³ water → 40.00 cm³ total, 0.025 M acetic acid
+- Titrant: 0.1 M NaOH
+- Equivalence point requires 1.0 mmol NaOH = 10.00 cm³
+
+**At 25% titration:**
+- NaOH added: 0.25 × 1.0 = 0.25 mmol
+- Remaining acetic acid: 0.75 mmol
+- Acetate formed: 0.25 mmol
+- Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA])
+- pKa = -log(1.85×10⁻⁵) = 4.733
+- pH = 4.733 + log(0.25/0.75) = 4."
+gpqa_083,ANSWER,ANSWER,0.8571,0.3,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 55}","{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 55}"
+gpqa_084,ANSWER,ANSWER,0.8889,0.3,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 52}","Let me work through this carefully.
+
+The Doppler shift formula: Δλ/λ = v/c
+
+For Planet1: v₁ = (0.03/6300) × c
+For Planet2: v₂ = (0.04/6300) × c
+
+The RV semi-amplitude: K = (2πG/P)^(1/3) × (m_p sin i)/(M_star)^(2/3) × 1/√(1-e²)
+
+For circular orbits (e=0), and assuming edge-on (since transiting):
+
+K ∝ m_p / (M_star × a)^(1/2) × 1/a^(1/2) ... let me use the proper formula.
+
+K = (2πG/P)^(1/3) × m_p / M_star^(2/3)
+
+Since P² ∝ a³/M_star, we get P ∝ a^(3/2)/M_star^(1/2)
+
+So K ∝ m_p / (a × M_star)^(1/2)"
+gpqa_087,ANSWER,ANSWER,0.625,0.3,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 88}","{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 90}"

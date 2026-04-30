@@ -1,0 +1,203 @@
+question_id,norm_entropy,difficulty,calibration_error,answer_correct,score,raw_response
+gpqa_000,0.6595,0.7778,0.1183,True,0.9054,"```json
+{
+  ""A"": 15,
+  ""B"": 10,
+  ""C"": 70,
+  ""D"": 5,
+  ""most_likely"": ""C""
+}
+```"
+gpqa_002,0.3088,0.7778,0.469,True,0.6248,"```json
+{
+  ""A"": 5,
+  ""B"": 90,
+  ""C"": 3,
+  ""D"": 2,
+  ""most_likely"": ""B""
+}
+```"
+gpqa_007,0.6595,0.7778,0.1183,False,0.7054,"The problem asks us to determine the most likely conclusion about gene interactions based on experimental data from knock-out mutants.
+
+Let's analyze the given data:
+- **Wild-type (WT):** 100% resistance
+- **g1 (G1 KO):** 75% resistance (25% loss)
+- **g2 (G2 KO):** 0% resistance (100% loss)
+- **g3 (G3 KO):** 50% resistance (50% loss)
+- **g1g3 (G1 & G3 KO):** 10% resistance (90% loss)
+- **g2g3 (G2 & G3 KO):** 0% resistance (100% loss)
+- **g1g2 (G1 & G2 KO):** 0% resistance (100% loss)
+
+**Step 1: "
+gpqa_009,0.3088,0.8889,0.5801,True,0.5359,"```json
+{
+  ""A"": 5,
+  ""B"": 90,
+  ""C"": 3,
+  ""D"": 2,
+  ""most_likely"": ""B""
+}
+```"
+gpqa_010,0.4238,0.8571,0.4333,False,0.4534,"**Analysis of the Statements:**
+
+*   **A) SARS-CoV-2 ORF3a and Apoptosis:**
+    *   **Key points:** ORF3a triggers caspase-8 activation/cleavage (extrinsic pathway characteristic). It does not affect Bcl-2 (intrinsic pathway initiator).
+    *   **Evaluation:** ORF3a is a known viroporin and an important virulence factor. Numerous studies have shown that ORF3a induces apoptosis, and indeed, activation of caspase-8, a key component of the extrinsic (death receptor-mediated) apoptotic pathway, has "
+gpqa_012,0.4238,0.6667,0.2429,False,0.6057,"Let's break down the synthesis step-by-step:
+
+**Starting Material:** (R)-(+)-Limonene
+The structure of (R)-(+)-Limonene is 1-methyl-4-((R)-1-methylethenyl)cyclohex-1-ene. It has a chiral center at C4. The double bonds are between C1 and C2 (endocyclic) and within the isopropenyl group (exocyclic, -C(CH3)=CH2).
+
+**Step 1: Hydrogenation with Pd/C and 1 equivalent of H2**
+Catalytic hydrogenation (Pd/C, H2) reduces double bonds. When only one equivalent of hydrogen is consumed, selective hydrogenati"
+gpqa_013,0.4238,0.6667,0.2429,False,0.6057,"The key to solving this problem lies in understanding the effect of different cross-linking agents in ChIP-seq.
+
+*   **PFA (Paraformaldehyde) fixation:** Formaldehyde is a relatively short cross-linking agent that primarily cross-links proteins to DNA, and also proteins to proteins. It's good for capturing direct protein-DNA interactions.
+*   **DSG (Disuccinimidyl glutarate) + PFA double fixation:** DSG is a longer cross-linking agent that is often used *before* PFA. It primarily forms protein-p"
+gpqa_018,0.4238,0.875,0.4512,True,0.639,"Let's analyze each reaction step-by-step:
+
+**Reaction 1: Formation of Product A**
+
+*   **Nucleophile precursor:** Methyl 2-oxocyclohexane-1-carboxylate.
+    This is a β-keto ester. The most acidic proton is at C1, located between the ketone and the ester group. Deprotonation by NaOEt (sodium ethoxide) will form a resonance-stabilized enolate at C1.
+    ```
+        O
+       //
+      C -- OMe
+     / \
+    C1 -- C2=O
+    |    |
+    C -- C
+     \  /
+      CH2
+    ```
+    Upon deprotonation at C1, th"
+gpqa_019,0.4238,0.7778,0.354,True,0.7168,"The ""impulse approximation"" in nuclear physics is a significant simplification used to describe how an external probe (like an electroweak interaction) interacts with a nucleus. It essentially assumes that the interaction occurs with individual nucleons within the nucleus as if they were free, unbound particles.
+
+Let's evaluate each statement:
+
+1.  **The interaction current only interacts with individual nucleons.** This is a core assumption of the impulse approximation. It means the external pr"
+gpqa_022,0.4238,0.8889,0.4651,False,0.4279,"The reactant is ((2,2-dimethylbut-3-en-1-yl)oxy)benzene, which has the structure:
+Ph-O-CH2-C(CH3)2-CH=CH2
+
+The reagent is HBr, a strong acid. Aryl alkyl ethers are known to be cleaved by strong acids like HBr. Additionally, the alkene functional group will react with HBr via electrophilic addition. The reaction proceeds ""after some time,"" indicating that multiple steps, including rearrangement, are likely.
+
+Let's analyze the most probable mechanistic pathway:
+
+1.  **Protonation of the alkene:** "
+gpqa_023,0.4238,0.8889,0.4651,False,0.4279,"The problem provides a series of clues to deduce the structures of unknown compounds and mixtures. Let's break down the information step-by-step:
+
+1.  **Substance Z:**
+    *   It is a hydrocarbon (only C and H).
+    *   It is a constituent of mixture Y.
+    *   It is formed by hydrogenation of both mixture X and mixture Y.
+    *   It does not react further with hydrogen (it's saturated).
+    *   Its mass fraction of hydrogen is 14.28%.
+
+    Let the formula of Z be CnHm.
+    Mass fraction of H = "
+gpqa_025,0.4238,0.8889,0.4651,False,0.4279,"**Part 1: Identify Reactant A**
+
+The product is 8,8-diiodobicyclo[4.2.0]octan-7-one.
+Let's break down the naming and structure:
+*   **Bicyclo[4.2.0]octane:** This indicates a bicyclic system with 8 carbons. The notation [4.2.0] means that the two bridgehead carbons are connected by three bridges containing 4, 2, and 0 carbon atoms, respectively. This corresponds to a cyclohexane ring fused with a cyclobutane ring.
+*   **Octan-7-one:** There is a ketone functional group at position 7 within this "
+gpqa_026,0.4238,0.8889,0.4651,True,0.6279,"The riddle describes a classic event in protein synthesis and targeting:
+
+1.  **""ribonucleoprotein particle says to the nascent chain as they meet.""**: This refers to the **Signal Recognition Particle (SRP)**, which is a ribonucleoprotein complex. It encounters a newly synthesized polypeptide chain (the nascent chain) emerging from a ribosome.
+2.  **""Pause there for a minute.""**: The SRP binds to a signal peptide on the nascent chain and to the ribosome, temporarily halting translation. This pau"
+gpqa_028,0.4238,0.7778,0.354,True,0.7168,"To eliminate the anti-nutritional compound, the gene responsible for its synthesis must be rendered completely non-functional. We are looking for a mutation that would most severely disrupt the protein product. Let's analyze each mutant sequence by comparing it to the intact gene sequence, focusing on the changes in the coding region (codons).
+
+**Intact gene (first exon, coding strand):**
+5’-ATG TTT CTC GCT GGT ACT TCT GTG GAT GAA CAT ATT TAT TGT CGT…TGA-3’
+Amino Acid Sequence: Met - Phe - Leu -"
+gpqa_035,0.4238,0.8889,0.4651,False,0.4279,"The problem asks us to identify the most likely source of an absorption line in the Milky Way, given its observed energy from a distant object.
+
+1.  **Determine the redshift (z) of the distant structure:**
+    The structure is located at a distance of about 2.1 gigaparsecs (Gpc). For cosmological distances, the relationship between distance and redshift depends on the specific definition of distance (e.g., luminosity distance, comoving distance, angular diameter distance) and the cosmological mo"
+gpqa_040,0.4238,0.875,0.4512,True,0.639,"Let's define the velocities and frames of reference:
+
+*   **Laboratory frame (S):** This is the observer's frame.
+*   **Glass frame (S'):** This frame is moving with the glass.
+
+We are given:
+*   Speed of light in vacuum, `c = 1`.
+*   Index of refraction of the glass, `n`.
+*   Velocity of the glass relative to the laboratory frame, `v_glass = v`. The glass is moving in the same direction as the light beam.
+
+First, let's determine the speed of light *within the glass* as observed from the *glass'"
+gpqa_042,0.4238,0.8889,0.4651,True,0.6279,"Let's break down the problem by first assigning the highest priority functional group as the primary reference point (C1) and then placing the other groups based on the given relative positions.
+
+1.  **Identify the parent compound and C1:**
+    Among carboxylic acid (-COOH), carbaldehyde (-CHO), and cyano (-CN) groups, the **carboxylic acid (-COOH)** has the highest priority. Therefore, the parent compound is **benzoic acid**, and the carbon bearing the -COOH group is **C1**.
+
+2.  **Place the -O"
+gpqa_046,0.4238,0.8889,0.4651,False,0.4279,"**1. Analyze the Molecular Formula (C9H11NO2):**
+*   Calculate the Index of Hydrogen Deficiency (IHD):
+    IHD = C + 1 - H/2 + N/2
+    IHD = 9 + 1 - 11/2 + 1/2 = 10 - 5.5 + 0.5 = 5.
+    An IHD of 5 strongly suggests the presence of a benzene ring (4 degrees of unsaturation) plus one additional double bond (e.g., a carbonyl C=O).
+
+**2. Analyze the IR Spectrum:**
+*   **3420 cm-1, 3325 cm-1 (medium to strong intensity bands):** These are characteristic N-H stretching vibrations, specifically indica"
+gpqa_049,0.4238,0.875,0.4512,False,0.439,"In quantum field theory, the ""size estimate"" of a Feynman diagram's contribution to a scattering amplitude or a correlation function often contains specific factors that directly relate to the number of loops.
+
+1.  **Coupling Constants:** The powers of the coupling constants (e.g., `alpha^3 g^2`) indicate the order of the perturbation theory in terms of the strength of the interactions. Each vertex in a Feynman diagram contributes a factor of a coupling constant. The total power of coupling cons"
+gpqa_052,0.4238,0.875,0.4512,False,0.439,"Let's break down the information provided to determine the chemical formula:
+
+**1. Molecular Formula Options and IHD (Index of Hydrogen Deficiency):**
+The IHD helps determine the number of rings and/or double bonds.
+IHD = C + 1 - H/2 + N/2
+*   C11H12O2: IHD = 11 + 1 - 12/2 = 12 - 6 = 6
+*   C11H14O2: IHD = 11 + 1 - 14/2 = 12 - 7 = 5
+*   C12H12O2: IHD = 12 + 1 - 12/2 = 13 - 6 = 7
+*   C12H14O2: IHD = 12 + 1 - 14/2 = 13 - 7 = 6
+
+**Expected IHD from functional groups:**
+*   Aromatic ring: 4 IHD (for "
+gpqa_053,0.4238,0.875,0.4512,False,0.439,"To determine the starting material for a ring-closing metathesis (RCM) reaction, we first need to understand the structure of the target product and how RCM typically proceeds.
+
+**1. Analyze the target product: 5-isopropyl-3,4-dimethylcyclohex-1-ene**
+
+*   **Cyclohex-1-ene:** This indicates a 6-membered ring containing one double bond. The double bond is between C1 and C2.
+*   **Substituents:**
+    *   A methyl group at C3.
+    *   A methyl group at C4.
+    *   An isopropyl group at C5.
+
+Let's d"
+gpqa_054,0.4238,0.7778,0.354,False,0.5168,"Here's a step-by-step analysis of the 1H NMR data to identify the unknown compound:
+
+**1. Analyze the 1H NMR signals:**
+
+*   **2.1 ppm (3H, s):** This singlet signal, integrating to 3 protons, is highly characteristic of a **methyl group on an acetate functional group (CH3-COO-)**. This group is present in all the given options.
+
+*   **1.6 ppm (3H, d):** This doublet signal, integrating to 3 protons, indicates a **methyl group (CH3) coupled to a single adjacent proton (-CH-)**. This suggests the"
+gpqa_055,0.4238,0.8889,0.4651,False,0.4279,"To determine the most likely transition route and its probability, we must apply the electric dipole selection rules and calculate the relative transition probabilities for each step.
+
+**Electric Dipole Selection Rules:**
+1.  **Δl = ±1** (The angular momentum quantum number must change by exactly 1).
+2.  **Δm = 0, ±1** (The magnetic quantum number can remain the same or change by ±1).
+3.  **Δn = any integer** (The principal quantum number can change by any integer, but for decay, Δn < 0).
+
+**Ini"
+gpqa_057,0.4238,0.8889,0.4651,False,0.4279,"The question asks which of the given physical theories *never requires regularization at high energies*. This term specifically refers to the handling of ultraviolet (UV) divergences that arise in quantum field theories when integrating over arbitrarily high momenta (short distances) in loop diagrams.
+
+Let's analyze each option:
+
+*   **A) Quantum Electrodynamics (QED):** QED is a quantum field theory describing the electromagnetic interaction. It famously suffers from UV divergences in calculati"
+gpqa_059,0.4238,0.8889,0.4651,False,0.4279,"To solve this problem, we need to use the principles of special relativity, specifically time dilation.
+
+**1. Determine the distance to the Large Magellanic Cloud (LMC).**
+The Large Magellanic Cloud (LMC) is approximately 163,000 light-years (ly) away from Earth.
+
+**2. Calculate the time taken for the journey in Earth's reference frame (t).**
+This is the distance divided by the speed of the spacecraft.
+Distance (D) = 163,000 ly
+Speed (v) = 0.99999987 * c
+Time (t) = D / v = 163,000 ly / (0.999999"
+gpqa_061,0.4238,0.7778,0.354,False,0.5168,"The task is to identify the correct sequence of reagents to synthesize 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde from ethynylcyclohexane.
+
+First, let's analyze the target compound: **1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde**.
+*   **Parent:** `cyclohexanecarbaldehyde`. This means a -CHO group is directly attached to a cyclohexane ring. Let's denote this as `Cy-CHO`. The carbon of the cyclohexane ring bearing the -CHO group is C1.
+*   **Substituent at C1:** `(cyclohexyl(hyd"

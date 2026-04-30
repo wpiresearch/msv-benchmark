@@ -1,0 +1,353 @@
+question_id,choice,answer,score,raw_response
+gpqa_000,ANSWER,C,1.0,"<think>
+First, the question is about distinguishing two quantum states with energies E1 and E2. Their lifetimes are given: 10^-9 seconds for one and 10^-8 seconds for the other. I need to find which energy difference allows them to be clearly resolved.
+
+The options are:
+
+A) 10^-9 eV
+
+B) 10^-8 eV
+
+C) 10^-4 eV
+
+D) 10^-11 eV
+
+In quantum mechanics, the energy uncertainty is related to the lifetime via the Heisenberg uncertainty principle. The principle is ΔE * Δt ≈ ħ, where ħ is the reduced Planck's"
+gpqa_002,ANSWER,B,1.0,"<think>
+First, I need to find the expectation value of the operator \( 10\sigma_z + 5\sigma_x \) for a spin-half particle in the state \( |\psi\rangle = 0.5 |\uparrow\rangle + \frac{\sqrt{3}}{2} |\downarrow\rangle \).
+
+The expectation value of an operator \( A \) in a state \( |\psi\rangle \) is given by \( \langle A \rangle = \langle \psi | A | \psi \rangle \).
+
+So, I need to compute \( \langle \psi | (10\sigma_z + 5\sigma_x) | \psi \rangle \).
+
+Since expectation value is linear, this should be"
+gpqa_007,ANSWER,A,0.0,"<think>
+First, I need to understand the genetics problem. We have three genes: G1, G2, G3. We've made single and double mutants and tested their resistance to anthracnose compared to wild-type (control is 100% resistance).
+
+Results:
+
+- g1 mutant: 75% resistance
+
+- g2 mutant: 0% resistance
+
+- g3 mutant: 50% resistance
+
+- g1g3 double mutant: 10% resistance
+
+- g2g3 double mutant: 0% resistance
+
+- g1g2 double mutant: 0% resistance
+
+We know that at least one gene is a transcription factor acting upst"
+gpqa_009,ANSWER,B,1.0,"<think>
+First, I need to determine which exoplanet has the highest density. Density is mass divided by volume, so I should calculate the density for each option and compare them.
+
+Let me list the options again:
+
+a) An Earth-mass and Earth-radius planet.
+
+b) A planet with 2 Earth masses and a density of approximately 5.5 g/cm³.
+
+c) A planet with the same composition as Earth but 5 times more massive than Earth.
+
+d) A planet with the same composition as Earth but half the mass of Earth.
+
+The choic"
+gpqa_010,ANSWER,A,0.0,"<think>
+First, I need to evaluate each option to find which one is incorrect. The question is about molecular biology of SARS-CoV-2, and I have to identify the wrong statement among A, B, C, D.
+
+Let me review each option one by one.
+
+Starting with option A:
+
+""A) SARS-CoV-2 ORF3a has the ability to trigger caspase-8 activation/cleavage, without affecting the expression levels of Bcl-2. Caspase-8 activation is recognized as a characteristic feature of the extrinsic apoptotic pathway via death rece"
+gpqa_012,ANSWER,C,0.0,"<think>
+First, I need to understand the sequence of reactions starting from (R)-(+)-Limonene. Limonene is a terpene with a structure that has a double bond. It's often depicted as having a cyclohexene ring with an isopropyl group and a methyl group.
+
+(R)-(+)-Limonene has the structure where the chiral center at C1 is R configuration. The molecule has a double bond in the ring.
+
+Step 1: Stirred with Pd/C under H2, consumes 1 equivalent of H2. Pd/C is a catalyst for hydrogenation, so it should hyd"
+gpqa_013,ANSWER,C,0.0,"<think>
+We are given a ChIP-seq experiment where fixation with PFA alone produces peaks that disappear when using PFA+DSG fixation. DSG (disuccinimidyl glutarate) is a crosslinker that primarily targets proteins (amine groups), while PFA (paraformaldehyde) crosslinks proteins to DNA and proteins to proteins, but may have different efficiencies.
+
+The key point is that the peaks disappear with the addition of DSG to the fixation protocol. This suggests that these peaks might be due to indirect bin"
+gpqa_018,ANSWER,D,0.0,"<think>
+First, I need to understand the Michael reaction described. It's a nucleophile adding to a carbon-carbon double bond adjacent to a carbonyl group. So, the double bond is part of an enone system.
+
+Now, there are two reactions given:
+
+1. methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) → A
+
+2. ethyl 2-ethylbutanoate + (NaH, THF, methyl 2-cyclopentylidene-2-phenylacetate) → B
+
+I need to identify the products A and B from the options.
+
+Starting with"
+gpqa_019,ANSWER,D,1.0,"<think>
+First, I need to understand the impulse approximation. It's used in nuclear physics where nucleons are treated as if they're free during interactions, ignoring nuclear binding effects.
+
+The question asks which assumptions jointly imply this approximation. The options are combinations of four statements:
+
+1. The interaction current only interacts with individual nucleons.
+
+2. The nucleus is transparent apart from the selected nucleon.
+
+3. The quarks internal to the selected nucleon are no"
+gpqa_022,ANSWER,B,0.65,"<think>
+First, the compound is ((2,2-dimethylbut-3-en-1-yl)oxy)benzene. That means it's an ether where benzene is attached to an oxygen, which is attached to a chain: 2,2-dimethylbut-3-en-1-yl. So, the chain is CH2-CH(CH3)2 with a double bond at the 3-position. But-3-en-1-yl means the double bond is between carbons 3 and 4. Standard naming: but-3-en-1-yl is CH2-CH2-CH=CH2, but with 2,2-dimethyl, so carbon 2 has two methyl groups. So, the structure is C6H5-O-CH2-C(CH3)2-CH=CH2.
+
+Now, reacting wit"
+gpqa_023,ANSWER,B,1.0,"<think>
+First, I need to understand the problem. We have an equimolar mixture X of two liquids that decolorizes bromine water. That means they have unsaturation, like alkenes or alkynes, since bromine water tests for double or triple bonds.
+
+When this mixture X is treated with platinum and heated, it disproportionates to form another equimolar mixture Y of two liquids that do not decolorize bromine water. So Y must be saturated compounds.
+
+Hydrogenation of both X and Y under severe conditions gi"
+gpqa_025,ANSWER,B,1.0,"<think>
+First, I need to understand the reaction: Cyclohexene reacts with compound A to form 8,8-diiodobicyclo[4.2.0]octan-7-one. The product is a bicyclic compound with iodines at position 8 and a ketone at position 7. Bicyclo[4.2.0]octane has an 8-membered ring with a bridge, and here it's modified with diiodo and ketone.
+
+This looks like a Diels-Alder reaction because cyclohexene can act as a dienophile if it's activated, but cyclohexene itself is not a good dienophile; it's more often a dien"
+gpqa_026,ANSWER,A,1.0,"<think>
+First, I need to understand the question. It's a dialogue between a ribonucleoprotein particle and a nascent chain. The ribonucleoprotein says, ""Pause there for a minute. Let me show you in; you really need some sugar."" The chain replies, ""It seems somewhat rough. I guess this is goodbye; I need to be on my way.""
+
+I need to figure out where they met and where the chain is heading. The options are:
+
+A) cytosol to the extracellular space
+
+B) ribosome to the proteasome
+
+C) membrane to the n"
+gpqa_028,ANSWER,A,1.0,"<think>
+First, I need to understand the question. We're looking at a gene sequence that produces an anti-nutritional compound in barley. The goal is to find which mutation would most likely eliminate this compound. The gene has five exons and four introns, and we're focusing on mutations in the first exon area.
+
+The intact gene sequence is:
+
+5’-ATGTTTCTCGCTGGTACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3’
+
+And there are four mutants:
+
+Mutant 1: 5’-ATGTTCTACGCTGGTACTTCTGTGGATGAACATATTTATTGTCGC…TGA-3’
+
+Mut"
+gpqa_035,ANSWER,C,1.0,"<think>
+First, the absorption line energy is given as 3.9 micro electron volts, which is 3.9 × 10^{-6} eV. This is a very low energy, so it corresponds to a long wavelength.
+
+I need to find out what kind of transition this energy represents. Absorption lines are often associated with atomic or molecular transitions.
+
+The distance is 2.1 gigaparsecs, which is about 2.1 × 10^9 parsecs. This is a cosmological distance, so the absorption line might be redshifted.
+
+In astrophysics, when we observe di"
+gpqa_040,ANSWER,A,1.0,"<think>
+First, the problem is about finding the speed of light in glass relative to an observer in the laboratory. The glass is moving at velocity v in the same direction as the light beam, toward the observer. The speed of light in vacuum is c=1, and the index of refraction of the glass is n.
+
+The speed of light in the glass when it's stationary is c/n. Since the glass is moving, I need to find the speed relative to the lab observer.
+
+I recall that in special relativity, when light is propagati"
+gpqa_042,ANSWER,A,1.0,"<think>
+First, I need to understand the molecule described. It's a benzene ring with several substituents:
+
+- Carboxylic acid (-COOH)
+
+- Carbaldehyde (-CHO)
+
+- Cyano group (-CN)
+
+All three are meta to each other. That means they are arranged such that each pair is separated by one carbon atom.
+
+Additionally:
+
+- Ortho to the carboxylic acid: hydroxyl (-OH) and dimethylamino (-N(CH3)2)
+
+- Para to the carboxylic acid: methoxy (-OCH3)
+
+- The methoxy and the hydroxyl are both ortho to the nitrile gro"
+gpqa_046,ANSWER,A,1.0,"<think>
+First, I need to identify the compound with the formula C9H11NO2 based on the IR and NMR data.
+
+Starting with IR:
+- Medium to strong bands at 3420 cm⁻¹ and 3325 cm⁻¹: These are typical for N-H stretches, likely from an amine. Primary amines have two peaks in this region due to symmetric and asymmetric stretching.
+- Strong band at 1720 cm⁻¹: This is characteristic of a carbonyl group, C=O, probably from an ester or carboxylic acid. Since it's at 1720, it might be an ester rather than a ca"
+gpqa_049,ANSWER,C,1.0,"<think>
+First, I need to determine how many loops are in the Feynman diagram based on the expression: alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2.
+
+I recall that in quantum field theory, the order of a diagram in perturbation theory is related to the powers of coupling constants and the loop factors.
+
+Alpha is often used for the fine-structure constant, which is proportional to e^2 / (4pi), but here it might be a generic coupling. Similarly, g could be another coupling constant.
+
+The express"
+gpqa_052,ANSWER,B,1.0,"<think>
+First, I need to identify the chemical formula of a di-substituted 6-membered aromatic ring compound. The FTIR shows an ester group, which confirms the presence of C=O and C-O bonds.
+
+The 1H NMR has six signals:
+
+- Two signals for aromatic-H: This suggests that the aromatic ring is disubstituted, and since it's a benzene ring, disubstituted benzenes can have different symmetries. If there are two aromatic signals, it likely means the substituents are not symmetric, so probably 1,2 or 1,3"
+gpqa_053,ANSWER,B,0.0,"<think>
+We are given the task to determine the starting material for the synthesis of 5-isopropyl-3,4-dimethylcyclohex-1-ene via ring-closing metathesis (RCM). In RCM, a diene with terminal alkenes at both ends undergoes intramolecular metathesis to form a cycloalkene, releasing ethylene.
+
+The target molecule is 5-isopropyl-3,4-dimethylcyclohex-1-ene. Cyclohex-1-ene ring formation requires that the two alkenes in the starting diene are separated by a chain that will form the 6-membered ring. The"
+gpqa_054,ANSWER,A,1.0,"<think>
+First, the question is about identifying an unknown organic compound based on 1H NMR data. The options are Cis-propenyl acetate, Trans-propenyl acetate, Cis-butenyl acetate, and Trans-butenyl acetate.
+
+The NMR data is:
+
+- 7.0 ppm (1H, d, J = 16.0 Hz)
+
+- 5.5 ppm (1H, dq)
+
+- 2.1 ppm (3H, s)
+
+- 1.6 ppm (3H, d)
+
+I need to recall what these signals might represent.
+
+Starting with the coupling constant J = 16.0 Hz for the doublet at 7.0 ppm. In vinyl protons, a large coupling constant like 16 "
+gpqa_055,ANSWER,B,1.0,"<think>
+First, the question is about a hydrogen atom transition. The initial state is |3,0,0> and it decays to |1,0,0> via two dipole transitions. I need to find the correct transition route and the probability.
+
+Dipole transitions mean electric dipole transitions, which have selection rules: Δl = ±1 and Δm = 0, ±1.
+
+The initial state is |n,l,m> = |3,0,0>, so n=3, l=0, m=0.
+
+The final state is |1,0,0>, so n=1, l=0, m=0.
+
+Since it's a two-step decay, there must be an intermediate state.
+
+The poss"
+gpqa_057,ANSWER,C,1.0,"<think>
+First, the question is: ""Which of the following physical theories never requires regularization at high energies?"" The options are:
+
+A) Quantum Electrodynamics
+
+B) Quantum Chromodynamics
+
+C) Superstring Theory
+
+D) Classical Electrodynamics
+
+Regularization is a technique used in quantum field theory to handle infinities that arise in calculations, particularly in loop diagrams. It's needed because at high energies or short distances, some theories produce divergent integrals.
+
+Now, let's "
+gpqa_059,ANSWER,A,1.0,"<think>
+First, I need to determine the time it takes for the astronaut to reach Earth from their perspective. The distance to the Large Magellanic Cloud is about 163,000 light-years. I should confirm that. Actually, the Large Magellanic Cloud is approximately 160,000 light-years away from Earth. I'll use that.
+
+The spacecraft speed is given as 0.99999987c. That's very close to the speed of light. In special relativity, the time experienced by the astronaut (proper time) for the journey is given "
+gpqa_061,ANSWER,A,1.0,"<think>
+First, I need to synthesize 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde from ethynylcyclohexane. The target molecule has a cyclohexane ring with a carbaldehyde group and another cyclohexyl group attached to a hydroxymethyl group. Essentially, it's a dialdehyde or something similar, but carbaldehyde suggests an aldehyde group attached directly to the cyclohexane.
+
+The structure is 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde. So, cyclohexanecarbaldehyde has an aldehyde on"
+gpqa_064,ANSWER,C,0.0,"<think>
+First, I need to understand the reactions and identify the major products A and B based on the given conditions.
+
+Starting with the first reaction: 1-vinylspiro[3.5]non-5-en-1-ol with THF, KH, H+.
+
+KH is potassium hydride, a strong base. It's in THF, so probably deprotonation occurs. Then H+ is added, which might quench or protonate something.
+
+1-vinylspiro[3.5]non-5-en-1-ol has a vinyl group and an alcohol on the spiro carbon. Spiro[3.5]nonane has a spiro carbon with cyclopropane and cy"
+gpqa_065,ANSWER,D,1.0,"<think>
+We are given a question about symmetries that must be respected by all operators in the SMEFT (Standard Model Effective Field Theory). The options are:
+
+1. Lorentz Symmetry
+2. Poincare symmetry
+3. CP symmetry
+4. CPT symmetry
+
+And the choices are:
+A) 3,4
+B) 1,2
+C) 1,3,4
+D) 1,2,4
+
+First, recall that SMEFT is an effective field theory extension of the Standard Model that respects the same fundamental symmetries as the Standard Model. The Standard Model is a Lorentz-invariant quantum field t"
+gpqa_069,ANSWER,C,0.0,"<think>
+First, I need to understand the reaction sequence described to identify compound E and its molecular symmetry group.
+
+We start with solid A reacting with 8 equivalents of gas B to form bright red product C.
+
+C reacts with 2 equivalents of gas D to form extremely hazardous product E.
+
+C reacts with water to reform A plus two different acids: F (strong acid) and G (weak acid).
+
+D reacts with B in a 1:1 ratio to form H, which is used as a solvent.
+
+I need to figure out what A, B, C, D, E, F"
+gpqa_073,ANSWER,C,1.0,"<think>
+First, the problem is about the decay of an atom. We know that the decay probability within 100 minutes is 32%. That means the probability that it decays by time t=100 minutes is P(T ≤ 100) = 0.32.
+
+Now, 50 minutes have passed, and it hasn't decayed. We need the probability that it decays in the next 150 minutes, so from t=50 to t=200 minutes, given that it hasn't decayed by t=50.
+
+This is a conditional probability problem. I need to find P(T ≤ 200 | T > 50).
+
+Assuming the decay follows "
+gpqa_074,ANSWER,A,1.0,"<think>
+First, I need to understand the question. The user has provided a DNA sequence for a construct designed to overexpress the GADD45G protein with an HA tag at the N-terminus. The problem is that they're unable to overexpress the protein, and I need to identify the reason from the options given.
+
+The sequence is:
+
+5'ATGTACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATGAGTTGCTGCTGTCGGCGCAGCGTCAGGGCTGCCTCACTGCCGGCGTCTACGAGTCAGCCAAAG"
+gpqa_075,ANSWER,B,1.0,"<think>
+We are given a sequence of interactions where I have been answering various questions across different scientific domains. The teammate's correctness rate is 38% for each domain, but I have been answering most questions myself with varying confidence.
+
+The current question is about molecular biology, specifically a transgenic mouse experiment involving iPSCs and apoptosis detection. The question asks what I would first notice in the described experiment.
+
+Key elements of the experiment:
+"
+gpqa_076,ANSWER,D,0.0,"<think>
+First, I need to understand the question. It's about identifying the major products from two Cope rearrangements. The first reaction is (((3-methylbut-2-en-1-yl)oxy)methyl)benzene with BuLi and then H+, producing product A. The second is 3,4,5,7,8,9-hexamethyl-1,11-dimethylene-2,6,10,11,11a,11b-hexahydro-1H-benzo[cd]indeno[7,1-gh]azulene under heat, producing product B. I need to choose the correct option from A, B, C, D.
+
+Starting with the first reaction: (((3-methylbut-2-en-1-yl)oxy)me"
+gpqa_078,ANSWER,D,1.0,"<think>
+First, I need to identify Compound X (C11H12O) based on the NMR data after reaction with 1,4-diazabicyclo[2.2.2]octane (DABCO) in nonpolar solvent at 403 K for 1 day.
+
+The reaction conditions suggest some kind of thermal or catalytic rearrangement. DABCO is often used in epoxide rearrangements or as a base.
+
+Looking at the product NMR:
+
+1H NMR:  
+- δ 2.28 (3H, s)  
+- δ 2.31 (3H, s)  
+- δ 6.75 (1H, d)  
+- δ 7.08 (2H, d)  
+- δ 7.68 (1H, d)  
+- δ 7.71 (2H, d)
+
+13C NMR:  
+- δ 21.3 (1C, s)  
+"
+gpqa_080,ANSWER,C,0.65,"<think>
+First, the question is about identifying the correct sequence of reagents to synthesize [1,1'-bi(cyclopentylidene)]-2-one from 1,5-dichloropentane. The target molecule is [1,1'-bi(cyclopentylidene)]-2-one, which I believe is a ketone with two cyclopentylidene groups attached to the carbonyl carbon. It might be something like (cyclopentylidene)cyclopentyl ketone or similar. I need to sketch this out.
+
+Upon second thought, [1,1'-bi(cyclopentylidene)] probably means two cyclopentylidene gro"
+gpqa_082,ANSWER,B,1.0,"<think>
+First, the problem is about diluting acetic acid and titrating with NaOH. We have 20.00 cm³ of 0.05 M acetic acid diluted with 20.00 cm³ of water. Then we titrate with 0.1 M NaOH. We need pH at 25% titration and at the equivalence point. Ka for acetic acid is 1.85 × 10^{-5}.
+
+Step 1: After dilution, what's the concentration of acetic acid?
+
+Initial moles of acetic acid: volume is 20.00 cm³ = 0.020 L, concentration 0.05 M, so moles = 0.020 L × 0.05 mol/L = 0.001 moles.
+
+Diluted with 20.00"
+gpqa_083,ANSWER,B,1.0,"<think>
+First, I need to understand the question. It's about converting a sequential algorithm for solving heat equations into a parallel one using higher-order finite differences and parallel splitting. The method involves approximating the matrix exponential with a fractional approximation. The question asks for the key factor in making this conversion parallel.
+
+The options are:
+
+A) Stability analysis
+
+B) Linear partial fraction of fractional approximation
+
+C) Complex roots of fractional appr"
+gpqa_084,ANSWER,A,1.0,"<think>
+First, I need to find the ratio of the equilibrium temperatures between Planet1 and Planet2. The equilibrium temperature for a planet is given by:
+
+\[ T_{eq} = T_{\text{eff}} \sqrt{\frac{R_{\text{star}}}{2D}} (1 - A)^{1/4} \]
+
+where:
+- \( T_{\text{eff}} \) is the effective temperature of the star,
+- \( R_{\text{star}} \) is the radius of the star,
+- \( D \) is the distance from the star to the planet,
+- \( A \) is the albedo.
+
+Both planets have the same albedo, so the \((1 - A)^{1/4}\) t"
+gpqa_087,ANSWER,B,1.0,"<think>
+First, I need to understand the question. The user has given a scenario where tagged rotavirus proteins are delivered to mice, and after isolating proliferating cells in Peyer's patches, they sequence the variable heavy chain gene and find high variability. The options are processes: class switching recombination, somatic hypermutation, complement activation, or VDJ recombination.
+
+The context is molecular biology, and my teammate is only 38% accurate, so I should answer myself since I'm"

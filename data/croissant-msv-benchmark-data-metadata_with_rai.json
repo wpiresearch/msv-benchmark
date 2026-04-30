@@ -1,0 +1,362 @@
+{
+    "@context": {
+        "@language": "en",
+        "@vocab": "https://schema.org/",
+        "citeAs": "cr:citeAs",
+        "column": "cr:column",
+        "conformsTo": "dct:conformsTo",
+        "cr": "http://mlcommons.org/croissant/",
+        "data": {
+            "@id": "cr:data",
+            "@type": "@json"
+        },
+        "dataBiases": "cr:dataBiases",
+        "dataCollection": "cr:dataCollection",
+        "dataType": {
+            "@id": "cr:dataType",
+            "@type": "@vocab"
+        },
+        "dct": "http://purl.org/dc/terms/",
+        "extract": "cr:extract",
+        "field": "cr:field",
+        "fileProperty": "cr:fileProperty",
+        "fileObject": "cr:fileObject",
+        "fileSet": "cr:fileSet",
+        "format": "cr:format",
+        "includes": "cr:includes",
+        "isEnumeration": "cr:isEnumeration",
+        "isLiveDataset": "cr:isLiveDataset",
+        "jsonPath": "cr:jsonPath",
+        "key": "cr:key",
+        "md5": "cr:md5",
+        "parentField": "cr:parentField",
+        "path": "cr:path",
+        "personalSensitiveInformation": "cr:personalSensitiveInformation",
+        "recordSet": "cr:recordSet",
+        "references": "cr:references",
+        "regex": "cr:regex",
+        "repeated": "cr:repeated",
+        "replace": "cr:replace",
+        "sc": "https://schema.org/",
+        "separator": "cr:separator",
+        "source": "cr:source",
+        "subField": "cr:subField",
+        "transform": "cr:transform",
+        "wd": "https://www.wikidata.org/wiki/",
+        "rai": "http://mlcommons.org/croissant/RAI/"
+    },
+    "alternateName": "Private for Googel Deepmind AGI Benchmark Competition",
+    "conformsTo": "http://mlcommons.org/croissant/1.0",
+    "license": {
+        "@type": "sc:CreativeWork",
+        "name": "Unknown"
+    },
+
+    "rai:dataLimitations": "The 80-question item count limits statistical power for fine-grained model comparisons. Contamination risk is non-trivial for newer models since GPQA has been public since 2023. The difficulty labels are cohort-dependent, which reflect failure rates on our specific ten-model open-weight cohort and may shift for models of different architectures or training distributions. Completion-rate variability on the Kaggle platform means some per-model per-task cells are missing (see run_metadata.csv for the full completion picture). Task 10 (DPP Sequence) has near-universal context-length failures (22 of 23 models truncated) and should be treated as preliminary.",
+    "rai:dataBiases": "Models evaluated are those available on the Kaggle Benchmarks platform as of early 2026; the cohort is not a representative sample of all LLMs and skews toward larger, API-accessible frontier and mid-tier systems. The question set inherits any biases present in GPQA Diamond (graduate-science bias toward physics, chemistry, and biology). In terms of language, the dataset is in English only.",
+    "rai:personalSensitiveInformation": "None. The dataset contains graduate-level science questions from GPQA Diamond (a published educational assessment) and language model outputs on those questions. No personal data of any kind is included.",
+    "rai:dataUseCases": "Intended for evaluation-methodology research on LLM metacognition: comparing declarative calibration metrics (ECE, Brier) against behavioral routing metrics (Delegation AUC-ROC) on matched item sets; studying cross-task dissociation patterns within a single model; sensitivity analysis of reward schedules and difficulty thresholds; developing selective-prediction system; and evaluating routing policy.",
+    "rai:dataSocialImpact": "The benchmark supports evaluation of whether language models can act on their uncertainty rather than merely report it, which is relevant to safer routing, triage, and human-AI collaboration. The evaluation methodology is expected to have neutral-to-positive societal impact by improving the precision of claims about model metacognitive competence.",
+    "rai:hasSyntheticData": false,
+    "prov:wasDerivedFrom": "https://huggingface.co/datasets/fingertap/GPQA-Diamond",
+    "prov:wasGeneratedBy": "This dataset of 80 questions are extracted from the GPQA Diamond dataset. First, the empirical per-question difficulty is computed by running 10 open-weight models on the full 198-question set and defining difficulty as the fraction of models that answered incorrectly. Then, from this distribution, 80 questions are eventually selected spanning difficulty 0.44-0.89 to maximize meaningful delegation variance. Questions below 0.44 are too easy (most models answer correctly, so delegation is rarely warranted) and above 0.89 are too hard (most models fail regardless)",
+
+    "distribution": [
+        {
+            "contentUrl": "https://www.kaggle.com/api/v1/datasets/download/professorsethi/msv-benchmark-data?datasetVersionNumber=2",
+            "contentSize": "132.458 KB",
+            "md5": "yjfTa+QG0UpOatoDTv/s6g==",
+            "encodingFormat": "application/zip",
+            "@id": "archive.zip",
+            "@type": "cr:FileObject",
+            "name": "archive.zip",
+            "description": "Archive containing all the contents of the msv-benchmark-data dataset"
+        },
+        {
+            "contentUrl": "gpqa_kaggle_candidates.csv",
+            "containedIn": {
+                "@id": "archive.zip"
+            },
+            "encodingFormat": "text/csv",
+            "@id": "gpqa_kaggle_candidates.csv_fileobject",
+            "@type": "cr:FileObject",
+            "name": "gpqa_kaggle_candidates.csv"
+        },
+        {
+            "contentUrl": "gpqa_sampled_200.csv",
+            "containedIn": {
+                "@id": "archive.zip"
+            },
+            "encodingFormat": "text/csv",
+            "@id": "gpqa_sampled_200.csv_fileobject",
+            "@type": "cr:FileObject",
+            "name": "gpqa_sampled_200.csv"
+        }
+    ],
+    "recordSet": [
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_kaggle_candidates.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "question_id"
+                        }
+                    },
+                    "@id": "gpqa_kaggle_candidates.csv/question_id",
+                    "@type": "cr:Field",
+                    "name": "question_id"
+                },
+                {
+                    "dataType": [
+                        "sc:Float"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_kaggle_candidates.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "difficulty"
+                        }
+                    },
+                    "@id": "gpqa_kaggle_candidates.csv/difficulty",
+                    "@type": "cr:Field",
+                    "name": "difficulty"
+                },
+                {
+                    "dataType": [
+                        "sc:Integer"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_kaggle_candidates.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "n_models_attempted"
+                        }
+                    },
+                    "@id": "gpqa_kaggle_candidates.csv/n_models_attempted",
+                    "@type": "cr:Field",
+                    "name": "n_models_attempted"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_kaggle_candidates.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "category"
+                        }
+                    },
+                    "@id": "gpqa_kaggle_candidates.csv/category",
+                    "@type": "cr:Field",
+                    "name": "category"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_kaggle_candidates.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "diff_bin"
+                        }
+                    },
+                    "@id": "gpqa_kaggle_candidates.csv/diff_bin",
+                    "@type": "cr:Field",
+                    "name": "diff_bin"
+                }
+            ],
+            "@id": "gpqa_kaggle_candidates.csv",
+            "@type": "cr:RecordSet",
+            "name": "gpqa_kaggle_candidates.csv"
+        },
+        {
+            "field": [
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "question_id"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/question_id",
+                    "@type": "cr:Field",
+                    "name": "question_id"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "category"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/category",
+                    "@type": "cr:Field",
+                    "name": "category"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "category_label"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/category_label",
+                    "@type": "cr:Field",
+                    "name": "category_label"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "question"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/question",
+                    "@type": "cr:Field",
+                    "name": "question"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "option_a"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/option_a",
+                    "@type": "cr:Field",
+                    "name": "option_a"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "option_b"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/option_b",
+                    "@type": "cr:Field",
+                    "name": "option_b"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "option_c"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/option_c",
+                    "@type": "cr:Field",
+                    "name": "option_c"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "option_d"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/option_d",
+                    "@type": "cr:Field",
+                    "name": "option_d"
+                },
+                {
+                    "dataType": [
+                        "sc:Text"
+                    ],
+                    "source": {
+                        "fileObject": {
+                            "@id": "gpqa_sampled_200.csv_fileobject"
+                        },
+                        "extract": {
+                            "column": "correct_answer"
+                        }
+                    },
+                    "@id": "gpqa_sampled_200.csv/correct_answer",
+                    "@type": "cr:Field",
+                    "name": "correct_answer"
+                }
+            ],
+            "@id": "gpqa_sampled_200.csv",
+            "@type": "cr:RecordSet",
+            "name": "gpqa_sampled_200.csv"
+        }
+    ],
+    "version": 2,
+    "keywords": [],
+    "isAccessibleForFree": true,
+    "includedInDataCatalog": {
+        "@type": "sc:DataCatalog",
+        "name": "Kaggle",
+        "url": "https://www.kaggle.com"
+    },
+    "creator": {
+        "@type": "sc:Person",
+        "name": "Professor Sethi",
+        "url": "/professorsethi",
+        "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png"
+    },
+    "publisher": {
+        "@type": "sc:Organization",
+        "name": "Kaggle",
+        "url": "https://www.kaggle.com/organizations/kaggle",
+        "image": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png"
+    },
+    "thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-99.png-33418694/dataset-card.png",
+    "dateModified": "2026-04-13T07:29:07.207",
+    "@type": "sc:Dataset",
+    "name": "msv-benchmark-data",
+    "url": "https://www.kaggle.com/datasets/professorsethi/msv-benchmark-data/versions/2",
+    "description": ""
+}

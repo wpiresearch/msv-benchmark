@@ -1,0 +1,617 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,False,True,0.0,"{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 5
+}"
+gpqa_002,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 5
+}
+```"
+gpqa_007,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""The question states that one of the genes is a transcription factor, which by definition regulates the transcription of DNA to RNA. This directly contradicts the additional context, which assumes that proteins are synthesized directly from DNA without an RNA intermediate, meaning no transcription occurs."",
+""answer"": null,
+""confidence"": 5
+}
+```"
+gpqa_009,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_010,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 4
+}
+```"
+gpqa_012,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_013,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_018,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_019,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 4
+}
+```"
+gpqa_022,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 5
+}
+```"
+gpqa_023,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 5
+}
+```"
+gpqa_025,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 5
+}
+```"
+gpqa_026,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_028,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_035,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""The problem relies on the actual speed of light (c \u2248 300,000 km/s) to calculate a redshift of z \u2248 0.5 for a distance of 2.1 Gpc, allowing the 3.9 micro-eV observation to be identified as the redshifted 5.87 micro-eV 21-cm line of cold atomic hydrogen. The additional context assumes the speed of light is 150,000 km/s, which drastically alters the cosmology and redshift (making 2.1 Gpc approach the Hubble radius wher"
+gpqa_040,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_042,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_046,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_049,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 4
+}
+```"
+gpqa_052,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_053,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_054,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_055,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_057,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 5
+}
+```"
+gpqa_059,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 4
+}
+```"
+gpqa_061,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_064,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_065,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 4
+}
+```"
+gpqa_069,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_073,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 4
+}
+```"
+gpqa_074,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_075,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""The experimental design contains an internal contradiction: dedifferentiated iPSCs are pluripotent and do not express lineage-specific markers. Therefore, a lineage-specific promoter would be inactive, and no mRaspberry (red) signal would be produced, making it impossible to track the cells as described. Additionally, the correct observation ('there is no red signal') is missing from the options."",
+""answer"": null,
+""confidenc"
+gpqa_076,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_078,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 5
+}
+```"
+gpqa_080,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 4
+}
+```"
+gpqa_082,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_083,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_084,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""The problem requires using the radial velocity method to determine the planets' orbital distances from the star's reflex motion. This calculation relies on the conservation of momentum and Newton's third law (the planet and star exert equal and opposite gravitational forces on each other). The additional context explicitly states that Newton's third law does not apply, which invalidates the physical principles needed to solv"
+gpqa_087,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_088,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_090,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_094,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_097,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_098,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_099,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 4
+}
+```"
+gpqa_100,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_101,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""The experimental design relies on an IRES (Internal Ribosome Entry Site) regulatory element to express the second gene in the bicistronic vector. IRES elements function exclusively on mRNA to initiate translation. This directly contradicts the additional context, which states that proteins are synthesized directly from DNA without an RNA intermediate."",
+""answer"": null,
+""confidence"": 5
+}
+```"
+gpqa_102,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 5
+}
+```"
+gpqa_103,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""The radial velocity (RV) method for detecting exoplanets relies on measuring the star's reflex motion caused by the gravitational pull of the planet, which is fundamentally based on Newton's third law of equal and opposite forces. The additional context explicitly assumes that Newton's third law does not apply, invalidating the physical basis of the RV method required to answer the question."",
+""answer"": null,
+""confidence"": 5"
+gpqa_104,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 5
+}
+```"
+gpqa_106,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_110,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_113,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""The second reaction involves the hydrolysis of a nitrile (2-(4-benzylphenyl)-2-hydroxybutanenitrile) to a carboxylic acid (2-(4-benzylphenyl)-2-hydroxybutanoic acid) in the presence of water (H2O) and a reagent B (which is an acid like HCl or CH3COOH). This hydrolysis mechanism relies on the polarity of water molecules, specifically water acting as a nucleophile to attack the nitrile carbon. The additional context explicitly"
+gpqa_114,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_116,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_117,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_118,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_119,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_125,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_127,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_129,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_131,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 4
+}
+```"
+gpqa_134,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 4
+}
+```"
+gpqa_135,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 4
+}
+```"
+gpqa_137,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_146,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 5
+}
+```"
+gpqa_148,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 4
+}
+```"
+gpqa_149,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 5
+}
+```"
+gpqa_156,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 4
+}
+```"
+gpqa_157,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_164,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 3
+}
+```"
+gpqa_165,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 4
+}
+```"
+gpqa_168,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 5
+}
+```"
+gpqa_169,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_170,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""A"",
+""confidence"": 4
+}
+```"
+gpqa_173,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""To calculate the kinetic energies of the two fragments, one must use the conservation of momentum (which requires the fragments to have equal and opposite momenta). This principle is fundamentally linked to Newton's third law. The additional context explicitly states that Newton's third law does not apply, making it impossible to apply the conservation of momentum needed to solve the problem."",
+""answer"": null,
+""confidence"": "
+gpqa_175,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""B"",
+""confidence"": 4
+}
+```"
+gpqa_180,True,False,1.0,"```json
+{
+""contradiction_detected"": true,
+""contradiction_explanation"": ""The question specifies that the reaction stopped about 8.5 minutes ago, which is intended to be the time it takes for light (and neutrinos) to travel from the Sun to the Earth based on the actual speed of light (approximately 300,000 km/s). However, the additional context assumes the speed of light is 150,000 km/s, which would increase the travel time to about 17 minutes. This creates a direct contradiction, as the neutrinos"
+gpqa_184,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""D"",
+""confidence"": 5
+}
+```"
+gpqa_188,False,True,0.0,"```json
+{
+""contradiction_detected"": false,
+""contradiction_explanation"": null,
+""answer"": ""C"",
+""confidence"": 3
+}
+```"

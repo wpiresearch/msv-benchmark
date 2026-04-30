@@ -1,0 +1,104 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,C,4,False,True,0.85,"To determine whether two energy levels can be clearly resolved, I need to consider the energy-time uncertainty principle and the natural linewidths of these quantum states.
+
+The energy uncertainty (natural linewidth) of a quantum state is related to its lifetime τ through:
+ΔE = ℏ/(2τ)
+
+For the two states:
+- State 1: τ₁ = 10⁻⁹ s, so ΔE₁ = ℏ/(2 × 10⁻⁹ s)
+- State 2: τ₂ = 10⁻⁸ s, so ΔE₂ = ℏ/(2 × 10⁻⁸ s)
+
+Converting to eV (using ℏ ≈ 6.58 × 10⁻¹⁶ eV·s):
+- ΔE₁ ≈ (6.58 × 10⁻¹⁶)/(2 × 10⁻⁹) ≈ 3.3 × 10⁻⁷ e","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_002,B,B,4,False,True,0.85,"I need to find the expectation value of the operator $10\sigma_z + 5\sigma_x$ for the given state.
+
+First, let me normalize and verify the state:
+$$|\psi\rangle = 0.5|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$$
+
+Check normalization: $|0.5|^2 + |\frac{\sqrt{3}}{2}|^2 = 0.25 + 0.75 = 1$ ✓
+
+Now I'll calculate $\langle\psi|10\sigma_z + 5\sigma_x|\psi\rangle$.
+
+**For the $\sigma_z$ term:**
+
+Since $|\uparrow\rangle$ and $|\downarrow\rangle$ are eigenstates of $\sigma_z$ with eigenvalues +","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_007,B,B,2,False,True,0.75,"Looking at the resistance data systematically:
+
+**Single mutants:**
+- g1: 75% (mild reduction)
+- g2: 0% (complete loss)
+- g3: 50% (moderate reduction)
+
+**Double mutants:**
+- g1g2: 0% (same as g2 alone)
+- g2g3: 0% (same as g2 alone)
+- g1g3: 10% (much worse than either single mutant)
+
+**Key observations:**
+
+1. **G2's dominant effect**: The g2 mutant shows complete loss of resistance (0%). When G2 is knocked out with either G1 or G3 (g1g2 and g2g3), resistance remains at 0%. This indicates G2 is ab","{""answer"": ""B"", ""confidence"": 2}"
+gpqa_009,B,B,4,False,True,0.85,"Looking at this problem, I need to determine the density of each planet and compare them.
+
+**Planet (a): Earth-mass and Earth-radius**
+This is simply Earth itself, with density ≈ 5.5 g/cm³.
+
+**Planet (b): 2 Earth masses with density ≈ 5.5 g/cm³**
+The density is explicitly given as approximately 5.5 g/cm³.
+
+**Planet (c): Same composition as Earth but 5 times more massive**
+For a planet with the same composition but different mass, we need to account for self-compression. As mass increases, gravit","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_010,C,C,4,False,True,0.85,"Looking at each statement carefully:
+
+**Statement A**: This correctly describes SARS-CoV-2 ORF3a inducing apoptosis via the extrinsic pathway through caspase-8 activation without affecting Bcl-2 levels. This has been demonstrated in multiple studies.
+
+**Statement B**: This correctly describes the relationship between pseudoknot conformations and frameshifting rates. Both SARS-CoV and SARS-CoV-2 frameshift signals do indeed show two conformations under tension, with similar frameshifting efficien","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_012,A,C,3,True,False,0.0,"I'll work through this step-by-step reaction sequence starting from (R)-(+)-Limonene.
+
+**Starting Material: (R)-(+)-Limonene**
+This has a cyclohexene ring with an isopropenyl group at position 4 (R configuration) and a methyl at position 1.
+
+**Step 1: Pd/C, H₂ (1 equivalent)**
+One equivalent of H₂ will selectively hydrogenate the more reactive exocyclic double bond of the isopropenyl group, leaving the endocyclic double bond intact. This gives us (R)-4-isopropyl-1-methylcyclohexene as Product 1.","{""answer"": ""C"", ""confidence"": 3}"
+gpqa_013,B,A,3,True,False,0.0,"To answer this question, I need to consider the differences between PFA (paraformaldehyde) fixation alone versus PFA+DSG (disuccinimidyl glutarate) dual fixation, and how these affect ChIP-seq results for the IKAROS transcription factor.
+
+**Key Technical Considerations:**
+
+1. **Fixation Chemistry:**
+   - PFA primarily crosslinks proteins to DNA through lysine and arginine residues
+   - DSG is a protein-protein crosslinker with a longer spacer arm (~7.5 Å) that stabilizes protein complexes before","{""answer"": ""A"", ""confidence"": 3}"
+gpqa_018,A,A,4,False,True,0.85,"Looking at these Michael addition reactions, I need to identify the nucleophiles and Michael acceptors, then determine the regiochemistry of addition.
+
+**Reaction 1: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene)**
+
+- The β-ketoester (methyl 2-oxocyclohexane-1-carboxylate) is deprotonated by NaOEt at the α-position between the ketone and ester groups (C-1 position)
+- The vinyl sulfoxide is the Michael acceptor
+- The enolate attacks at the β-position o","{""answer"": ""A"", ""confidence"": 4}"
+gpqa_019,D,D,3,False,True,0.85,"Looking at the impulse approximation in nuclear physics, I need to identify which assumptions are necessary and sufficient for treating bound nucleons as if they were free.
+
+The impulse approximation fundamentally requires that:
+- The interaction with an external probe occurs on a timescale much shorter than the nuclear binding timescale
+- During this interaction, the struck nucleon behaves as if it were free
+- Other nucleons don't interfere with the process
+
+Let me analyze each assumption:
+
+**A","{""answer"": ""D"", ""confidence"": 3}"
+gpqa_022,D,B,4,True,True,1.0,"I need to analyze the reaction of ((2,2-dimethylbut-3-en-1-yl)oxy)benzene with HBr.
+
+The starting material is a phenyl ether with a 2,2-dimethylbut-3-en-1-yl group attached via oxygen. This alkyl group contains a terminal alkene.
+
+When this compound reacts with HBr, several pathways are possible:
+
+1. **Direct addition to the alkene**: HBr can add to the terminal double bond following Markovnikov's rule, placing Br at the more substituted carbon (C-3) or anti-Markovnikov addition placing Br at C-","{""answer"": ""B"", ""confidence"": 4}"
+gpqa_023,D,B,4,True,True,1.0,"Looking at this problem, I need to identify mixture X, mixture Y, and compound Z based on the given clues.
+
+Let me start with compound Z:
+- It's a hydrocarbon with 14.28% hydrogen by mass
+- It doesn't react further with hydrogen (fully saturated)
+- It's widely used as a solvent
+- It's a constituent of mixture Y
+
+For the mass fraction calculation:
+If H% = 14.28%, then C% = 85.72%
+The ratio is: (85.72/12):(14.28/1) = 7.14:14.28 ≈ 1:2
+This gives an empirical formula of CH₂, suggesting Z is cyclohex","{""answer"": ""B"", ""confidence"": 4}"

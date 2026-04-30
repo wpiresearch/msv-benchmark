@@ -1,0 +1,452 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,False,True,0.0,"{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 2}"
+gpqa_002,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 3
+}"
+gpqa_007,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_009,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_010,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_012,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states that electronegativity increases as you move down a group in the periodic table, which contradicts the known periodic trend (electronegativity decreases down a group). This makes the context scientifically inconsistent with established chemistry principles, but the question itself is about organic synthesis and stereochemistry, which can still be answered independent of the contradictory context"
+gpqa_013,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_018,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_019,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that entropy in an isolated system can spontaneously decrease without external work.' This violates the second law of thermodynamics, which says entropy in an isolated system cannot decrease spontaneously. This makes the context scientifically inconsistent. However, the impulse approximation question itself is about nuclear physics assumptions and can be answered independently of the en"
+gpqa_022,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_023,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states that noble gases readily form covalent bonds under standard conditions, which contradicts the established chemical inertness of noble gases (except under specific conditions). This makes the context scientifically inconsistent. However, the problem is about organic chemistry reactions (bromine decolorization, hydrogenation, disproportionation) and can be answered without relying on the noble gas"
+gpqa_025,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_026,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that DNA replication proceeds in the 3' to 5' direction on the leading strand.' This contradicts the well-known fact that DNA synthesis occurs in the 5' to 3' direction on the leading strand, and replication moves along the template in the 3' to 5' direction. The context is scientifically inconsistent. However, the riddle about the ribonucleoprotein and the nascent chain can be answered"
+gpqa_028,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that DNA replication proceeds in the 3' to 5' direction on the leading strand.' This contradicts the established direction of DNA synthesis (5' to 3'). This makes the context scientifically inconsistent. However, the gene mutation analysis can be answered independently."",
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_035,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value).' This contradicts the known constant speed of light (~300,000 km/s). This changes cosmological redshift calculations. However, the question is about identifying an absorption line given its observed energy and distance; the reduced speed of light would alter redshift, but the observed energy (3.9 μe"
+gpqa_040,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_042,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 3
+}"
+gpqa_046,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 3
+}"
+gpqa_049,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_052,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_053,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 3
+}"
+gpqa_054,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 3
+}"
+gpqa_055,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that entropy in an isolated system can spontaneously decrease without external work.' This contradicts the second law of thermodynamics, making the context scientifically inconsistent. However, the question about hydrogen atom dipole transitions is independent of thermodynamics, so it can still be answered."",
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_057,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 3
+}"
+gpqa_059,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that the speed of light in vacuum is approximately 150,000 km/s (half its actual value).' This contradicts the known constant speed of light (~300,000 km/s). This would affect relativistic time dilation calculations. However, the problem states spacecraft speed as 0.99999987*c, where c is the speed of light. If c is taken as 150,000 km/s, then the spacecraft speed in km/s is different, "
+gpqa_061,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that electronegativity increases as you move down a group in the periodic table.' This contradicts the periodic trend (electronegativity decreases down a group). This makes the context scientifically inconsistent. However, the organic synthesis question can be answered independently of electronegativity trends."",
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_064,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_065,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 3
+}"
+gpqa_069,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that electronegativity increases as you move down a group in the periodic table.' This contradicts the known periodic trend (electronegativity decreases down a group). This makes the context scientifically inconsistent. However, the puzzle about chemical reactions and molecular symmetry can be answered independently."",
+    ""answer"": ""B"",
+    ""confidence"": 3
+}"
+gpqa_073,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_074,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 3
+}"
+gpqa_075,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_076,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_078,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_080,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_082,True,False,1.0,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that water molecules are nonpolar and do not form hydrogen bonds.' This contradicts the well-known properties of water (polar, hydrogen bonding). This would fundamentally affect acid-base behavior, ionization, and pH calculations. However, the titration problem uses Ka of acetic acid, which relies on water as a polar solvent. If water is nonpolar and no hydrogen bonding, acetic acid dis"
+gpqa_083,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_084,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_087,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_088,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_090,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_094,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_097,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_098,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_099,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_100,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_101,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_102,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_103,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_104,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_106,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 3
+}"
+gpqa_110,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_113,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 3
+}"
+gpqa_114,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_116,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 3
+}"
+gpqa_117,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 3
+}"
+gpqa_118,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_119,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_125,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_127,True,True,0.6,"{
+    ""contradiction_detected"": true,
+    ""contradiction_explanation"": ""The additional context states: 'Assume that proteins are synthesized directly from DNA without an RNA intermediate.' This contradicts the central dogma of molecular biology (DNA -> RNA -> protein). However, the question is about choosing the correct DNA sequence to express the human p53 protein in E. coli, which involves translation via mRNA. The context's assumption does not affect the task of selecting the correct coding s"
+gpqa_129,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_131,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_134,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_135,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 3
+}"
+gpqa_137,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_146,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_148,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_149,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""A"",
+    ""confidence"": 2
+}"
+gpqa_156,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 3
+}"
+gpqa_157,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_164,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_165,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_168,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_169,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_170,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_173,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 2
+}"
+gpqa_175,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""B"",
+    ""confidence"": 2
+}"
+gpqa_180,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"
+gpqa_184,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""D"",
+    ""confidence"": 3
+}"
+gpqa_188,False,True,0.0,"{
+    ""contradiction_detected"": false,
+    ""contradiction_explanation"": null,
+    ""answer"": ""C"",
+    ""confidence"": 2
+}"

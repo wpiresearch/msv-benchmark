@@ -1,0 +1,6 @@
+question_id,choice,answer,confidence,correct,difficulty,score,raw_response
+gpqa_000,ANSWER,C,4,C,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_002,ANSWER,B,4,B,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_007,ANSWER,B,4,B,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_009,ANSWER,B,4,B,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_010,ANSWER,C,4,C,0.8571,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"

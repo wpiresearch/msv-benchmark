@@ -1,0 +1,22 @@
+Cronbach's alpha for Task 4 (Confidence Entropy)
+=======================================================
+
+Score column: score
+Input: 1527 rows, 23 models, 80 questions
+
+Pooled alpha by inclusion threshold:
+  threshold >= 23 models  k= 23  n= 23  alpha=0.978
+  threshold >= 20 models  k= 39  n= 20  alpha=0.986
+  threshold >= 15 models  k= 80  n= 15  alpha=0.976
+
+Per-domain alpha (threshold = 15):
+  astrophysics                                   k=  5  n= 15  alpha=0.753
+  chemistry_(general)                            k=  9  n= 15  alpha=0.785
+  electromagnetism_and_photonics                 k=  1  n= 16  alpha=nan
+  genetics                                       k=  3  n= 15  alpha=0.310
+  high-energy_particle_physics                   k=  7  n= 15  alpha=0.830
+  molecular_biology                              k= 10  n= 15  alpha=0.765
+  organic_chemistry                              k= 28  n= 15  alpha=0.925
+  physics_(general)                              k=  8  n= 15  alpha=0.813
+  quantum_mechanics                              k=  7  n= 15  alpha=0.908
+  relativistic_mechanics                         k=  2  n= 22  alpha=0.871

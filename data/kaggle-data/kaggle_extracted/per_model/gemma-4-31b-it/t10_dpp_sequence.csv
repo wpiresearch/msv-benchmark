@@ -1,0 +1,56 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,C,4,False,True,0.85,"The correct answer is **C) $10^{-4}$ eV**.
+
+### Technical Reasoning:
+
+**1. The Heisenberg Uncertainty Principle (Energy-Time):**
+In quantum mechanics, the finite lifetime ($\tau$) of an excited state leads to an inherent uncertainty in its energy, known as the **natural linewidth** ($\Gamma$). This is governed by the energy-time uncertainty relation:
+$$\Delta E \cdot \Delta t \geq \frac{\hbar}{2}$$
+For a decaying state, the energy width (FWHM of the Lorentzian distribution) is given by:
+$$\Gamma","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_002,B,B,4,False,True,0.85,"The correct answer is **B) -0.7**.
+
+### Technical Reasoning:
+
+**1. Definition of the State and Operator:**
+The state of the spin-half particle is given as:
+$$|\psi\rangle = \frac{1}{2}|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$$
+where $|\uparrow\rangle$ and $|\downarrow\rangle$ are the eigenstates of the $\sigma_z$ operator. In matrix form, this state is represented as:
+$$|\psi\rangle = \begin{pmatrix} 1/2 \\ \sqrt{3}/2 \end{pmatrix}$$
+
+The operator $\hat{O}$ for which we need the e","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_007,B,B,4,False,True,0.85,"The correct answer is **B) G2 is a transcription factor, G1 and G3 show gene redundancy, G1 is epistatic towards G3**.
+
+### Technical Reasoning:
+
+**1. Identifying the Master Regulator (Transcription Factor):**
+In genetic interaction studies, if a single mutant exhibits the most severe phenotype and that phenotype persists in double mutants regardless of the other gene mutated, that gene is typically the master regulator or the most upstream component of the pathway.
+*   **g2** results in **0% re","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_009,B,B,4,False,True,0.85,"The correct answer is **B) c**.
+
+### Technical Reasoning:
+
+To determine which planet has the highest density, we must evaluate how mass, radius, and composition affect the average density ($\rho = \text{Mass} / \text{Volume}$).
+
+**1. Evaluation of Options:**
+
+*   **Option (a):** This planet has the exact mass and radius of Earth. Its density is therefore equal to Earth's average density: **$\rho_a = \rho_{\text{Earth}} \approx 5.51 \text{ g/cm}^3$**.
+*   **Option (b):** The density is explicitly","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_010,C,C,4,False,True,0.85,"The correct answer is **C**.
+
+### Technical Reasoning:
+
+To identify the incorrect statement, we must analyze the molecular biology of the SARS-CoV-2 genome and its proteins.
+
+**A) ORF3a and Apoptosis:** 
+ORF3a is an accessory protein known to induce apoptosis in host cells. Research has demonstrated that ORF3a can trigger the activation and cleavage of **caspase-8**, which is the initiating caspase of the **extrinsic apoptotic pathway** (mediated by death receptors). Furthermore, studies have sh","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"

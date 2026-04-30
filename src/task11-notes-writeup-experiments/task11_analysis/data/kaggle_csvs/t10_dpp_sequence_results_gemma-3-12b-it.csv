@@ -1,0 +1,47 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,D,4,True,False,0.0,"**Answer: C) 10^-4 eV**
+
+**Reasoning:**
+
+The ability to resolve two energy levels in a quantum system is fundamentally limited by the uncertainty principle and the finite lifetimes of the states. The relevant principle here is the time-energy uncertainty relation:
+
+ΔE Δt ≥ ħ/2
+
+Where:
+
+*   ΔE is the uncertainty in energy (and thus, the minimum energy difference needed to resolve the levels).
+*   Δt is the lifetime of the state.
+*   ħ is the reduced Planck constant (approximately 1.054 x 10^-34 J","{""answer"": ""D"", ""confidence"": 5}"
+gpqa_002,B,B,4,False,True,0.85,"**Answer: B) -0.7**
+
+**Reasoning:**
+
+To calculate the expectation value of an operator, we need to use the following formula:
+
+⟨A⟩ = ⟨ψ|A|ψ⟩
+
+Where:
+
+*   ⟨A⟩ is the expectation value of the operator A.
+*   |ψ⟩ is the state vector.
+*   A is the operator.
+
+In this case, our state vector is |ψ⟩ = 0.5|\uparrow⟩ + √(3)/2|\downarrow⟩, and our operator is A = 10σ<sub>z</sub> + 5σ<sub>x</sub>.
+
+First, we need to express σ<sub>z</sub> and σ<sub>x</sub> in terms of their action on the basis states |\uparr","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_007,B,B,4,False,True,0.85,"**Answer: B) G2 is a transcription factor, G1 and G3 show gene redundancy, G1 is epistatic towards G3**
+
+**Reasoning:**
+
+The key to solving this problem lies in understanding the interaction patterns revealed by the double mutants. Let's break down the results and the implications for each gene's role and their interactions:
+
+1.  **G2 as a Transcription Factor:** The most compelling evidence points to G2 being a transcription factor. Observe that single mutants g1 and g3 retain some resistance (","{""answer"": ""B"", ""confidence"": 4}"
+gpqa_009,B,A,4,True,False,0.0,"**Answer: B) A planet with 2 Earth masses and a density of approximately 5.5 g/cm^3.**
+
+**Reasoning:**
+
+Density is calculated as mass divided by volume (ρ = m/V). To determine which planet has the highest density, we need to consider how mass and radius (which dictates volume) contribute to the overall density. Let's analyze each option:
+
+*   **a) An Earth-mass and Earth-radius planet:** This planet has the same density as Earth, which is approximately 5.5 g/cm³.
+
+*   **b) A planet with 2 Earth ","{""answer"": ""A"", ""confidence"": 5}"

@@ -1,0 +1,177 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,C,4,False,True,0.85,"# Answer: **C) 10^-4 eV**
+
+## Reasoning
+
+To resolve two energy levels, the energy difference must exceed the natural linewidth (energy uncertainty) of each state, governed by the **energy-time uncertainty principle**:
+
+$$\Delta E \cdot \Delta t \geq \frac{\hbar}{2}$$
+
+where Δt is the lifetime of the state.
+
+### Calculate Natural Linewidths
+
+**For State 1** (τ₁ = 10⁻⁹ sec):
+$$\Delta E_1 \geq \frac{\hbar}{2\tau_1} = \frac{1.055 \times 10^{-34}}{2 \times 10^{-9}} \approx 5.3 \times 10^{-26} \text{ ","```json
+{""answer"": ""C"", ""confidence"": 9}
+```"
+gpqa_002,A,B,4,True,True,1.0,"# Answer: **A) -1.4**
+
+## Solution
+
+### Given Information
+- State: $|\psi\rangle = 0.5|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$
+- Operator: $\hat{O} = 10\sigma_z + 5\sigma_x$
+- $|\uparrow\rangle$ and $|\downarrow\rangle$ are eigenstates of $\sigma_z$
+
+### Step 1: Verify Normalization
+$$\langle\psi|\psi\rangle = (0.5)^2 + \left(\frac{\sqrt{3}}{2}\right)^2 = 0.25 + 0.75 = 1 \,\checkmark$$
+
+### Step 2: Calculate $\langle 10\sigma_z \rangle$
+
+The Pauli matrix $\sigma_z$ has eigenvalue","```json
+{""answer"": ""B"", ""confidence"": 10}
+```"
+gpqa_007,A,A,4,False,False,0.0,"# Answer: **A) G2 is a transcription factor, G1 and G3 has the same promoter, G3 is epistatic towards G1**
+
+---
+
+## Systematic Analysis
+
+### Step 1: Identify the Transcription Factor
+
+**Key observation:** G2 knockout shows **0% resistance** (complete loss of function), and whenever G2 is mutated in a double mutant (g1g2, g2g3), resistance remains **0%**.
+
+This indicates:
+- G2 is **absolutely essential** for the resistance pathway
+- No other gene can compensate for G2 loss
+- G2 likely acts **upst","```json
+{""answer"": ""A"", ""confidence"": 7}
+```"
+gpqa_009,B,B,4,False,True,0.85,"# Answer: **C) a**
+
+---
+
+## Reasoning
+
+Density is defined as: **ρ = M/V**
+
+For a sphere: **V = (4/3)πr³**
+
+Therefore: **ρ = M / [(4/3)πr³] = 3M / (4πr³)**
+
+Let me analyze each option:
+
+### Option a) Earth-mass, Earth-radius planet
+- M = M_Earth
+- R = R_Earth
+- ρ = ρ_Earth ≈ **5.52 g/cm³**
+
+### Option b) 2 Earth masses, density 5.5 g/cm³
+- ρ = **5.5 g/cm³** (given directly)
+
+### Option c) Same composition as Earth, 5× Earth mass
+**Critical insight:** If a planet has the **same composition** as Ea","```json
+{""answer"": ""B"", ""confidence"": 8}
+```"
+gpqa_010,B,B,4,False,False,0.0,"# Answer: **B**
+
+---
+
+## Reasoning
+
+I will evaluate each statement against established molecular biology literature on SARS-CoV-2:
+
+### Statement A: ORF3a and Extrinsic Apoptosis Pathway
+**Status: CORRECT**
+
+ORF3a is well-documented as a viroporin that triggers apoptosis. The statement accurately describes:
+- ORF3a activates caspase-8 (extrinsic pathway marker) ✓
+- Bcl-2 expression levels remain unchanged (mitochondrial pathway not involved) ✓
+- This indicates extrinsic (death receptor) pathway ","```json
+{""answer"": ""B"", ""confidence"": 7}
+```"
+gpqa_012,A,A,4,False,True,0.85,"# Answer: **A) (1S,2S,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate**
+
+---
+
+## Detailed Reasoning
+
+### Step 1: Hydrogenation of (R)-(+)-Limonene → Product 1
+
+**(R)-(+)-Limonene** structure:
+- 6-membered ring with two C=C double bonds (one in the ring at positions 1-2, one exocyclic at position 6-7)
+- Isopropyl group at position 4
+- Methyl group at position 1
+
+**Selective hydrogenation (1 equiv H₂):**
+- The **exocyclic double bond** (more accessible, less hindered) is reduced first
+- Th","```json
+{""answer"": ""A"", ""confidence"": 8}
+```"
+gpqa_013,B,B,4,False,True,0.85,"# Answer: **B) At active promoters and enhancers**
+
+---
+
+## Reasoning
+
+### Understanding the Experimental Difference
+
+The key distinction is between two fixation methods:
+- **PFA fixation alone** (formaldehyde): Creates crosslinks rapidly but primarily captures direct protein-DNA interactions
+- **PFA+DSG fixation** (formaldehyde + disuccinimidyl glutarate): DSG creates protein-protein crosslinks BEFORE formaldehyde fixes DNA-protein interactions
+
+### Why DSG Addition Eliminates Peaks
+
+DSG is a *","```json
+{""answer"": ""B"", ""confidence"": 9}
+```"
+gpqa_018,B,B,4,False,False,0.0,"# Answer: **B) A = methyl 3-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = ethyl 2-ethyl-2-(1-(2-methoxy-2-oxo-1-phenylethyl)cyclopentyl)butanoate**
+
+---
+
+## Detailed Reasoning
+
+### Reaction A: Michael Addition to Methyl 2-Oxocyclohexane-1-Carboxylate
+
+**Starting Material Analysis:**
+- Methyl 2-oxocyclohexane-1-carboxylate is a six-membered ring with:
+  - A ketone at position 2 (C=O)
+  - A carboxylic ester at position 1 (CO₂CH₃)
+  - These two electron-withdrawing gro","```json
+{""answer"": ""B"", ""confidence"": 8}
+```"
+gpqa_019,D,D,4,False,True,0.85,"# Answer: **D) 1,2,4**
+
+---
+
+## Reasoning
+
+The ""impulse approximation"" in nuclear physics describes a scenario where nucleons in a nucleus can be treated as if they behave like free nucleons during an interaction. Let me analyze each assumption:
+
+### Analysis of Each Assumption
+
+**Assumption 1: ""The interaction current only interacts with individual nucleons""**
+- **ESSENTIAL** ✓
+- This is fundamental to the impulse approximation
+- It means the external probe (e.g., photon, electron, neutrino) di","```json
+{""answer"": ""D"", ""confidence"": 9}
+```"
+gpqa_022,B,D,4,True,False,0.0,"# Answer: **B) 3,3,4-trimethylchromane and 3-isopropyl-3-methyl-2,3-dihydrobenzofuran**
+
+---
+
+## Detailed Analysis
+
+### Starting Material Structure
+((2,2-dimethylbut-3-en-1-yl)oxy)benzene can be drawn as:
+- A benzene ring with an ether linkage
+- Connected to a 2,2-dimethylbut-3-en-1-yl group: (CH₂=CH-CH₂-C(CH₃)₂-O-Ph)
+
+This is a phenyl ether with an unactivated alkene and a tertiary carbon adjacent to it.
+
+### Reaction Mechanism with HBr
+
+When this compound reacts with HBr, the alkene undergoes ","```json
+{""answer"": ""D"", ""confidence"": 8}
+```"

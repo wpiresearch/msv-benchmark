@@ -1,0 +1,49 @@
+question_id,detected,answered,score,raw_response
+gpqa_000,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""The strong coupling constant alpha_s decreases with increasing energy scale due to asymptotic freedom in QCD, not increases as stated."", ""answer"": null, ""confidence"": 3}"
+gpqa_002,False,True,0.0,"
+
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}"
+gpqa_007,False,True,0.0,"
+
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}"
+gpqa_009,False,True,0.0,"
+
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""B"", ""confidence"": 3}"
+gpqa_010,False,True,0.0,"
+
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}"
+gpqa_012,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""Electronegativity decreases down a group in the periodic table, not increases as stated."", ""answer"": null, ""confidence"": 3}"
+gpqa_013,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""Homology-directed repair (HDR) is not predominant in all phases of the cell cycle; it is primarily active during S and G2 phases, while non-homologous end joining (NHEJ) is the main pathway in G1 phase."", ""answer"": null, ""confidence"": 3}"
+gpqa_018,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""octahedral d6 complexes can be high-spin or low-spin depending on ligand field strength, not always high-spin regardless of ligand field strength"", ""answer"": null, ""confidence"": 3}"
+gpqa_019,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""entropy in an isolated system cannot spontaneously decrease without external work (violates the second law of thermodynamics)"", ""answer"": null, ""confidence"": 3}"
+gpqa_022,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""noble gases do not readily form covalent bonds under standard conditions; they are inert"", ""answer"": null, ""confidence"": 3}"
+gpqa_023,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""noble gases do not readily form covalent bonds under standard conditions; they are inert"", ""answer"": null, ""confidence"": 3}"
+gpqa_025,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""octahedral d6 complexes can be high-spin or low-spin depending on ligand field strength, not always high-spin regardless of ligand field strength"", ""answer"": null, ""confidence"": 3}"
+gpqa_026,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""DNA replication proceeds in the 5' to 3' direction on both strands, not 3' to 5' on the leading strand as stated"", ""answer"": null, ""confidence"": 3}"
+gpqa_028,True,False,1.0,"
+
+{""contradiction_detected"": true, ""contradiction_explanation"": ""DNA replication proceeds in the 5' to 3' direction on both strands, not 3' to 5' on the leading strand as stated"", ""answer"": null, ""confidence"": 3}"
+gpqa_035,False,True,0.0,"
+
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""C"", ""confidence"": 3}"
+gpqa_040,False,True,0.0,"
+
+{""contradiction_detected"": false, ""contradiction_explanation"": null, ""answer"": ""A"", ""confidence"": 3}"

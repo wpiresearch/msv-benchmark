@@ -1,0 +1,175 @@
+Cronbach's alpha across the MSV Benchmark task suite
+============================================================
+
+Convention: items x respondents matrix is questions x models;
+alpha computed at threshold t = number of models that completed
+the item. THRESHOLDS = [23 (strict), 20, 15].
+
+Pooled alpha by task and threshold:
+------------------------------------------------------------
+
+Task 1 (Delegate Game)
+  threshold >= 23  k=  2  n= 23  alpha=0.575
+  threshold >= 20  k= 19  n= 20  alpha=0.724
+  threshold >= 15  k= 74  n= 15  alpha=0.875
+
+Task 2 (Declared MSV Probe)
+  threshold >= 23  k= 25  n= 23  alpha=0.974
+  threshold >= 20  k= 32  n= 21  alpha=0.973
+  threshold >= 15  k= 59  n= 16  alpha=0.989
+
+Task 3 (Second-Chance)
+  threshold >= 23  k=  6  n= 23  alpha=0.666
+  threshold >= 20  k= 26  n= 20  alpha=0.852
+  threshold >= 15  k= 55  n= 15  alpha=0.879
+
+Task 4 (Confidence Entropy)
+  threshold >= 23  k= 23  n= 23  alpha=0.978
+  threshold >= 20  k= 39  n= 20  alpha=0.986
+  threshold >= 15  k= 80  n= 15  alpha=0.976
+
+Task 5 (Teammate Delegate)
+  threshold >= 23  k= 13  n= 23  alpha=0.755
+  threshold >= 20  k= 39  n= 20  alpha=0.878
+  threshold >= 15  k= 80  n= 18  alpha=0.924
+
+Task 6 (Behavioral ER)
+  threshold >= 23  k=  5  n= 23  alpha=0.723
+  threshold >= 20  k= 14  n= 20  alpha=0.815
+  threshold >= 15  k= 55  n= 15  alpha=0.958
+
+Task 7 (Behavioral CI)
+  threshold >= 23  k= 16  n= 23  alpha=0.965
+  threshold >= 20  k= 44  n= 20  alpha=0.990
+  threshold >= 15  k= 80  n= 16  alpha=0.994
+
+Task 8 (Behavioral EM)
+  threshold >= 23  k=  2  n= 23  alpha=-0.000
+  threshold >= 20  k= 14  n= 20  alpha=-0.182
+  threshold >= 15  k= 27  n= 15  alpha=-1.571
+
+Task 9 (Behavioral PI)
+  threshold >= 23  k=  1  n= 23  alpha=nan
+  threshold >= 20  k= 11  n= 21  alpha=0.981
+  threshold >= 15  k= 39  n= 15  alpha=0.995
+
+Task 10 (DPP Sequence)
+  threshold >= 23  k=  2  n= 23  alpha=0.365
+  threshold >= 20  k=  4  n= 21  alpha=0.546
+  threshold >= 15  k=  6  n= 17  alpha=0.018
+
+Task 11 (MC Binary Pairs)
+  threshold >= 23  k= 12  n= 23  alpha=0.530
+  threshold >= 20  k= 28  n= 20  alpha=0.840
+  threshold >= 15  k= 62  n= 15  alpha=0.869
+
+Per-domain alpha (threshold = 15):
+------------------------------------------------------------
+
+Task 1 (Delegate Game)
+  astrophysics                                   k=  4  n= 17  alpha=0.226
+  chemistry_(general)                            k=  9  n= 15  alpha=0.209
+  electromagnetism_and_photonics                 k=  1  n= 16  alpha=nan
+  genetics                                       k=  3  n= 16  alpha=-0.004
+  high-energy_particle_physics                   k=  6  n= 15  alpha=0.452
+  molecular_biology                              k= 10  n= 16  alpha=0.051
+  organic_chemistry                              k= 27  n= 16  alpha=0.832
+  physics_(general)                              k=  7  n= 16  alpha=0.388
+  quantum_mechanics                              k=  5  n= 15  alpha=0.728
+  relativistic_mechanics                         k=  2  n= 19  alpha=0.572
+
+Task 3 (Second-Chance)
+  astrophysics                                   k=  4  n= 15  alpha=0.219
+  chemistry_(general)                            k=  5  n= 17  alpha=0.394
+  electromagnetism_and_photonics                 k=  0  n=  0  alpha=nan
+  genetics                                       k=  2  n= 21  alpha=-0.010
+  high-energy_particle_physics                   k=  3  n= 18  alpha=0.647
+  molecular_biology                              k=  8  n= 15  alpha=0.529
+  organic_chemistry                              k= 23  n= 15  alpha=0.627
+  physics_(general)                              k=  5  n= 15  alpha=0.823
+  quantum_mechanics                              k=  3  n= 20  alpha=0.689
+  relativistic_mechanics                         k=  2  n= 20  alpha=0.454
+
+Task 4 (Confidence Entropy)
+  astrophysics                                   k=  5  n= 15  alpha=0.753
+  chemistry_(general)                            k=  9  n= 15  alpha=0.785
+  electromagnetism_and_photonics                 k=  1  n= 16  alpha=nan
+  genetics                                       k=  3  n= 15  alpha=0.310
+  high-energy_particle_physics                   k=  7  n= 15  alpha=0.830
+  molecular_biology                              k= 10  n= 15  alpha=0.765
+  organic_chemistry                              k= 28  n= 15  alpha=0.925
+  physics_(general)                              k=  8  n= 15  alpha=0.813
+  quantum_mechanics                              k=  7  n= 15  alpha=0.908
+  relativistic_mechanics                         k=  2  n= 22  alpha=0.871
+
+Task 5 (Teammate Delegate)
+  astrophysics                                   k=  5  n= 18  alpha=0.602
+  chemistry_(general)                            k=  9  n= 18  alpha=0.392
+  electromagnetism_and_photonics                 k=  1  n= 18  alpha=nan
+  genetics                                       k=  3  n= 18  alpha=-0.003
+  high-energy_particle_physics                   k=  7  n= 18  alpha=0.741
+  molecular_biology                              k= 10  n= 18  alpha=0.363
+  organic_chemistry                              k= 28  n= 18  alpha=0.817
+  physics_(general)                              k=  8  n= 18  alpha=0.600
+  quantum_mechanics                              k=  7  n= 18  alpha=0.732
+  relativistic_mechanics                         k=  2  n= 22  alpha=0.107
+
+Task 6 (Behavioral ER)
+  astrophysics                                   k=  4  n= 15  alpha=0.715
+  chemistry_(general)                            k=  5  n= 15  alpha=0.625
+  electromagnetism_and_photonics                 k=  0  n=  0  alpha=nan
+  genetics                                       k=  2  n= 20  alpha=-0.188
+  high-energy_particle_physics                   k=  3  n= 16  alpha=0.343
+  molecular_biology                              k=  8  n= 15  alpha=0.556
+  organic_chemistry                              k= 23  n= 15  alpha=0.924
+  physics_(general)                              k=  5  n= 15  alpha=0.807
+  quantum_mechanics                              k=  3  n= 17  alpha=-0.143
+  relativistic_mechanics                         k=  2  n= 17  alpha=-0.291
+
+Task 7 (Behavioral CI)
+  astrophysics                                   k=  5  n= 16  alpha=0.883
+  chemistry_(general)                            k=  9  n= 18  alpha=0.975
+  electromagnetism_and_photonics                 k=  1  n= 19  alpha=nan
+  genetics                                       k=  3  n= 18  alpha=0.829
+  high-energy_particle_physics                   k=  7  n= 16  alpha=0.972
+  molecular_biology                              k= 10  n= 18  alpha=0.948
+  organic_chemistry                              k= 28  n= 16  alpha=0.988
+  physics_(general)                              k=  8  n= 16  alpha=0.913
+  quantum_mechanics                              k=  7  n= 16  alpha=0.951
+  relativistic_mechanics                         k=  2  n= 22  alpha=0.884
+
+Task 9 (Behavioral PI)
+  astrophysics                                   k=  3  n= 15  alpha=0.851
+  chemistry_(general)                            k=  4  n= 15  alpha=0.948
+  electromagnetism_and_photonics                 k=  0  n=  0  alpha=nan
+  genetics                                       k=  2  n= 19  alpha=0.970
+  high-energy_particle_physics                   k=  3  n= 16  alpha=0.976
+  molecular_biology                              k=  6  n= 15  alpha=0.979
+  organic_chemistry                              k= 13  n= 15  alpha=0.985
+  physics_(general)                              k=  3  n= 15  alpha=0.911
+  quantum_mechanics                              k=  3  n= 19  alpha=0.942
+  relativistic_mechanics                         k=  2  n= 19  alpha=0.990
+
+Task 10 (DPP Sequence)
+  astrophysics                                   k=  1  n= 21  alpha=nan
+  chemistry_(general)                            k=  0  n=  0  alpha=nan
+  electromagnetism_and_photonics                 k=  0  n=  0  alpha=nan
+  genetics                                       k=  1  n= 21  alpha=nan
+  high-energy_particle_physics                   k=  0  n=  0  alpha=nan
+  molecular_biology                              k=  1  n= 19  alpha=nan
+  organic_chemistry                              k=  1  n= 17  alpha=nan
+  physics_(general)                              k=  1  n= 23  alpha=nan
+  quantum_mechanics                              k=  1  n= 23  alpha=nan
+  relativistic_mechanics                         k=  0  n=  0  alpha=nan
+
+Task 11 (MC Binary Pairs)
+  astrophysics                                   k=  4  n= 15  alpha=0.467
+  chemistry_(general)                            k=  6  n= 15  alpha=0.367
+  electromagnetism_and_photonics                 k=  0  n=  0  alpha=nan
+  genetics                                       k=  2  n= 22  alpha=-0.687
+  high-energy_particle_physics                   k=  3  n= 20  alpha=0.821
+  molecular_biology                              k=  9  n= 15  alpha=0.264
+  organic_chemistry                              k= 26  n= 15  alpha=0.839
+  physics_(general)                              k=  7  n= 15  alpha=0.471
+  quantum_mechanics                              k=  3  n= 21  alpha=-0.040
+  relativistic_mechanics                         k=  2  n= 21  alpha=0.519

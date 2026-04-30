@@ -1,0 +1,316 @@
+question_id,is_signal,said_yes,confidence,judgment_correct,raw_response
+gpqa_000,True,True,4,True,"To determine if the energy levels can be clearly resolved, I need to check that the energy difference is greater than the sum of the energy uncertainties from the uncertainty principle.
+
+Using ΔE · Δt ≈ ℏ/2, the energy uncertainty for each state is:
+
+ΔE₁ = ℏ/(2·Δt₁) = (1.055 × 10⁻³⁴)/(2 × 10⁻⁹) ≈ 5.28 × 10⁻²⁶ J ≈ 3.3 × 10⁻⁷ eV
+
+ΔE₂ = ℏ/(2·Δt₂) = (1.055 × 10⁻³⁴)/(2 × 10⁻⁸) ≈ 5.28 × 10⁻²⁷ J ≈ 3.3 × 10⁻⁸ eV
+
+The total uncertainty (sum of linewidths) ≈ 3.3 × 10⁻⁷ + 3.3 × 10⁻⁸ ≈ 3.6 × 10⁻⁷ eV
+
+Howeve"
+gpqa_000,False,False,4,True,"Let me check whether 10^-11 eV is sufficient to resolve the two energy levels.
+
+Using the energy-time uncertainty relation ΔE ≈ ℏ/Δt:
+
+For state 1 (τ₁ = 10⁻⁹ s):
+ΔE₁ ≈ ℏ/τ₁ = (6.58 × 10⁻¹⁶ eV·s)/(10⁻⁹ s) ≈ 6.58 × 10⁻⁷ eV
+
+For state 2 (τ₂ = 10⁻⁸ s):
+ΔE₂ ≈ ℏ/τ₂ = (6.58 × 10⁻¹⁶ eV·s)/(10⁻⁸ s) ≈ 6.58 × 10⁻⁸ eV
+
+To clearly resolve the two levels, the energy difference must be larger than the sum of their linewidths:
+ΔE₁ + ΔE₂ ≈ 6.58 × 10⁻⁷ + 6.58 × 10⁻⁸ ≈ 7.2 × 10⁻⁷ eV
+
+The candidate answer of 10⁻¹¹ "
+gpqa_002,True,True,4,True,"Let me work through this.
+
+The state is |ψ⟩ = 0.5|↑⟩ + (√3/2)|↓⟩ = (1/2)|↑⟩ + (√3/2)|↓⟩
+
+First, check normalization: (1/2)² + (√3/2)² = 1/4 + 3/4 = 1 ✓
+
+**Expectation value of σ_z:**
+⟨σ_z⟩ = |1/2|² - |√3/2|² = 1/4 - 3/4 = -1/2
+
+**Expectation value of σ_x:**
+σ_x|↑⟩ = |↓⟩, σ_x|↓⟩ = |↑⟩
+
+⟨σ_x⟩ = ⟨ψ|σ_x|ψ⟩ = (1/2)(√3/2) + (√3/2)(1/2) = √3/2
+
+Wait, let me be more careful:
+⟨ψ|σ_x|ψ⟩ = (1/2)⟨↑| + (√3/2)⟨↓|) σ_x ((1/2)|↑⟩ + (√3/2)|↓⟩)
+= (1/2)⟨↑| + (√3/2)⟨↓|) ((1/2)|↓⟩ + (√3/2)|↑⟩)
+= (1/2)(√3/2)⟨↑|↑⟩ + ("
+gpqa_002,False,False,4,True,"Let me work through this problem.
+
+The state is |ψ⟩ = 0.5|↑⟩ + (√3/2)|↓⟩
+
+First, check normalization: (0.5)² + (√3/2)² = 0.25 + 0.75 = 1 ✓
+
+Expectation value of σ_z:
+⟨σ_z⟩ = |0.5|² - |√3/2|² = 0.25 - 0.75 = -0.5
+
+Expectation value of σ_x:
+⟨σ_x⟩ = 2·Re(0.5 · √3/2) = 2·(√3/4) = √3/2 ≈ 0.866
+
+Now compute: 10⟨σ_z⟩ + 5⟨σ_x⟩ = 10(-0.5) + 5(√3/2) = -5 + 5√3/2 = -5 + 4.330 = -0.670
+
+Rounded to one decimal place: -0.7
+
+The candidate answer of -1.4 does not match my calculation of -0.7.
+
+{""judgment"": ""no"""
+gpqa_007,True,False,4,False,"Let me analyze the data:
+
+- g1: 75% resistance (small reduction)
+- g2: 0% resistance (complete loss)
+- g3: 50% resistance (moderate reduction)
+- g1g3: 10% resistance (near complete loss)
+- g2g3: 0% resistance
+- g1g2: 0% resistance
+
+Key observations:
+
+1. **G2 knockout alone gives 0% resistance** - G2 is essential. Any double mutant with g2 also gives 0%, which is consistent with g2 being epistatic (or at least essential).
+
+2. **G1 and G3 individually** reduce resistance partially (75% and 50%), b"
+gpqa_007,False,False,4,True,"Let me analyze the data:
+
+- g1: 75% (modest reduction)
+- g2: 0% (complete loss)
+- g3: 50% (moderate reduction)
+- g1g3: 10% (near complete loss, more than additive)
+- g2g3: 0% (same as g2 alone)
+- g1g2: 0% (same as g2 alone)
+
+Key observations:
+1. G2 knockout completely eliminates resistance. Any double mutant with g2 also shows 0%. This suggests G2 is epistatic to both G1 and G3, consistent with G2 being a transcription factor upstream of G1 and G3.
+
+2. G1 and G3 each partially reduce resistance,"
+gpqa_009,True,True,4,True,"Let me analyze each option:
+
+a) Earth-mass and Earth-radius → density = Earth's density ≈ 5.5 g/cm³
+
+b) 2 Earth masses with density ≈ 5.5 g/cm³ → density is explicitly stated as ~5.5 g/cm³
+
+c) Same composition as Earth but 5 times more massive. For rocky planets with the same composition, increasing mass leads to gravitational compression, which increases density. A planet 5 times Earth's mass with Earth's composition would be significantly compressed, leading to a higher density than Earth's ~5"
+gpqa_009,False,False,4,True,"Let me analyze each option:
+
+a) Earth-mass and Earth-radius → density ≈ 5.5 g/cm³ (Earth's actual density)
+
+b) 2 Earth masses, density ≈ 5.5 g/cm³ → explicitly stated as ~5.5 g/cm³
+
+c) Same composition as Earth but 5× more massive. For rocky planets with the same composition, higher mass means more gravitational compression, leading to a higher density. A 5 Earth-mass rocky planet would have a significantly higher density than Earth due to compression. Using mass-radius relations for rocky plane"
+gpqa_010,True,True,4,True,"The candidate answer describes nsp10/nsp14-ExoN as operating in a ""mismatch repair mechanism"" and states that the complex ""prevents the breakdown of dsRNA."" Let me evaluate this:
+
+1. nsp10/nsp14-ExoN does indeed form a heterodimer complex - this is correct.
+2. However, it's a proofreading exonuclease, not strictly a ""mismatch repair"" mechanism (though proofreading is related, the terminology is slightly off).
+3. More importantly, the ExoN complex functions as a 3'-to-5' exonuclease that removes "
+gpqa_010,False,True,4,False,"This statement discusses the relationship between frameshifting rates and pseudoknot conformations. Let me evaluate:
+
+Research has shown that the frameshifting efficiency correlates with the mechanical properties of pseudoknots, particularly with the number of conformations they can adopt under tension. Studies have indeed found that SARS-CoV and SARS-CoV-2 programmed -1 ribosomal frameshift signals adopt specific conformations when under mechanical tension.
+
+However, the claim that ""the rate of"
+gpqa_012,True,True,4,True,"Let me trace through each step:
+
+**Step 1: (R)-(+)-Limonene + H₂/Pd/C (1 equiv)**
+(R)-Limonene has two double bonds: the endocyclic (1,2) and the exocyclic (isopropenyl). The less substituted exocyclic double bond is typically hydrogenated first. This gives (R)-p-menthene (1-methyl-4-isopropylcyclohex-1-ene), retaining the endocyclic double bond. Wait - actually, with Pd/C the more accessible double bond hydrogenates first. The exocyclic isopropenyl double bond is more accessible and less substi"
+gpqa_012,False,False,4,True,"Let me trace through the reaction sequence:
+
+**Step 1:** (R)-(+)-Limonene + H₂/Pd/C (1 equiv)
+Limonene has two C=C bonds: endocyclic (1,2-position, trisubstituted) and exocyclic (isopropenyl, 1,1-disubstituted). With Pd/C, the less hindered exocyclic double bond is hydrogenated preferentially, giving p-1-menthene (1-methyl-4-isopropylcyclohex-1-ene).
+
+Wait - but actually I need to reconsider. Some sources say the endocyclic double bond can be hydrogenated first depending on conditions. But typic"
+gpqa_013,True,True,4,True,"Let me think about this carefully.
+
+The question is about ChIP-seq peaks that appear with PFA (formaldehyde) fixation alone but disappear when PFA+DSG (disuccinimidyl glutarate) dual crosslinking is used.
+
+DSG is a protein-protein crosslinker that is often used in addition to formaldehyde to better capture indirect/transient protein-DNA interactions. When DSG is added, it typically **improves** capture of transcription factors at their true binding sites, especially those that bind indirectly th"
+gpqa_013,False,False,4,True,"Let me think about this carefully.
+
+The question asks about ChIP-seq peaks that appear with PFA (formaldehyde) fixation but disappear when PFA+DSG (disuccinimidyl glutarate) dual crosslinking is used.
+
+DSG is a protein-protein crosslinker that helps stabilize indirect protein-DNA interactions (those mediated through protein complexes). When adding DSG improves crosslinking of indirect interactions, peaks that disappear with DSG addition would likely represent artifacts rather than true binding s"
+gpqa_018,True,True,4,True,"Let me analyze each reaction:
+
+**Reaction A:**
+- Methyl 2-oxocyclohexane-1-carboxylate is a β-ketoester, which has an acidic proton at C1 (between the ketone and ester)
+- NaOEt deprotonates this to form an enolate (nucleophile)
+- 2,4-dimethyl-1-(vinylsulfinyl)benzene is a vinyl sulfoxide, which acts as a Michael acceptor
+- The enolate attacks the terminal carbon of the vinyl sulfoxide in a Michael addition
+- Product A: methyl 1-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxyla"
+gpqa_018,False,False,4,True,"Let me analyze each reaction:
+
+**Reaction A:**
+- Methyl 2-oxocyclohexane-1-carboxylate is a β-ketoester with an acidic proton at C1 (between ketone and ester)
+- NaOEt deprotonates at C1 to form a stabilized enolate
+- 2,4-dimethyl-1-(vinylsulfinyl)benzene is a vinyl sulfoxide - Michael acceptor
+- The enolate (nucleophile) attacks the terminal carbon of the vinyl sulfoxide
+
+The candidate says product A has the new group at C3, not C1. But the deprotonation occurs at C1 (between the carbonyl and es"
+gpqa_019,True,True,4,True,"The impulse approximation in nuclear physics assumes that:
+
+1. The interaction current couples to individual nucleons (one-body currents) - this is relevant because it means we ignore meson exchange currents and other two-body effects. This is a key assumption.
+
+2. The nucleus is transparent apart from the selected nucleon - this means the probe interacts with the struck nucleon without final-state interactions (FSI) with the remaining nucleons. This is indeed part of the impulse approximation.
+"
+gpqa_019,False,False,4,True,"Let me think about the impulse approximation in nuclear physics.
+
+The impulse approximation assumes that:
+1. The interaction current only interacts with individual nucleons (one-body currents) - YES, this is a key part of the impulse approximation, as it neglects meson exchange currents and other multi-body effects.
+2. The nucleus is transparent apart from the selected nucleon - YES, this means no final-state interactions (FSI) with other nucleons.
+3. The quarks internal to the selected nucleon "
+gpqa_022,True,True,4,True,"Let me analyze this reaction step by step.
+
+The starting material is ((2,2-dimethylbut-3-en-1-yl)oxy)benzene, which is PhO-CH₂-C(CH₃)₂-CH=CH₂.
+
+When treated with HBr, the first step is protonation of the double bond. This can happen in two ways:
+
+1. **Markovnikov addition**: Protonation at the terminal CH₂ gives a tertiary carbocation at the carbon bearing the two methyl groups: PhO-CH₂-C⁺(CH₃)₂-CH₂CH₃... wait, let me reconsider.
+
+Actually, the alkene is CH=CH₂ at the end. Protonation at CH₂ (te"
+gpqa_022,False,False,4,True,"Let me analyze this. The starting material is ((2,2-dimethylbut-3-en-1-yl)oxy)benzene, which is PhO-CH₂-C(CH₃)₂-CH=CH₂.
+
+The candidate answer suggests the products are 2-(2,2-dimethylbutyl)phenol and 4-(2,2-dimethylbutyl)phenol. This would imply a Claisen-type rearrangement followed by some further reaction, but there are several problems:
+
+1. HBr is not a typical reagent for Claisen rearrangements - those are thermal rearrangements.
+
+2. The candidate products contain a ""2,2-dimethylbutyl"" group"
+gpqa_023,True,True,4,True,"Let me work through this problem:
+
+**Hydrocarbon Z:** Mass fraction of hydrogen = 14.28% = 1/7
+So H mass fraction = 14.28%, C mass fraction = 85.72%
+C:H ratio = (85.72/12):(14.28/1) = 7.143:14.28 = 1:2
+Empirical formula: CH₂, so Z is CₙH₂ₙ
+
+Z is a cycloalkane (since it doesn't react with hydrogen further and is widely used as a solvent). The most common solvent fitting this is **cyclohexane** (C₆H₁₂).
+
+**Mixture Y:** Formed by disproportionation, equimolar mixture of two liquids that doesn't dec"
+gpqa_023,False,False,4,True,"Let me trace through the problem:
+
+**Hydrocarbon Z:** H mass fraction = 14.28% ≈ 1/7. So C:H = (6/7 ÷ 12):(1/7 ÷ 1) = (1/14):(1/7) = 1:2. Empirical formula CH₂, meaning CₙH₂ₙ — a cycloalkane. Widely used as solvent → **cyclohexane C₆H₁₂**.
+
+**Mixture Y:** Equimolar mixture of two liquids, doesn't decolorize bromine water. One component is Z (cyclohexane). Formed by disproportionation of X. The other component must be **benzene C₆H₆** (doesn't decolorize bromine water, and hydrogenation gives cyc"
+gpqa_025,True,True,4,True,"Let me analyze this problem:
+
+**Part A: Finding reactant A**
+
+The product is 8,8-diiodobicyclo[4.2.0]octan-7-one. This is a bicyclo[4.2.0]octane system, which is a cyclohexane fused with a cyclobutane ring. The cyclobutane ring has two iodine atoms at position 8 and a ketone at position 7.
+
+This suggests a [2+2] cycloaddition between cyclohexene and a ketene-like compound. The reactant A would need to provide the two carbons of the cyclobutanone ring with two iodine atoms on one carbon.
+
+2,2-dii"
+gpqa_025,False,False,4,True,"Let me analyze both parts:
+
+**Part A:** The product is 8,8-diiodobicyclo[4.2.0]octan-7-one. This is a fused cyclohexane-cyclobutane system (bicyclo[4.2.0]octane) with two iodines at position 8 and a ketone at position 7.
+
+The most logical route is a [2+2] cycloaddition between cyclohexene and diiodoketene (I₂C=C=O). Diiodoketene would react with cyclohexene to form the cyclobutanone ring fused to the cyclohexane, giving the product.
+
+The candidate suggests A = 4,4-diiodocyclobut-2-en-1-one. This"
+gpqa_026,True,False,4,False,"Let me analyze the riddle:
+
+1. ""Ribonucleoprotein particle"" - This is the Signal Recognition Particle (SRP)
+2. ""Nascent chain"" - A polypeptide being synthesized on a ribosome
+3. ""Pause there for a minute"" - SRP causes translational arrest/pausing
+4. ""Let me show you in"" - SRP directs the ribosome to the ER membrane
+5. ""You really need some sugar"" - Glycosylation occurs in the ER lumen
+6. ""It seems somewhat rough"" - The rough ER (rough due to ribosomes)
+7. ""I guess this is goodbye; I need to be o"
+gpqa_026,False,False,4,True,"{""judgment"": ""no"", ""confidence"": 99}"
+gpqa_028,True,True,4,True,"Let me analyze each mutant compared to the intact gene to determine which would eliminate the anti-nutritional compound.
+
+**Intact gene:**
+5'-ATGTTTCTCGCTGGTACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3'
+
+**Mutant 1:**
+5'-ATGTTCTACGCTGGTACTTCTGTGGATGAACATATTTATTGTCGC…TGA-3'
+Comparing: ATGTTT**C**TCGCT → ATGTT**C**TACGCT - This looks like a deletion of one T and a substitution, but let me align more carefully. The changes seem to be point mutations/substitutions that maintain the reading frame. The protei"
+gpqa_028,False,False,4,True,"Let me analyze each mutant:
+
+**Intact gene:**
+5'-ATGTTTCTCGCTGGTACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3'
+Codons: ATG-TTT-CTC-GCT-GGT-ACT-TCT-GTG-GAT-GAA-CAT-ATT-TAT-TGT-CGT…TGA
+
+**Mutant 1:**
+5'-ATGTTCTACGCTGGTACTTCTGTGGATGAACATATTTATTGTCGC…TGA-3'
+This appears to have a deletion (TTTCTC → TTCTAC), causing a frameshift... Let me look more carefully. The changes seem like point mutations that keep the reading frame.
+
+**Mutant 2:**
+5'-ATGTTCTAAGCTGGTACTTCTGTGGATGAACATATTTATTGTCGC…TGA-3'
+Codons: ATG-TT"
+gpqa_035,True,True,4,True,"Let me work through this problem.
+
+First, I need to find the redshift corresponding to 2.1 Gpc. Using Hubble's law as an approximation (v = H₀ × d), with H₀ ≈ 70 km/s/Mpc:
+
+v = 70 × 2100 = 147,000 km/s
+
+This is about 0.49c, so we need relativistic correction. The redshift z for this distance is roughly z ≈ 0.5-0.6 (using cosmological calculators, 2.1 Gpc comoving distance corresponds to roughly z ≈ 0.5).
+
+Now, the observed absorption line energy is 3.9 × 10⁻⁶ eV. To find the rest-frame energy:
+
+"
+gpqa_035,False,False,4,True,"Let me analyze this problem.
+
+First, I need to find the redshift for 2.1 Gpc distance. Using Hubble's law approximately: z ≈ H₀d/c ≈ (70 km/s/Mpc × 2100 Mpc) / (3×10⁵ km/s) ≈ 0.49. More precisely with cosmological calculations, z ≈ 0.5.
+
+The observed absorption line energy is 3.9 × 10⁻⁶ eV. To find the rest-frame energy:
+E_rest = E_obs × (1 + z) ≈ 3.9 × 10⁻⁶ × 1.5 ≈ 5.85 × 10⁻⁶ eV
+
+Converting to frequency: f = E/h = 5.85 × 10⁻⁶ × 1.6 × 10⁻¹⁹ / (6.626 × 10⁻³⁴) ≈ 1.41 × 10⁹ Hz ≈ 1420 MHz
+
+This is "
+gpqa_040,True,True,4,True,"The speed of light in the glass (in the glass's rest frame) is c/n = 1/n (since c=1).
+
+Using the relativistic velocity addition formula to find the speed relative to the lab observer:
+
+u' = (u + v)/(1 + u·v)
+
+where u = 1/n (speed of light in glass frame) and v is the velocity of the glass.
+
+u' = (1/n + v)/(1 + v/n) = (1/n + v)/((n + v)/n) = (1 + nv)/(n + v)
+
+The candidate answer is (1+n*v)/(n+v), which matches this result.
+
+{""judgment"": ""yes"", ""confidence"": 99}"
+gpqa_040,False,False,4,True,"The speed of light in glass in the rest frame of the glass is c/n = 1/n. This is less than c because the light is propagating through a medium. Using relativistic velocity addition to find the speed in the lab frame:
+
+u' = (u + v)/(1 + uv) = (1/n + v)/(1 + v/n)
+
+This does NOT equal 1 (which would be c). The speed of light is only invariantly c in vacuum. In a medium, the speed is less than c, and when you boost to another frame, it changes but doesn't become c.
+
+The candidate answer of 1 is inco"
+gpqa_042,True,True,4,True,"Let me work through the structure step by step.
+
+We have a benzene ring with 6 substituents:
+- Carboxylic acid (-COOH)
+- Carbaldehyde (-CHO)
+- Cyano (-CN)
+- Hydroxyl (-OH)
+- Dimethylamino (-NMe₂)
+- Methoxy (-OCH₃)
+
+Constraints:
+1. COOH, CHO, and CN are all meta to one another → positions 1, 3, 5 (in some arrangement)
+2. Ortho to COOH: OH and NMe₂
+3. Para to COOH: OCH₃
+4. OCH₃ and OH are both ortho to CN
+
+Let me assign COOH at position 1.
+- Para to COOH (position 4): OCH₃
+- Ortho to COOH (positio"
+gpqa_042,False,True,4,False,"Let me work through the structure carefully.
+
+Given constraints:
+- COOH, CHO, and CN are all meta to one another → positions 1, 3, 5
+- Ortho to COOH: OH and NMe₂ (positions 2 and 6)
+- Para to COOH: OCH₃ (position 4)
+- OCH₃ and OH are both ortho to CN
+
+Let me place COOH at position 1.
+- Para to COOH: OCH₃ at position 4
+- CHO and CN at positions 3 and 5
+
+Now, OCH₃ (position 4) must be ortho to CN. Position 4 is ortho to positions 3 and 5. So CN could be at 3 or 5.
+
+OH must be ortho to CN and ortho"

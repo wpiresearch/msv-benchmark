@@ -1,0 +1,150 @@
+question_id,choice,answer,confidence,correct,difficulty,score,raw_response
+gpqa_000,ANSWER,C,4,C,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_002,ANSWER,B,4,B,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}"
+gpqa_007,ANSWER,B,4,B,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}"
+gpqa_009,ANSWER,B,4,B,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}"
+gpqa_010,ANSWER,C,4,C,0.8571,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_012,ANSWER,A,4,A,0.6667,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_013,ANSWER,C,4,B,0.6667,0.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}"
+gpqa_018,ANSWER,A,4,A,0.875,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_019,ANSWER,D,4,D,0.7778,1.0,"{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}"
+gpqa_022,ANSWER,B,4,B,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_023,ANSWER,B,4,B,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_025,ANSWER,B,4,B,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_026,ANSWER,A,4,A,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_028,ANSWER,A,4,A,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_035,ANSWER,C,4,C,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_040,ANSWER,A,4,A,0.875,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_042,ANSWER,A,4,A,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_046,ANSWER,A,4,A,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_049,ANSWER,C,4,C,0.875,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_052,ANSWER,B,4,B,0.875,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_053,ANSWER,C,4,C,0.875,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_054,ANSWER,A,4,A,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_055,ANSWER,B,4,B,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_057,ANSWER,C,4,C,0.8889,1.0,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 5}"
+gpqa_059,ANSWER,A,4,A,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_061,ANSWER,A,4,A,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_064,ANSWER,A,4,A,0.75,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_065,ANSWER,D,4,D,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 5}
+```"
+gpqa_069,ANSWER,D,3,D,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 3}
+```"
+gpqa_073,ANSWER,C,4,C,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_074,ANSWER,A,4,A,0.4444,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_075,ANSWER,B,3,B,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 3}
+```"
+gpqa_076,ANSWER,D,4,B,0.8889,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_078,ANSWER,D,4,D,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 5}
+```"
+gpqa_080,ANSWER,D,4,C,0.7778,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 5}
+```"
+gpqa_082,ANSWER,B,4,B,0.875,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_083,ANSWER,B,4,B,0.8571,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_084,ANSWER,A,4,A,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_087,ANSWER,B,4,B,0.625,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_088,ANSWER,A,4,A,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_090,ANSWER,A,4,A,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_094,ANSWER,D,4,B,0.7778,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_097,ANSWER,A,4,B,0.8889,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_098,ANSWER,A,4,A,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_099,ANSWER,B,4,C,0.8889,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_100,ANSWER,A,4,A,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_101,ANSWER,C,4,C,0.625,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 4}
+```"
+gpqa_102,ANSWER,D,4,C,0.7778,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""D"", ""confidence"": 4}
+```"
+gpqa_103,ANSWER,C,4,C,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_104,ANSWER,B,4,B,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_106,ANSWER,B,4,A,0.8889,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 4}
+```"
+gpqa_110,ANSWER,A,4,A,0.875,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_113,ANSWER,A,4,C,0.625,0.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_114,ANSWER,B,4,B,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_116,ANSWER,A,4,A,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_117,ANSWER,A,4,B,0.8889,0.0,"{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}"
+gpqa_118,ANSWER,A,4,A,0.8889,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 4}
+```"
+gpqa_119,ANSWER,A,4,A,0.7778,1.0,"```json
+{""choice"": ""ANSWER"", ""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_125,ANSWER,B,4,B,0.875,1.0,"{""choice"": ""ANSWER"", ""answer"": ""B"", ""confidence"": 5}"

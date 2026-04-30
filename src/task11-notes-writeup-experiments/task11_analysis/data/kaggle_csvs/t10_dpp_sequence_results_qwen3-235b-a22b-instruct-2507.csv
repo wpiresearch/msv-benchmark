@@ -1,0 +1,237 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,C,4,False,True,0.85,"Answer: C) 10^-4 eV
+
+Reasoning:
+
+To clearly distinguish two quantum energy levels, their energy difference must be significantly larger than the energy uncertainty (broadening) associated with each level due to their finite lifetimes. This energy uncertainty is governed by the energy-time uncertainty principle:
+
+ΔE ≈ ħ / τ
+
+where:
+- ΔE is the energy uncertainty (full width at half maximum, or FWHM, of the energy level),
+- ħ is the reduced Planck's constant (ħ ≈ 6.582 × 10⁻¹⁶ eV·s),
+- τ is the li","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_002,A,B,4,True,True,1.0,"Answer: A) -1.4
+
+Reasoning:
+
+We are given a spin-½ particle in the state:
+
+\[
+|\psi\rangle = 0.5 |\uparrow\rangle + \frac{\sqrt{3}}{2} |\downarrow\rangle
+\]
+
+where \( |\uparrow\rangle \) and \( |\downarrow\rangle \) are eigenstates of \( \sigma_z \) with eigenvalues +1 and -1, respectively.
+
+We are to compute the expectation value of the operator:
+
+\[
+\hat{O} = 10\sigma_z + 5\sigma_x
+\]
+
+The expectation value is:
+
+\[
+\langle \hat{O} \rangle = \langle \psi | \hat{O} | \psi \rangle = 10 \langle \s","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_007,A,A,4,False,False,0.0,"Answer: A) G2 is a transcription factor, G1 and G3 has the same promoter, G3 is epistatic towards G1
+
+Reasoning:
+
+We analyze the resistance phenotypes of single and double mutants to infer genetic interactions and regulatory hierarchy.
+
+Wild-type resistance: 100%  
+All mutant values are relative to this.
+
+Single mutants:
+- g1: 75% → mild reduction; G1 contributes to resistance but is not essential.
+- g2: 0% → complete loss; G2 is essential for resistance.
+- g3: 50% → moderate reduction; G3 contr","{""answer"": ""A"", ""confidence"": 4}"
+gpqa_009,C,B,4,True,True,1.0,"Answer: C) a
+
+Reasoning:
+
+We are to determine which exoplanet has the highest density among the given options. Density is defined as:
+
+\[
+\rho = \frac{M}{V}
+\]
+
+where \( M \) is mass and \( V \) is volume. For a spherical planet, \( V = \frac{4}{3}\pi R^3 \), so:
+
+\[
+\rho \propto \frac{M}{R^3}
+\]
+
+Now evaluate each option:
+
+---
+
+**a) An Earth-mass and Earth-radius planet.**
+
+- \( M = M_\oplus \)
+- \( R = R_\oplus \)
+- Therefore, \( \rho = \rho_\oplus \approx 5.5~\text{g/cm}^3 \)
+
+---
+
+**b) A pla","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_010,C,C,4,False,True,0.85,"Answer: C
+
+Reasoning:
+
+We are to identify the **incorrect** statement among the four options regarding the molecular biology of SARS-CoV-2.
+
+---
+
+**Option A**:  
+""SARS-CoV-2 ORF3a has the ability to trigger caspase-8 activation/cleavage, without affecting the expression levels of Bcl-2. Caspase-8 activation is recognized as a characteristic feature of the extrinsic apoptotic pathway via death receptors, while Bcl-2 plays a crucial role in initiating the mitochondrial pathway. This suggests that ","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_012,A,A,4,False,True,0.85,"Answer: A) (1S,2S,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate
+
+Reasoning:
+
+We analyze the reaction sequence step by step.
+
+---
+
+**Step 1: (R)-(+)-Limonene + H₂, Pd/C → Product 1**
+
+- (R)-(+)-Limonene is (R)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene — a chiral monoterpene with one chiral center at C1 (R configuration) and two alkenes: one trisubstituted (between C1–C2), one disubstituted (isopropenyl at C4).
+- Pd/C with H₂ catalyzes **selective hydrogenation** of alkenes.
+- The **tris","{""answer"": ""A"", ""confidence"": 5}"
+gpqa_013,B,B,4,False,True,0.85,"Answer: B) At active promoters and enhancers
+
+Reasoning:
+
+Crosslinking chromatin immunoprecipitation followed by sequencing (ChIP-seq) relies on covalent linkage between transcription factors (TFs) and DNA to preserve transient interactions during fixation.
+
+- **PFA (paraformaldehyde)** alone creates **protein-protein and protein-DNA crosslinks** via primary amines, but these are **relatively weak and reversible**, especially for **dynamic or transient interactions**.
+- **DSG (disuccinimidyl glu","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_018,B,B,4,False,False,0.0,"Answer: B) A = methyl 3-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = ethyl 2-ethyl-2-(1-(2-methoxy-2-oxo-1-phenylethyl)cyclopentyl)butanoate
+
+Reasoning:
+
+We analyze each reaction as a **Michael addition (conjugate addition)**, where a nucleophilic enolate attacks an α,β-unsaturated system.
+
+---
+
+**Reaction 1:**
+**methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) → A**
+
+- **Nucleophile precursor**: methyl 2-oxocyclohexane-1-","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_019,D,D,4,False,True,0.85,"Answer: D) 1,2,4
+
+Reasoning:
+
+The **impulse approximation** in nuclear physics is used to simplify the calculation of electroweak or other external interactions with a nucleus by treating the interaction as occurring with a **single, quasi-free nucleon**, neglecting complex many-body effects.
+
+To justify this approximation, the following assumptions must hold:
+
+---
+
+**1. The interaction current only interacts with individual nucleons.**  
+- This means the external probe (e.g., a weak boson or ph","{""answer"": ""D"", ""confidence"": 5}"
+gpqa_022,B,B,4,False,True,0.85,"Answer: B) 3,3,4-trimethylchromane and 3-isopropyl-3-methyl-2,3-dihydrobenzofuran
+
+Reasoning:
+
+The starting material is **((2,2-dimethylbut-3-en-1-yl)oxy)benzene**, which is an **allyl aryl ether** with the structure:
+
+\[
+\text{Ph–O–CH}_2\text{–C(CH}_3)_2\text{–CH=CH}_2
+\]
+
+This is a **para-substituted allyl aryl ether** (though the aryl ring is unsubstituted, the ether is on the oxygen).
+
+When **allyl aryl ethers** are treated with **HBr**, two competing reactions can occur:
+
+1. **Electrophilic","{""answer"": ""B"", ""confidence"": 4}"
+gpqa_023,D,B,4,True,True,1.0,"Answer: D) 16
+
+Reasoning:
+
+We are given a sequence of chemical transformations involving mixtures X and Y, leading to a single hydrocarbon Z. We analyze step by step.
+
+---
+
+### Step 1: Properties of mixture X
+
+- **Equimolar mixture of two liquids**.
+- **Decolorizes bromine water** → indicates presence of **unsaturation** (C=C or C≡C bonds).
+- **No conjugated multiple bonds** → rules out dienes like 1,3-butadiene or aromatic systems with extended conjugation.
+- Therefore, the unsaturation is in *","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_025,B,B,4,False,True,0.85,"Answer: B) A = 2,2-diiodoethen-1-one, B = 3, 1, 2, 4
+
+Reasoning:
+
+The product is **8,8-diiodobicyclo[4.2.0]octan-7-one**, a fused bicyclic compound with:
+- A **cyclobutane ring** fused to a **cyclohexanone**,
+- Two iodine atoms on the same carbon (quaternary, bridgehead),
+- A ketone at C7.
+
+This structure is characteristic of a **[2+2] cycloaddition** between an **alkene** and a **ketene** (or ketene equivalent), forming a cyclobutanone ring fused to the existing ring.
+
+Cyclohexene has one doubl","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_026,A,A,4,False,True,0.85,"Answer: A) cytosol to the extracellular space
+
+Reasoning:
+
+The dialogue is a metaphorical representation of **co-translational translocation** of a nascent polypeptide chain destined for secretion.
+
+- ""The ribonucleoprotein particle"" refers to the **Signal Recognition Particle (SRP)**, a ribonucleoprotein complex.
+- ""The nascent chain"" is the growing polypeptide emerging from the ribosome.
+- ""I know you"" — SRP recognizes a **signal sequence** (usually N-terminal, hydrophobic) on the nascent chai","{""answer"": ""A"", ""confidence"": 5}"
+gpqa_028,B,B,4,False,False,0.0,"Answer: B) Mutant 4
+
+Reasoning:
+
+We are tasked with identifying which EMS-induced mutation is most likely to **eliminate the anti-nutritional compound** by disrupting the function of the gene responsible for its synthesis.
+
+EMS (ethyl methanesulfonate) typically induces **point mutations**, primarily **G/C to A/T transitions**.
+
+We analyze the wild-type and mutant sequences in the first exon:
+
+---
+
+**Wild-type (intact gene):**
+5’-ATG TTT CTC GCT GGT ACT TCT GTG GAT GAA CAT ATT TAT TGT CGT…TGA-3’","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_035,A,C,4,True,True,1.0,"Answer: A) Cold molecular interstellar medium.
+
+Reasoning:
+
+The absorption line energy is **3.9 × 10⁻⁶ eV**. We convert this to frequency and wavelength to identify the transition.
+
+---
+
+### Step 1: Convert energy to frequency
+Use the relation:
+\[
+E = h \nu \quad \Rightarrow \quad \nu = \frac{E}{h}
+\]
+where:
+- \( E = 3.9 \times 10^{-6}~\text{eV} = 3.9 \times 10^{-6} \times 1.602 \times 10^{-19}~\text{J} = 6.25 \times 10^{-25}~\text{J} \)
+- \( h = 6.626 \times 10^{-34}~\text{J·s} \)
+
+\[
+\nu = \fr","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_040,A,A,4,False,True,0.85,"Answer: A) (1+n*v)/(n+v)
+
+Reasoning:
+
+We are to find the speed of light in a moving medium as measured in the laboratory frame, where:
+- The glass has refractive index \( n \),
+- The glass moves at velocity \( v \) in the **same direction** as the light beam,
+- The observer is in the laboratory frame,
+- We use units where \( c = 1 \).
+
+---
+
+### Step 1: Speed of light in the rest frame of the glass
+
+In the rest frame of the glass, the speed of light is:
+\[
+u' = \frac{1}{n}
+\]
+
+---
+
+### Step 2: Us","{""answer"": ""A"", ""confidence"": 5}"

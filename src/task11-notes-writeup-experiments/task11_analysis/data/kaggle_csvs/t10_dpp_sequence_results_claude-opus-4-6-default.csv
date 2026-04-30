@@ -1,0 +1,89 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,D,C,4,True,True,1.0,"# Resolving Two Energy Levels: Energy-Time Uncertainty
+
+## Setting Up the Problem
+
+To clearly distinguish two energy levels, their energy difference must be **larger** than the sum of their individual energy uncertainties (linewidths). This comes from the energy-time uncertainty principle:
+
+$$\Delta E \cdot \tau \geq \hbar$$
+
+## Calculating Individual Linewidths
+
+For each state, the minimum energy uncertainty is:
+
+$$\delta E = \frac{\hbar}{\tau}$$
+
+Using $\hbar = 6.582 \times 10^{-16}$ eV·s:
+
+**","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_002,B,B,4,False,True,0.85,"# Spin-Half Expectation Value Calculation
+
+## Setting Up the State
+
+The state is:
+$$|\psi\rangle = \frac{1}{2}|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$$
+
+Let me verify normalization: $(1/2)^2 + (\sqrt{3}/2)^2 = 1/4 + 3/4 = 1$ ✓
+
+## Computing $\langle \sigma_z \rangle$
+
+$$\langle \sigma_z \rangle = |c_\uparrow|^2 - |c_\downarrow|^2 = \frac{1}{4} - \frac{3}{4} = -\frac{1}{2}$$
+
+## Computing $\langle \sigma_x \rangle$
+
+The operator $\sigma_x$ in the $\{|\uparrow\rangle, |\downarrow\r","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_007,B,B,4,False,True,0.85,"# Analyzing Gene Interactions in Anthracnose Resistance
+
+## The Data
+
+| Mutant | Resistance |
+|--------|-----------|
+| g1 | 75% |
+| g2 | 0% |
+| g3 | 50% |
+| g1g2 | 0% |
+| g1g3 | 10% |
+| g2g3 | 0% |
+
+## Step-by-Step Analysis
+
+### Identifying the Transcription Factor
+
+**G2 is the transcription factor.** When G2 is knocked out (g2), resistance drops to 0% — complete loss. This means G2 is essential and acts upstream. Any double mutant containing g2 (g1g2 and g2g3) also shows 0% resistance, consiste","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_009,B,B,4,False,True,0.85,"# Determining Which Exoplanet Has the Highest Density
+
+## Answer: **B) c**
+
+## Detailed Analysis
+
+Let me evaluate each option systematically.
+
+### Option (a): Earth-mass and Earth-radius planet
+This is essentially Earth itself.
+- Density = Earth's density ≈ **5.5 g/cm³**
+
+### Option (b): 2 Earth masses, density ≈ 5.5 g/cm³
+- Explicitly stated: **≈ 5.5 g/cm³**
+- Same density as Earth by definition.
+
+### Option (d): Same composition as Earth, half Earth's mass
+For a planet with the same compositio","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_010,C,C,4,False,True,0.85,"# Analysis of SARS-CoV-2 Molecular Biology Statements
+
+## My Answer: **C**
+
+## Detailed Reasoning
+
+### Option A — **CORRECT**
+This statement accurately describes the mechanism of ORF3a-induced apoptosis. Published research (e.g., Ren et al., 2020) demonstrates that SARS-CoV-2 ORF3a activates caspase-8 (a hallmark of the extrinsic/death receptor apoptotic pathway) without altering Bcl-2 expression levels (which would indicate the intrinsic/mitochondrial pathway). The conclusion that ORF3a trigger","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_012,C,A,4,True,True,1.0,"# Systematic Analysis of the Reaction Sequence
+
+## Step 1: Hydrogenation of (R)-(+)-Limonene with 1 equiv H₂
+
+(R)-(+)-Limonene is (R)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. It has two double bonds:
+- Endocyclic trisubstituted double bond (C1-C2)
+- Exocyclic isopropenyl double bond (C8-C9)
+
+With Pd/C and 1 equivalent of H₂, the **less substituted, more accessible exocyclic double bond** is hydrogenated preferentially. The exocyclic isopropenyl group becomes an isopropyl group.
+
+**Product 1: (","{""answer"": ""A"", ""confidence"": 4}"

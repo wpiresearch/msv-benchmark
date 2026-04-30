@@ -1,0 +1,313 @@
+question_id,ans_neutral,ans_affective,conf_shift,answer_flip,score,raw_response_neutral,raw_response_affective
+gpqa_000,C,C,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```","```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_002,B,B,0.0,0.0,1.0,"```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```","```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_007,D,A,0.0,1.0,0.5714,"The problem asks us to draw conclusions about gene interactions based on resistance levels of single and double knockout mutants. Let's analyze the data:
+
+*   **Wild-type (control):** 100% resistance
+*   **g1 (G1 knockout):** 75% resistance (25% loss from control)
+*   **g2 (G2 knockout):** 0% resistance (100% loss from control)
+*   **g3 (G3 knockout):** 50% resistance (50% loss from control)
+*   **g1g2 (G1 and G2 knockout):** 0% resistance
+*   **g2g3 (G2 and G3 knockout):** 0% resistance
+*   **g","The problem asks us to draw conclusions about gene interactions based on the resistance levels of single and double knockout mutants. Let's analyze the given data:
+
+*   **Wild-type (control):** 100% resistance
+*   **g1 (G1 knockout):** 75% resistance (meaning a 25% loss of resistance compared to control)
+*   **g2 (G2 knockout):** 0% resistance (meaning a 100% loss of resistance)
+*   **g3 (G3 knockout):** 50% resistance (meaning a 50% loss of resistance)
+*   **g1g2 (G1 and G2 knockout):** 0% resi"
+gpqa_009,A,B,0.6666666666666666,1.0,0.1905,"To determine which exoplanet has the highest density, we need to consider the definition of density ($\rho = M/V$) and how mass and composition affect the radius (and thus volume) of a rocky planet. Earth's average density is approximately 5.51 g/cm$^3$.
+
+Let $M_E$ be Earth's mass and $R_E$ be Earth's radius.
+
+**a) An Earth-mass and Earth-radius planet.**
+This planet is identical to Earth in mass and radius.
+Density $\rho_a = \frac{M_E}{\frac{4}{3}\pi R_E^3} \approx 5.5 \text{ g/cm}^3$.
+
+**b) A ","```json
+{
+  ""answer"": ""B"",
+  ""confidence"": 5
+}
+```"
+gpqa_010,A,C,0.6666666666666666,1.0,0.1905,"The question asks to identify the incorrect statement regarding the molecular biology of SARS-CoV-2. Let's analyze each option:
+
+**A) SARS-CoV-2 ORF3a and apoptosis:**
+*   ORF3a is a known viral protein of SARS-CoV-2 that can induce apoptosis in host cells.
+*   Caspase-8 activation is a hallmark of the extrinsic (death receptor-mediated) apoptotic pathway.
+*   Bcl-2 is an anti-apoptotic protein primarily involved in regulating the intrinsic (mitochondrial) apoptotic pathway.
+*   If ORF3a activat","```json
+{
+  ""answer"": ""C"",
+  ""confidence"": 5
+}
+```"
+gpqa_012,C,C,0.0,0.0,1.0,"The problem describes a sequence of reactions starting from (R)-(+)-Limonene and asks for the structure of the final product, Product 4. We need to track the structure and stereochemistry through each step.
+
+**1. Starting Material: (R)-(+)-Limonene**
+(R)-(+)-Limonene is 1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene.
+It has a chiral center at C4 with an (R) configuration. It also has two double bonds: one endocyclic (in the ring, between C1 and C2) and one exocyclic (in the isopropenyl group at C4).
+","The reaction sequence can be broken down step-by-step, analyzing the structure and stereochemistry at each stage.
+
+**1. Starting Material: (R)-(+)-Limonene**
+(R)-(+)-Limonene has two double bonds: one endocyclic (within the ring) and one exocyclic (the isopropenyl group). It also has a chiral center at C4 (if numbered from the methyl-bearing carbon as C1). The R configuration at C4 is given.
+
+**2. Product 1: Hydrogenation with 1 equivalent of H2 on Pd/C**
+Catalytic hydrogenation of limonene pref"
+gpqa_013,A,A,0.0,0.0,1.0,"The question describes a scenario where ChIP-seq peaks for the IKAROS transcription factor are detected using PFA (paraformaldehyde) fixation, but these peaks disappear when a more extensive crosslinking protocol (PFA + DSG, disuccinimidyl glutarate) is used. We need to determine where such disappearing peaks are most likely to be found.
+
+Let's analyze the role of the crosslinkers:
+*   **PFA** is a commonly used crosslinker in ChIP-seq. It forms relatively short crosslinks (2-3 Å) between protei","The problem describes an observation in a ChIP-seq experiment for the IKAROS transcription factor. Peaks are detected with PFA fixation, but these peaks disappear when a stronger, two-step crosslinking method (PFA + DSG) is used. We need to determine the most likely genomic location for these disappearing peaks.
+
+Let's break down the implications:
+
+1.  **Crosslinking Methods:**
+    *   **PFA (Paraformaldehyde):** A common crosslinker that forms relatively short protein-DNA and protein-protein cr"
+gpqa_018,A,A,0.0,0.0,1.0,"The problem asks us to determine the final products of two distinct reaction sequences, both involving Michael additions.
+
+**Reaction 1: Formation of Product A**
+
+*   **Nucleophile precursor:** Methyl 2-oxocyclohexane-1-carboxylate
+    *   This is a β-keto ester. In the presence of a strong base like NaOEt, the highly acidic proton at C1 (α to both the ketone and the ester) is removed, forming a resonance-stabilized enolate anion. This enolate is the nucleophile.
+    *   Structure: A cyclohexano","To determine the final products A and B, we need to analyze each Michael reaction individually.
+
+**Reaction 1: Formation of Product A**
+
+1.  **Nucleophile Formation:**
+    *   Starting material: Methyl 2-oxocyclohexane-1-carboxylate. This is a β-keto ester.
+    *   Base: NaOEt (sodium ethoxide). This strong base will deprotonate the most acidic proton, which is located at C1, alpha to both the ketone (C2) and the ester group (at C1).
+    *   This forms a resonance-stabilized enolate anion, with "
+gpqa_019,D,D,0.0,0.0,1.0,"The ""impulse approximation"" in nuclear physics is a common simplification used when an external probe (like an electron, neutrino, or photon) interacts with a nucleus. It allows the interaction to be modeled as if the probe interacts with individual nucleons within the nucleus, and these nucleons behave as if they were free particles during the interaction.
+
+Let's analyze each assumption:
+
+1.  **The interaction current only interacts with individual nucleons.**
+    *   This is a core tenet of th","The ""impulse approximation"" in nuclear physics is a framework for describing reactions where a high-energy probe interacts with a nucleus. The core idea is that the interaction happens so quickly and with such high momentum transfer that the probe essentially interacts with individual nucleons (protons or neutrons) within the nucleus, and these nucleons behave as if they are free particles during the brief moment of interaction, ignoring their binding to the rest of the nucleus and interactions "
+gpqa_022,C,C,0.0,0.0,1.0,"The problem asks for the structures of two products formed when ((2,2-dimethylbut-3-en-1-yl)oxy)benzene reacts with hydrogen bromide (HBr). This reaction involves an aryl alkyl ether with an unsaturated alkyl chain reacting under strong acidic conditions. Such reactions are known to lead to electrophilic addition to the alkene, ether cleavage, and/or acid-catalyzed rearrangements (e.g., intramolecular Friedel-Crafts alkylation of the aromatic ring, often involving carbocation rearrangements).
+
+L","The reaction involves an aryl alkyl ether with an unsaturated alkyl chain reacting with hydrogen bromide (HBr), a strong acid. This type of reaction typically involves several potential pathways: electrophilic addition to the alkene, cleavage of the ether linkage, and carbocation rearrangements leading to intramolecular Friedel-Crafts alkylation of the aromatic ring. The observation of ""two new spots"" suggests two distinct major products.
+
+Let's analyze the starting material and potential reacti"
+gpqa_023,C,C,0.0,0.0,1.0,"Let's break down the problem step-by-step to deduce the structures of the compounds and then calculate the required number of hydrogen atoms.
+
+**1. Determine the structure and formula of hydrocarbon Z.**
+*   Z is a hydrocarbon with a mass fraction of hydrogen of 14.28%.
+*   Let the empirical formula be C$_x$H$_y$.
+*   Mass of H = 14.28 g (assuming 100 g total)
+*   Mass of C = 100 - 14.28 = 85.72 g
+*   Moles of H = 14.28 g / 1.008 g/mol ≈ 14.17 mol
+*   Moles of C = 85.72 g / 12.01 g/mol ≈ 7.14 mo","**Step-by-step deduction:**
+
+1.  **Identify Hydrocarbon Z:**
+    *   Z is a hydrocarbon with a mass fraction of hydrogen of 14.28%.
+    *   This means C has a mass fraction of 100% - 14.28% = 85.72%.
+    *   To find the empirical formula, we divide the mass percentages by the respective atomic masses:
+        *   Moles of C: 85.72 / 12.01 ≈ 7.14
+        *   Moles of H: 14.28 / 1.008 ≈ 14.17
+    *   Divide by the smallest number (7.14):
+        *   C: 7.14 / 7.14 = 1
+        *   H: 14.17 / 7.14 ≈"
+gpqa_025,A,A,0.0,0.0,1.0,"**Part 1: Identify Reactant (A)**
+
+The reaction is: Cyclohexene + A ---> 8,8-diiodobicyclo[4.2.0]octan-7-one
+
+Let's analyze the product structure:
+*   **8,8-diiodobicyclo[4.2.0]octan-7-one** suggests a bicyclic compound with 8 carbons.
+*   The ""bicyclo[4.2.0]octane"" skeleton is formed by the fusion of a 6-membered ring (from cyclohexene) and a 4-membered ring. This is characteristic of a **[2+2] cycloaddition reaction**.
+*   In a [2+2] cycloaddition, the double bond of cyclohexene reacts with th","**Part 1: Identify Reactant (A)**
+
+The reaction described is: Cyclohexene + A ---> 8,8-diiodobicyclo[4.2.0]octan-7-one
+
+Let's analyze the product structure:
+*   The name ""8,8-diiodobicyclo[4.2.0]octan-7-one"" indicates a bicyclic compound. The ""bicyclo[4.2.0]octane"" core suggests that a 6-membered ring (from cyclohexene) has undergone a cycloaddition with a 2-carbon unit to form an additional 4-membered ring. This is characteristic of a **[2+2] cycloaddition reaction**.
+*   The ""7-one"" indicates "
+gpqa_026,A,A,0.6666666666666666,0.0,0.619,"The riddle describes the process of co-translational protein translocation, a key mechanism in cell biology.
+
+Let's break down the clues:
+
+*   **""Oh, I know you,"" the ribonucleoprotein particle says to the nascent chain as they meet.**
+    *   The ""ribonucleoprotein particle"" is the **Signal Recognition Particle (SRP)**.
+    *   The ""nascent chain"" is a polypeptide chain being synthesized by a ribosome.
+    *   SRP recognizes and binds to a signal peptide on the nascent chain shortly after it em","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_028,A,A,0.0,0.0,1.0,"To eliminate the anti-nutritional compound, we need a mutation that causes a loss-of-function in the gene responsible for its synthesis. The most effective loss-of-function mutations are typically those that result in a severely truncated protein or a completely altered protein sequence, such as frameshift mutations leading to premature stop codons, or nonsense mutations. The earlier a stop codon appears in the sequence, the more severe the impact on protein function.
+
+Let's analyze each mutant ","To eliminate the anti-nutritional compound, we need a mutation that leads to a complete loss-of-function of the gene responsible for its synthesis. The most effective mutations for this purpose are those that introduce a premature stop codon early in the coding sequence (nonsense mutations or frameshift mutations leading to nonsense codons), resulting in a severely truncated and usually non-functional protein. The earlier the stop codon, the more likely the protein is to be non-functional and po"
+gpqa_035,A,A,0.0,0.0,1.0,"To identify the most likely source of an absorption line with an energy equivalent of 3.9 micro electron volts (μeV) in the Milky Way, let's first convert this energy to a more commonly used unit for astronomical observations, such as frequency.
+
+1.  **Convert energy to frequency:**
+    The relationship between energy (E) and frequency (ν) is E = hν, where h is Planck's constant.
+    Given E = 3.9 × 10⁻⁶ eV.
+    First, convert eV to Joules: 1 eV = 1.602 × 10⁻¹⁹ J.
+    E = 3.9 × 10⁻⁶ eV × (1.602 ","To determine the most likely source of an absorption line with an energy equivalent of 3.9 micro electron volts (μeV) in the Milky Way, we need to consider the energy level transitions associated with different phases of the interstellar medium (ISM).
+
+1.  **Convert the energy to frequency:**
+    The relationship between energy (E) and frequency (ν) is given by Planck's equation: E = hν, where h is Planck's constant.
+    Given E = 3.9 × 10⁻⁶ eV.
+    First, convert eV to Joules: 1 eV = 1.602 × 10"
+gpqa_040,A,A,0.6666666666666666,0.0,0.619,"Let's use the relativistic velocity addition formula, as the problem deals with the speed of light in a moving medium.
+
+Let:
+*   `c` be the speed of light in vacuum (given as 1).
+*   `n` be the index of refraction of the glass.
+*   `v` be the velocity of the glass relative to the laboratory frame.
+*   `u'` be the speed of light in the glass relative to the glass itself.
+*   `u` be the speed of light in the glass relative to the observer in the laboratory frame (what we need to find).
+
+1.  **Spee","```json
+{
+  ""answer"": ""A"",
+  ""confidence"": 5
+}
+```"
+gpqa_042,A,A,0.0,0.0,1.0,"Here's a step-by-step breakdown to determine the correct IUPAC name:
+
+**1. Draw the Structure based on the description:**
+
+*   **Principal Group:** The carboxylic acid (-COOH) is the highest priority group, so the parent name will be ""benzoic acid"", and the carbon bearing the -COOH group will be designated as C1.
+
+*   **Placing the initial groups (meta relationships):**
+    *   ""A benzene ring has a carboxylic acid a carbaldehyde and a cyano group all meta to one another.""
+    *   If -COOH is at","**1. Identify the Parent Compound and C1:**
+The highest priority functional group is the carboxylic acid (-COOH). Therefore, the parent name of the compound will be ""benzoic acid,"" and the carbon atom to which the -COOH group is attached will be designated as C1.
+
+**2. Place Substituents based on Relative Positions:**
+
+*   **""A benzene ring has a carboxylic acid a carbaldehyde and a cyano group all meta to one another.""**
+    *   If -COOH is at C1, its meta positions are C3 and C5.
+    *   For -"
+gpqa_046,C,C,0.0,0.0,1.0,"**1. Analyze the Molecular Formula: C9H11NO2**
+*   **Degrees of Unsaturation (DoU):**
+    DoU = C + 1 - H/2 + N/2 = 9 + 1 - 11/2 + 1/2 = 10 - 5.5 + 0.5 = 5.
+*   A DoU of 5 is consistent with a benzene ring (4 DoU) plus one additional double bond (like a C=O or C=C).
+
+**2. Analyze the IR Spectrum:**
+*   **3420 cm⁻¹ and 3325 cm⁻¹ (medium to strong intensity bands):** These two bands are characteristic of the N-H stretching vibrations of a **primary amine (-NH2)**.
+*   **1720 cm⁻¹ (strong band):** ","**1. Analyze the Molecular Formula: C9H11NO2**
+*   Calculate the Degrees of Unsaturation (DoU):
+    DoU = C + 1 - H/2 + N/2
+    DoU = 9 + 1 - 11/2 + 1/2 = 10 - 5.5 + 0.5 = 5.
+*   A DoU of 5 strongly suggests the presence of a benzene ring (which accounts for 4 DoU) plus one additional double bond (e.g., a carbonyl C=O).
+
+**2. Analyze the IR Spectrum:**
+*   **3420 cm⁻¹ and 3325 cm⁻¹ (medium to strong bands):** These two distinct bands in the N-H stretching region are characteristic of a **primary"
+gpqa_049,D,C,0.0,1.0,0.5714,"The number of loops in a Feynman diagram can often be inferred from the powers of fundamental constants, especially those related to momentum space integration, which typically scale with the number of loops.
+
+In quantum field theory calculations in $D=4$ spacetime dimensions, after performing momentum integrals (e.g., using dimensional regularization or a cutoff procedure), each loop generally introduces a factor of $1/(16\pi^2)$ or equivalently $1/(4\pi)^2$.
+
+Given the expression: $\text{alpha","In quantum field theory, when calculating Feynman diagrams, each loop integral in 4-dimensional spacetime typically introduces a factor of $1/(16\pi^2)$, which can also be written as $1/(4\pi)^2$. This factor arises from the momentum space integration and normalization constants.
+
+The given ""size estimate"" for the Feynman diagram includes the term:
+$1/(4\pi)^6$
+
+Let $L$ be the number of loops in the Feynman diagram. If each loop contributes a factor of $1/(4\pi)^2$, then $L$ loops would contribu"
+gpqa_052,C,C,0.0,0.0,1.0,"Let's systematically deduce the structure and then the chemical formula based on the provided spectroscopic data.
+
+**1. Analyze the General Structural Features:**
+*   **Di-substituted 6-membered aromatic ring:** This means a benzene ring with two substituents attached. The core is C6, and it accounts for 4 Degrees of Unsaturation (DoU).
+*   **Ester group:** This means the presence of a -COO- functional group, which contributes 2 oxygen atoms to the formula. It also implies a carbonyl (C=O) and a","**1. Analyze the Molecular Formula Candidates and Degrees of Unsaturation (DoU):**
+*   C11H12O2: DoU = 11 + 1 - (12/2) = 12 - 6 = 6
+*   C11H14O2: DoU = 11 + 1 - (14/2) = 12 - 7 = 5
+*   C12H12O2: DoU = 12 + 1 - (12/2) = 13 - 6 = 7
+*   C12H14O2: DoU = 12 + 1 - (14/2) = 13 - 7 = 6
+
+The presence of a 6-membered aromatic ring accounts for 4 DoU. An ester group contains a C=O bond, accounting for 1 more DoU.
+
+**2. Analyze the FTIR Spectrum:**
+*   ""absorption peaks indicating the presence of an ester g"
+gpqa_053,A,A,0.0,0.0,1.0,"To determine the correct starting material for a ring-closing metathesis (RCM) reaction, we need to reverse the process of RCM.
+
+**1. Analyze the Product:**
+The target product is **5-isopropyl-3,4-dimethylcyclohex-1-ene**.
+Let's draw and number this cyclohexene derivative according to IUPAC rules:
+*   The double bond is between C1 and C2.
+*   There is a methyl group at C3.
+*   There is a methyl group at C4.
+*   There is an isopropyl group at C5.
+*   C6 is unsubstituted.
+
+Structure of the product","To determine the starting material for ring-closing metathesis (RCM), we need to mentally reverse the RCM reaction.
+
+**1. Analyze the Product:**
+The target product is **5-isopropyl-3,4-dimethylcyclohex-1-ene**.
+
+Let's draw this structure and number the carbon atoms in the ring according to IUPAC rules:
+*   The parent is ""cyclohexene,"" meaning a 6-membered ring with one double bond.
+*   The ""-1-ene"" means the double bond is between C1 and C2.
+*   The substituents are a methyl group at C3, another"
+gpqa_054,A,A,0.0,0.0,1.0,"Here's a step-by-step analysis of the provided ¹H NMR data to identify the compound:
+
+**1. Analyze the Acetate Moiety:**
+*   The signal at **2.1 ppm (3H, s)** is a singlet integrating to 3 hydrogens. This is characteristic of the methyl group of an **acetate (CH₃CO-O-)** group. The methyl protons are not coupled to any other protons, hence the singlet.
+*   This confirms that the compound is an acetate.
+
+**2. Analyze the Alkene Moiety (Propenyl vs. Butenyl):**
+*   **Propenyl group (-CH=CH-CH₃):**","Here's a step-by-step analysis of the provided ¹H NMR data:
+
+**1. Analyze the signal at 2.1 ppm (3H, s):**
+*   **Integration (3H):** Indicates a methyl (-CH₃) group.
+*   **Multiplicity (s, singlet):** Means this methyl group has no adjacent protons.
+*   **Chemical Shift (2.1 ppm):** This chemical shift is highly characteristic of the methyl group of an **acetate (CH₃CO-O-)** functionality.
+
+**2. Analyze the signal at 1.6 ppm (3H, d):**
+*   **Integration (3H):** Indicates another methyl (-CH₃) gr"
+gpqa_055,A,A,0.0,0.0,1.0,"The problem asks for a two-step electric dipole transition route from the initial state $|3,0,0\rangle$ to the final state $|1,0,0\rangle$ in the hydrogen atom, along with its ""corresponding probability"".
+
+First, let's establish the selection rules for electric dipole transitions:
+1.  **Orbital angular momentum quantum number ($l$):** $\Delta l = \pm 1$.
+2.  **Magnetic quantum number ($m_l$):** $\Delta m_l = 0, \pm 1$.
+3.  **Principal quantum number ($n$):** $\Delta n$ can be any integer, but th","To determine the correct transition route and its corresponding probability, we need to apply the selection rules for electric dipole transitions and calculate the relative probabilities for the steps involved.
+
+**1. Electric Dipole Selection Rules:**
+For electric dipole transitions, the following selection rules apply:
+*   Change in orbital angular momentum quantum number: $\Delta l = \pm 1$.
+*   Change in magnetic quantum number: $\Delta m_l = 0, \pm 1$.
+*   Change in principal quantum number:"
+gpqa_057,A,A,0.0,0.0,1.0,"The question asks which of the given physical theories ""never requires regularization at high energies."" The concept of ""regularization at high energies"" primarily refers to the techniques used in quantum field theories (QFTs) to handle ultraviolet (UV) divergences, which are infinities that arise in calculations of loop diagrams at very short distances or very high energies.
+
+Let's examine each option:
+
+*   **A) Quantum Electrodynamics (QED):** QED is a quantum field theory describing the elect","The concept of ""regularization at high energies"" primarily refers to the techniques used in quantum field theories (QFTs) to handle ultraviolet (UV) divergences. These divergences are infinities that arise in calculations of loop diagrams (representing virtual particle interactions) when integrating over very high momenta (corresponding to very short distances). Regularization is a procedure to make these integrals finite, allowing for further steps like renormalization.
+
+Let's analyze each opti"
+gpqa_059,A,A,0.0,0.0,1.0,"The problem involves calculating the time experienced by an astronaut traveling at a relativistic speed, due to the phenomenon of time dilation.
+
+Here's a step-by-step calculation:
+
+**1. Determine the Distance to the Large Magellanic Cloud (LMC):**
+The Large Magellanic Cloud (LMC) is approximately 160,000 light-years (ly) away from Earth.
+This means that light (traveling at speed `c`) takes 160,000 years to cover this distance in Earth's reference frame.
+Distance (L) = 160,000 ly.
+
+**2. Calculat","To determine how long it will take for the astronaut to reach Earth from their own perspective, we need to use the principles of special relativity, specifically time dilation.
+
+**1. Distance to the Large Magellanic Cloud (LMC):**
+The Large Magellanic Cloud is approximately 160,000 light-years (ly) away from Earth. This is the distance *L* as measured in Earth's reference frame.
+
+**2. Calculate the Lorentz Factor (γ):**
+The spacecraft's speed *v* is given as 0.99999987 *c*.
+The Lorentz factor is"

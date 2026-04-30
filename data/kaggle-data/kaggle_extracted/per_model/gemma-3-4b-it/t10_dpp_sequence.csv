@@ -1,0 +1,54 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,A,A,3,False,False,0.0,"**A) 10^-9 eV**
+
+**Reasoning:**
+
+The ability to resolve two closely spaced energy levels in quantum mechanics is fundamentally limited by the Heisenberg Uncertainty Principle. Specifically, ΔE * Δt ≥ ħ/2, where:
+
+*   ΔE is the energy uncertainty (the difference in energy between the two levels).
+*   Δt is the lifetime of the state (the time it takes for the state to decay).
+*   ħ is the reduced Planck constant (h/2π ≈ 1.054 × 10^-34 J·s).
+
+We are given Δt = 10^-9 s and 10^-8 s.  We need to find ","```json
+{""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_002,D,D,4,False,False,0.0,"**C) 1.65**
+
+**Reasoning:**
+
+Let’s break down the calculation step-by-step, applying the principles of quantum mechanics and linear algebra.
+
+1. **State Representation:** The given state is  |ψ⟩ = 0.5|↑⟩ + (√3/2)|↓⟩. This is a linear combination of the spin-up (|↑⟩) and spin-down (|↓⟩) eigenstates of the σ<sub>z</sub> operator.
+
+2. **Operator Decomposition:** We need to calculate the expectation value of the operator  A = 10σ<sub>z</sub> + 5σ<sub>x</sub>.  First, we express σ<sub>x</sub> in term","```json
+{""answer"": ""D"", ""confidence"": 9}
+```"
+gpqa_007,A,A,3,False,False,0.0,"**A) G2 is a transcription factor, G1 and G3 has the same promoter, G3 is epistatic towards G1**
+
+**Reasoning:**
+
+Let’s analyze the data and deduce the most plausible interactions between the genes.
+
+1. **G2’s Role as a Transcription Factor:** The complete loss of resistance in the *g2* mutant (resistance = 0%) strongly suggests that G2 is a transcription factor.  A mutation in a non-transcription factor would likely result in a partial loss of resistance, not a complete loss.
+
+2. **G1 and G3 – ","```json
+{""answer"": ""A"", ""confidence"": 3}
+```"
+gpqa_009,B,C,4,True,False,0.0,"**B) c**
+
+**Reasoning:**
+
+Density is calculated as mass divided by volume (ρ = m/V).  We can determine the density of each exoplanet based on its mass and radius. Let’s analyze each option:
+
+*   **a) Earth-mass and Earth-radius:** This planet would have the same density as Earth (approximately 5.5 g/cm³).
+
+*   **b) 2 Earth masses and 5.5 g/cm³ density:**  The density is given, and the mass is twice Earth’s mass.  Since density is constant, this planet must have half the radius of Earth. (2 * Ear","```json
+{""answer"": ""C"", ""confidence"": 9}
+```"
+gpqa_010,A,A,2,False,False,0.0,"**A) SARS-CoV-2 ORF3a has the ability to trigger caspase-8 activation/cleavage, without affecting the expression levels of Bcl-2. Caspase-8 activation is recognized as a characteristic feature of the extrinsic apoptotic pathway via death receptors, while Bcl-2 plays a crucial role in initiating the mitochondrial pathway. This suggests that the mechanism through which SARS-CoV-2 ORF3a induces apoptosis is via the extrinsic apoptotic pathway.**
+
+**Reasoning:**
+
+This statement is incorrect. While O","```json
+{""answer"": ""A""}
+```"

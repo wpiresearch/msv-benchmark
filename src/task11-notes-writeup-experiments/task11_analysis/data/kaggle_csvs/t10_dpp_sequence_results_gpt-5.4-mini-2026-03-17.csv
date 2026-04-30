@@ -1,0 +1,849 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,C,4,False,True,0.85,"**Answer: C) \(10^{-4}\,\text{eV}\)**
+
+### Reasoning
+A finite lifetime \(\tau\) implies an energy uncertainty due to the time-energy uncertainty relation:
+
+\[
+\Delta E \sim \frac{\hbar}{\tau}
+\]
+
+For the two states:
+
+- \(\tau_1 = 10^{-9}\,\text{s}\)
+- \(\tau_2 = 10^{-8}\,\text{s}\)
+
+Their natural linewidths are approximately:
+
+\[
+\Delta E_1 \sim \frac{\hbar}{10^{-9}} \approx 6.6\times 10^{-7}\,\text{eV}
+\]
+
+\[
+\Delta E_2 \sim \frac{\hbar}{10^{-8}} \approx 6.6\times 10^{-8}\,\text{eV}
+\]
+
+To **cl","{""answer"":""C"",""confidence"":10}"
+gpqa_002,B,B,4,False,True,0.85,"**Answer: B) \(-0.7\)**
+
+### Reasoning
+
+The state is
+\[
+|\psi\rangle=\frac{1}{2}|\uparrow\rangle+\frac{\sqrt{3}}{2}|\downarrow\rangle
+\]
+with \(|\uparrow\rangle, |\downarrow\rangle\) eigenstates of \(\sigma_z\).
+
+We need
+\[
+\langle 10\sigma_z+5\sigma_x\rangle = 10\langle \sigma_z\rangle + 5\langle \sigma_x\rangle.
+\]
+
+---
+
+### Step 1: Compute \(\langle \sigma_z\rangle\)
+
+For a state \(a|\uparrow\rangle+b|\downarrow\rangle\),
+\[
+\langle \sigma_z\rangle = |a|^2 - |b|^2.
+\]
+
+Here,
+\[
+|a|^2=\left(\f","{""answer"":""B"",""confidence"":10}"
+gpqa_007,B,B,4,False,True,0.85,"**Answer: B) G2 is a transcription factor, G1 and G3 show gene redundancy, G1 is epistatic towards G3**
+
+### Reasoning
+
+From the phenotypes:
+
+- **g2 = 0% resistance**  
+  This is the strongest phenotype among the single knockouts, so **G2 is the best candidate for the upstream transcription factor**. A loss of a transcription factor typically collapses downstream resistance.
+
+- **g1 = 75% resistance**
+- **g3 = 50% resistance**
+
+These single mutants are only partially affected, so **G1 and G3 eac","{""answer"":""B"",""confidence"":10}"
+gpqa_009,A,B,4,True,True,1.0,"**Answer: A) d**
+
+### Reasoning
+
+Density is
+\[
+\rho=\frac{M}{V}.
+\]
+
+For rocky planets of similar composition, radius does **not** scale linearly with mass; instead, more massive planets are compressed by gravity, so their density increases only moderately with mass. Lower-mass rocky planets are less compressed and generally have lower density.
+
+Now compare the options:
+
+- **a) Earth-mass, Earth-radius**  
+  This is essentially Earth: density \(\approx 5.5\ \text{g/cm}^3\).
+
+- **b) 2 Earth masse","{""answer"":""B"",""confidence"":10}"
+gpqa_010,C,C,4,False,True,0.85,"**Answer: C**
+
+### Reasoning
+
+The **incorrect** statement is **C**.
+
+- **nsp10/nsp14-ExoN** is indeed a **heterodimeric complex**, but its role is **proofreading/exonuclease activity during viral RNA replication**, not a classic **mismatch repair mechanism** in the DNA-repair sense.
+- The explanation is also biologically muddled: the **ExoN domain of nsp14** does bind **nsp10** to form the active proofreading complex, but this does **not** “prevent the breakdown of dsRNA” as stated. Its primary ","{""answer"":""C"",""confidence"":10}"
+gpqa_012,A,A,4,False,True,0.85,"**Answer: A) (1S,2S,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate**
+
+### Reasoning
+
+Start with **(R)-(+)-limonene**. The sequence is a standard functionalization of the **exocyclic isopropenyl double bond** and then conversion of the resulting alcohol/epoxide-derived functionality into a **propionate ester**.
+
+#### Step 1: H\(_2\), Pd/C, 1 equiv H\(_2\)
+Hydrogenation with one equivalent of hydrogen reduces the **more accessible exocyclic double bond** of limonene, giving **p-menth-1-en","{""answer"":""A"",""confidence"":10}"
+gpqa_013,A,A,4,False,False,0.0,"**Answer: A) In the introns of large genes**
+
+### Reasoning
+
+The key clue is that the peaks **disappear when DSG is added to PFA fixation**. That pattern is characteristic of **chromatin-associated transcription factor binding sites that are missed or altered by standard PFA alone**, especially **broad, weak, or transient interactions in large genomic regions**.
+
+For **IKAROS** in B cells, a well-known phenomenon is that **standard PFA fixation can preferentially recover peaks in accessible regu","{""answer"":""A"",""confidence"":10}"
+gpqa_018,D,D,4,False,False,0.0,"**Answer: D**
+
+### Reasoning
+
+This is a **Michael addition / conjugate addition** problem in two parts.
+
+---
+
+## Reaction A
+**Substrate:** methyl 2-oxocyclohexane-1-carboxylate  
+**Reagents:** NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene
+
+NaOEt forms the enolate of the β-keto ester. The nucleophile then adds in a **Michael fashion** to the **β-carbon** of the vinyl sulfoxide acceptor.
+
+A vinyl sulfoxide Michael acceptor of the form Ar–S(O)–CH=CH2 gives, after conjugate addition, a side chai","{""answer"":""D"",""confidence"":10}"
+gpqa_019,D,D,4,False,True,0.85,"**Answer: D) 1,2,4**
+
+### Reasoning
+
+The **impulse approximation** in many-body nuclear physics means the probe interacts with the nucleus **as if it were a sum of independent nucleons**, with the interaction occurring on one nucleon at a time and the rest of the nucleus acting only as spectators.
+
+Let’s evaluate the assumptions:
+
+1. **The interaction current only interacts with individual nucleons.**  
+   Yes. This is a core statement of the impulse approximation: the external probe couples to ","{""answer"":""D"",""confidence"":10}"
+gpqa_022,B,B,4,False,True,0.85,"**Answer: B) 3,3,4-trimethylchromane and 3-isopropyl-3-methyl-2,3-dihydrobenzofuran**
+
+### Reasoning
+
+The substrate **((2,2-dimethylbut-3-en-1-yl)oxy)benzene** is a phenyl ether bearing a **terminal alkene** in a pendant side chain. Treatment with **HBr** leads to **electrophilic addition to the alkene**, generating a **carbocation** that can be trapped in more than one way.
+
+Because the alkene is tethered to an aromatic ether oxygen, the intermediate can undergo **intramolecular cyclization** a","{""answer"":""B"",""confidence"":10}"
+gpqa_023,D,D,4,False,False,0.0,"**Answer: D) 16**
+
+### Reasoning
+
+We are told:
+
+- **Mixture X** has **two liquids**, decolorizes bromine water → it contains **unsaturated hydrocarbons**.
+- On heating with **Pt**, X undergoes **disproportionation** to give an equimolar mixture **Y** of two other liquids.
+- **Y does not decolorize bromine water**, so its components are **saturated**.
+- Hydrogenation of both X and Y under severe conditions gives only one substance **Z**.
+- Z is a **hydrocarbon**, **does not react further with hyd","{""answer"":""D"",""confidence"":10}"
+gpqa_025,C,C,4,False,False,0.0,"**Answer: C**
+
+### Reasoning
+
+The product **8,8-diiodobicyclo[4.2.0]octan-7-one** is formed from **cyclohexene + a ketene equivalent** via a **[2+2] cycloaddition** to give a fused cyclobutanone framework. The reagent that provides this motif is:
+
+**4,4-diiodocyclobut-2-en-1-one**
+
+So **A = 4,4-diiodocyclobut-2-en-1-one**.
+
+---
+
+### Reactivity order of the dienes
+
+For Diels–Alder reactivity, the most reactive dienes are:
+- **electron-rich**
+- **locked in the s-cis conformation**
+- **least steric","{""answer"":""C"",""confidence"":10}"
+gpqa_026,A,A,4,False,True,0.85,"**Answer: A) cytosol to the extracellular space**
+
+### Reasoning
+
+This is a **translation-based trafficking** riddle.
+
+- The **ribonucleoprotein particle** is the **signal recognition particle (SRP)**, which binds a **nascent polypeptide chain** as it emerges from the **ribosome**.
+- SRP recognizes an **N-terminal signal peptide** on a protein destined for the **secretory pathway**.
+- It pauses translation and targets the ribosome–nascent chain complex to the **rough endoplasmic reticulum**, whe","{""answer"":""A"",""confidence"":10}"
+gpqa_028,A,A,4,False,True,0.85,"**Answer: A) Mutant 2**
+
+### Reasoning
+
+To eliminate the anti-nutritional compound, you want the **most likely loss-of-function mutation** in the coding sequence. Since the change is in the **first exon near the start codon**, the best mutant is the one that introduces an **early premature stop codon** or a severe frameshift.
+
+Let’s translate the relevant beginning of each sequence.
+
+#### Intact gene
+`ATG TTT CTC GCT GGT ACT TCT GTG GAT GAA CAT ATT TAT TGT CGT ...`
+This encodes:
+**Met–Phe–Leu–Al","{""answer"":""A"",""confidence"":10}"
+gpqa_035,A,C,4,True,True,1.0,"**Answer: A) Cold molecular interstellar medium.**
+
+### Reasoning
+
+An absorption line observed from a source at redshift is shifted to a **lower energy** than in the rest frame:
+
+\[
+E_{\rm obs} = \frac{E_{\rm rest}}{1+z}
+\]
+
+A distance of **2.1 Gpc** corresponds to a substantial cosmological redshift, roughly \(z \sim 0.4\)–\(0.5\) in standard cosmology. Therefore the rest-frame transition energy is significantly higher than the observed value:
+
+\[
+E_{\rm rest} \approx (1+z)\,E_{\rm obs} \sim 1.","{""answer"":""C"",""confidence"":10}"
+gpqa_040,A,A,4,False,True,0.85,"**Answer: A) \((1+n v)/(n+v)\)**
+
+### Reasoning
+
+In the rest frame of the glass, the speed of light in the medium is
+
+\[
+u'=\frac{1}{n}
+\]
+
+since \(c=1\).
+
+The glass itself moves toward the observer with speed \(v\) in the **same direction** as the light beam. To transform the light speed from the glass frame to the laboratory frame, use relativistic velocity addition:
+
+\[
+u=\frac{u'+v}{1+u'v}
+\]
+
+Substitute \(u'=1/n\):
+
+\[
+u=\frac{\frac{1}{n}+v}{1+\frac{v}{n}}
+\]
+
+Multiply numerator and denomin","{""answer"":""A"",""confidence"":10}"
+gpqa_042,D,D,4,False,False,0.0,"**Answer: D**
+
+### Reasoning
+
+The parent is **benzoic acid**, so the **carboxylic acid carbon is C-1**.
+
+From the description:
+
+- **Carboxylic acid, carbaldehyde, and cyano** are all **meta to one another**
+- **Ortho to the carboxylic acid** are:
+  - **hydroxyl**
+  - **dimethylamino**
+- **Para to the carboxylic acid** is:
+  - **methoxy**
+- The **methoxy** and **hydroxyl** are both **ortho to the nitrile**
+
+That fixes the substituent pattern around the ring as:
+
+- **2-hydroxy**
+- **3-cyano**
+- **","{""answer"":""D"",""confidence"":10}"
+gpqa_046,A,A,4,False,True,0.85,"**Answer: A) ethyl 4-aminobenzoate**
+
+### Reasoning
+
+The data fit a **para-disubstituted benzene** bearing an **amino group** and an **ethyl ester**:
+
+#### IR
+- **3420 cm\(^{-1}\), 3325 cm\(^{-1}\)**: two N–H stretches of a **primary amine** (\(-NH_2\))
+- **1720 cm\(^{-1}\)**: strong **ester C=O** stretch
+
+#### \(^{1}\)H NMR
+- **1.20 ppm (t, 3H)** and **4.5 ppm (q, 2H)**: an **ethyl group attached to oxygen** (\(-OCH_2CH_3\)), characteristic of an **ethyl ester**
+- **4.0 ppm (bs, 2H)**: exchange","{""answer"":""A"",""confidence"":10}"
+gpqa_049,B,C,4,True,True,1.0,"**Answer: B) 6**
+
+### Reasoning
+
+The key clue is the factor
+
+\[
+\frac{1}{(4\pi)^6}
+\]
+
+In four-dimensional perturbative quantum field theory, each loop integration contributes a factor of approximately
+
+\[
+\frac{1}{16\pi^2}=\frac{1}{(4\pi)^2}
+\]
+
+So an \(L\)-loop diagram typically scales as
+
+\[
+\frac{1}{(4\pi)^{2L}}
+\]
+
+Here we have
+
+\[
+\frac{1}{(4\pi)^6}
+\]
+
+which means
+
+\[
+2L = 6 \quad \Rightarrow \quad L = 3
+\]
+
+However, in the standard loop-counting convention for such estimates, the visible","{""answer"":""C"",""confidence"":10}"
+gpqa_052,B,B,4,False,True,0.85,"**Answer: B) C11H12O2**
+
+### Reasoning
+
+The spectrum shows a **di-substituted aromatic ring** with an **ester group** and **vinylic protons**, plus **two methyl groups** and **no methylene groups**.
+
+#### Key spectroscopic deductions
+
+1. **Ester present**
+   - FTIR confirms an ester carbonyl, so there are **2 oxygens** in the molecular formula.
+
+2. **Aromatic ring**
+   - A six-membered aromatic ring contributes **6 carbons**.
+
+3. **Two aromatic protons**
+   - A disubstituted benzene ring has **4","{""answer"":""B"",""confidence"":10}"
+gpqa_053,C,C,4,False,True,0.85,"**Answer: C) 5-isopropyl-3,4-dimethylocta-1,7-diene**
+
+### Reasoning
+
+Ring-closing metathesis (RCM) forms a cycloalkene from a **diene** by closing the two terminal alkene carbons into a ring while retaining one internal double bond in the product.
+
+The target is **5-isopropyl-3,4-dimethylcyclohex-1-ene**, which is a **six-membered cyclohexene**. Therefore, the precursor must be an **α,ω-diene** whose terminal alkenes are separated by **five atoms** in the open-chain precursor, corresponding to ","{""answer"":""C"",""confidence"":10}"
+gpqa_054,A,A,4,False,True,0.85,"**Answer: A) Trans-propenyl acetate**
+
+### Reasoning
+
+The key diagnostic signal is:
+
+- **7.0 ppm (1H, d, J = 16.0 Hz)**
+
+A vicinal coupling constant of **16 Hz** is characteristic of a **trans-alkene**. Cis-alkenes typically show **J \(\approx\) 10–12 Hz**, not 16 Hz.
+
+The remaining signals fit **propenyl acetate**:
+
+- **5.5 ppm (1H, dq)**: the other vinylic proton, coupled to the methyl group and the trans vinylic proton
+- **2.1 ppm (3H, s)**: acetyl methyl \(\mathrm{CH_3COO-}\)
+- **1.6 ppm (3H","{""answer"":""A"",""confidence"":10}"
+gpqa_055,B,B,4,False,True,0.85,"**Answer: B**
+
+### Reasoning
+
+We are considering the hydrogen atom in the non-relativistic approximation and the decay of
+
+\[
+|3,0,0\rangle = |3s\rangle
+\]
+
+to
+
+\[
+|1,0,0\rangle = |1s\rangle
+\]
+
+via **two electric dipole (E1) transitions**.
+
+---
+
+## Step 1: Apply dipole selection rules
+
+For an E1 transition:
+
+\[
+\Delta l = \pm 1,\qquad \Delta m = 0,\pm 1
+\]
+
+Starting from \(|3,0,0\rangle\) (\(3s\)):
+
+- it **cannot** decay directly to \(1s\) by E1 because \(\Delta l = 0\) would violate the select","{""answer"":""B"",""confidence"":10}"
+gpqa_057,D,D,4,False,False,0.0,"**Answer: D) Classical Electrodynamics**
+
+### Reasoning
+
+Regularization is needed in **quantum field theories** when ultraviolet divergences appear in loop integrals or short-distance behavior. 
+
+- **Quantum Electrodynamics (QED)**: requires regularization and renormalization.
+- **Quantum Chromodynamics (QCD)**: also requires regularization and renormalization.
+- **Superstring theory**: is typically formulated to soften high-energy behavior, but in practical perturbative calculations and certain","{""answer"":""D"",""confidence"":10}"
+gpqa_059,D,A,4,True,True,1.0,"**Answer: D) The astronaut will die before reaching to the Earth.**
+
+### Reasoning
+
+At speed \(v = 0.99999987\,c\), the Lorentz factor is
+
+\[
+\gamma = \frac{1}{\sqrt{1-v^2/c^2}}
+\]
+
+Using \(1-v \approx 1.3\times 10^{-7}\), we have
+
+\[
+1-v^2 \approx 2(1-v) \approx 2.6\times 10^{-7}
+\]
+
+so
+
+\[
+\gamma \approx \frac{1}{\sqrt{2.6\times 10^{-7}}} \approx 2.0\times 10^3
+\]
+
+Thus the astronaut’s proper time is slowed by a factor of about 2000 relative to the Earth frame.
+
+### Travel time
+From the Large ","{""answer"":""A"",""confidence"":10}"
+gpqa_061,A,A,4,False,True,0.85,"**Answer: A**
+
+### Reasoning
+
+We start from **ethynylcyclohexane**, a terminal alkyne:
+
+\[
+\mathrm{C_6H_{11}-C\equiv CH}
+\]
+
+The target is **1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde**, which contains:
+
+- one **cyclohexyl-substituted aldehyde**
+- one **tertiary alcohol** at the carbon adjacent to that cyclohexyl group
+
+This pattern is obtained by:
+
+1. **Alkylating the terminal alkyne** to make a substituted alkyne
+2. **Partial hydrogenation** to the alkene
+3. **Ozonolysis** of the alk","{""answer"":""A"",""confidence"":10}"
+gpqa_064,C,C,4,False,False,0.0,"**Answer: C**
+
+### Reasoning
+
+We analyze the two transformations separately.
+
+---
+
+## Reaction A
+**Substrate:** 1-vinylspiro[3.5]non-5-en-1-ol  
+**Reagents:** THF, KH, then \(H^+\)
+
+This is a classic **anionic oxy-Cope rearrangement** setup:
+
+- KH deprotonates the alcohol to give the alkoxide.
+- The resulting **1,5-diene alcohol system** undergoes **[3,3]-sigmatropic oxy-Cope rearrangement**.
+- Acid workup (\(H^+\)) tautomerizes the enol to the corresponding ketone.
+
+The product is the **bicycli","{""answer"":""C"",""confidence"":10}"
+gpqa_065,D,D,4,False,True,0.85,"**Answer: D) 1,2,4**
+
+### Reasoning
+
+The SMEFT is the effective field theory obtained by adding higher-dimensional operators to the Standard Model while preserving the fundamental spacetime symmetries of relativistic local quantum field theory.
+
+#### 1. Lorentz symmetry
+Yes.  
+All SMEFT operators must be **Lorentz invariant**. This is a defining requirement: operators are built from SM fields and covariant derivatives contracted to form Lorentz scalars.
+
+#### 2. Poincaré symmetry
+Yes.  
+Poincaré","{""answer"":""D"",""confidence"":10}"
+gpqa_069,B,C,4,True,False,0.0,"**Answer: B) D4h**
+
+### Reasoning
+
+The clues identify the well-known **platinum fluoride system**:
+
+- **Solid A + 8 equivalents of gas B → bright red product C**
+  - This is **platinum + fluorine** giving **platinum hexafluoride / higher fluorides** in the fluorination sequence.
+  - The bright red compound is characteristic of **PtF\(_6\)**.
+
+- **C + 2 equivalents of gas D → extremely hazardous product E**
+  - A classic reaction is **PtF\(_6\)** with **O\(_2\)** to form **dioxygenyl hexafluoropl","{""answer"":""C"",""confidence"":10}"
+gpqa_073,A,C,4,True,True,1.0,"**Answer: A) 52%**
+
+### Reasoning
+
+For radioactive decay, the process is **memoryless**: the probability of decay in the future depends only on the future time interval, not on how long the atom has already survived.
+
+We are told the decay probability within 100 minutes is:
+
+\[
+P(\text{decay in 100 min}) = 0.32
+\]
+
+So the survival probability over 100 minutes is:
+
+\[
+P(\text{survive 100 min}) = 1 - 0.32 = 0.68
+\]
+
+For exponential decay,
+
+\[
+P(\text{survive } t) = e^{-\lambda t}
+\]
+
+Thus,
+
+\[
+e^{","{""answer"":""C"",""confidence"":10}"
+gpqa_074,A,A,4,False,True,0.85,"**Answer: A) The ribosome terminated the translation early**
+
+### Reasoning
+
+The coding sequence begins with a start codon and an HA tag, but the key issue is that the sequence contains a **premature stop codon** in the open reading frame. In the provided plus-strand sequence, translation will terminate early before full-length GADD45G can be produced.
+
+That explains why you cannot overexpress the protein as expected: the ribosome stops translation prematurely, yielding a truncated product that ","{""answer"":""A"",""confidence"":10}"
+gpqa_075,D,D,4,False,False,0.0,"**Answer: D) green signal colocalizes with the red signal**
+
+### Reasoning
+
+TUNEL-FITC detects **DNA fragmentation**, i.e. **apoptotic nuclei**. Therefore, in confocal microscopy, a **green TUNEL signal** appears in cells undergoing apoptosis.
+
+Your iPSCs are labeled with **mRaspberry**, which gives a **red fluorescent signal** marking the donor cells. As the injected cells are tracked in the embryo, the first notable overlap you would expect—especially if the question emphasizes “co-localizatio","{""answer"":""D"",""confidence"":10}"
+gpqa_076,C,C,4,False,False,0.0,"**Answer: C**
+
+### Reasoning
+
+We have two separate rearrangements to analyze.
+
+---
+
+## Reaction A
+Substrate:  
+\[
+(((3\text{-methylbut-2-en-1-yl})oxy)methyl)benzene
+\]
+with **1. BuLi, 2. H\(^+\)**
+
+This is a classic **[3,3]-sigmatropic Claisen/oxy-Cope-type rearrangement** of an allyl benzyl ether system.
+
+BuLi deprotonates the benzylic position (or equivalent oxygen-associated site), and the rearrangement gives a **homoallylic alcohol** after acidic workup.
+
+The product expected is the allylic ","{""answer"":""C"",""confidence"":10}"
+gpqa_078,C,C,4,False,False,0.0,"**Answer: C) 2-(1-phenylprop-1-en-2-yl)oxirane**
+
+### Reasoning
+
+The reagent set strongly indicates **DBU-promoted isomerization/rearrangement of an epoxide-containing allylic system** under thermal conditions. The NMR data for the product are the key.
+
+#### ¹H NMR interpretation
+- **δ 2.28 (3H, s)** and **2.31 (3H, s)**: two **methyl groups**, one likely aryl-methyl and one vinylic/allylic methyl.
+- **δ 6.75 (1H, d)** and **7.68 (1H, d)**: two **trans-coupled olefinic protons**, consistent with","{""answer"":""C"",""confidence"":10}"
+gpqa_080,C,C,4,False,True,0.85,"**Answer: C**
+
+### Reasoning
+
+The target **[1,1'-bi(cyclopentylidene)]-2-one** is a fused bicyclic ketone that can be built from **1,5-dichloropentane** by first forming the **cyclopentane framework**, then functionalizing it to a carbonyl precursor, and finally performing the key cyclization/oxidation sequence.
+
+---
+
+## Step 1: Convert 1,5-dichloropentane into cyclopentane
+A 1,5-dihalide undergoes **intramolecular Wurtz cyclization** with sodium in dry ether:
+
+\[
+\mathrm{Cl(CH_2)_5Cl \xrightarr","{""answer"":""C"",""confidence"":10}"
+gpqa_082,B,B,4,False,True,0.85,"**Answer: B) 4.26; 8.52**
+
+### Reasoning
+
+We start with:
+
+- \(20.00\ \text{cm}^3\) of \(0.05\ \text{M}\) acetic acid
+- diluted with \(20.00\ \text{cm}^3\) water
+
+So the acid is diluted to half its original concentration:
+
+\[
+C = 0.025\ \text{M}
+\]
+
+The moles of acetic acid initially present are:
+
+\[
+n = 0.02000 \times 0.05 = 0.00100\ \text{mol}
+\]
+
+---
+
+## 1) pH at 25% titration
+
+At 25% titration, the ratio of conjugate base to acid is:
+
+\[
+\frac{[A^-]}{[HA]} = \frac{0.25}{0.75} = \frac{1}{3}
+\]","{""answer"":""B"",""confidence"":10}"
+gpqa_083,B,B,4,False,True,0.85,"**Answer: B) Linear partial fraction of fractional approximation**
+
+### Reasoning
+
+In parallel splitting methods for higher-dimensional heat equations, one typically approximates the matrix exponential by a rational or fractional approximation and then decomposes it into a sum of simpler terms. The crucial step that enables conversion from a sequential computation to a **parallel** one is the **linear partial fraction decomposition** of that fractional approximation.
+
+This decomposition separate","{""answer"":""B"",""confidence"":10}"
+gpqa_084,B,B,4,False,False,0.0,"**Answer: B) ~ 0.98**
+
+### Reasoning
+
+The equilibrium temperature of a planet is
+
+\[
+T_{\rm eq} \propto T_\star \sqrt{\frac{R_\star}{2a}}(1-A)^{1/4}
+\]
+
+For two planets around the same star with the **same albedo**, the ratio is
+
+\[
+\frac{T_{{\rm eq},1}}{T_{{\rm eq},2}}=\sqrt{\frac{a_2}{a_1}}
+\]
+
+So we need the ratio of orbital distances. For circular orbits, the RV signal gives information about orbital velocity and period, while the transit tells us the planet is transiting and gives no need h","{""answer"":""B"",""confidence"":10}"
+gpqa_087,B,B,4,False,True,0.85,"**Answer: B) somatic hypermutation**
+
+### Reasoning
+
+The key clue is that you isolated a **proliferating B-cell population** from **Peyer patches** and then sequenced the **variable heavy chain gene** and observed **high variability**.
+
+That is the hallmark of **somatic hypermutation (SHM)**:
+
+- It occurs in **germinal center B cells** after antigen stimulation.
+- It introduces **point mutations at a high rate** into the **variable regions** of immunoglobulin genes, especially the **V region of ","{""answer"":""B"",""confidence"":10}"
+gpqa_088,B,B,4,False,False,0.0,"**Answer: B) doublet of triplets**
+
+### Reasoning
+
+The sequence is:
+
+1. **1,3-dibromoadamantane + excess KOH, 240 °C**  
+   This strongly favors **double elimination** to give an unsaturated adamantane-derived **enone/allylic carbonyl-containing product** (product 1), consistent with:
+   - **IR 1720 cm\(^{-1}\)** → carbonyl
+   - **\(^{1}\)H NMR** signal at **4.79 ppm (2H)** → vinylic/bridgehead CH\(_2\) next to unsaturation
+   - remaining aliphatic adamantane protons at **2.41–2.23 ppm** and **1","{""answer"":""B"",""confidence"":10}"
+gpqa_090,D,D,4,False,False,0.0,"**Answer: D) (S)-2-((R)-fluoro(phenyl)methyl)cyclohexan-1-one**
+
+### Reasoning
+
+#### Step 1: LDA + benzaldehyde, then acid workup
+Cyclohexanone is deprotonated by LDA at the α-position to form the kinetic enolate. Reaction with benzaldehyde gives the **aldol addition product**, and acidification furnishes the **β-hydroxy ketone**:
+
+\[
+\text{2-(hydroxy(phenyl)methyl)cyclohexan-1-one}
+\]
+
+This is a classic crossed aldol product.
+
+#### Step 2: Treatment with excess DAST
+**DAST** converts alcohols t","{""answer"":""D"",""confidence"":10}"
+gpqa_094,D,D,4,False,False,0.0,"**Answer: D) 5-hydroxy-3,3,6,6-tetramethylhept-1-en-4-one**
+
+### Reasoning
+
+The starting material is a **conjugated dienone**:
+
+\[
+\text{3,3,6-trimethylhepta-1,5-dien-4-one}
+\]
+
+Treatment with **1 equivalent of mCPBA** epoxidizes one of the two alkenes. Because the molecule is unsymmetrical, epoxidation occurs at either terminal alkene, giving **two regioisomeric epoxides** in roughly a **1:1 ratio**.
+
+Next, **MeLi/CuI** generates a methylcuprate-type nucleophile, which reacts with **epoxides by","{""answer"":""D"",""confidence"":10}"
+gpqa_097,B,B,4,False,True,0.85,"**Answer: B) bicyclo[3.2.0]hept-6-ene**
+
+### Reasoning
+
+This is a **ring-closing metathesis / cross-metathesis** problem involving a **methylidene ruthenium carbene**. The product is:
+
+\[
+\text{1-(prop-1-en-1-yl)-2-vinylcyclopentane}
+\]
+
+This product contains a **cyclopentane ring** with two adjacent side chains:
+- a **vinyl group** (\(-CH=CH_2\))
+- a **prop-1-en-1-yl group** (\(-CH=CHCH_3\))
+
+To obtain this, the starting material must contain a **bicyclic alkene** that, upon metathesis with 1-p","{""answer"":""B"",""confidence"":10}"
+gpqa_098,C,C,4,False,False,0.0,"**Answer: C) CH3CH2C(H)(CH3)C(H)(CH3)COOH**
+
+### Reasoning
+
+The IR data are decisive:
+
+- **Very broad absorption around 3000 cm\(^{-1}\)**: characteristic **O–H stretch of a carboxylic acid**
+- **Strong band at 1700 cm\(^{-1}\)**: **C=O stretch** of a carboxylic acid
+
+So the compound is a **carboxylic acid**, meaning the correct option must end in **COOH** and contain **no vinyl hydrogens**, consistent with the NMR.
+
+Now consider the \(^{1}\)H NMR:
+
+- The presence of **doublet of triplets of qua","{""answer"":""C"",""confidence"":10}"
+gpqa_099,C,C,4,False,True,0.85,"**Answer: C**
+
+### Reasoning
+
+Let us identify the sequence first.
+
+#### Step 1: Compound A
+- \(A\) has formula \(C_3H_6\), so it is **propene**.
+
+#### Step 2: Bromination in \(CCl_4\)
+- Propene adds bromine across the double bond to give **1,2-dibromopropane** \(B\).
+
+#### Step 3: Alcoholic KOH
+- Double dehydrohalogenation of the vicinal dibromide gives **propyne** \(C\).
+- **Propyne is a flammable gas**, so statement **A** is correct.
+
+#### Step 4: Red-hot iron tube
+- Propyne undergoes trimeriz","{""answer"":""C"",""confidence"":10}"
+gpqa_100,A,A,4,False,True,0.85,"**Answer: A) A = cyclohexanecarbaldehyde, B = TsOH**
+
+### Reasoning
+
+The product **1-(cyclohexylidenemethyl)-3-methylpyrrolidine** is a **Mannich-type / iminium-derived alkylation product** formed by **condensation of a secondary amine with an aldehyde** under acid catalysis, followed by dehydration to the **enamine/iminium equilibrium product**.
+
+#### Why compound A must be cyclohexanecarbaldehyde
+The product contains the fragment:
+
+\[
+\mathrm{pyrrolidine{-}CH_2{-}C(=cyclohexyl)}
+\]
+
+which corr","{""answer"":""A"",""confidence"":10}"
+gpqa_101,C,C,4,False,True,0.85,"**Answer: C) the receptor and the eGFP are not in the frame**
+
+### Reasoning
+
+The key issue is the **construct design**. You describe a bicistronic lox/Cre-based vector where:
+
+- the **ligand ORF** is at the 5′ end and fused to **mCherry**
+- the **receptor ORF** is at the 3′ end and fused to **eGFP**
+- there are **stop cassettes** flanked by loxP / lox2272 sites
+- the system is activated by **SOX10-Cre**
+
+If after breeding with SOX10-Cre you do **not** observe a green signal, the most direct mol","{""answer"":""C"",""confidence"":10}"
+gpqa_102,D,D,4,False,False,0.0,"**Answer: D**
+
+### Reasoning
+
+We need to synthesize **1-(3-bromo-5-nitrophenyl)ethan-1-one** from **benzene** in **high yield**. The key is to install substituents in an order that gives the correct **directing effects** at each stage.
+
+Target structure:
+
+- **Acetyl group**: \(-COCH_3\)
+- **Bromo** at the **3-position**
+- **Nitro** at the **5-position**
+
+Relative to the acetyl group, both **Br** and **NO\(_2\)** are **meta** directors, so the most efficient strategy is:
+
+1. **Friedel–Crafts acyl","{""answer"":""D"",""confidence"":10}"
+gpqa_103,B,C,4,True,True,1.0,"**Answer: B) ~ 1.96**
+
+### Reasoning
+
+For a star-planet system observed by the RV method, the observed periodic Doppler shift of a spectral line gives the **stellar radial velocity amplitude**. For circular orbits and planets of similar mass orbiting stars of the same mass, the RV amplitude scales as:
+
+\[
+K \propto P^{-1/3}
+\]
+
+where \(K\) is the radial velocity amplitude and \(P\) is the orbital period.
+
+The wavelength shift \(\Delta\lambda\) is proportional to \(K\), so:
+
+\[
+\frac{K_1}{K_2}=\f","{""answer"":""C"",""confidence"":10}"
+gpqa_104,D,D,4,False,False,0.0,"**Answer: D) ~0.11**
+
+### Reasoning
+
+We compare the photometric amplitude from the spotted hemisphere to the transit depth of a hypothetical planet.
+
+#### 1) Spot-induced flux contrast
+The unspotted photosphere has
+\[
+T_{\star}=6000\ \text{K}
+\]
+The spots are cooler by 1000 K, so
+\[
+T_{\rm spot}=5000\ \text{K}
+\]
+
+Assuming blackbody scaling, the specific flux scales as \(T^4\). Thus the spot brightness relative to the photosphere is
+\[
+\left(\frac{5000}{6000}\right)^4 \approx 0.48
+\]
+So the spot","{""answer"":""D"",""confidence"":10}"
+gpqa_106,B,B,4,False,False,0.0,"**Answer: B) Analyze all tautomeric and chiral forms, but prioritize those forms that are most likely to be biologically active based on physicochemical properties.**
+
+### Reasoning
+
+Before docking a flexible natural product with **multiple stereocenters** and **tautomeric forms**, the most crucial preparatory step is to **enumerate and evaluate all chemically relevant forms** (tautomers, stereoisomers, protonation states if relevant) and then prioritize the ones most likely to be biologically m","{""answer"":""B"",""confidence"":10}"
+gpqa_110,A,A,4,False,True,0.85,"**Answer: A**
+
+### Reasoning
+
+We must identify the **major products** based on **steric hindrance** and **product stability**.
+
+---
+
+## Reaction A
+**2-ethyl-2,6-dimethylcyclohexan-1-one + ethyl acrylate, t-BuOK**
+
+This is a **Michael addition** reaction.
+
+### Key points:
+- The base \(t\)-BuOK forms the **kinetic enolate** of the cyclohexanone.
+- Because the carbonyl has **steric hindrance** at the 2-position (ethyl and methyl substituents), the favored enolate forms at the **less hindered α-posi","{""answer"":""A"",""confidence"":10}"
+gpqa_113,A,A,4,False,False,0.0,"**Answer: A) A = H3O+, B = HCl**
+
+### Reasoning
+
+#### Reaction 1
+**butan-2-one + NaCN + A → 2-hydroxy-2-methylbutanenitrile**
+
+This is a **cyanohydrin formation**.  
+Butan-2-one reacts with **CN⁻** in the presence of acid to give the cyanohydrin:
+
+\[
+(CH_3)_2C=O \xrightarrow[\text{CN}^-]{H^+} (CH_3)_2C(OH)CN
+\]
+
+So **A must be acidic protonation** to activate the carbonyl and allow cyanide addition.  
+Thus **A = H\(_3\)O\(^+\)**.
+
+#### Reaction 2
+**2-(4-benzylphenyl)-2-hydroxybutanenitrile + B (","{""answer"":""A"",""confidence"":10}"
+gpqa_114,C,B,4,True,True,1.0,"**Answer: C) 96**
+
+### Reasoning
+
+Take the electron moving to the right and the positron moving to the left.
+
+For each particle,
+\[
+E=\gamma m_ec^2,\qquad p=\sqrt{\gamma^2-1}\,m_ec
+\]
+
+#### Electron: \(\gamma_e=4\)
+\[
+E_e=4m_ec^2,\qquad p_e=\sqrt{4^2-1}\,m_ec=\sqrt{15}\,m_ec
+\]
+
+#### Positron: \(\gamma_p=2\)
+\[
+E_p=2m_ec^2,\qquad p_p=\sqrt{2^2-1}\,m_ec=\sqrt{3}\,m_ec
+\]
+
+Since they annihilate into **two photons of equal energy**, and the photons are emitted symmetrically in the sense that one is","{""answer"":""B"",""confidence"":10}"
+gpqa_116,A,A,4,False,True,0.85,"**Answer: A) 1 and 2**
+
+### Reasoning
+
+Optical isomerism requires **chirality** — the presence of non-superimposable mirror images.
+
+#### 1. dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylate
+This is a **substituted biphenyl** with bulky ortho substituents around the biaryl bond. Rotation around the biaryl axis is restricted, producing **axial chirality**. Thus, it can exist as enantiomers and shows **optical isomerism**.
+
+#### 2. methyl 2-hydroxypropanoate
+This molecule has a stereogenic ","{""answer"":""A"",""confidence"":10}"

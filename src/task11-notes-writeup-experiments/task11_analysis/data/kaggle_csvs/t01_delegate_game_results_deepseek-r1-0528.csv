@@ -1,0 +1,13 @@
+question_id,choice,answer,confidence,correct,difficulty,score,raw_response
+gpqa_000,ANSWER,C,3,C,0.7778,1.0,"<think>
+First, the question is about distinguishing two quantum states with energies E1 and E2. Their lifetimes are given: 10^-9 seconds for one and 10^-8 seconds for the other. I need to find which energy difference allows them to be clearly resolved.
+
+The key point is that the energy uncertainty relates to the lifetime via the Heisenberg uncertainty principle. The uncertainty in energy ΔE and the lifetime τ are related by ΔE * τ ≈ ħ, where ħ is the reduced Planck's constant.
+
+ħ is h / (2π), an"
+gpqa_002,ANSWER,B,3,B,0.7778,1.0,"<think>
+First, the particle is in a superposition: \( |\psi\rangle = 0.5 |\uparrow\rangle + \frac{\sqrt{3}}{2} |\downarrow\rangle \). I need to check if this is normalized. The norm is \( |0.5|^2 + \left|\frac{\sqrt{3}}{2}\right|^2 = 0.25 + \frac{3}{4} = 0.25 + 0.75 = 1 \). Yes, it's normalized.
+
+The operator is \( 10\sigma_z + 5\sigma_x \). I need the expectation value \( \langle \psi | (10\sigma_z + 5\sigma_x) | \psi \rangle \).
+
+Since expectation value is linear, this is \( 10 \langle \sigma_"

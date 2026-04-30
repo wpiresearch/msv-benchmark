@@ -1,0 +1,404 @@
+question_id,choice_trivial,choice_stakes,difficulty,score,raw_response_trivial,raw_response_stakes
+gpqa_000,ANSWER,ANSWER,0.7778,0.3,"{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 5}","{""choice"": ""ANSWER"", ""answer"": ""C"", ""confidence"": 5}"
+gpqa_002,ANSWER,ANSWER,0.7778,0.3,"To find the expectation value of the operator $10\sigma_z + 5\sigma_x$ for the given state $|\psi\rangle = 0.5|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$, we need to calculate $\langle \psi | (10\sigma_z + 5\sigma_x) | \psi \rangle$.
+This can be broken down into two parts: $10\langle \psi | \sigma_z | \psi \rangle + 5\langle \psi | \sigma_x | \psi \rangle$.
+
+Let's write the state $|\psi\rangle$ explicitly:
+$|\psi\rangle = \frac{1}{2}|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\r","To find the expectation value of the operator $O = 10\sigma_z + 5\sigma_x$ for the given state $|\psi\rangle = 0.5|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$, we need to compute $\langle O \rangle = \langle \psi | O | \psi \rangle$.
+
+This can be broken down into two parts:
+$\langle O \rangle = 10\langle \psi | \sigma_z | \psi \rangle + 5\langle \psi | \sigma_x | \psi \rangle$.
+
+We are given the state vector $|\psi\rangle = \frac{1}{2}|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\"
+gpqa_007,ANSWER,ANSWER,0.7778,0.3,"To determine the correct conclusion, we need to analyze the resistance levels of the single and double mutants.
+
+1.  **Analyze the role of G2:**
+    *   Wild-type (control) resistance: 100%
+    *   `g2` mutant resistance: 0%
+    *   `g1g2` double mutant resistance: 0%
+    *   `g2g3` double mutant resistance: 0%
+
+    When G2 is knocked out (`g2`), the plant completely loses resistance (0%). Furthermore, in the double mutants `g1g2` and `g2g3`, the resistance remains at 0%. This indicates that G2 ","To answer this question, we will analyze the resistance levels of the single and double mutants.
+
+**1. Identify the upstream transcription factor:**
+*   Wild-type (control) resistance: 100%
+*   `g1` mutant resistance: 75%
+*   `g2` mutant resistance: 0%
+*   `g3` mutant resistance: 50%
+*   `g1g2` double mutant resistance: 0%
+*   `g2g3` double mutant resistance: 0%
+
+When gene G2 is knocked out (`g2`), resistance drops to 0%. This complete loss of resistance is not alleviated when G1 or G3 are also "
+gpqa_009,ANSWER,ANSWER,0.8889,0.3,"To determine which exoplanet has the highest density, we need to compare the densities of each option. Let Earth's mass be $M_E$, Earth's radius be $R_E$, and Earth's average density be $\rho_E$. We know $\rho_E \approx 5.5 \text{ g/cm}^3$. The density of a spherical planet is given by $\rho = \frac{M}{\frac{4}{3}\pi R^3}$.
+
+Let's analyze each option:
+
+**a) An Earth-mass and Earth-radius planet.**
+*   Mass ($M$) = $M_E$
+*   Radius ($R$) = $R_E$
+*   Density ($\rho_a$) = $\frac{M_E}{\frac{4}{3}\pi","To determine which exoplanet has the highest density, we need to compare the densities of each option. Let's denote Earth's mass as $M_E$, Earth's radius as $R_E$, and Earth's average density as $\rho_E \approx 5.5 \text{ g/cm}^3$. The density of a spherical planet is given by $\rho = \frac{\text{Mass}}{\text{Volume}} = \frac{M}{\frac{4}{3}\pi R^3}$.
+
+Let's analyze each option:
+
+**a) An Earth-mass and Earth-radius planet.**
+*   Mass ($M_a$) = $M_E$
+*   Radius ($R_a$) = $R_E$
+*   Density ($\rho_a"
+gpqa_010,ANSWER,ANSWER,0.8571,0.3,"The question asks to identify the incorrect statement among the given options regarding the molecular biology of SARS-CoV-2. Let's analyze each statement:
+
+**A) SARS-CoV-2 ORF3a has the ability to trigger caspase-8 activation/cleavage, without affecting the expression levels of Bcl-2. Caspase-8 activation is recognized as a characteristic feature of the extrinsic apoptotic pathway via death receptors, while Bcl-2 plays a crucial role in initiating the mitochondrial pathway. This suggests that th","Rationale Breakdown:
+
+1.  **Analyze Statement A:**
+    *   SARS-CoV-2 ORF3a is a known virulence factor implicated in apoptosis induction.
+    *   Caspase-8 activation/cleavage is a hallmark of the extrinsic (death receptor-mediated) apoptotic pathway.
+    *   Bcl-2 family proteins primarily regulate the intrinsic (mitochondrial) apoptotic pathway.
+    *   The statement indicates ORF3a triggers caspase-8 without affecting Bcl-2 *expression levels*. This implies a direct activation of the extrins"
+gpqa_012,ANSWER,ANSWER,0.6667,0.3,"The problem describes a sequence of reactions starting from (R)-(+)-Limonene to form product 4. We need to determine the structure of product 4, including its stereochemistry.
+
+Let's break down each step:
+
+**1. Starting Material: (R)-(+)-Limonene**
+(R)-(+)-Limonene is 1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. It has an endocyclic double bond (between C1 and C2) and an exocyclic double bond (in the isopropenyl group at C4). The chirality is at C4, with an (R) configuration.
+
+**2. Product 1: (R)-","To determine the structure of Product 4, we will follow the reaction sequence step by step, paying close attention to stereochemistry.
+
+Let's denote Earth's mass as $M_E$, Earth's radius as $R_E$, and Earth's average density as $\rho_E \approx 5.5 \text{ g/cm}^3$. The density of a spherical planet is given by $\rho = \frac{\text{Mass}}{\text{Volume}} = \frac{M}{\frac{4}{3}\pi R^3}$.
+
+**1. Starting Material:** (R)-(+)-Limonene
+(R)-(+)-Limonene is (4R)-1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. It"
+gpqa_013,ANSWER,ANSWER,0.6667,0.3,"The question describes a scenario where ChIP-seq peaks for the IKAROS transcription factor are observed using PFA (paraformaldehyde) fixation, but these peaks disappear when a stronger, two-step fixation method (PFA + DSG, disuccinimidyl glutarate) is employed. We need to determine where such disappearing peaks are most likely to be found.
+
+Let's analyze the properties of the fixation methods and the likely implications of disappearing peaks with stronger crosslinking:
+
+1.  **PFA fixation:** Thi","The problem describes a ChIP-seq experiment where peaks for IKAROS (a transcription factor) are detected with standard PFA fixation but disappear when a stronger, two-step fixation (PFA + DSG) is used. We need to identify the genomic location where these disappearing peaks are most likely to be found.
+
+Let's analyze the properties of the fixation methods:
+*   **PFA (Paraformaldehyde) fixation:** A common ""short-range"" crosslinker that primarily forms methylene bridges between proteins and DNA, e"
+gpqa_018,ANSWER,ANSWER,0.875,0.3,"**Reaction 1: Formation of Product A**
+
+1.  **Nucleophile Formation:** The starting material is methyl 2-oxocyclohexane-1-carboxylate, which is a β-keto ester. The carbon at position 1 (between the ketone and the ester group) is highly acidic. Sodium ethoxide (NaOEt) is a strong base that will deprotonate this carbon to form an enolate nucleophile. The negative charge will primarily reside at C1 of the cyclohexane ring.
+    ```
+          O     O
+         //    //OCH3
+      C----C
+     /      \
+ ","The problem describes two separate Michael reactions, and we need to determine the final products for each.
+
+**Reaction 1: Formation of Product A**
+
+1.  **Nucleophile Formation:** The starting material is methyl 2-oxocyclohexane-1-carboxylate. This is a β-keto ester, which has a highly acidic proton at the carbon position alpha to both the ketone and the ester group. This carbon is C1 of the cyclohexanone ring. Sodium ethoxide (NaOEt) is a strong base that will deprotonate C1 to form a resonance"
+gpqa_019,ANSWER,ANSWER,0.7778,0.3,"The impulse approximation in nuclear physics is a common simplification used when dealing with interactions between a high-energy probe and a nucleus. It assumes that the interaction occurs so quickly that the individual nucleons can be treated as if they are free and not bound within the nuclear potential during the interaction event.
+
+Let's analyze each assumption:
+
+1.  **The interaction current only interacts with individual nucleons.** This is a fundamental aspect of the impulse approximatio","The impulse approximation in nuclear physics is a conceptual framework used to simplify the analysis of high-energy scattering processes involving nuclei. It posits that when a high-energy probe interacts with a nucleus, the interaction is very short-lived and primarily involves only one nucleon at a time, with the other nucleons acting as spectators. During this brief interaction, the target nucleon is assumed to behave as if it were free, uninfluenced by the binding forces of the nucleus.
+
+Let"
+gpqa_022,ANSWER,ANSWER,0.8889,0.3,"The reaction involves `((2,2-dimethylbut-3-en-1-yl)oxy)benzene` (an aryl alkyl ether with an unsaturated alkyl chain) and hydrogen bromide (HBr). HBr is a strong acid and a source of bromide nucleophile. This type of reaction typically involves acid-catalyzed rearrangement, often leading to cyclized products or alkylated phenols.
+
+Let's analyze the steps for the most plausible mechanism involving cyclization:
+
+1.  **Reactant Structure:** The reactant is `Ph-O-CH2-C(CH3)2-CH=CH2`.
+
+2.  **Protonat","The reaction involves `((2,2-dimethylbut-3-en-1-yl)oxy)benzene` (an aryl alkyl ether with an unsaturated alkyl chain) reacting with hydrogen bromide (HBr). This is a classic reaction for such substrates under strong acid conditions, typically leading to intramolecular cyclization products, often via carbocation rearrangements and electrophilic aromatic substitution.
+
+Let's analyze the steps:
+
+1.  **Reactant Structure:** The reactant is a phenyl ether with the alkyl chain `CH2-C(CH3)2-CH=CH2`.
+  "
+gpqa_023,ANSWER,ANSWER,0.8889,0.3,"Here's a step-by-step deduction to solve this chemical puzzle:
+
+**1. Determine the structure of Z:**
+*   Z is a hydrocarbon and is saturated (does not react further with hydrogen under severe conditions).
+*   The mass fraction of hydrogen in Z is 14.28%.
+*   Let the molecular formula of Z be $C_n H_m$.
+*   The mass fraction of H is $\frac{m \times \text{atomic mass of H}}{\text{molar mass of Z}} = \frac{m}{12n + m}$.
+*   Given $\frac{m}{12n + m} = 0.1428$.
+*   We recognize that $0.1428 \approx 1","**1. Determine the structure of Z:**
+*   Z is a hydrocarbon with a mass fraction of hydrogen of 14.28%.
+*   Let the molecular formula of Z be $C_n H_m$.
+*   The mass fraction of hydrogen is given by $\frac{m \times \text{atomic mass of H}}{\text{molar mass of Z}} = \frac{m}{12n + m}$.
+*   Given $\frac{m}{12n + m} = 0.1428$.
+*   Recognizing that $0.1428 \approx 1/7$, we can set $\frac{m}{12n + m} = \frac{1}{7}$.
+*   $7m = 12n + m$
+*   $6m = 12n$
+*   $m = 2n$
+*   The general formula for Z is $C_n "
+gpqa_025,ANSWER,ANSWER,0.8889,0.3,"**Part 1: Identify Reactant A**
+
+The given reaction is: `Cyclohexene + A ---> 8,8-diiodobicyclo[4.2.0]octan-7-one`
+
+Let's analyze the product structure: `8,8-diiodobicyclo[4.2.0]octan-7-one`.
+*   The `bicyclo[4.2.0]octane` skeleton indicates a fusion of a 6-membered ring (the `4` carbons bridge, including the two bridgeheads, means 6 atoms in total) and a 4-membered ring (the `2` carbons bridge, including the two bridgeheads, means 4 atoms in total).
+*   The `-7-one` indicates a ketone functiona","**Part 1: Identify Reactant A**
+
+The reaction is: `Cyclohexene + A ---> 8,8-diiodobicyclo[4.2.0]octan-7-one`
+
+Let's analyze the product structure:
+*   The name `bicyclo[4.2.0]octane` indicates a bicyclic ring system formed by the fusion of a 6-membered ring and a 4-membered ring.
+*   The suffix `-7-one` indicates a ketone functional group in this bicyclic system.
+*   The prefix `8,8-diiodo` means there are two iodine atoms on carbon 8.
+
+This type of product, a cyclobutanone fused to another ring"
+gpqa_026,ANSWER,ANSWER,0.8889,0.3,"The metaphorical conversation describes key steps in the protein synthesis and trafficking pathway, particularly for proteins destined for secretion or insertion into membranes.
+
+Let's break down the clues:
+
+1.  **""Oh, I know you,"" the ribonucleoprotein particle says to the nascent chain as they meet. ""Pause there for a minute.""**:
+    *   **Nascent chain:** This is a polypeptide chain newly synthesized on a ribosome.
+    *   **Ribonucleoprotein particle:** This refers to the **Signal Recognitio","The dialogue provides several key clues that point to the process of protein synthesis and trafficking through the secretory pathway.
+
+1.  **""Oh, I know you,"" the ribonucleoprotein particle says to the nascent chain as they meet. ""Pause there for a minute.""**
+    *   **Nascent chain:** This refers to a polypeptide chain currently being synthesized by a ribosome.
+    *   **Ribonucleoprotein particle:** This is a clear reference to the **Signal Recognition Particle (SRP)**, which is a ribonucleopr"
+gpqa_028,ANSWER,ANSWER,0.7778,0.3,"To eliminate the anti-nutritional compound, we need a mutation that prevents the formation of a functional protein from the responsible gene. The most effective ways to achieve this are:
+1.  **Nonsense mutation:** Introduction of a premature stop codon early in the coding sequence, leading to a severely truncated protein.
+2.  **Frameshift mutation:** Insertion or deletion of nucleotides not in multiples of three, which alters the reading frame downstream of the mutation, leading to a completely ","To eliminate the anti-nutritional compound, the gene responsible for its synthesis must be rendered non-functional. The most effective ways to achieve this at the protein level are by introducing mutations that lead to a severely truncated, non-functional protein or by completely altering the reading frame.
+
+Let's analyze the intact gene sequence and each mutant by translating them into codons and amino acids (assuming the standard genetic code).
+
+**Intact gene sequence:**
+5’-ATG TTT CTC GCT GGT"
+gpqa_035,ANSWER,ANSWER,0.8889,0.3,"Here's a step-by-step analysis to determine the most likely source of the absorption line:
+
+1.  **Analyze the given energy equivalent:** The detected absorption line energy equivalent is 3.9 micro electron volts (3.9 x 10^-6 eV).
+
+2.  **Convert energy to frequency or wavelength:**
+    The relationship between energy (E), Planck's constant (h), and frequency (ν) is E = hν.
+    The relationship between frequency (ν), speed of light (c), and wavelength (λ) is ν = c/λ.
+    Therefore, E = hc/λ.
+
+    ","To determine the most likely source of the absorption line, we first need to understand the energy scale of the detected line and relate it to known astronomical spectral features.
+
+1.  **Convert the given energy to a more common unit for spectroscopy, such as frequency or wavelength:**
+    The energy equivalent of the absorption line is $E = 3.9 \times 10^{-6} \text{ eV}$.
+    We know that $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$.
+    So, $E = (3.9 \times 10^{-6} \text{ eV}) \times (1.6"
+gpqa_040,ANSWER,ANSWER,0.875,0.3,"Let's denote the following:
+*   $c$: Speed of light in vacuum (given as 1 in this problem).
+*   $n$: Index of refraction of the glass.
+*   $v$: Velocity of the glass relative to the laboratory frame.
+*   $u'$: Speed of light *in the glass* in the glass's own rest frame.
+*   $u$: Speed of light in the laboratory frame (what we want to find).
+
+1.  **Speed of light in the glass's rest frame (u'):**
+    In a medium with refractive index $n$, the speed of light in that medium (if the medium is at res","Let's break this down using the principles of special relativity.
+
+1.  **Define the frames of reference and velocities:**
+    *   Let the **laboratory frame** be S.
+    *   Let the **glass's rest frame** be S'.
+    *   The velocity of the glass (frame S') relative to the laboratory (frame S) is $v$.
+    *   The speed of light in vacuum is $c$. The problem states to take $c=1$.
+
+2.  **Determine the speed of light in the glass's rest frame (u'):**
+    In its own rest frame, the glass is stationary"
+gpqa_042,ANSWER,ANSWER,0.8889,0.3,"Let's break down the naming process by first constructing the molecule step-by-step based on the given positional relationships.
+
+**1. Identify the Parent Compound and Principal Functional Group:**
+The presence of a carboxylic acid (-COOH) group means the parent name will be **benzoic acid**. The carbon atom bearing the carboxylic acid group is always designated as **C1** of the benzene ring.
+
+**2. Place Substituents Based on the Carboxylic Acid (C1):**
+
+*   **Carboxylic acid, carbaldehyde, and ","Let's build the molecule step-by-step to determine its structure and then derive the correct IUPAC name.
+
+**1. Identify the Principal Functional Group and Parent Name:**
+The molecule contains a carboxylic acid group (-COOH) attached to a benzene ring. According to IUPAC nomenclature rules, the carbon atom of the benzene ring directly attached to the carboxylic acid group is designated as position **1**, and the parent name of the compound is **benzoic acid**.
+
+**2. Place Substituents based on th"
+gpqa_046,ANSWER,ANSWER,0.8889,0.3,"Let's systematically analyze the provided data:
+
+**1. Molecular Formula: C9H11NO2**
+*   Calculate the Index of Hydrogen Deficiency (IHD):
+    IHD = C + 1 - (H/2) + (N/2) = 9 + 1 - (11/2) + (1/2) = 10 - 5.5 + 0.5 = 5.
+*   An IHD of 5 indicates the presence of a benzene ring (4 degrees of unsaturation) plus one additional double bond or ring (likely a carbonyl group).
+
+**2. IR Spectroscopy Data:**
+*   **3420 cm-1, 3325 cm-1 (medium to strong intensity bands):** These are characteristic N-H stretch","**1. Molecular Formula and IHD Calculation:**
+*   Molecular Formula: C9H11NO2
+*   Index of Hydrogen Deficiency (IHD) = C + 1 - (H/2) + (N/2)
+    IHD = 9 + 1 - (11/2) + (1/2) = 10 - 5.5 + 0.5 = 5.
+*   An IHD of 5 strongly suggests the presence of a benzene ring (which accounts for 4 IHD) and one additional double bond (likely a carbonyl C=O, accounting for the remaining 1 IHD).
+
+**2. IR Spectroscopy Analysis:**
+*   **3420 cm⁻¹, 3325 cm⁻¹ (medium to strong intensity bands):** These two distinct ba"
+gpqa_049,ANSWER,ANSWER,0.875,0.3,"In Quantum Field Theory, when calculating Feynman diagrams, each closed loop in the diagram corresponds to an integration over an internal momentum. In four-dimensional spacetime (D=4), after performing these loop integrations (and often after regularization and renormalization), each loop typically contributes a factor of $1/(4\pi)^2$ to the overall amplitude.
+
+Let's analyze the given expression for the ""size estimate"":
+$\alpha^3 \cdot g^2 \sqrt{2} \cdot 8 \cdot \frac{1}{(4\pi)^6} \cdot \left(\","In Quantum Field Theory, when calculating Feynman diagrams in four-dimensional spacetime (D=4), each closed loop in the diagram corresponds to an integration over an internal momentum. After performing these integrations (and often after regularization and renormalization), each loop typically contributes a factor of $\frac{1}{(4\pi)^2}$ to the overall amplitude.
+
+If a Feynman diagram has $L$ loops, the contribution from these loops to the overall ""size estimate"" will generally include a factor "
+gpqa_052,ANSWER,ANSWER,0.875,0.3,"**1. Analyze the Molecular Formula and IHD:**
+The possible molecular formulas are C11H12O2, C11H14O2, C12H12O2, or C12H14O2. Let's calculate the Index of Hydrogen Deficiency (IHD) for each:
+*   IHD = C + 1 - H/2 + N/2
+*   For C11H12O2: IHD = 11 + 1 - 12/2 = 12 - 6 = 6
+*   For C11H14O2: IHD = 11 + 1 - 14/2 = 12 - 7 = 5
+*   For C12H12O2: IHD = 12 + 1 - 12/2 = 13 - 6 = 7
+*   For C12H14O2: IHD = 12 + 1 - 14/2 = 13 - 7 = 6
+
+**2. Analyze the Spectroscopic Data and Deduce Structural Fragments:**
+
+*   *","**1. Analyze the General Molecular Features:**
+*   **Compound type:** ""Di-substituted 6-membered aromatic ring compound.""
+    *   This implies a benzene ring, which contributes 6 carbons.
+    *   A benzene ring itself accounts for 4 degrees of unsaturation (IHD).
+    *   A di-substituted benzene ring will have 4 aromatic protons.
+
+**2. Analyze the FTIR Spectrum:**
+*   ""Absorption peaks indicating the presence of an ester group.""
+    *   An ester group contains a C=O (carbonyl) bond and a C-O-C l"
+gpqa_053,ANSWER,ANSWER,0.875,0.3,"To determine the starting material for a Ring-Closing Metathesis (RCM) reaction, we need to work backward from the product.
+
+**1. Analyze the Product:**
+The product is **5-isopropyl-3,4-dimethylcyclohex-1-ene**.
+Let's draw this structure and number the cyclohexene ring according to IUPAC rules, giving the double bond the lowest possible numbers (1 and 2), and then the substituents the lowest possible numbers.
+
+```
+      (CH3) (at C3)
+        |
+      CH---CH2 (C6)
+     /     \
+    CH(1)=CH(2)
+   ","To determine the starting material for a Ring-Closing Metathesis (RCM) reaction, we need to reverse the process of cyclization. In an RCM reaction, two alkene groups in a linear diene react to form a new cyclic alkene, with the concomitant formation of ethene (if terminal alkenes are used).
+
+**1. Analyze the Product:**
+The product is **5-isopropyl-3,4-dimethylcyclohex-1-ene**.
+Let's draw and number this cyclohexene product according to IUPAC rules. The double bond receives the lowest possible nu"
+gpqa_054,ANSWER,ANSWER,0.7778,0.3,"Let's break down the 1H NMR data systematically to identify the unknown compound.
+
+**1. Analyze the functional groups suggested by the name and common chemical shifts:**
+All options are ""acetate"" derivatives, which means they contain an acetyl group (-CO-CH₃) attached to an oxygen. The methyl protons of an acetate group typically appear as a singlet around 2.0-2.2 ppm.
+
+*   From the given NMR data: **2.1 ppm (3H, s)**. This signal is a singlet integrating for 3 protons at 2.1 ppm. This perfectly","**1. Analyze the Acetate Moiety:**
+*   **2.1 ppm (3H, s):** This signal integrates for 3 protons and is a singlet. This is highly characteristic of the methyl group of an **acetate (CH₃CO-)** group. This confirms that the compound contains a CH₃CO-O- functional group.
+
+**2. Analyze the Remaining Alkene and Alkyl Protons:**
+*   **1.6 ppm (3H, d):** This is a methyl group (3 protons) appearing as a doublet. This indicates it is adjacent to one proton (-CH-). This chemical shift is typical for an a"
+gpqa_055,ANSWER,ANSWER,0.8889,0.3,"The problem asks us to determine a transition route and its corresponding probability for a hydrogen atom decaying from the $|3,0,0\rangle$ state to the $|1,0,0\rangle$ state via two electric dipole transitions.
+
+First, let's recall the selection rules for electric dipole transitions:
+1.  **Change in azimuthal quantum number ($\Delta l$):** $\Delta l = \pm 1$.
+2.  **Change in magnetic quantum number ($\Delta m$):** $\Delta m = 0, \pm 1$.
+3.  **Change in principal quantum number ($\Delta n$):** $","To determine the transition route and its probability, we need to apply the selection rules for electric dipole transitions for the hydrogen atom. These rules are:
+
+1.  **Change in azimuthal quantum number ($\Delta l$):** $\Delta l = \pm 1$.
+2.  **Change in magnetic quantum number ($\Delta m$):** $\Delta m = 0, \pm 1$.
+3.  **Change in principal quantum number ($\Delta n$):** $\Delta n$ can be any integer, but for decay, it must decrease ($n_f < n_i$).
+
+The decay occurs in two steps from the init"
+gpqa_057,ANSWER,ANSWER,0.8889,0.3,"The question asks which of the given physical theories ""never requires regularization at high energies."" This refers to the problem of ultraviolet (UV) divergences that commonly arise in quantum field theories (QFTs) when calculating loop diagrams, leading to infinite results at very short distances or high energies. Regularization is a mathematical procedure used to temporarily make these infinities finite before applying renormalization techniques.
+
+Let's examine each option:
+
+*   **A) Quantum","The question asks which of the given physical theories never requires regularization at high energies. This refers to the problem of ultraviolet (UV) divergences, which are infinities that arise in calculations within quantum field theories (QFTs) at very short distances or high energies. Regularization is a mathematical procedure used to temporarily make these infinities finite before applying renormalization techniques to obtain physically meaningful results.
+
+Let's analyze each option:
+
+*   *"
+gpqa_059,ANSWER,ANSWER,0.8889,0.3,"To determine how long the journey will take from the astronaut's perspective, we need to use the principles of special relativity, specifically time dilation.
+
+**1. Distance to the Large Magellanic Cloud (LMC):**
+The Large Magellanic Cloud (LMC) is approximately 160,000 light-years (ly) away from Earth.
+So, $D = 160,000 \text{ ly}$.
+
+**2. Speed of the spacecraft:**
+The spacecraft travels at $v = 0.99999987c$.
+
+**3. Time taken in Earth's reference frame ($t_{\text{Earth}}$):**
+This is the time it","To determine the time elapsed for the astronaut, we need to account for time dilation, a phenomenon predicted by special relativity.
+
+1.  **Distance to the Large Magellanic Cloud (LMC):**
+    The Large Magellanic Cloud (LMC) is approximately 160,000 light-years (ly) away from Earth. A light-year is the distance light travels in one Earth year.
+
+2.  **Speed of the spacecraft (v):**
+    The spacecraft travels at $v = 0.99999987c$, where $c$ is the speed of light.
+    We define $\beta = v/c = 0.999"
+gpqa_061,ANSWER,ANSWER,0.7778,0.3,"The problem asks us to identify the correct sequence of reagents to synthesize a specific compound, `1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde`, starting from `ethynylcyclohexane`.
+
+Let's first analyze the starting material and the desired product:
+
+**Starting Material:** Ethynylcyclohexane (Cyclohexyl-C≡CH)
+This is a terminal alkyne with one cyclohexane ring.
+
+**Desired Product:** 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde
+This name is somewhat ambiguous and can be interpre","To solve this problem, we need to analyze each reaction sequence and determine the final product, then compare it to the given target compound: 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde.
+
+**1. Analyze the Starting Material and Target Product:**
+
+*   **Starting Material:** Ethynylcyclohexane (Cyclohexyl-C≡CH). This molecule has one cyclohexyl group and a terminal alkyne.
+*   **Target Product:** 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde.
+    This name is complex and potential"
+gpqa_064,ANSWER,ANSWER,0.75,0.3,"Let's analyze each reaction separately.
+
+**Reaction 1: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A**
+
+1.  **Starting Material Structure:** `1-vinylspiro[3.5]non-5-en-1-ol`
+    *   Spiro[3.5]nonane indicates a bicyclic system with one shared carbon (spiro center). One ring has 3 carbons (cyclobutane, not including spiro C), and the other has 5 carbons (cyclohexane, not including spiro C). Total carbons = 1 (spiro) + 3 (small ring) + 5 (large ring) = 9 carbons.
+    *   The `1-ol` means a","Let's analyze each reaction to determine products A and B.
+
+**Reaction 1: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A**
+
+1.  **Starting Material Analysis:** `1-vinylspiro[3.5]non-5-en-1-ol`
+    *   A spiro[3.5]nonane consists of a 4-membered ring and a 6-membered ring sharing one carbon atom (the spiro center). This accounts for 9 carbons in the core.
+    *   The `-1-ol` means a hydroxyl group is on the spiro carbon.
+    *   The `-1-vinyl` means a vinyl group (CH=CH₂) is also on the sp"
+gpqa_065,ANSWER,ANSWER,0.7778,0.3,"Let's analyze each symmetry in the context of the Standard Model Effective Field Theory (SMEFT). The SMEFT is a low-energy effective field theory extension of the Standard Model. It is constructed to be consistent with the principles of quantum field theory and the observed symmetries of nature.
+
+1.  **Lorentz Symmetry:** This is the fundamental symmetry of spacetime under rotations and boosts. Any consistent relativistic quantum field theory must be Lorentz invariant. The SMEFT is a relativisti","To determine which symmetries must be respected by all operators in the Standard Model Effective Field Theory (SMEFT), we need to consider the fundamental principles of quantum field theory and the properties of the Standard Model itself.
+
+1.  **Lorentz Symmetry:**
+    Lorentz symmetry is a fundamental spacetime symmetry that describes the invariance of physical laws under transformations between inertial frames of reference (rotations and boosts). All modern relativistic quantum field theories,"
+gpqa_069,ANSWER,ANSWER,0.8889,0.3,"The problem asks us to identify the molecular symmetry group of product E. To do this, we need to deduce the identities of compounds A, B, C, D, E, F, G, and H from the given clues.
+
+Let's break down the clues systematically:
+
+**Clue 1: ""C reacts with water to reform A plus two different acids F and G. F is a strong acid while G is a weak acid.""**
+*   The phrase ""reforms A"" strongly suggests that A is an element.
+*   The hydrolysis of a compound C, which contains element A, to yield elemental A ","The problem requires us to deduce the identity of compound E based on a series of chemical reactions and then identify its molecular symmetry group.
+
+Let's analyze the clues provided:
+
+1.  **""C reacts with water to reform A plus two different acids F and G. F is a strong acid while G is a weak acid.""**
+    *   The phrase ""reforms A"" strongly suggests that A is an element.
+    *   The hydrolysis of a compound C containing element A, which then disproportionates to yield the element A in its zero "
+gpqa_073,ANSWER,ANSWER,0.8889,0.3,"This problem deals with radioactive decay, which is a stochastic process characterized by a constant decay probability per unit time. A key property of radioactive decay is that it is **memoryless**. This means the probability of an atom decaying in a future time interval is independent of how long it has already existed without decaying.
+
+Let $P(t)$ be the probability that a single atom decays within a time $t$.
+The survival probability (not decaying within time $t$) is $S(t) = e^{-\lambda t}$,","This problem deals with the statistical nature of radioactive decay of a single atom. A fundamental property of radioactive decay is that it is a **memoryless process**, meaning the probability of an atom decaying in a future time interval is completely independent of how long it has already existed without decaying. The fact that 50 minutes have passed and the atom has not decayed is irrelevant to the probability of its decay in any future interval of time.
+
+Therefore, ""What is the probability "
+gpqa_074,ANSWER,ANSWER,0.4444,0.3,"Let's analyze the provided DNA sequence and the context of the problem.
+
+**Context:** The goal is to overexpress a recombinant GADD45G protein with an N-terminal influenza hemagglutinin (HA) tag. The problem states that the protein is *unable to be overexpressed as expected*. We need to find the reason by examining the provided DNA sequence (plus strand).
+
+The DNA sequence is:
+5'**ATG**TACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATG","To identify the reason for the inability to overexpress the protein, we need to carefully examine the provided DNA sequence (plus strand) and translate it, paying attention to the start codon, the HA tag sequence, and the potential presence of stop codons.
+
+The provided sequence is:
+`5'ATGTACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATGAGTTGCTGCTGTCGGCGCAGCGTCAGGGCTGCCTCACTGCCGGCGTCTACGAGTCAGCCAAAGTCTTGAACGTGGACCCCGACAATGTGACCTTCTGTG"
+gpqa_075,ANSWER,ANSWER,0.8889,0.3,"The question asks for the ""first thing you notice"" when observing the embryos under a confocal microscope, following a specific experimental setup. Let's break down the experimental details:
+
+1.  **Injected cells:** Induced pluripotent stem cells (iPSCs) from various tissues.
+2.  **iPSC labeling:** The iPSCs are labeled with **mRaspberry** (a red fluorescent protein) fused under a **lineage-specific promoter** for each cell type. This means:
+    *   The iPSCs themselves are engineered to express","The question asks for the ""first thing you notice"" when observing the embryos under a confocal microscope, given a specific experimental setup. Let's break down the details:
+
+1.  **iPSC Labeling:** The iPSCs are labeled with **mRaspberry** (a red fluorescent protein) fused under a **lineage-specific promoter** for each cell type.
+    *   This means the iPSCs themselves are engineered to express mRaspberry.
+    *   **Crucially, mRaspberry expression (and thus the red signal) will only be activate"
+gpqa_076,ANSWER,ANSWER,0.8889,0.3,"Let's analyze each reaction separately.
+
+**Reaction 1: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) ----> A**
+
+1.  **Starting Material Structure:** The compound is `(((3-methylbut-2-en-1-yl)oxy)methyl)benzene`.
+    *   `benzene`: phenyl group (Ph)
+    *   `oxymethyl`: -CH₂-O-
+    *   `(3-methylbut-2-en-1-yl)`: (CH₃)₂C=CH-CH₂- (This is an allylic group where the double bond is between C2 and C3, and a methyl is at C3).
+    *   Putting it together: `Ph-CH₂-O-CH₂-CH=C(CH₃)₂`. This","**Reaction 1: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) ----> A**
+
+1.  **Starting Material Structure:** The reactant is `(((3-methylbut-2-en-1-yl)oxy)methyl)benzene`.
+    *   `benzene` refers to a phenyl group (Ph).
+    *   `oxymethyl` refers to -CH₂-O-.
+    *   `3-methylbut-2-en-1-yl` refers to the allylic group (CH₃)₂C=CH-CH₂-.
+    *   Combining these, the structure is: `Ph-CH₂-O-CH₂-CH=C(CH₃)₂`. This is a benzyl allyl ether.
+
+2.  **Reagents and Mechanism:**
+    *   **1. B"

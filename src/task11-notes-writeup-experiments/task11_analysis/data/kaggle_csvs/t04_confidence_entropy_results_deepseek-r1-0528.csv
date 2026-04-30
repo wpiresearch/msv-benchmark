@@ -1,0 +1,298 @@
+question_id,norm_entropy,difficulty,calibration_error,answer_correct,score,raw_response
+gpqa_000,0.511,0.7778,0.2668,True,0.7865,"<think>
+First, the problem is about distinguishing two quantum states with energies E1 and E2. Their lifetimes are given: 10^-9 seconds for one and 10^-8 seconds for the other. I need to find which energy difference allows them to be clearly resolved. The options are A) 10^-9 eV, B) 10^-8 eV, C) 10^-4 eV, D) 10^-11 eV.
+
+I recall that in quantum mechanics, the energy uncertainty related to a state's lifetime is given by the Heisenberg uncertainty principle. The uncertainty in energy ΔE and the li"
+gpqa_002,0.6595,0.7778,0.1183,True,0.9054,"<think>
+First, I need to find the expectation value of the operator \( 10\sigma_z + 5\sigma_x \) for a spin-half particle in the state \( |\psi\rangle = 0.5 |\uparrow\rangle + \frac{\sqrt{3}}{2} |\downarrow\rangle \).
+
+The expectation value of an operator \( A \) in a state \( |\psi\rangle \) is \( \langle A \rangle = \langle \psi | A | \psi \rangle \).
+
+So, I need to compute \( \langle \psi | (10\sigma_z + 5\sigma_x) | \psi \rangle \).
+
+Since the operator is a linear combination, I can compute "
+gpqa_007,0.6595,0.7778,0.1183,False,0.7054,"<think>
+First, I need to understand the experimental results and what they tell us about the interactions between the genes G1, G2, and G3. The genes are involved in resistance to anthracnose, and we have knockout mutants and double mutants. The resistance levels are given as percentages compared to wild-type control.
+
+Here are the resistance levels:
+
+- Wild-type: 100% (assumed, not given, but control is 100%)
+
+- g1: 75% (so some reduction, but still decent resistance)
+
+- g2: 0% (complete loss o"
+gpqa_009,0.511,0.8889,0.3779,True,0.6977,"<think>
+First, I need to determine which exoplanet has the highest density. Density is mass divided by volume. The options are:
+
+a) An Earth-mass and Earth-radius planet. So, mass = M_earth, radius = R_earth. Density of Earth is about 5.5 g/cm³, so this should be 5.5 g/cm³.
+
+b) A planet with 2 Earth masses and a density of approximately 5.5 g/cm³. It directly says density is 5.5 g/cm³, so same as Earth.
+
+c) A planet with the same composition as Earth but 5 times more massive than Earth.
+
+d) A pl"
+gpqa_010,0.511,0.8571,0.3461,True,0.7231,"<think>
+First, I need to identify which statement about SARS-CoV-2 molecular biology is incorrect. The question says: ""All the following statements are correct except"" and then lists options A, B, C, D. So, one of them is wrong, and I need to find which one.
+
+Let me review each statement one by one.
+
+Starting with option A:
+
+""A) SARS-CoV-2 ORF3a has the ability to trigger caspase-8 activation/cleavage, without affecting the expression levels of Bcl-2. Caspase-8 activation is recognized as a char"
+gpqa_012,0.6284,0.6667,0.0383,True,0.9694,"<think>
+First, I need to understand the sequence of reactions starting with (R)-(+)-Limonene. Limonene is a terpene, and (R)-Limonene has the structure with a methyl group and an isopropenyl group on a cyclohexene ring. Specifically, it's 1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene.
+
+The first reaction: a methanol solution of (R)-(+)-Limonene is stirred with Pd/C under hydrogen atmosphere. After 1 equivalent of hydrogen is consumed, product 1 is isolated. Pd/C is a catalyst for hydrogenation, and "
+gpqa_013,0.511,0.6667,0.1557,False,0.6754,"<think>
+First, the question is about ChIP-seq peaks that disappear when using PFA+DSG fixation compared to PFA alone. The antibody is for the IKAROS transcription factor in human B cells. Peaks disappear with DSG added to the fixation.
+
+I need to understand what DSG is. DSG stands for disuccinimidyl glutarate, a crosslinking agent that primarily targets protein-protein interactions. PFA (paraformaldehyde) is a common fixative that crosslinks proteins to DNA and proteins to proteins, but it's mor"
+gpqa_018,0.511,0.875,0.364,False,0.5088,"<think>
+First, I need to understand the Michael reaction described. It's a nucleophile adding to a C=C bond adjacent to a carbonyl group. So, the nucleophile attacks the beta carbon of an alpha,beta-unsaturated carbonyl compound.
+
+Now, looking at the first reaction:
+
+methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) ---> A
+
+Methyl 2-oxocyclohexane-1-carboxylate has a ketone and an ester. But for a Michael reaction, it needs to be an enolate nucleophile o"
+gpqa_019,0.4238,0.7778,0.354,True,0.7168,"<think>
+First, the question is about the ""impulse approximation"" in many-body nuclear calculations. This approximation assumes that nucleons behave like free nucleons during an interaction, such as an electroweak interaction.
+
+The options are combinations of four assumptions that might imply this approximation:
+
+1. The interaction current only interacts with individual nucleons.
+
+2. The nucleus is transparent apart from the selected nucleon.
+
+3. The quarks internal to the selected nucleon are no"
+gpqa_022,0.511,0.8889,0.3779,True,0.6977,"<think>
+First, the compound is ((2,2-dimethylbut-3-en-1-yl)oxy)benzene. That's an ether where benzene is attached to oxygen, and the other part is 2,2-dimethylbut-3-en-1-yl. So, the structure is Ph-O-CH2-C(CH3)2-CH=CH2.
+
+Now, it's reacted with hydrogen bromide (HBr). HBr can react with ethers, especially if there are alkenes present. This might involve acid-catalyzed reactions or addition to the double bond.
+
+Ethers can undergo cleavage with HBr. Typically, for alkyl aryl ethers, HBr can cleave "
+gpqa_023,0.511,0.8889,0.3779,True,0.6977,"<think>
+First, I need to understand the scenario. We have an equimolar mixture X of two liquids that decolorize bromine water. That means they have double or triple bonds because bromine water is decolorized by unsaturated compounds.
+
+Then, when heated with platinum, X disproportionates to form another equimolar mixture Y of two liquids that do not decolorize bromine water, so Y is saturated.
+
+Hydrogenation of both X and Y under severe conditions gives only one substance, hydrocarbon Z. So Z is "
+gpqa_025,0.6595,0.8889,0.2294,True,0.8165,"<think>
+First, I need to understand the reaction: Cyclohexene + A → 8,8-diiodobicyclo[4.2.0]octan-7-one. The product is a bicyclic compound with an iodine and a ketone group. Specifically, it's bicyclo[4.2.0]octan-7-one with diiodo at position 8. Bicyclo[4.2.0]octane has a bridge, and the ketone is at position 7, which might be part of a ring junction.
+
+Now, A is either 2,2-diiodoethen-1-one or 4,4-diiodocyclobut-2-en-1-one. 2,2-diiodoethen-1-one is I2C=CH(O), but that doesn't look right. Ethen-"
+gpqa_026,0.4238,0.8889,0.4651,True,0.6279,"<think>
+First, I need to understand the dialogue. The ribonucleoprotein particle says, ""Oh, I know you,"" to the nascent chain and tells it to pause. Then it says, ""Let me show you in; you really need some sugar."" The nascent chain replies, ""It seems somewhat rough. I guess this is goodbye; I need to be on my way."" I need to figure out where they met and where the chain is heading.
+
+The ribonucleoprotein particle is likely referring to something in cell biology. Ribonucleoproteins are complexes o"
+gpqa_028,0.6595,0.7778,0.1183,True,0.9054,"<think>
+First, I need to understand the question. We have a gene that produces an anti-nutritional compound in barley. The gene has five exons and four introns, but the sequence given is from the first exon area. We're looking at mutants created by EMS mutagenesis, and we need to find which mutation will most likely eliminate the compound.
+
+EMS (ethyl methanesulfonate) is a chemical mutagen that typically causes point mutations, like base substitutions, often G/C to A/T changes.
+
+The intact gene"
+gpqa_035,0.511,0.8889,0.3779,True,0.6977,"<think>
+First, the observation is of structures at 2.1 Gpc. That's a huge distance, so we're dealing with cosmology and redshift.
+
+The absorption line energy detected is 3.9 micro electron volts, which is 3.9 × 10^{-6} eV. I need to find out what this corresponds to in terms of wavelength or frequency, and then consider the redshift.
+
+The redshift z is given by the formula for cosmological redshift. The redshift z relates to the scale factor, but I need to find z first.
+
+The observed energy is E"
+gpqa_040,0.4238,0.875,0.4512,True,0.639,"<think>
+First, the problem is about a light beam propagating through glass with an index of refraction \( n \). The glass is moving at a constant velocity \( v \) in the same direction as the beam and toward the observer in the laboratory. I need to find the speed of light in the glass relative to the observer. The speed of light in vacuum is given as \( c = 1 \), so I'll work in units where \( c = 1 \).
+
+The speed of light in a medium is \( c / n \), but that's in the rest frame of the medium. "
+gpqa_042,0.6595,0.8889,0.2294,True,0.8165,"<think>
+First, I need to understand the substitution pattern on the benzene ring. The molecule has a carboxylic acid, a carbaldehyde (which is an aldehyde group, -CHO), and a cyano group (-CN), all meta to each other. That means these three groups are positioned such that each is meta to the other two.
+
+Additionally:
+
+- Ortho to the carboxylic acid are a hydroxyl group (-OH) and a dimethylamino group (-N(CH3)2).
+
+- Para to the carboxylic acid is a methoxy group (-OCH3).
+
+- The methoxy and the hy"
+gpqa_046,0.4238,0.8889,0.4651,True,0.6279,"<think>
+First, I need to identify the compound with the formula C9H11NO2 using the IR and NMR data provided.
+
+Starting with the IR data:
+- Medium to strong intensity bands at 3420 cm⁻¹ and 3325 cm⁻¹: These are typical for N-H stretches, often seen in primary amines or amides. Primary amines have two bands due to symmetric and asymmetric stretches.
+- Strong band at 1720 cm⁻¹: This is characteristic of carbonyl groups, C=O stretch. Given that, it could be an ester, ketone, aldehyde, or carboxylic "
+gpqa_049,0.4238,0.875,0.4512,True,0.639,"<think>
+First, I need to figure out how many loops are in the Feynman diagram based on the expression: alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2.
+
+I recall that in quantum field theory, the order of a diagram is related to the number of loops, and the loop expansion involves factors of coupling constants and factors of 1/(4pi) per loop.
+
+Let me denote the expression: α³ g² √2 * 8 * 1/(4π)^6 * (Q/M)²
+
+α is probably the fine structure constant or some coupling, but in general, for loop diagr"
+gpqa_052,0.4238,0.875,0.4512,True,0.639,"<think>
+First, the compound is a di-substituted 6-membered aromatic ring. That means it's a benzene ring with two substituents.
+
+The FTIR shows an ester group, so there's at least one ester functional group.
+
+The 1H NMR has six signals:
+
+- Two signals for aromatic H: Since it's a di-substituted benzene, there could be different patterns, but here there are only two signals for aromatic protons. For a disubstituted benzene, the number of aromatic signals depends on the symmetry. If it's para-disu"
+gpqa_053,0.4238,0.875,0.4512,True,0.639,"<think>
+First, I need to find the starting material for synthesizing 5-isopropyl-3,4-dimethylcyclohex-1-ene via ring-closing metathesis (RCM). In RCM, a diene forms a cyclic alkene by the metathesis reaction, which involves the exchange of double bonds.
+
+The target molecule is 5-isopropyl-3,4-dimethylcyclohex-1-ene. Cyclohex-1-ene has a double bond between carbons 1 and 2. The substituents are at positions 3,4, and 5. Position 5 has an isopropyl group, and positions 3 and 4 each have a methyl gr"
+gpqa_054,0.6595,0.7778,0.1183,True,0.9054,"<think>
+First, I need to identify the unknown compound based on the 1H NMR data. The data given is:
+
+- 7.0 ppm (1H, d, J = 16.0 Hz)
+
+- 5.5 ppm (1H, dq)
+
+- 2.1 ppm (3H, s)
+
+- 1.6 ppm (3H, d)
+
+The options are:
+
+A) Trans-propenyl acetate
+
+B) Cis-propenyl acetate
+
+C) Cis-butenyl acetate
+
+D) Trans-butenyl acetate
+
+I recall that propenyl acetate would be CH3CH=CHOC(O)CH3, and butenyl acetate would be similar but with a longer chain, like CH3CH2CH=CHOC(O)CH3 or something. Propenyl should have three car"
+gpqa_055,0.6595,0.8889,0.2294,True,0.8165,"<think>
+We are given the decay of the |3,0,0> state to |1,0,0> via two dipole transitions. We need to find the transition route and the corresponding probability.
+
+Dipole transitions require a change in l by 1 (Δl = ±1) and a change in m by 0 or ±1 (Δm = 0, ±1). Also, note that the initial state has l=0 and the final state has l=0, so we cannot go directly. We must go through an intermediate state with l=1 (since from l=0 we must go to l=1, and then from l=1 we go to l=0).
+
+The intermediate stat"
+gpqa_057,0.511,0.8889,0.3779,True,0.6977,"<think>
+First, the question is: ""Which of the following physical theories never requires regularization at high energies?"" The options are:
+
+A) Quantum Electrodynamics
+
+B) Quantum Chromodynamics
+
+C) Superstring Theory
+
+D) Classical Electrodynamics
+
+Regularization is a technique used in quantum field theories to handle infinities that arise in calculations, particularly at high energies or short distances. It's needed because of ultraviolet divergences.
+
+- **Quantum Electrodynamics (QED):** This "
+gpqa_059,0.6595,0.8889,0.2294,True,0.8165,"<think>
+First, the question is about an astronaut traveling from the Large Magellanic Cloud to Earth at a speed of 0.99999987*c. The distance to the Large Magellanic Cloud isn't given, so I need to recall that. I remember that the Large Magellanic Cloud is about 163,000 light-years away. Let me confirm that. Yes, approximately 160,000 to 170,000 light-years; I'll use 163,000 light-years as a standard figure.
+
+Now, the speed is 0.99999987*c. That's very close to the speed of light. The time taken"
+gpqa_061,0.6595,0.7778,0.1183,True,0.9054,"<think>
+First, I need to synthesize 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde from ethynylcyclohexane. Ethynylcyclohexane is C6H11-C≡CH.
+
+The target molecule is 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde. Let me parse that. It seems like a cyclohexane ring with a carbaldehyde group, and attached to that same carbon, there's a hydroxymethyl group that also has a cyclohexyl substituent. So, it might be (cyclohexane)-C(aldehyde)-CH(OH)-cyclohexane. The name suggests that the ca"
+gpqa_064,0.6595,0.75,0.0905,True,0.9276,"<think>
+First, I need to understand the reactions and identify the major products A and B.
+
+Starting with the first reaction:  
+1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H⁺) → A
+
+The conditions are THF (solvent), KH (potassium hydride, a strong base), and then H⁺ (acid). KH will deprotonate the alcohol to form an alkoxide. Since it's a vinyl spiro compound, there might be some intramolecular reaction.
+
+The molecule is 1-vinylspiro[3.5]non-5-en-1-ol. Spiro[3.5]nonane has a spiro carbon connectin"
+gpqa_065,0.4238,0.7778,0.354,True,0.7168,"<think>
+First, I need to understand the question about SMEFT. SMEFT stands for Standard Model Effective Field Theory. It's an effective field theory that extends the Standard Model by including higher-dimensional operators that respect the symmetries of the Standard Model.
+
+The question is asking which symmetries must be respected by all operators in SMEFT. The options include Lorentz symmetry, Poincaré symmetry, CP symmetry, and CPT symmetry.
+
+Recall what each symmetry means:
+
+- Lorentz symmetr"
+gpqa_069,0.4238,0.8889,0.4651,True,0.6279,"<think>
+First, I need to figure out what compounds are involved based on the descriptions. Let me decode the reaction sequence.
+
+We have solid A reacting with 8 equivalents of gas B to form bright red product C. Then, C reacts with 2 equivalents of gas D to form hazardous product E. Also, C reacts with water to reform A plus acids F and G, where F is strong and G is weak. And D reacts with B in 1:1 ratio to form H, a solvent.
+
+This sounds familiar. I think A might be sulfur, and B might be fluor"
+gpqa_073,0.4238,0.8889,0.4651,True,0.6279,"<think>
+First, the atom has a decay probability of 32% within 100 minutes. This means that the probability it decays by time t=100 minutes is 0.32. Since decay is exponential, I assume it follows a Poisson process, so the time to decay is exponentially distributed.
+
+Let λ be the decay rate. The probability that it decays by time t is given by the cumulative distribution function (CDF) of the exponential distribution: P(T ≤ t) = 1 - e^{-λt}.
+
+Given that P(T ≤ 100) = 0.32, so:
+
+1 - e^{-λ * 100} = "
+gpqa_074,0.6595,0.4444,0.2151,True,0.8279,"<think>
+We are given a DNA sequence (plus strand) for the construct. We need to find the reason why the protein is not overexpressed as expected.
+
+The sequence is:
+5'ATGTACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATGAGTTGCTGCTGTCGGCGCAGCGTCAGGGCTGCCTCACTGCCGGCGTCTACGAGTCAGCCAAAGTCTTGAACGTGGACCCCGACAATGTGACCTTCTGTGTGCTGGCTGCGGGTGAGGAGGACGAGGGCGACATCGCGCTGCAGATCCATTTTACGCTGATCCAGGCTTTCTGCTGCGAGAACGACATCGACATAGTGCGCGTGGGCGATGTGCAGCGGCT"
+gpqa_075,0.511,0.8889,0.3779,False,0.4977,"<think>
+First, I need to understand the experiment. The user is creating mouse embryonic chimeras using induced pluripotent stem cells (iPSCs) derived from somatic cells. These iPSCs are labeled with mRaspberry fluorescent protein fused under a lineage-specific promoter for each cell type. They're injected into a 32-cell stage blastocyst, and then the embryos are observed every 12 hours with TUNEL-FITC staining to detect apoptosis (green signal), and confocal microscopy is used to see both red ("
+gpqa_076,0.4238,0.8889,0.4651,False,0.4279,"<think>
+First, I need to understand the question. It's about a series of chemical reactions, and I have to find which option correctly describes the products A and B. The reaction sequence involves a Cope rearrangement and another reaction.
+
+The first reaction is: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) → A
+
+The second is: 3,4,5,7,8,9-hexamethyl-1,11-dimethylene-2,6,10,11,11a,11b-hexahydro-1H-benzo[cd]indeno[7,1-gh]azulene + Heat → B
+
+And I need to match the products from "
+gpqa_078,0.4238,0.8889,0.4651,True,0.6279,"<think>
+First, I need to identify Compound X, which has the formula C11H12O. It's reacted with 1,4-diazabicyclo[2.2.2]octane (DABCO) in a nonpolar solvent at 403 K for one day. DABCO is often used as a catalyst in various reactions, like the Baylis-Hillman reaction or epoxide rearrangements.
+
+The product's NMR spectra are given:
+
+**1H NMR:**
+
+- δ 2.28 (3H, s) – singlet, likely a methyl group
+
+- δ 2.31 (3H, s) – another singlet, probably another methyl group
+
+- δ 6.75 (1H, d) – doublet, could be "
+gpqa_080,0.6784,0.7778,0.0994,True,0.9205,"<think>
+First, I need to understand the target compound: [1,1'-bi(cyclopentylidene)]-2-one. That sounds like a molecule with two cyclopentylidene groups connected, and a ketone at position 2. I think it might be a spiro compound or something similar. Let me sketch this out.
+
+[1,1'-bi(cyclopentylidene)]-2-one probably means a compound where two cyclopentylidene groups are bonded at the same carbon, which is also part of a ketone. So, it could be something like a spiro[4.4]nonane derivative with a"
+gpqa_082,0.4238,0.875,0.4512,True,0.639,"<think>
+First, we have 20.00 cm³ of 0.05 M acetic acid diluted with 20.00 cm³ water. So, the total volume now is 40.00 cm³. The initial concentration of acetic acid after dilution is:
+
+Initial moles of acetic acid = 0.05 mol/L * 0.020 L = 0.001 moles
+
+After dilution with 20 mL water, volume is 40 mL, so concentration = 0.001 moles / 0.040 L = 0.025 M
+
+Now, we're titrating this with 0.1 M NaOH.
+
+At 25% titration: 25% of the acid has been neutralized. Since it's a weak acid-strong base titration.
+"
+gpqa_083,0.6595,0.8571,0.1976,True,0.8419,"<think>
+First, I need to understand the question. It's about converting a sequential algorithm into a parallel one for solving higher-dimensional heat equations using finite differences and parallel splitting. The matrix exponential is approximated by a fractional approximation, and I need to identify the key factor for parallelism. The options are:
+
+A) Stability analysis
+
+B) Linear partial fraction of fractional approximation
+
+C) Complex roots of fractional approximation
+
+D) Existence of nonloc"
+gpqa_084,0.4238,0.8889,0.4651,True,0.6279,"<think>
+First, I need to find the ratio of the equilibrium temperatures between Planet1 and Planet2. The equilibrium temperature for a planet is given by:
+
+\[ T_{eq} = T_{\text{eff}} \sqrt{\frac{R_{\text{star}}}{2D}} (1 - A)^{1/4} \]
+
+Where:
+- \( T_{\text{eff}} \) is the effective temperature of the star.
+- \( R_{\text{star}} \) is the radius of the star.
+- \( D \) is the distance from the star to the planet.
+- \( A \) is the albedo.
+
+The problem states that both planets have the same albedo, so"
+gpqa_087,0.4238,0.625,0.2012,True,0.839,"<think>
+We are given a scenario where we are observing proliferating cells in Peyer patches after oral delivery of GFP-tagged rotavirus inner capsid proteins. The isolated proliferating cell population shows high variability in the variable heavy chain gene sequence. We need to identify which process is taking place.
+
+The options are:
+A) class switching recombination
+B) somatic hypermutation
+C) complement activation
+D) VDJ recombination
+
+Let's analyze the context:
+
+1. **Peyer patches**: These ar"

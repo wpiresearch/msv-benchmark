@@ -1,0 +1,4 @@
+signal,signal_label,n_models,pearson,pearson_p,spearman,spearman_p
+t11_mc,MC (metacognitive efficiency),22,-0.15,0.5053,-0.0905,0.6889
+t01_delegate_slope,Task 1 delegation slope,23,-0.0271,0.9023,-0.0581,0.7922
+t02_coherence_corr,Task 2 declared-routing coherence,21,-0.5279,0.0139,-0.2567,0.2612

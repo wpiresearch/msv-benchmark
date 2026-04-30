@@ -1,0 +1,241 @@
+question_id,category,difficulty,dims_parsed,routing_choice,raw_response,declared_CE,declared_ER,declared_CI,declared_EM,declared_PI,declared_activation,routing_score
+gpqa_000,physics_(general),0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_002,quantum_mechanics,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_007,genetics,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_009,astrophysics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_010,molecular_biology,0.8571,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_012,organic_chemistry,0.6667,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_013,molecular_biology,0.6667,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_018,organic_chemistry,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_019,quantum_mechanics,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_022,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_023,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_025,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_026,molecular_biology,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_028,genetics,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_035,astrophysics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_040,relativistic_mechanics,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_042,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_046,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_049,high-energy_particle_physics,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_052,chemistry_(general),0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_053,organic_chemistry,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_054,chemistry_(general),0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_055,quantum_mechanics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_057,high-energy_particle_physics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_059,relativistic_mechanics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_061,organic_chemistry,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_064,organic_chemistry,0.75,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_065,high-energy_particle_physics,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_069,chemistry_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_073,physics_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_074,molecular_biology,0.4444,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,1.0
+gpqa_075,molecular_biology,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_076,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_078,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_080,organic_chemistry,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_082,chemistry_(general),0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_083,physics_(general),0.8571,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_084,astrophysics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_087,molecular_biology,0.625,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_088,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_090,organic_chemistry,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_094,organic_chemistry,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_097,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_098,chemistry_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_099,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_100,organic_chemistry,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_101,molecular_biology,0.625,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_102,organic_chemistry,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_103,physics_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_104,astrophysics,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_106,molecular_biology,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_110,organic_chemistry,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_113,organic_chemistry,0.625,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_114,physics_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_116,organic_chemistry,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_117,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_118,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_119,physics_(general),0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_125,organic_chemistry,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_127,molecular_biology,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_129,physics_(general),0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_131,chemistry_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_134,high-energy_particle_physics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_135,electromagnetism_and_photonics,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_137,chemistry_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_146,high-energy_particle_physics,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_148,chemistry_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_149,organic_chemistry,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_156,molecular_biology,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_157,genetics,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_164,chemistry_(general),0.6667,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_165,high-energy_particle_physics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_168,quantum_mechanics,0.75,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_169,quantum_mechanics,0.875,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_170,organic_chemistry,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_173,physics_(general),0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_175,quantum_mechanics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_180,astrophysics,0.8571,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_184,quantum_mechanics,0.7778,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0
+gpqa_188,high-energy_particle_physics,0.8889,5,ANSWER,"
+
+{""CE"": 4, ""ER"": 4, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}",4,4,4,4,3,0.5333,0.0

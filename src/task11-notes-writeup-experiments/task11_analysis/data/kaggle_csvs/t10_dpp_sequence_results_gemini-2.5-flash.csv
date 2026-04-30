@@ -1,0 +1,119 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,A,C,4,True,True,1.0,"To clearly distinguish two quantum energy levels, their energy difference must be significantly larger than the inherent energy uncertainty (linewidth) of each state. The energy-time uncertainty principle states that for a state with a finite lifetime $\tau$, its energy uncertainty (linewidth, often denoted as $\Gamma$) is given by $\Gamma \approx \hbar/\tau$, where $\hbar$ is the reduced Planck constant.
+
+Given:
+*   Lifetime of state 1: $\tau_1 = 10^{-9}$ s
+*   Lifetime of state 2: $\tau_2 = 10","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_002,A,B,4,True,True,1.0,"The expectation value of an operator $\hat{O}$ for a quantum state $|\psi\rangle$ is given by $\langle\hat{O}\rangle = \langle\psi|\hat{O}|\psi\rangle$.
+
+Given the state:
+$|\psi\rangle = 0.5|\uparrow\rangle + \frac{\sqrt{3}}{2}|\downarrow\rangle$
+
+We can represent the spin-up and spin-down states in the standard basis as:
+$|\uparrow\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$
+$|\downarrow\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$
+
+So, the state vector is:
+$|\psi\rangle = 0.5 \begin{pmatr","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_007,A,B,4,True,True,1.0,"The problem requires us to analyze the genetic interaction between three candidate genes (G1, G2, G3) involved in anthracnose resistance in white lupine, based on the resistance levels of single and double knockout mutants. We are told that at least one of these genes is a transcription factor acting upstream.
+
+Let's analyze the given data:
+
+*   **Wild-type (WT) resistance:** 100%
+*   **g1 mutant:** 75% resistance. G1 contributes partially to resistance.
+*   **g2 mutant:** 0% resistance. G2 is a","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_009,A,B,4,True,True,1.0,"To determine which exoplanet has the highest density, we need to consider the definition of density ($\rho = M/V$) and how it scales with mass and composition for terrestrial-type planets. Earth's average density is approximately 5.51 g/cm$^3$.
+
+Let $M_E$ be Earth's mass and $R_E$ be Earth's radius.
+
+Let's analyze each option:
+
+**a) An Earth-mass and Earth-radius planet.**
+*   Mass ($M$) = $M_E$
+*   Radius ($R$) = $R_E$
+*   Density ($\rho_a$) = $M_E / (\frac{4}{3}\pi R_E^3) = \rho_{\text{Earth}}","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_010,A,C,4,True,True,1.0,"The question asks to identify the incorrect statement among the given options regarding the molecular biology of SARS-CoV-2. We will analyze each statement:
+
+**A) SARS-CoV-2 ORF3a and Apoptosis:**
+*   **Statement:** ""SARS-CoV-2 ORF3a has the ability to trigger caspase-8 activation/cleavage, without affecting the expression levels of Bcl-2. Caspase-8 activation is recognized as a characteristic feature of the extrinsic apoptotic pathway via death receptors, while Bcl-2 plays a crucial role in ini","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"
+gpqa_012,C,C,4,False,False,0.0,"The problem requires a step-by-step analysis of a reaction sequence, including stereochemistry, starting from (R)-(+)-Limonene.
+
+**Step 1: (R)-(+)-Limonene + H$_2$ (1 equivalent) with Pd/C**
+
+*   **Starting Material:** (R)-(+)-Limonene is 1-methyl-4-(prop-1-en-2-yl)cyclohex-1-ene. It has an endocyclic double bond (C1=C2) and an exocyclic double bond (isopropenyl group at C4). It has one chiral center at C4 with (R) configuration.
+*   **Reaction:** Catalytic hydrogenation (H$_2$/Pd/C) with 1 equi","{""answer"": ""C"", ""confidence"": 5}"
+gpqa_013,A,B,4,True,True,1.0,"The question describes an observation in a ChIP-seq experiment: specific ChIP peaks, detected using PFA-only fixation, *disappear* when a stronger fixation method (PFA+DSG) is employed. We need to identify the genomic location where this phenomenon is most likely to occur.
+
+Let's analyze the properties of the fixation methods and potential causes for disappearing peaks:
+*   **PFA (Paraformaldehyde) fixation:** A standard cross-linking agent that forms methylene bridges, primarily cross-linking p","```json
+{""answer"": ""B"", ""confidence"": 5}
+```"
+gpqa_018,A,A,4,False,True,0.85,"The problem describes two independent Michael addition reactions. We need to determine the structure of the final products A and B for each reaction.
+
+**Reaction 1: Formation of Product A**
+
+*   **Nucleophile Precursor:** methyl 2-oxocyclohexane-1-carboxylate
+    This is a $\beta$-keto ester. It has two types of acidic protons:
+    1.  At C1 (between the ketone and ester groups): This proton is highly acidic due to resonance stabilization by both carbonyls (pKa ~11-13).
+    2.  At C3 (alpha to t","{""answer"": ""A"", ""confidence"": 5}"
+gpqa_019,A,D,4,True,True,1.0,"The impulse approximation in nuclear physics is a simplification used when an external probe (like an electron or neutrino) interacts with a nucleus. It assumes that the interaction occurs with a single nucleon inside the nucleus, and this nucleon behaves essentially as a free particle during the brief duration of the interaction. This approximation is typically valid for high-energy, short-wavelength probes.
+
+Let's analyze each statement:
+
+1.  **""The interaction current only interacts with indi","{""answer"": ""D"", ""confidence"": 5}"
+gpqa_022,C,D,4,True,False,0.0,"The Expert's reasoning is fundamentally flawed because it answers a completely different question than the one posed.
+
+**Weakest Point:**
+
+The question explicitly asks for the structures of the products formed from the reaction of **((2,2-dimethylbut-3-en-1-yl)oxy)benzene with hydrogen bromide**.
+
+The Expert, however, analyzes a multi-step reaction sequence starting with **(R)-(+)-Limonene**, reacting it sequentially with:
+1.  H$_2$/Pd/C
+2.  mCPBA
+3.  Sodium methoxide
+4.  Propanoic acid/DCC/DMAP","```json
+{""answer"": ""D"", ""confidence"": 5}
+```"
+gpqa_023,C,B,4,True,True,1.0,"**Step 1: Determine the identity of hydrocarbon Z.**
+*   Z is a hydrocarbon that is ""saturated"" (does not react further with hydrogen).
+*   Z has a mass fraction of hydrogen of 14.28%.
+    Let the molecular formula of Z be C$_x$H$_y$. The mass fraction of hydrogen is given by:
+    $\frac{y \times 1.008}{x \times 12.011 + y \times 1.008} = 0.1428$
+    For simplicity, we can use approximate atomic masses: C $\approx$ 12, H $\approx$ 1.
+    $\frac{y}{12x + y} = 0.1428$
+    $y = 0.1428 (12x + y)$
+  ","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_025,A,B,4,True,True,1.0,"**Part 1: Identify Reactant A**
+
+The given reaction is: Cyclohexene + A ---> 8,8-diiodobicyclo[4.2.0]octan-7-one.
+
+1.  **Analyze the product structure:** The product is 8,8-diiodobicyclo[4.2.0]octan-7-one. The bicyclo[4.2.0]octane skeleton indicates a cyclohexane ring fused to a cyclobutane ring. The ""7-one"" signifies a ketone group in the cyclobutane ring, and ""8,8-diiodo"" means two iodine atoms are at the 8-position, which is adjacent to the ketone.
+2.  **Determine the reaction type:** The for","{""answer"": ""B"", ""confidence"": 5}"
+gpqa_026,A,A,4,False,True,0.85,"This riddle describes a crucial process in cell biology: the synthesis, targeting, and translocation of secreted or membrane-bound proteins. Let's break down the clues:
+
+*   **""Oh, I know you,"" the ribonucleoprotein particle says to the nascent chain as they meet.**
+    *   **Nascent chain:** This refers to a newly synthesized polypeptide (protein) chain still being elongated on the ribosome.
+    *   **Ribonucleoprotein particle:** This is a strong clue for the **Signal Recognition Particle (SRP","```json
+{""answer"": ""A"", ""confidence"": 5}
+```"
+gpqa_028,A,A,4,False,True,0.85,"The question asks which mutation is most likely to eliminate the anti-nutritional compound by disrupting the function of the responsible gene. To eliminate the compound, the protein produced by the gene must be non-functional. The most severe mutations that typically lead to a non-functional protein are frameshift mutations (insertions/deletions not in multiples of three) or nonsense mutations (introduction of a premature stop codon), especially if they occur early in the coding sequence.
+
+Let's","{""answer"": ""A"", ""confidence"": 5}"
+gpqa_035,A,C,4,True,True,1.0,"The question describes the observation of an absorption line at a cosmological distance of approximately 2.1 Gigaparsecs (Gpc), with a detected energy equivalent of $3.9 \times 10^{-6}$ eV. We need to determine what this absorption line most likely corresponds to in the Milky Way.
+
+1.  **Identify the nature of the absorption line:**
+    The energy of a photon is given by $E = h\nu = hc/\lambda$.
+    The given observed energy is $E_{obs} = 3.9 \times 10^{-6}$ eV.
+
+2.  **Account for Redshift:**
+  ","```json
+{""answer"": ""C"", ""confidence"": 5}
+```"

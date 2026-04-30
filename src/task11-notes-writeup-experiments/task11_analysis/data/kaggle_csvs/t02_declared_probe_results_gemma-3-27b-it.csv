@@ -1,0 +1,698 @@
+question_id,category,difficulty,dims_parsed,routing_choice,raw_response,declared_CE,declared_ER,declared_CI,declared_EM,declared_PI,declared_activation,routing_score
+gpqa_000,physics_(general),0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 2, ""routing"": ""DELIBERATE""}
+```
+Okay, let's deliberate. The question asks about *resolving* two energy levels, which implies spectral resolution. The ability to distinguish two energy levels is governed by the uncertainty principle relating energy and time: ΔE Δt ≥ ħ/2.  Here, Δt is the lifetime of the excited state, and ΔE is the minimum energy difference needed to resolve the levels.
+
+We need to find a ΔE such that it's significantly larger th",4,1,4,4,2,0.2667,0.0
+gpqa_002,quantum_mechanics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+Here's how to solve this problem:
+
+1. **Define the state:** The given state is |ψ⟩ = 0.5|↑⟩ + (√3/2)|↓⟩.
+
+2. **Matrix representations of σz and σx:**
+   σz = |↑⟩⟨↑| - |↓⟩⟨↓| =  [[1, 0], [0, -1]]
+   σx = |↑⟩⟨↓| + |↓⟩⟨↑| = [[0, 1], [1, 0]]
+
+3. **The operator:** The operator is 10σz + 5σx = 10[[1, 0], [0, -1]] + 5[[0, 1], [1, 0]] = [[10, 5], [5, -10]].
+
+4. **Calculate the expectation value:** ⟨ψ| (10σz + 5σx) |ψ⟩
+
+   Fir",4,1,4,4,2,0.2667,0.0
+gpqa_007,genetics,0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the data to deduce the gene interactions.
+
+*   **g2 knockout is devastating:** g2 mutants show 0% resistance, and the g1g2 and g2g3 double mutants *also* show 0% resistance. This strongly suggests that G2 is essential for resistance and acts upstream of other genes. Therefore, G2 is likely a transcription factor.
+
+*   **g1 and g3 effects:** g1 has 75% resistance, g3 has 50% resistance. This indicates",4,1,4,4,3,0.3333,0.0
+gpqa_009,astrophysics,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+Here's the breakdown:
+
+*   **a) Earth-mass and Earth-radius:** This planet *is* Earth, so its density is Earth's density (approximately 5.5 g/cm^3).
+
+*   **b) 2 Earth masses and 5.5 g/cm^3:** Density is given directly.
+
+*   **c) Same composition as Earth, 5x Earth mass:**  Density = Mass/Volume. If the composition is the same, the density will increase with mass.  The radius will also increase, but not linearly with m",4,1,4,4,2,0.2667,0.0
+gpqa_010,molecular_biology,0.8571,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 3, ""EM"": 2, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This is a tough question requiring detailed knowledge of SARS-CoV-2 molecular biology. Let's break down each statement:
+
+*   **A) ORF3a and apoptosis:** This statement seems plausible. ORF3a inducing apoptosis via the extrinsic pathway, bypassing the mitochondrial pathway (Bcl-2), is a known mechanism. It doesn't immediately appear incorrect.
+
+*   **B) Frameshifting and pseudoknot conformations:** This statement a",3,2,3,3,3,0.4667,0.0
+gpqa_012,organic_chemistry,0.6667,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 4, ""CI"": 3, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+Okay, this is a multi-step synthesis problem. Let's break it down step-by-step:
+
+1. **(R)-(+)-Limonene + H2/Pd/C:** Limonene is a cyclic alkene. Hydrogenation reduces the alkene to an alkane. Since it's a stereospecific syn-addition, the product (1) will be a cyclohexane with the substituents originally on the alkene now on the cyclohexane ring. The starting material is (R)-(+)-Limonene, which has a specific stere",3,3,3,3,4,0.6,0.0
+gpqa_013,molecular_biology,0.6667,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze this ChIP-seq scenario. The key observation is that peaks disappear when switching from PFA to PFA+DSG fixation. This suggests the peaks represent IKAROS binding that is sensitive to DSG (disuccinimidyl glutarate). DSG is a crosslinker that stabilizes protein-protein interactions.
+
+*   **PFA fixation:** Preserves morphology but doesn't strongly stabilize protein complexes. IKAROS binding might be tra",4,1,4,4,3,0.3333,0.0
+gpqa_018,organic_chemistry,0.875,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 3, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a challenging organic chemistry problem requiring understanding of Michael additions and the given reactants. Let's break down each reaction:
+
+**Reaction A: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene)**
+
+*   The Michael acceptor is 2,4-dimethyl-1-(vinylsulfinyl)benzene. The vinylsulfinyl group activates the double bond for Michael addition.
+*   The nucleophil",4,2,4,3,4,0.5333,0.0
+gpqa_019,quantum_mechanics,0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's break down the ""impulse approximation"" and how each assumption contributes. The impulse approximation treats the interaction as a short, impulsive collision with a single nucleon. This means we're essentially ignoring the nuclear environment and treating the nucleon as if it were free.
+
+*   **Assumption 1: The interaction current only interacts with individual nucleons.** This is fundamental. If the interact",4,1,4,4,3,0.3333,0.0
+gpqa_022,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the reaction and the possible products. The starting material is ((2,2-dimethylbut-3-en-1-yl)oxy)benzene. This is an ether with an alkene substituent. Hydrogen bromide (HBr) is a strong acid and will likely undergo electrophilic addition to the alkene. However, ethers can also undergo cleavage with strong acids like HBr.
+
+Considering these possibilities:
+
+*   **Electrophilic addition to the alkene:**",4,1,4,4,3,0.3333,0.0
+gpqa_023,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a complex organic chemistry problem. Let's break it down step-by-step:
+
+1. **Decolorizes bromine water:** This indicates the presence of unsaturated hydrocarbons (alkenes or alkynes).
+2. **Platinum heating & disproportionation:** This suggests the starting materials are alkenes undergoing a reaction like the Wurtz reaction (though not necessarily exactly that). Disproportionation means one alkene is reduce",4,2,4,3,4,0.5333,0.0
+gpqa_025,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a challenging problem requiring knowledge of Diels-Alder reactions and diene reactivity. Let's break it down:
+
+1. **The Reaction:** Cyclohexene + A -> 8,8-diiodobicyclo[4.2.0]octan-7-one. This is a Diels-Alder reaction. The product is a bicyclic compound formed by the [4+2] cycloaddition of a diene (A) and a dienophile (cyclohexene). The presence of iodine suggests that A contains iodine.
+
+2. **Identifying",4,2,4,3,4,0.5333,0.0
+gpqa_026,molecular_biology,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 2, ""routing"": ""DELIBERATE""}
+```
+This is a cleverly worded question relying on understanding of cellular processes. Let's break down the clues:
+
+*   **""Ribonucleoprotein particle""**: This refers to a ribosome. Ribosomes are the sites of protein synthesis.
+*   **""Nascent chain""**: This is a newly forming polypeptide chain (protein).
+*   **""Pause there for a minute. Let me show you in; you really need some sugar.""**: This suggests the ribosome is c",4,1,4,4,2,0.2667,0.0
+gpqa_028,genetics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}
+```
+This question tests understanding of genetic code and frameshift mutations. The goal is to eliminate the anti-nutritional compound by disrupting the gene's function.
+
+The key is to look for mutations that cause a frameshift. A frameshift mutation occurs when the reading frame of the gene is altered due to an insertion or deletion of nucleotides (that are not multiples of three). This leads to a completely different am",4,2,4,4,3,0.4,0.0
+gpqa_035,astrophysics,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 2, ""CI"": 3, ""EM"": 2, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This question requires knowledge of the interstellar medium (ISM) and the energies associated with absorption lines from different ISM components. The key is the energy of the absorption line (3.9 micro electron volts). This energy corresponds to absorption by hydrogen atoms in a specific energy level.
+
+Here's the breakdown:
+
+*   **Absorption lines:** These are created when light passes through a gas, and certain ",4,1,4,3,3,0.4,0.0
+gpqa_040,relativistic_mechanics,0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This is a relativistic problem disguised as an optics problem. We need to consider the relative velocities.
+
+*   **Speed of light in glass:** The speed of light in glass is v_glass = c/n.
+*   **Relative velocity:** The glass is moving towards the observer with velocity v.  We need to use the relativistic velocity addition formula. However, since v is much smaller than c, we can use the classical (Galilean) velocit",4,1,4,4,3,0.3333,0.0
+gpqa_042,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 3, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a challenging IUPAC naming problem. Let's break it down systematically. The key is to prioritize functional groups and substituents according to IUPAC rules.
+
+1.  **Parent chain:** Benzoic acid (benzene with a carboxylic acid group).
+2.  **Prioritize functional groups:** Carboxylic acid > Aldehyde (formyl) > Cyano > Hydroxyl > Methoxy > Dimethylamino.
+3.  **Numbering:** We need to number the benzene ring t",4,2,4,4,4,0.4667,0.0
+gpqa_046,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the spectroscopic data to identify the compound.
+
+*   **IR Data:**
+    *   3420 cm-1 and 3325 cm-1: Broad bands indicate N-H stretching (amine or amide).
+    *   1720 cm-1: Strong band indicates C=O stretching (ester, carboxylic acid, or amide).
+*   **1H NMR Data:**
+    *   1.20 ppm (t, 3H): Ethyl group (CH3).
+    *   4.0 ppm (bs, 2H): Broad singlet, likely NH2 (amine).
+    *   4.5 ppm (q, 2H): Ethyl",4,1,4,4,3,0.3333,0.0
+gpqa_049,high-energy_particle_physics,0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This is a physics question requiring knowledge of Feynman diagrams and loop order. The key is to relate the factors in the ""size estimate"" to the loop order.
+
+*   **α (alpha):** Fine-structure constant, represents the strength of electromagnetic interactions. Each loop generally introduces a factor of α.
+*   **g:** Coupling constant for the new theory. Similar to α, each loop introduces a factor of g.
+*   **(4π)^-",4,1,4,4,3,0.3333,0.0
+gpqa_052,chemistry_(general),0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the spectroscopic data to determine the chemical formula.
+
+*   **6-membered aromatic ring with two substituents:** This means a benzene ring with two groups attached.
+*   **Ester group:** This contributes 2 oxygen atoms and a carbonyl carbon.
+*   **Two aromatic-H signals:** Indicates a symmetrical substitution pattern on the benzene ring (e.g., 1,4-disubstitution or 1,2-disubstitution).
+*   **Two vin",4,1,4,4,3,0.3333,0.0
+gpqa_053,organic_chemistry,0.875,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+Ring-closing metathesis (RCM) involves the formation of a cyclic alkene from a diene using a metal catalyst. The two alkene groups react to form a new carbon-carbon double bond, closing the ring and releasing ethylene.
+
+To form a 6-membered ring (cyclohexene), the starting material must be an acyclic diene with 8 carbon atoms. The substituents (isopropyl and two methyl groups) must be positioned correctly on the diene",4,1,4,4,2,0.2667,0.0
+gpqa_054,chemistry_(general),0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the 1H NMR data to determine the structure.
+
+*   **7.0 (1H, d, J = 16.0 Hz):** This is a vinyl proton with a large coupling constant (16 Hz), indicating a *trans* configuration.
+*   **5.5 (1H, dq):** This is likely a proton on the carbon adjacent to the double bond. The 'dq' indicates a doublet of quartets, typical for a proton adjacent to a vinyl proton.
+*   **2.1 (3H, s):** This is a singlet, indic",4,1,4,4,3,0.3333,0.0
+gpqa_055,quantum_mechanics,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a quantum mechanics problem involving dipole transitions in the hydrogen atom. Dipole transitions follow selection rules: Δl = ±1, Δm = 0, ±1.
+
+The initial state is |3,0,0⟩ and the final state is |1,0,0⟩. A direct transition is forbidden because Δl = 2, which violates the selection rule. Therefore, the transition must occur via an intermediate state.
+
+Let's analyze the options:
+
+*   **A) |3,0,0⟩ → |2,1,0⟩ ",4,1,4,3,4,0.4667,0.0
+gpqa_057,high-energy_particle_physics,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+The question asks which theory *never* requires regularization. Regularization is a procedure used in quantum field theories to remove infinities that arise in calculations at high energies (short distances).
+
+*   **Quantum Electrodynamics (QED):** Requires renormalization, a specific type of regularization, to deal with infinities.
+*   **Quantum Chromodynamics (QCD):** Also requires regularization, and is more proble",4,1,4,4,2,0.2667,0.0
+gpqa_059,relativistic_mechanics,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This is a relativistic time dilation problem. We need to calculate the time experienced by the astronaut (proper time) given the speed and the distance to Earth.
+
+1.  **Distance to the Large Magellanic Cloud:** Approximately 163,000 light-years.
+2.  **Speed:** v = 0.99999987c
+3.  **Lorentz factor (γ):** γ = 1 / sqrt(1 - v^2/c^2) = 1 / sqrt(1 - (0.99999987)^2) ≈ 45000
+4.  **Time in Earth's frame (t):** t = distance",4,2,4,4,3,0.4,0.0
+gpqa_061,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's break down the synthesis step-by-step, starting from ethynylcyclohexane and aiming for 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde.
+
+1. **Ethynylcyclohexane to a longer chain:** We need to add a carbon atom to the ethynyl group. This can be done using NaNH2 (strong base) followed by an alkyl halide (like methyl chloride). This will form a propyne derivative.
+2. **Propyne to Propene:** The triple bon",4,1,4,4,3,0.3333,0.0
+gpqa_064,organic_chemistry,0.75,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a challenging organic chemistry problem involving complex reactions. Let's analyze each reaction separately:
+
+**Reaction 1: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A**
+
+*   **KH (potassium hydride):** A strong base that will deprotonate the alcohol.
+*   **THF:** Tetrahydrofuran, a common solvent.
+*   **H+:** Acidic workup.
+*   **Mechanism:** This reaction is likely an intramolecular Diels-Alder",4,1,4,3,4,0.4667,0.0
+gpqa_065,high-energy_particle_physics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+The Standard Model Effective Field Theory (SMEFT) is built upon the symmetries of the Standard Model. Let's analyze each symmetry:
+
+*   **Lorentz Symmetry:** This is a fundamental symmetry of spacetime, meaning the laws of physics are the same for all observers in uniform motion. All fundamental theories, including the SMEFT, *must* respect Lorentz symmetry.
+*   **Poincaré Symmetry:** This includes Lorentz symmetry *a",4,1,4,4,2,0.2667,0.0
+gpqa_069,chemistry_(general),0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a classic inorganic chemistry puzzle. Let's deduce the compounds based on the reactions:
+
+*   **A + 8B -> C (bright red):** This strongly suggests A is phosphorus and B is chlorine, forming phosphorus pentachloride (PCl5). C is likely PCl5 itself, which is a bright red solid.
+*   **C + 2D -> E (extremely hazardous):** PCl5 + 2H2O -> POCl3 + 2HCl.  E is likely phosphoryl chloride (POCl3), which is highly to",3,2,4,3,4,0.6,0.0
+gpqa_073,physics_(general),0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This is a conditional probability problem related to radioactive decay. The key is to use the fact that the atom has already survived for 50 minutes.
+
+1.  **Probability of decay within 100 minutes:** P(decay within 100 min) = 0.32
+2.  **Probability of survival within 100 minutes:** P(survival within 100 min) = 1 - 0.32 = 0.68
+3.  **Probability of survival within 50 minutes:** Let λ be the decay constant. Then, P(s",4,1,4,4,3,0.3333,0.0
+gpqa_074,molecular_biology,0.4444,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}
+```
+The key to this question is to identify the start codon and then scan the sequence for a premature stop codon. The sequence starts with 5'ATGTACCCATACGATG… which contains the start codon ATG.
+
+Scanning the sequence, we find a UAA codon (stop codon) at position 118-120: `UAA`. This is relatively early in the sequence, and would likely cause premature termination of translation.
+
+Let's analyze the other options:
+
+*   **",4,2,4,4,3,0.4,1.0
+gpqa_075,molecular_biology,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's break down the experimental setup and predict the initial observations.
+
+*   **iPSCs labeled with mRaspberry:** mRaspberry is a red fluorescent protein. The cells are labeled under a lineage-specific promoter, meaning the red signal should indicate cells that have differentiated into that specific lineage.
+*   **Injection into 32-cell blastocyst:** The iPSCs are introduced into the early embryo.
+*   **TUNEL-",4,1,4,4,3,0.3333,0.0
+gpqa_076,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a complex organic chemistry problem requiring knowledge of Cope rearrangement and reactions with organolithium reagents. Let's analyze each reaction separately:
+
+**Reaction 1: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) ---> A**
+
+*   **BuLi:** Butyllithium is a strong base that will deprotonate the most acidic proton. In this case, it will deprotonate the carbon adjacent to the ether oxy",4,1,4,3,4,0.4667,0.0
+gpqa_078,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the reaction and the spectroscopic data to identify compound X.
+
+*   **Reaction:** Compound X reacts with 1,4-diazabicyclo[2.2.2]octane (DABCO) in a nonpolar solvent at 403 K. DABCO is a base that can catalyze epoxide ring opening. This suggests that compound X is likely an epoxide.
+*   **Product 1H NMR:** The signals indicate an aromatic system and two methyl groups. The presence of signals around 6",4,1,4,4,3,0.3333,0.0
+gpqa_080,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a challenging synthesis problem. The target molecule, [1,1'-bi(cyclopentylidene)]-2-one, is a bicyclic ketone formed by the dimerization of a cyclopentanone derivative. Let's break down the required steps:
+
+1. **Formation of a Cyclopentanone Ring:** Starting from 1,5-dichloropentane, we need to form a five-membered ring. This can be achieved using a metal like zinc (Zn) in ether, which promotes reductive c",3,2,4,3,4,0.6,0.0
+gpqa_082,chemistry_(general),0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's break down this titration problem step-by-step:
+
+1. **Initial Moles of Acetic Acid:**
+   Moles = Volume (L) * Molarity
+   Moles of acetic acid = 0.020 L * 0.05 M = 0.001 moles
+
+2. **Total Volume After Dilution:**
+   Total volume = 20.00 cm3 + 20.00 cm3 = 40.00 cm3 = 0.040 L
+
+3. **Concentration of Acetic Acid After Dilution:**
+   Concentration = Moles / Volume
+   Concentration of acetic acid = 0.001 moles / 0",4,1,4,4,3,0.3333,0.0
+gpqa_083,physics_(general),0.8571,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 1, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This question delves into numerical methods for solving partial differential equations, specifically heat equations, and the techniques used to parallelize the computation. Let's break down the concepts:
+
+*   **Higher-order finite difference approximations:** These are used to discretize the heat equation, replacing derivatives with algebraic approximations.
+*   **Parallel splitting:** A technique to divide the pr",4,1,4,2,4,0.5333,0.0
+gpqa_084,astrophysics,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is an exoplanet characterization problem. We need to calculate the ratio of equilibrium temperatures for the two planets. The equilibrium temperature (Teq) is determined by the balance between incoming stellar radiation and outgoing thermal radiation.
+
+The formula for equilibrium temperature is:
+
+Teq = Tstar * sqrt(Rstar / (2a)) * (1 - A)^(1/4)
+
+Where:
+*   Tstar = Stellar effective temperature
+*   Rstar = Ste",4,2,4,3,3,0.4667,0.0
+gpqa_087,molecular_biology,0.625,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}
+```
+Let's break down the experimental setup and the observed results:
+
+*   **Rotavirus capsid proteins tagged with GFP:** This allows tracking of the viral proteins within the mouse.
+*   **Oral gavage:** Delivery of the proteins via the digestive system.
+*   **In vivo imaging:** Observing the fate of the proteins in a living animal.
+*   **Fluorescence destruction in the stomach:** Indicates protein degradation by stomach ",4,2,4,4,3,0.4,0.0
+gpqa_088,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a complex multistep synthesis problem. Let's break it down step-by-step:
+
+1. **1,3-dibromoadamantane + KOH (240C) -> Product 1:** This is a double elimination reaction. The KOH will remove the two bromine atoms, forming a double bond. The 1720 cm-1 IR absorbance indicates a ketone. The product is adamantane-1,3-dione.
+
+2. **Adamantane-1,3-dione + Al(OiPr)3 -> Product 2:** Aluminum isopropoxide promotes a r",3,2,4,3,4,0.6,0.0
+gpqa_090,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's break down this reaction sequence step-by-step:
+
+1. **Cyclohexanone + LDA + Benzaldehyde -> Product 1:** LDA deprotonates cyclohexanone to form an enolate. This enolate then attacks benzaldehyde in an aldol addition reaction. Acidification will protonate the alkoxide, forming a β-hydroxy ketone. This is an aldol condensation product.
+
+2. **Product 1 + Deoxofluor (Diethylaminosulfur trifluoride, DAST) -> Prod",4,1,4,4,3,0.3333,0.0
+gpqa_094,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a challenging organic chemistry problem involving epoxidation, conjugate addition, and organocuprate chemistry. Let's break it down:
+
+1. **Epoxidation with mCPBA:** 3,3,6-trimethylhepta-1,5-dien-4-one has two double bonds. mCPBA will epoxidize both double bonds, forming two epoxides. Since a 1:1 ratio of products is formed, it suggests epoxidation occurs at both double bonds.
+
+2. **Methyllithium + CuI:** T",3,2,4,3,4,0.6,0.0
+gpqa_097,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 2, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This reaction involves a methyleneruthenium carbene complex and 1-propene, leading to a vinylcyclopropane derivative. This is a classic example of a carbene insertion reaction. The key is to understand how the carbene inserts into the starting material.
+
+The product, 1-(prop-1-en-1-yl)-2-vinylcyclopentane, has a cyclopentane ring with two substituents: a propenyl group and a vinyl group. The methyleneruthenium car",4,1,4,3,3,0.4,0.0
+gpqa_098,chemistry_(general),0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the spectroscopic data and the given options:
+
+*   **FTIR:**
+    *   Broad absorption at 3000 cm-1: Indicates the presence of a carboxylic acid (O-H stretch).
+    *   Strong absorption at 1700 cm-1: Indicates the presence of a carbonyl group (C=O stretch), consistent with a carboxylic acid.
+*   **1H NMR:**
+    *   No vinyl hydrogens: This eliminates any structures with double bonds other than those w",4,1,4,4,3,0.3333,0.0
+gpqa_099,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's trace the reaction sequence to identify the compounds and then evaluate the statements:
+
+1. **A (C3H6) + Br2/CCl4 -> B:** A (propene) undergoes addition of bromine to form 1,2-dibromopropane (B).
+2. **B + Alcoholic KOH -> C:** 1,2-dibromopropane undergoes elimination to form propene (C).
+3. **C (propene) + Red-hot iron tube -> D:** Propene undergoes dehydrogenation to form propyne (D).
+4. **D (propyne) + Str",4,1,4,4,3,0.3333,0.0
+gpqa_100,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+The reaction involves forming an imine (Schiff base) followed by an intramolecular cyclization. The final product, 1-(cyclohexylidenemethyl)-3-methylpyrrolidine, suggests that the starting material A must contain a carbonyl group to react with the amine (3-methylpyrrolidine) to form an imine.
+
+Let's analyze the options:
+
+*   **A) A = cyclohexanecarbaldehyde, B = TsOH:** Cyclohexanecarbaldehyde is an aldehyde, whic",4,1,4,4,3,0.3333,0.0
+gpqa_101,molecular_biology,0.625,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 3, ""CI"": 4, ""EM"": 3, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a complex genetic engineering and developmental biology question. Let's break down the experiment and analyze the possible reasons for the lack of green signal.
+
+*   **Bicistronic Vector:** The vector contains two ORFs (ligand and receptor) separated by an IRES element, allowing for co-expression.
+*   **LoxP/Lox2272 Cassettes:** These cassettes block translation until Cre recombinase removes the stop codon",4,2,4,4,4,0.4667,0.0
+gpqa_102,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the required steps to synthesize 1-(3-bromo-5-nitrophenyl)ethan-1-one from benzene:
+
+1. **Nitration:** Introduce a nitro group onto the benzene ring.
+2. **Reduction:** Reduce the nitro group to an amino group.
+3. **Acylation:** Introduce the ethanone group (acetyl group) via Friedel-Crafts acylation.
+4. **Bromination:** Introduce the bromine atom.
+5. **Nitration:** Introduce the second nitro group.
+6",4,1,4,4,3,0.3333,0.0
+gpqa_103,physics_(general),0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+The radial velocity (RV) method relies on detecting the wobble of a star caused by the gravitational pull of an orbiting planet. The RV semi-amplitude (K) is proportional to the planet's mass (Mp) and inversely proportional to the star's mass (Mstar) and the orbital period (P).
+
+K ∝ Mp / (Mstar * P^(1/3))
+
+Since the stars have the same mass and the planets have similar masses, we can say:
+
+K1 / K2 ≈ P2^(1/3) / P1^",4,1,4,4,3,0.3333,0.0
+gpqa_104,astrophysics,0.7778,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a challenging exoplanet detection problem involving stellar spots and transit-like signals. The key is to equate the brightness variation caused by the spots to the brightness variation caused by a transiting exoplanet.
+
+1. **Brightness Variation due to Spots:** The spots cover 20% of one hemisphere, meaning 10% of the total stellar surface. The temperature difference is 1000K. The fractional change in flu",3,2,4,3,3,0.5333,0.0
+gpqa_106,molecular_biology,0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}
+```
+The most crucial step before proceeding with in silico docking studies, given the complexities of Xantheraquin (multiple chiral centers and tautomeric forms), is to prioritize which forms to dock. Docking *all* possible forms is computationally expensive and can lead to inaccurate results.
+
+Here's why:
+
+*   **Tautomers and Chirality:** Different tautomers and chiral forms will have different shapes and electronic prop",4,2,4,4,3,0.4,0.0
+gpqa_110,organic_chemistry,0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze each reaction separately:
+
+**Reaction 1: 2-ethyl-2,6-dimethylcyclohexan-1-one + ethyl acrylate (t-BuOK) ---> A**
+
+This is a Michael addition reaction. t-BuOK is a strong, bulky base. The ethyl acrylate will act as the Michael acceptor. The addition will occur at the least sterically hindered position. The ketone is substituted at the 2 and 6 positions, making the 3 position the most accessible for th",4,1,4,4,3,0.3333,0.0
+gpqa_113,organic_chemistry,0.625,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze each reaction:
+
+**Reaction 1: butan-2-one + NaCN + A ---> 2-hydroxy-2-methylbutanenitrile**
+
+This is a cyanohydrin formation reaction. NaCN provides the cyanide ion (CN-), which adds to the carbonyl carbon of butan-2-one. The reaction requires acidic workup to protonate the alkoxide intermediate, forming the cyanohydrin. Therefore, A should be H3O+ (acidic workup).
+
+**Reaction 2: 2-(4-benzylphenyl)-2",4,1,4,4,3,0.3333,0.0
+gpqa_114,physics_(general),0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a relativistic collision problem involving electron-positron annihilation. The key is to understand the conservation of energy and momentum.
+
+1. **Total Energy:** The total energy before the collision is the sum of the energies of the electron and positron.  E = γmc^2, where γ is the Lorentz factor, m is the mass, and c is the speed of light.
+   * Electron energy: 4mc^2
+   * Positron energy: 2mc^2
+   * Tot",3,2,4,3,3,0.5333,0.0
+gpqa_116,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+Optical isomerism (enantiomerism) occurs when a molecule is chiral, meaning it is non-superimposable on its mirror image. Chirality typically arises from the presence of a stereocenter (a carbon atom bonded to four different groups).
+
+Let's analyze each compound:
+
+1. **dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylate:** This molecule has axial chirality due to the restricted rotation around the biphenyl bond. ",4,1,4,4,2,0.2667,0.0
+gpqa_117,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+The reaction of an alkene with bromine (Br2) typically proceeds via an anti-addition mechanism, forming a vicinal dibromide. However, the presence of an alcohol group adjacent to the double bond can influence the reaction pathway.
+
+In this case, 4,4-dimethylcyclopent-1-enol has an alkene and an alcohol. Bromine will initially add across the double bond in an anti-fashion. However, the resulting bromonium ion inter",4,1,4,4,3,0.3333,0.0
+gpqa_118,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This is a complex multi-step organic synthesis problem involving a bicyclic system. Let's break down each step:
+
+1. **5-bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene + H2O ---> A:** This is a hydration reaction. The bromine is replaced by a hydroxyl group (OH). So, A is 5-hydroxy-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene.
+
+2. **A + PDC ---> B:** PDC (Pyridinium dichromate) is ",3,2,4,3,3,0.5333,0.0
+gpqa_119,physics_(general),0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This question relates to the volume of space encompassed by a given range of parallax. Parallax (plx) is inversely proportional to distance (d): plx = 1/d.
+
+The number of stars per unit range of parallax is proportional to the volume of space at that distance. Since stars are uniformly distributed, we need to find how the volume changes with distance.
+
+The volume of a spherical shell with radius d and thickness dd",4,1,4,4,3,0.3333,0.0
+gpqa_125,organic_chemistry,0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze each reaction and the resulting products:
+
+**Reaction I: (S)-5-methoxyhexan-3-one + LAH followed by acidic workup**
+
+LAH (Lithium Aluminum Hydride) is a strong reducing agent. It will reduce the ketone to a secondary alcohol. The stereochemistry will be inverted, resulting in (R)-5-methoxyhexan-3-ol. Since the starting material is chiral, the product will also be chiral.
+
+**Reaction II: Pentane-2,4-d",4,1,4,4,3,0.3333,0.0
+gpqa_127,molecular_biology,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+The key to this question is recognizing that the provided sequences are likely to contain errors or variations. The question asks which plasmid you would *use*, implying you need the one that most closely matches the given amino acid sequence.
+
+Comparing the provided sequences to the given amino acid sequence (which is the correct sequence), we can identify the most accurate one. The sequence in plasmid A is the most ",4,2,4,4,4,0.4667,0.0
+gpqa_129,physics_(general),0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+The Lyman-alpha line has a rest wavelength of 1216 Angstroms. To be detected with optical ground-based telescopes, this wavelength needs to be redshifted into the visible spectrum. Ground-based telescopes can typically observe down to around 4000 Angstroms.
+
+We need to find the redshift (z) such that:
+
+λ_observed = λ_rest * (1 + z)
+
+4000 Å = 1216 Å * (1 + z)
+
+(1 + z) = 4000 / 1216 ≈ 3.29
+
+z ≈ 3.29 - 1 ≈ 2.29
+
+The ",4,1,4,4,3,0.3333,0.0
+gpqa_131,chemistry_(general),0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the NMR data and the possible compounds:
+
+*   **Two singlets at 6.7 ppm in a 1:1 ratio:** This indicates two distinct aromatic protons, each with a similar chemical environment.
+*   **Three singlets at 2.2 ppm in a 2:1:1 ratio:** This indicates three distinct methyl groups (or ethyl groups) with different integrations.
+
+Now let's consider each compound:
+
+*   **1,2,4,5-tetramethylbenzene:** Has four m",4,1,4,4,3,0.3333,0.0
+gpqa_134,high-energy_particle_physics,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+The interaction Lagrangian describes the coupling of the boson X to fermions (ψf). The decay channels are determined by the mass of X (6 GeV) and the available fermion pairs. The decay must satisfy energy and momentum conservation.
+
+The mass of the X boson is 6 GeV. We need to find fermion pairs whose combined mass is less than 6 GeV.
+
+Let's consider the fermion masses:
+
+*   Electron (e): ~0.511 MeV
+*   Muon (μ): ",4,1,4,4,3,0.3333,0.0
+gpqa_135,electromagnetism_and_photonics,0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+We need to evaluate the volume integral of the divergence of the field f(r) inside a sphere of radius R. According to the Divergence Theorem:
+
+∫∫∫_V (∇ ⋅ f) dV = ∮_S f ⋅ n dA
+
+where V is the volume of the sphere, S is the surface of the sphere, and n is the outward unit normal vector.
+
+Since the field is radial, f = f(r) * r̂, the divergence in spherical coordinates is:
+
+∇ ⋅ f = (1/r^2) * ∂(r^2 f)/∂r = (1/r^2) * ∂",4,1,4,4,3,0.3333,0.0
+gpqa_137,chemistry_(general),0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+The key information is that the reaction produces H+ ions and the pH increased from 1 to 4 after the accidental addition. This indicates the unknown substance is a base.
+
+A base will neutralize some of the H+ ions produced by the reaction, effectively decreasing the concentration of H+ ions. Since the reaction produces H+ ions, a decrease in H+ concentration will shift the equilibrium to the left (according to Le Chat",4,1,4,4,2,0.2667,0.0
+gpqa_146,high-energy_particle_physics,0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the annihilation process and calculate the velocity of particle A.
+
+*   **Annihilation:** A proton and antiproton annihilate into two particles (A) and two antiparticles (A-bar).
+*   **Energy Conservation:** The total energy before the annihilation must equal the total energy after the annihilation.
+*   **Momentum Conservation:** The total momentum before the annihilation must equal the total momentu",4,1,4,4,3,0.3333,0.0
+gpqa_148,chemistry_(general),0.8889,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 3, ""routing"": ""ANSWER""}
+```
+The key observations are:
+
+*   **Duplicate alpha-proton peaks in 1H NMR:** Two peaks for the same proton, similar chemical shifts, equal integrals (totaling 1H).
+*   **No spin-spin coupling explanation:** Rules out typical splitting patterns.
+*   **LC-MS shows two peaks of equal intensity:** Indicates two distinct species.
+*   **Same mass spectrum:** Both species have the same molecular weight.
+
+These observations str",4,2,4,4,3,0.4,0.0
+gpqa_149,organic_chemistry,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's break down the reaction sequence and deduce the structure of the final product.
+
+1. **NaNO2 + HCl:** This is a diazotization reaction. The primary amine will be converted to a diazonium salt. The 9.72 ppm signal (triplet) likely corresponds to the aldehyde proton. The 6.27 ppm signal (broad singlet) suggests a primary amine. The 6.98 and 6.51 ppm signals indicate a para-substituted aromatic ring. The 3.66 pp",4,1,4,4,3,0.3333,0.0
+gpqa_156,molecular_biology,0.875,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 2, ""CI"": 4, ""EM"": 4, ""PI"": 4, ""routing"": ""ANSWER""}
+```
+The most effective approach for designing a molecular diagnostic kit for a retrovirus is to directly detect the viral genetic material. Here's why:
+
+*   **Retroviruses and RNA:** Retroviruses have an RNA genome. Detecting the RNA directly indicates an active infection.
+*   **PCR-based methods:** PCR (Polymerase Chain Reaction) is a highly sensitive and specific method for amplifying and detecting nucleic acids. Real-t",4,2,4,4,4,0.4667,0.0
+gpqa_157,genetics,0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's break down the information and analyze the possible phenotypes:
+
+*   **Transcription factor activation:** Requires phosphorylation, dimerization, and nuclear translocation.
+*   **Mutation X (transactivation domain):** Recessive loss-of-function. This means both copies of the gene need to be mutated to lose function.
+*   **Mutation Y (dimerization domain):** Dominant-negative. This means one copy of the mutat",4,1,4,4,3,0.3333,0.0
+gpqa_164,chemistry_(general),0.6667,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+The question describes a dual catalyst system for ethylene polymerization to create branched polyethylene. This is achieved using a combination of Ziegler-Natta catalysts (typically Group IV-VIII transition metals) for high-density polyethylene (HDPE) and a second catalyst for introducing branches.
+
+The key to introducing branches is through a process called ""chain transfer"" or ""comonomer incorporation."" The senior sc",4,1,4,4,2,0.2667,0.0
+gpqa_165,high-energy_particle_physics,0.8889,5,ANSWER,"```json
+{""CE"": 2, ""ER"": 3, ""CI"": 4, ""EM"": 2, ""PI"": 4, ""routing"": ""DELIBERATE""}
+```
+This question involves calculating the radiative corrections to the mass of a pseudo-Goldstone boson in an extended Standard Model. This is a complex calculation in quantum field theory. The general form of radiative corrections to the mass of a pseudo-Goldstone boson involves contributions from all particles that couple to the Higgs sector.
+
+The key features of the formula are:
+
+*   **1/8π²:** This is a typical f",3,2,4,3,3,0.5333,0.0
+gpqa_168,quantum_mechanics,0.75,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the situation. The original decay (2A -> 2B + 2E + 2V) has a continuous energy spectrum for the E particles because the decay involves multiple particles and energy can be distributed among them in various ways. The endpoint Q represents the maximum kinetic energy of the E particles, determined by the mass difference and the available energy.
+
+Now, consider the variant decay (2A -> 2B + 2E + M). The ",4,1,4,4,3,0.3333,0.0
+gpqa_169,quantum_mechanics,0.875,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+The spin state is given as (3i, 4), which can be written as a column vector:
+
+| 3i |
+| 4 |
+
+We need to find the expectation value of S_y, which is given by <S_y> = <ψ|σ_y|ψ>.
+
+σ_y =  \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
+
+So,
+
+<S_y> =  \begin{pmatrix} 3i & 4 \end{pmatrix} \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix} \begin{pmatrix} 3i \\ 4 \end{pmatrix}
+
+= \begin{pmatrix} 3i & 4 \end{pmatrix} \begin{pmatr",4,1,4,4,3,0.3333,0.0
+gpqa_170,organic_chemistry,0.7778,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+The key to this problem is understanding how substituents on a benzene ring influence the directing effects of electrophilic aromatic substitution.
+
+*   **Activating and Ortho/Para-Directing:** Alkyl groups (CH3, C2H5), esters (COOC2H5)
+*   **Deactivating and Meta-Directing:** Nitro (NO2), Carboxylic acid (COOH)
+*   **Halogens (Cl):** Weakly deactivating, ortho/para-directing.
+*   **Steric Effects:** Bulky groups ",4,1,4,4,3,0.3333,0.0
+gpqa_173,physics_(general),0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze the fission process and calculate the kinetic energy of the more massive fragment.
+
+*   **Initial mass:** M = 300 GeV
+*   **Mass of fragments:** m1 = 2m2
+*   **Sum of fragment masses:** m1 + m2 = 0.99M
+*   **Substituting m1 = 2m2:** 2m2 + m2 = 0.99M => 3m2 = 0.99M => m2 = 0.33M and m1 = 0.66M
+
+*   **Mass defect:** The mass defect (Δm) is the difference between the initial mass and the final mass, whi",4,1,4,4,3,0.3333,0.0
+gpqa_175,quantum_mechanics,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's break down the problem step-by-step:
+
+1. **Initial State:** The initial state is |ψ⟩ = (-1, 2, 1).
+
+2. **Measurement of P:** We need to find the eigenstates of P. The matrix for P is:
+
+P = \begin{pmatrix} 0 & 1/\sqrt{2} & 0 \\ 1/\sqrt{2} & 0 & 1/\sqrt{2} \\ 0 & 1/\sqrt{2} & 0 \end{pmatrix}
+
+The eigenvalues and eigenvectors can be found by solving det(P - λI) = 0. The eigenvalues are λ = 1, -1, 0.
+
+*   For λ ",4,1,4,4,3,0.3333,0.0
+gpqa_180,astrophysics,0.8571,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+This is a tricky solar neutrino problem. The key is understanding which reactions produce neutrinos in the specified energy ranges.
+
+*   **pp-I chain:** Produces neutrinos with energies around 0.3 MeV.
+*   **pp-II chain:** Produces neutrinos with energies around 0.8 MeV.
+*   **pp-III chain:** Produces neutrinos with energies around 1.4 MeV.
+*   **hep reaction:** Produces neutrinos with energies around 10 MeV.
+*   ",4,1,4,4,3,0.3333,0.0
+gpqa_184,quantum_mechanics,0.7778,5,ANSWER,"```json
+{""CE"": 4, ""ER"": 1, ""CI"": 4, ""EM"": 4, ""PI"": 2, ""routing"": ""ANSWER""}
+```
+The Hamiltonian is given by H = ε **σ** ⋅ **n**. This represents the interaction of a spin-1/2 particle with a magnetic field in the direction of the unit vector **n**.
+
+To find the eigenvalues, we need to solve the eigenvalue equation:
+
+H |ψ⟩ = λ |ψ⟩
+
+where λ are the eigenvalues.
+
+The dot product **σ** ⋅ **n** = σx nx + σy ny + σz nz.
+
+The eigenvalues of the spin operator σ ⋅ **n** are +ħ/2 and -ħ/2. This is because ",4,1,4,4,2,0.2667,0.0
+gpqa_188,high-energy_particle_physics,0.8889,5,ANSWER,"```json
+{""CE"": 3, ""ER"": 2, ""CI"": 4, ""EM"": 3, ""PI"": 3, ""routing"": ""DELIBERATE""}
+```
+Let's analyze each particle and its connection to spontaneously broken symmetry:
+
+*   **Pion:** Pions are Goldstone bosons associated with the spontaneous breaking of chiral symmetry in QCD.
+*   **Phonon:** Phonons are collective excitations of lattice vibrations in a crystal. They arise from the spontaneous breaking of continuous translational symmetry.
+*   **Skyrmion:** Skyrmions are topological solitons that ar",4,1,4,4,3,0.3333,0.0

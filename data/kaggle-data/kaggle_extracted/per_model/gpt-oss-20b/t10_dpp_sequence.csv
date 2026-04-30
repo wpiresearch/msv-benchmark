@@ -1,0 +1,77 @@
+question_id,expert_answer,final_answer,final_confidence,changed,correct,score,raw_response_expert,raw_response_generalist
+gpqa_000,C,C,4,False,True,0.85,"**Answer: C) \(10^{-4}\)\,eV**
+
+**Reasoning**
+
+A quantum level with a finite lifetime \( \tau \) has an intrinsic energy width
+\[
+\Gamma \simeq \frac{\hbar}{\tau},
+\]
+which represents the minimum spread (linewidth) of its energy.  
+To resolve two levels experimentally the energy separation \( \Delta E \) must be
+larger than this width.
+
+Calculate the widths for the two given lifetimes (using  
+\(\hbar \approx 6.58\times10^{-16}\, \text{eV·s}\)):
+
+\[
+\begin{aligned}
+\tau_{1}=10^{-9}\,\text{s}\!&\","{""answer"":""C"",""confidence"":5}"
+gpqa_002,B,B,2,False,True,0.75,"**Answer: B**
+
+**Reasoning**
+
+With the standard Pauli matrices
+
+\[
+\sigma_z=\begin{pmatrix}1&0\\0&-1\end{pmatrix}, \qquad
+\sigma_x=\begin{pmatrix}0&1\\1&0\end{pmatrix},
+\]
+
+and the state
+
+\[
+|\psi\rangle = 0.5\,|\uparrow\rangle + \frac{\sqrt3}{2}\,|\downarrow\rangle
+            = \begin{pmatrix}0.5\\ \sqrt3/2\end{pmatrix},
+\]
+
+the expectation values are
+
+\[
+\langle \sigma_z\rangle = |0.5|^2 - |\sqrt3/2|^2
+                        = 0.25 - 0.75
+                        = -0.5,
+\]
+
+\[
+\langle \sigma","{""answer"":""B""}"
+gpqa_007,D,D,2,False,False,0.0,"{""answer"":""D""}","{""answer"":""D""}"
+gpqa_009,B,B,2,False,True,0.75,"{""answer"":""B""}","{""answer"":""B""}"
+gpqa_010,C,C,2,False,True,0.75,"{""answer"":""C""}","{""answer"":""C""}"
+gpqa_012,C,C,2,False,False,0.0,"{""answer"":""C""}","{""answer"":""C""}"
+gpqa_013,C,C,2,False,False,0.0,"{""answer"":""C"",""confidence"":""high""}","{""answer"":""C""}"
+gpqa_018,A,C,2,True,False,0.0,"{""answer"":""A""}","{""answer"":""C""}"
+gpqa_019,D,D,2,False,True,0.75,"{""answer"":""D""}","{""answer"":""D""}"
+gpqa_022,D,D,2,False,False,0.0,"{""answer"":""D""}","{""answer"":""D""}"
+gpqa_023,B,B,2,False,True,0.75,"{""answer"":""B""}","{""answer"":""B""}"
+gpqa_025,C,C,2,False,False,0.0,"{""answer"":""C""}","{""answer"":""C""}"
+gpqa_026,A,A,2,False,True,0.75,"{""answer"":""A""}","{""answer"":""A""}"
+gpqa_028,C,C,2,False,False,0.0,"{""answer"":""C""}","{""answer"":""C""}"
+gpqa_035,C,C,2,False,True,0.75,"{""answer"":""C""}","{""answer"":""C""}"
+gpqa_040,A,B,2,True,False,0.0,"{""answer"":""A""}","{""answer"":""B""}"
+gpqa_042,A,A,2,False,True,0.75,"{""answer"":""A""}","{""answer"":""A""}"
+gpqa_046,A,B,2,True,False,0.0,"{""answer"":""A""}","{""answer"":""B""}"
+gpqa_049,C,C,2,False,True,0.75,"{""answer"":""C""}","{""answer"":""C""}"
+gpqa_052,A,C,2,True,False,0.0,"{""answer"":""A""}","{""answer"":""C""}"
+gpqa_053,D,C,2,True,True,0.9,"{""answer"":""D""}","{""answer"":""C""}"
+gpqa_054,A,B,2,True,False,0.0,"{""answer"":""A""}","{""answer"":""B""}"
+gpqa_055,B,B,2,False,True,0.75,"{""answer"":""B""}","{""answer"":""B""}"
+gpqa_057,D,C,2,True,True,0.9,"{""answer"":""D""}","{""answer"":""C""}"
+gpqa_059,A,A,2,False,True,0.75,"{""answer"":""A""}","{""answer"":""A""}"
+gpqa_061,A,B,2,True,False,0.0,"{""answer"":""A""}","{""answer"":""B""}"
+gpqa_064,A,C,2,True,False,0.0,"{""answer"":""A""}{""answer"":""A""}","{""answer"":""C""}"
+gpqa_065,D,D,2,False,True,0.75,"{""answer"":""D""}","{""answer"":""D""}"
+gpqa_069,C,C,2,False,False,0.0,"{""answer"":""C""}","{""answer"":""C""}"
+gpqa_073,D,C,2,True,True,0.9,"{""answer"":""D""}","{""answer"":""C""}"
+gpqa_074,D,A,2,True,True,0.9,"{""answer"":""D""}","{""answer"":""A""}"
+gpqa_075,A,D,2,True,False,0.0,"{""answer"":""A""}","{""answer"":""D""}"
